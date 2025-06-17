@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup, Comment
 import os
 import re
 import time
+from pathlib import Path
 
 YEARS_TO_SCRAPE = range(2015, 2025)
 
@@ -131,7 +132,34 @@ def lastName_href_list(playerName: str) -> list:
 
 
 def main():
-    scrape_all_draft_data(YEARS_TO_SCRAPE)
+    # 1. Run the scraper to get the DataFrame
+    player_data = scrape_all_draft_data(YEARS_TO_SCRAPE)
+
+    # 2. Check if the DataFrame is not empty before saving
+    if not player_data.empty:
+        print("\nScraping complete! A sample of the data:")
+        print(player_data.head())
+
+        # --- NEW CODE TO DEFINE THE CORRECT PATH ---
+        
+        # Get the path to the directory of the current script (e.g., .../FF_MODEL/src)
+        current_dir = Path(__file__).parent
+        
+        # Go up one level to the project root (e.g., .../FF_MODEL)
+        project_root = current_dir.parent
+        
+        # Build the path to your raw data folder and define the filename
+        # This creates a path like .../FF_MODEL/data/raw/college_wr_stats.csv
+        output_path = project_root / 'data' / 'raw' / 'college_wr_stats.csv'
+        
+        # --- END OF NEW CODE ---
+
+        # 3. Save the DataFrame to the newly defined path
+        player_data.to_csv(output_path, index=False)
+        
+        print(f"\nSuccessfully saved data to: {output_path}")
+    else:
+        print("\nScraping finished, but no data was collected.")
 
 if __name__ == "__main__":
     main()
