@@ -93,7 +93,7 @@ def get_college_player(college_player_href: str, player_name: str, player_receiv
         table_receiving = soup.find('table', {'id': 'receiving_standard'})
         table_receiving_body = table_receiving.find('tr')
         cells = table_receiving.find_all('td')
-        player_position = str(cells[4].text).strip()
+        player_position = str(cells[3].text).strip()
         print(player_position)
         return {
             'player_name': player_name,
