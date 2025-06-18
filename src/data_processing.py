@@ -33,24 +33,34 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
         
         for row in rows:
             time.sleep(3)
-            playerName = str(row.find('td', {'data-stat': 'player'}).text).strip()
-            print(playerName)
+            playerName= str(row.find('td', {'data-stat':'player'}).text).strip()
             age = int(row.find('td', {'data-stat': 'age'}).text.strip())
             print(age)
             draft_pick = int(row.find('td', {'data-stat': 'draft_pick'}).text.strip())
             print(draft_pick)
             position = str(row.find('td', {'data-stat': 'pos'}).text).strip()
             print(position)
+
+            #URL for player's college stat
+            collegeURLRow = row.find('td', {'data-stat':'college_link'})
+            a_tag = collegeURLRow.find('a')
+            player_college_URL = a_tag['href']
+            #This is to get our a href thing 
             rookie_stats_dict = get_rookie_stats(row, position, draftURL)
             
-            #URL for player's college stats
-            name = playerName.lower()
-            name = re.sub(r"[^\w\s-]", "", name)       
-            name = re.sub(r"\s+", "-", name.strip())   
-            collegeURL = 'https://www.sports-reference.com/cfb/players/' + str(name) + '-1.html'
+            
+
+            
+            
+
+            #playerURL Attmepts for their rookie stats:
+           # urlRow = row.find('td', {'data-stat': 'player'})
+          #  a_tag = urlRow.find('a')
+           # player_nfl_href = 'https://www.pro-football-reference.com/' + a_tag['href']
+            
             
             #Get Player college stats through helper method
-            college_stats_dict = generate_college_stats(collegeURL, position)
+            college_stats_dict = generate_college_stats(position, player_college_URL)
             player_dict = {
                 'name': playerName, 
                 'age': age, 
@@ -75,6 +85,7 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
     return all_QB_records, all_RB_records, all_WR_records, all_TE_records
 
 def get_rookie_stats(row,  position: str, draftURL: str) -> dict:
+
     if position == 'QB':
         passing_completion = float((int(row.find('td', {'data-stat': 'pass_cmp'}).text.strip()))/(int(row.find('td', {'data-stat': 'pass_att'}).text.strip())))
         passing_yds = int(row.find('td', {'data-stat': 'pass_yds'}).text.strip())
@@ -118,9 +129,9 @@ def get_rookie_stats(row,  position: str, draftURL: str) -> dict:
         }
     
 
-def generate_college_stats(collegeURL: str, position: str) -> dict:
+def generate_college_stats(position: str, player_college_URL: str) -> dict:
     time.sleep(3)
-    response = requests.get(collegeURL)
+    response = requests.get(player_college_URL)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
     college_dict = {}
@@ -142,39 +153,39 @@ def generate_college_stats(collegeURL: str, position: str) -> dict:
             rushing_row = rushing_table_body.find('tr', {'id': 'rushing_standard.' + key})
             rushing_cells = rushing_row.find_all('td')
             college_dict[key] = {
-                'games': cells[4],
-                'cmp': cells[5],
-                'att': cells[6],
-                'cmp%': cells[7], 
-                'yds': cells[8], 
-                'TDs': cells[9], 
-                'TD%': cells[10], 
-                'Int': cells[11],
-                'Int%': cells[12],
-                'Y/A': cells[13],
-                'Rating': cells[17],
-                'Rush Attempts': rushing_cells[5],
-                'Rush Yards': rushing_cells[6],
-                'Rush TDs': rushing_cells[8]
+                'games': int(cells[4].text.strip()),
+                'cmp': int(cells[5].text.strip()),
+                'att': int(cells[6].text.strip()),
+                'cmp%': float(cells[7].text.strip()),
+                'yds': int(cells[8].text.strip()),
+                'TDs': int(cells[9].text.strip()),
+                'TD%': float(cells[10].text.strip()),
+                'Int': int(cells[11].text.strip()),
+                'Int%': float(cells[12].text.strip()),
+                'Y/A': float(cells[13].text.strip()),
+                'Rating': float(cells[17].text.strip()),
+                'Rush Attempts': int(rushing_cells[5].text.strip()),
+                'Rush Yards': int(rushing_cells[6].text.strip()),
+                'Rush TDs': float(rushing_cells[8].text.strip())
             }
     elif position == 'RB':
         rushing_table = soup.find('table', {'id': "rushing_standard"})
         if rushing_table == None:
-            rushing_table = soup.find('table',{'id': 'receiving_standad'})
+            rushing_table = soup.find('table',{'id': 'receiving_standard'})
         rushing_body = rushing_table.find('tbody')
         rushing_rows = rushing_body.find_all('tr')
-            
+                
         for row in rushing_rows:
             key = str(row.find('th').text).strip()
             cells = row.find_all('td')
             college_dict[key] = {
-                'games': cells[5],
-                'rushATT': cells[6],
-                'rushYDS': cells[7],
-                'rushTDS': cells[9],
-                'recs': cells[11],
-                'recYDS': cells[12],
-                'recTDS': cells[14]
+                'games': int(cells[4].text.strip()),
+                'rushATT': int(cells[5].text.strip()),
+                'rushYDS': int(cells[6].text.strip()),
+                'rushTDS': int(cells[8].text.strip()),
+                'recs': int(cells[10].text.strip()),
+                'recYDS': int(cells[11].text.strip()),
+                'recTDS': int(cells[13].text.strip()),
             }
     elif position == 'WR' or position == 'TE': 
         receiving_table = soup.find('table', {'id': 'receiving_standard'})
@@ -185,22 +196,24 @@ def generate_college_stats(collegeURL: str, position: str) -> dict:
             key = str(row.find('th').text).strip()
             cells = row.find_all('td')
             college_dict[key] = {
-                'games': cells[4],
-                'recs': cells[5],
-                'recYDS': cells[6], 
-                'recTDS': cells[8], 
-                'Y/R': cells[7], 
-                'rushAttempts': cells[10], 
-                'rushYards': cells[11], 
-                'rushTDS': cells[13] 
+                'games': int(cells[4].text.strip()),
+                'recs': int(cells[5].text.strip()),
+                'recYDS': int(cells[6].text.strip()), 
+                'recTDS': int(cells[8].text.strip()), 
+                'Y/R': float(cells[7].text.strip()), 
+                'rushAttempts': int(cells[10].text.strip()),
+                'rushYards': int(cells[11].text.strip()), 
+                'rushTDS': int(cells[12].text.strip())
             }
     else: 
         print("Don't care about defense")
     return college_dict
+
     
+
 def main():
     qb_list, rb_list, wr_list, te_list = scrape_all_player_data(YEARS_TO_SCRAPE)
-    
+
 
 if __name__ == "__main__":
     main()
