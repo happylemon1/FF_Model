@@ -18,22 +18,29 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
     all_WR_records = []
     all_TE_records = []
     #Scrape the draft html for every year
-    for year in YEARS_TO_SCRAPE: 
+    for year in YEARS_TO_SCRAPE:
+        print(year)
         draftURL = 'https://www.pro-football-reference.com/years/' + str(year) + '/draft.htm'
+        time.sleep(3)
         response = requests.get(draftURL)
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
 
 
-        table = soup.find('table', {'id': 'draft'})
+        table = soup.find('table', {'id': 'drafts'})
         table_body = table.find('tbody')
         rows = table_body.find_all('tr')
         
         for row in rows:
+            time.sleep(3)
             playerName = str(row.find('td', {'data-stat': 'player'}).text).strip()
+            print(playerName)
             age = int(row.find('td', {'data-stat': 'age'}).text.strip())
+            print(age)
             draft_pick = int(row.find('td', {'data-stat': 'draft_pick'}).text.strip())
+            print(draft_pick)
             position = str(row.find('td', {'data-stat': 'pos'}).text).strip()
+            print(position)
             rookie_stats_dict = get_rookie_stats(row, position, draftURL)
             
             #URL for player's college stats
@@ -44,8 +51,6 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
             
             #Get Player college stats through helper method
             college_stats_dict = generate_college_stats(collegeURL, position)
-            #Get a player's rookie state through the helper method
-            rookie_stats_dict = get_rookie_stats(row, )
             player_dict = {
                 'name': playerName, 
                 'age': age, 
@@ -54,15 +59,16 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
                 'college_stats_dict': college_stats_dict, 
                 'rookie_stats_dict': rookie_stats_dict
             }
+            print(player_dict)
 
-            if player_dict[position] == 'QB': 
+            if player_dict['position'] == 'QB': 
                 all_QB_records.append(player_dict)
-            elif player_dict[position] == 'RB': 
+            elif player_dict['position'] == 'RB': 
                 all_RB_records.append(player_dict)
-            elif player_dict[position] == 'WR': 
+            elif player_dict['position'] == 'WR': 
                 all_WR_records.append(player_dict)
                 # I don't think we should do Tight end but we can
-            elif player_dict[position] == 'TE': 
+            elif player_dict['position'] == 'TE': 
                 all_TE_records.append(player_dict)
             else: 
                 continue
@@ -100,7 +106,7 @@ def get_rookie_stats(row,  position: str, draftURL: str) -> dict:
             'recYDS': rec_yds,
             'recTDS': rec_tds
         }
-    if position =='WR' | position == 'TE':
+    if position == 'WR' or position == 'TE':
         receptions = int(row.find('td', {'data-stat': 'rec'}).text.strip())
         rec_yds =  int(row.find('td', {'data-stat': 'rec_yds'}).text.strip())
         rec_tds = int(row.find('td', {'data-stat': 'rec_td'}).text.strip())
@@ -113,6 +119,7 @@ def get_rookie_stats(row,  position: str, draftURL: str) -> dict:
     
 
 def generate_college_stats(collegeURL: str, position: str) -> dict:
+    time.sleep(3)
     response = requests.get(collegeURL)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -127,9 +134,12 @@ def generate_college_stats(collegeURL: str, position: str) -> dict:
 
 
         for row in passing_rows: 
+            time.sleep(3)
             key = str(row.find('th').text).strip()
+            key = key.replace('*', '')
+            print(key)
             cells = row.find_all('td')
-            rushing_row = rushing_table_body.find('tr', {'id': 'rushing_standard.' + str(key)})
+            rushing_row = rushing_table_body.find('tr', {'id': 'rushing_standard.' + key})
             rushing_cells = rushing_row.find_all('td')
             college_dict[key] = {
                 'games': cells[4],
@@ -154,7 +164,6 @@ def generate_college_stats(collegeURL: str, position: str) -> dict:
         rushing_body = rushing_table.find('tbody')
         rushing_rows = rushing_body.find_all('tr')
             
-            
         for row in rushing_rows:
             key = str(row.find('th').text).strip()
             cells = row.find_all('td')
@@ -167,7 +176,7 @@ def generate_college_stats(collegeURL: str, position: str) -> dict:
                 'recYDS': cells[12],
                 'recTDS': cells[14]
             }
-    elif position == 'WR' | position == 'TE': 
+    elif position == 'WR' or position == 'TE': 
         receiving_table = soup.find('table', {'id': 'receiving_standard'})
         receiving_table_body = receiving_table.find('tbody')
         receiving_rows = receiving_table_body.find_all('tr')
@@ -189,11 +198,6 @@ def generate_college_stats(collegeURL: str, position: str) -> dict:
         print("Don't care about defense")
     return college_dict
     
-
-
-
-
-
 def main():
     qb_list, rb_list, wr_list, te_list = scrape_all_player_data(YEARS_TO_SCRAPE)
     
