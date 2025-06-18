@@ -162,13 +162,11 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
             key = str(row.find('th').text).strip()
             key = key.replace('*', '')
             print(key)
-            cells = row.find_all('td')
             rushing_row = rushing_table_body.find('tr', {'id': 'rushing_standard.' + key})
-            rushing_cells = rushing_row.find_all('td')
             college_dict[key] = {
-                'games': int(cells[4].text.strip()),
-                'cmp': int(cells[5].text.strip()),
-                'att': int(cells[6].text.strip()),
+                'games': int(row.find('td', {'data-stat': 'games'}).text.strip()),
+                'pass_cmp': int(row.find('td', {'data-stat': 'rec'}).text.strip()),
+                'pass_att': int(row.find('td', {'data-stat': 'rec'}).text.strip()),
                 'cmp%': float(cells[7].text.strip()),
                 'yds': int(cells[8].text.strip()),
                 'TDs': int(cells[9].text.strip()),
