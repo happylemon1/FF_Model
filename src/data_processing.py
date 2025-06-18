@@ -46,17 +46,13 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
             a_tag = collegeURLRow.find('a')
             player_college_URL = a_tag['href']
             #This is to get our a href thing 
-            rookie_stats_dict = get_rookie_stats(row, position, draftURL)
-            
-            
-
-            
             
 
             #playerURL Attmepts for their rookie stats:
-           # urlRow = row.find('td', {'data-stat': 'player'})
-          #  a_tag = urlRow.find('a')
-           # player_nfl_href = 'https://www.pro-football-reference.com/' + a_tag['href']
+            urlRow = row.find('td', {'data-stat': 'player'})
+            a_tag = urlRow.find('a')
+            player_nfl_href = 'https://www.pro-football-reference.com/' + a_tag['href']
+            rookie_stats_dict = get_rookie_stats(year, position, player_nfl_href)
             
             
             #Get Player college stats through helper method
@@ -84,8 +80,25 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
                 continue
     return all_QB_records, all_RB_records, all_WR_records, all_TE_records
 
-def get_rookie_stats(row,  position: str, draftURL: str) -> dict:
+def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
+    response = requests.get(draftURL)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.content, 'html.parser')
+    playerDraftYear = year
+    if position == 'QB':
+        passing_table = soup.find('table', {'id': 'passing'})
+        passing_Rookie_Row = passing_table.find('tr', {'id':'passing.' + str(year)})
+        
+        passing_cmp = float(passing_Rookie_Row.find('td', {'data-stat':'pass_comp_pct'}).text.strip())
+        passing_yds = int(passing_Rookie_Row.find('td', {'data-stat':'games'}).text.strip())
+        passing_tds = int(passing_Rookie_Row.find('td', {'data-stat':'pass_td'}).text.strip())
+        passing_int = int(passing_Rookie_Row.find('td', {'data-stat':'pass_int'}).text.strip())   
 
+        rushing_table = soup.find('table',{'id': 'rushing_and_receiving'}) 
+        rushing_Rookie_Row =  rushing_table.find('tr', {'id':'rushing_and_receiving.' + str(year)})
+        rushingYDS = int(rushing_Rookie_Row.find('td', {'data-stat':'rush-yds'})).text.strip()
+        rushingTDS = int(rushing_Rookie_Row.find('td', {'data-stat':'rush-yds'})).text.strip()
+    """
     if position == 'QB':
         passing_completion = float((int(row.find('td', {'data-stat': 'pass_cmp'}).text.strip()))/(int(row.find('td', {'data-stat': 'pass_att'}).text.strip())))
         passing_yds = int(row.find('td', {'data-stat': 'pass_yds'}).text.strip())
@@ -127,7 +140,7 @@ def get_rookie_stats(row,  position: str, draftURL: str) -> dict:
             'recYDS': rec_yds,
             'recTDS': rec_tds
         }
-    
+    """
 
 def generate_college_stats(position: str, player_college_URL: str) -> dict:
     time.sleep(3)
