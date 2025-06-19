@@ -127,7 +127,7 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
                 except Exception as e: 
                     print("Tough luck")
                     continue
-        except: 
+        except Exception as e: 
             print("Oof")
             continue
 
