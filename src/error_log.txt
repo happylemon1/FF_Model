@@ -1,0 +1,4 @@
+    - WARNING: Could not get rookie stats. URL: https://www.pro-football-reference.com//players/F/FordIs00.htm. Reason: cannot access local variable 'passing_Rookie_Row' where it is not associated with a value
+    - WARNING: Could not get rookie stats. URL: https://www.pro-football-reference.com//players/M/MaysDe00.htm. Reason: cannot access local variable 'passing_Rookie_Row' where it is not associated with a value
+    - WARNING: Could not generate college stats. URL: http://www.sports-reference.com/cfb/players/noah-brown-2.html. Reason: invalid literal for int() with base 10: ''
+    - WARNING: Could not get rookie stats. URL: https://www.pro-football-reference.com//players/B/BrowNo00.htm. Reason: cannot access local variable 'passing_Rookie_Row' where it is not associated with a value

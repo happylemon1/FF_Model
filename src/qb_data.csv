@@ -1,0 +1,3 @@
+name,age,position,school,draft_pick,season,games,pass_cmp,pass_att,cmp%,yds,TDs,TD%,Int,Int%,Rating,Rush Attempts,Rush Yards,Rush TDs,passCMP,passingYDS,passingTDS,passingINT,rushingYDS,rushingTDS
+Jameis Winston,21,QB,Florida St.,1,2013,16,257,384,384.0,4057,40,10.4,10,2.6,184.8,88,219,4.0,58.3,4042,22,15,213,6
+Jameis Winston,21,QB,Florida St.,1,2014,16,305,467,467.0,3907,25,5.4,18,3.9,145.5,57,65,3.0,58.3,4042,22,15,213,6
