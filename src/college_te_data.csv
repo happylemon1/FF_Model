@@ -1,0 +1,655 @@
+name,age,position,school,draft_pick,season,games,recs,recYDS,recTDS,rushAttempts,rushYards,rushTDS
+Devin Funchess,21,TE,Michigan,41.0,2012*,13.0,15.0,234.0,5.0,0.0,0.0,0.0
+Devin Funchess,21,TE,Michigan,41.0,2013*,13.0,49.0,748.0,6.0,6.0,34.0,0.0
+Devin Funchess,21,TE,Michigan,41.0,2014,11.0,62.0,733.0,4.0,2.0,-11.0,0.0
+Devin Funchess,21,TE,,,,16.0,31.0,473.0,5.0,,,
+Maxx Williams,21,TE,Minnesota,55.0,2013*,13.0,25.0,417.0,5.0,1.0,7.0,0.0
+Maxx Williams,21,TE,Minnesota,55.0,2014*,12.0,36.0,569.0,8.0,0.0,0.0,0.0
+Maxx Williams,21,TE,,,,14.0,32.0,268.0,1.0,,,
+Clive Walford,23,TE,Miami (FL),68.0,2011,12.0,18.0,172.0,1.0,0.0,0.0,0.0
+Clive Walford,23,TE,Miami (FL),68.0,2012,12.0,25.0,451.0,4.0,0.0,0.0,0.0
+Clive Walford,23,TE,Miami (FL),68.0,2013*,12.0,34.0,454.0,2.0,0.0,0.0,0.0
+Clive Walford,23,TE,Miami (FL),68.0,2014*,12.0,44.0,676.0,7.0,0.0,0.0,0.0
+Clive Walford,23,TE,,,,16.0,28.0,329.0,3.0,,,
+Tyler Kroft,22,TE,Rutgers,85.0,2012*,11.0,3.0,59.0,1.0,0.0,0.0,0.0
+Tyler Kroft,22,TE,Rutgers,85.0,2013*,13.0,43.0,573.0,4.0,0.0,0.0,0.0
+Tyler Kroft,22,TE,Rutgers,85.0,2014*,13.0,24.0,269.0,0.0,0.0,0.0,0.0
+Tyler Kroft,22,TE,,,,16.0,11.0,129.0,1.0,,,
+Jeff Heuerman,22,TE,Ohio St.,92.0,2011*,11.0,1.0,25.0,0.0,0.0,0.0,0.0
+Jeff Heuerman,22,TE,Ohio St.,92.0,2012,12.0,8.0,94.0,1.0,0.0,0.0,0.0
+Jeff Heuerman,22,TE,Ohio St.,92.0,2013*,10.0,26.0,466.0,4.0,1.0,6.0,0.0
+Jeff Heuerman,22,TE,Ohio St.,92.0,2014*,14.0,17.0,207.0,2.0,0.0,0.0,0.0
+Jeff Heuerman,22,TE,,,,12.0,9.0,141.0,0.0,,,
+Blake Bell,24,TE,,,,14.0,15.0,186.0,0.0,,,
+MyCole Pruitt,23,TE,Southern Illinois,143.0,2011*,9.0,38.0,596.0,7.0,3.0,44.0,0.0
+MyCole Pruitt,23,TE,Southern Illinois,143.0,2012*,14.0,57.0,741.0,6.0,4.0,30.0,1.0
+MyCole Pruitt,23,TE,Southern Illinois,143.0,2013*,14.0,76.0,1128.0,9.0,1.0,9.0,0.0
+MyCole Pruitt,23,TE,Southern Illinois,143.0,2014*,14.0,99.0,1365.0,7.0,1.0,-2.0,0.0
+MyCole Pruitt,23,TE,,,,16.0,10.0,89.0,0.0,,,
+C.J. Uzomah,22,TE,Auburn,157.0,2011*,13.0,0.0,0.0,0.0,0.0,0.0,0.0
+C.J. Uzomah,22,TE,Auburn,157.0,2012,11.0,7.0,136.0,1.0,0.0,0.0,0.0
+C.J. Uzomah,22,TE,Auburn,157.0,2013*,6.0,11.0,154.0,3.0,0.0,0.0,0.0
+C.J. Uzomah,22,TE,Auburn,157.0,2014*,13.0,11.0,145.0,3.0,1.0,1.0,0.0
+C.J. Uzomah,22,TE,,,,5.0,1.0,4.0,0.0,,,
+Jesse James,21,TE,Penn St.,160.0,2012,10.0,15.0,276.0,5.0,0.0,0.0,0.0
+Jesse James,21,TE,Penn St.,160.0,2013,10.0,25.0,333.0,3.0,0.0,0.0,0.0
+Jesse James,21,TE,Penn St.,160.0,2014*,13.0,38.0,396.0,3.0,0.0,0.0,0.0
+Jesse James,21,TE,,,,8.0,8.0,56.0,1.0,,,
+Nick Boyle,22,TE,Delaware,171.0,2011*,13.0,32.0,461.0,3.0,3.0,100.0,1.0
+Nick Boyle,22,TE,Delaware,171.0,2012*,14.0,50.0,863.0,8.0,2.0,8.0,0.0
+Nick Boyle,22,TE,Delaware,171.0,2013*,13.0,52.0,577.0,4.0,1.0,1.0,0.0
+Nick Boyle,22,TE,Delaware,171.0,2014*,13.0,47.0,788.0,6.0,0.0,0.0,0.0
+Nick Boyle,22,TE,,,,11.0,18.0,153.0,0.0,,,
+James O'Shaughnessy,23,TE,Illinois St.,173.0,2011*,13.0,32.0,461.0,3.0,3.0,100.0,1.0
+James O'Shaughnessy,23,TE,Illinois St.,173.0,2012*,14.0,50.0,863.0,8.0,2.0,8.0,0.0
+James O'Shaughnessy,23,TE,Illinois St.,173.0,2013*,13.0,52.0,577.0,4.0,1.0,1.0,0.0
+James O'Shaughnessy,23,TE,Illinois St.,173.0,2014*,13.0,47.0,788.0,6.0,0.0,0.0,0.0
+James O'Shaughnessy,23,TE,,,,7.0,6.0,87.0,0.0,,,
+Nick O'Leary,23,TE,Florida St.,194.0,2011*,13.0,12.0,164.0,1.0,0.0,0.0,0.0
+Nick O'Leary,23,TE,Florida St.,194.0,2012*,13.0,21.0,252.0,3.0,0.0,0.0,0.0
+Nick O'Leary,23,TE,Florida St.,194.0,2013*,12.0,33.0,557.0,7.0,0.0,0.0,0.0
+Nick O'Leary,23,TE,Florida St.,194.0,2014*,14.0,48.0,618.0,6.0,0.0,0.0,1.0
+Nick O'Leary,23,TE,,,,4.0,1.0,37.0,0.0,,,
+Malcolm Johnson,23,TE,Mississippi St.,195.0,2011*,11.0,11.0,206.0,3.0,0.0,0.0,0.0
+Malcolm Johnson,23,TE,Mississippi St.,195.0,2012*,8.0,10.0,171.0,2.0,0.0,0.0,0.0
+Malcolm Johnson,23,TE,Mississippi St.,195.0,2013*,12.0,30.0,391.0,2.0,0.0,0.0,0.0
+Malcolm Johnson,23,TE,Mississippi St.,195.0,2014*,13.0,28.0,380.0,3.0,0.0,0.0,0.0
+Malcolm Johnson,23,TE,,,,12.0,4.0,15.0,0.0,,,
+Randall Telfer,23,TE,USC,198.0,2011,12.0,26.0,273.0,5.0,0.0,0.0,0.0
+Randall Telfer,23,TE,USC,198.0,2012*,12.0,12.0,100.0,4.0,0.0,0.0,0.0
+Randall Telfer,23,TE,USC,198.0,2013*,5.0,6.0,78.0,1.0,0.0,0.0,0.0
+Randall Telfer,23,TE,USC,198.0,2014*,13.0,21.0,197.0,2.0,0.0,0.0,0.0
+Randall Telfer,23,TE,,,,14.0,2.0,4.0,0.0,,,
+A.J. Derby,23,TE,Arkansas,202.0,2011*,9.0,0.0,0.0,0.0,0.0,0.0,0.0
+A.J. Derby,23,TE,Arkansas,202.0,2013,5.0,0.0,0.0,0.0,6.0,2.0,0.0
+A.J. Derby,23,TE,Arkansas,202.0,2014*,11.0,22.0,303.0,3.0,1.0,-6.0,0.0
+A.J. Derby,23,TE,,,,10.0,16.0,160.0,0.0,,,
+Kennard Backman,22,TE,Ala-Birmingham,213.0,2011,12.0,6.0,43.0,0.0,0.0,0.0,0.0
+Kennard Backman,22,TE,Ala-Birmingham,213.0,2012,12.0,23.0,235.0,4.0,0.0,0.0,0.0
+Kennard Backman,22,TE,Ala-Birmingham,213.0,2013,11.0,28.0,302.0,2.0,0.0,0.0,0.0
+Kennard Backman,22,TE,Ala-Birmingham,213.0,2014,12.0,39.0,399.0,3.0,0.0,0.0,0.0
+Kennard Backman,22,TE,,,,,,,,,,
+Ben Koyack,22,TE,Notre Dame,229.0,2011*,12.0,1.0,5.0,0.0,0.0,0.0,0.0
+Ben Koyack,22,TE,Notre Dame,229.0,2012*,12.0,3.0,39.0,0.0,0.0,0.0,0.0
+Ben Koyack,22,TE,Notre Dame,229.0,2013*,5.0,10.0,171.0,3.0,0.0,0.0,0.0
+Ben Koyack,22,TE,Notre Dame,229.0,2014*,13.0,30.0,317.0,2.0,0.0,0.0,0.0
+Ben Koyack,22,TE,,,,14.0,19.0,161.0,1.0,,,
+Geoff Swaim,21,TE,Texas,246.0,2013*,3.0,3.0,14.0,0.0,0.0,0.0,0.0
+Geoff Swaim,21,TE,Texas,246.0,2014*,13.0,10.0,70.0,1.0,0.0,0.0,0.0
+Geoff Swaim,21,TE,,,,4.0,1.0,0.0,0.0,,,
+Rory Anderson,22,TE,South Carolina,254.0,2011*,13.0,8.0,188.0,3.0,0.0,0.0,0.0
+Rory Anderson,22,TE,South Carolina,254.0,2012*,13.0,14.0,271.0,5.0,0.0,0.0,0.0
+Rory Anderson,22,TE,South Carolina,254.0,2013*,9.0,17.0,235.0,0.0,0.0,0.0,0.0
+Rory Anderson,22,TE,South Carolina,254.0,2014*,10.0,22.0,260.0,1.0,0.0,0.0,0.0
+Rory Anderson,22,TE,,,,,,,,,,
+Gerald Christian,24,TE,Louisville,256.0,2011*,7.0,4.0,72.0,1.0,0.0,0.0,0.0
+Gerald Christian,24,TE,Louisville,256.0,2013*,12.0,28.0,426.0,4.0,0.0,0.0,0.0
+Gerald Christian,24,TE,Louisville,256.0,2014*,13.0,32.0,384.0,5.0,0.0,0.0,0.0
+Gerald Christian,24,TE,,,,3.0,1.0,14.0,0.0,,,
+Hunter Henry,21,TE,Arkansas,35.0,2013,10.0,28.0,409.0,4.0,0.0,0.0,0.0
+Hunter Henry,21,TE,Arkansas,35.0,2014*,13.0,37.0,513.0,2.0,0.0,0.0,0.0
+Hunter Henry,21,TE,Arkansas,35.0,2015*,13.0,51.0,739.0,3.0,0.0,0.0,0.0
+Hunter Henry,21,TE,,,,15.0,36.0,478.0,8.0,,,
+Austin Hooper,21,TE,Stanford,81.0,2014*,13.0,40.0,499.0,2.0,0.0,0.0,0.0
+Austin Hooper,21,TE,Stanford,81.0,2015*,14.0,34.0,438.0,6.0,0.0,0.0,0.0
+Austin Hooper,21,TE,,,,14.0,19.0,271.0,3.0,,,
+Nick Vannett,23,TE,Ohio St.,94.0,2012,12.0,9.0,123.0,0.0,1.0,-1.0,0.0
+Nick Vannett,23,TE,Ohio St.,94.0,2013*,5.0,8.0,80.0,1.0,0.0,0.0,0.0
+Nick Vannett,23,TE,Ohio St.,94.0,2014*,14.0,19.0,220.0,5.0,0.0,0.0,0.0
+Nick Vannett,23,TE,Ohio St.,94.0,2015*,13.0,19.0,162.0,0.0,0.0,0.0,0.0
+Nick Vannett,23,TE,,,,9.0,3.0,32.0,0.0,,,
+Tyler Higbee,23,TE,Western Kentucky,110.0,2011,11.0,2.0,92.0,1.0,0.0,0.0,0.0
+Tyler Higbee,23,TE,Western Kentucky,110.0,2013,5.0,13.0,169.0,1.0,0.0,0.0,0.0
+Tyler Higbee,23,TE,Western Kentucky,110.0,2014*,11.0,15.0,230.0,4.0,0.0,0.0,0.0
+Tyler Higbee,23,TE,Western Kentucky,110.0,2015*,9.0,38.0,563.0,8.0,0.0,0.0,0.0
+Tyler Higbee,23,TE,,,,16.0,11.0,85.0,1.0,,,
+Seth Devalve,23,TE,,,,12.0,10.0,127.0,2.0,,,
+Temarrick Hemingway,23,TE,South Carolina St.,177.0,2013*,14.0,68.0,837.0,6.0,0.0,0.0,0.0
+Temarrick Hemingway,23,TE,South Carolina St.,177.0,2014*,12.0,96.0,1750.0,17.0,0.0,0.0,0.0
+Temarrick Hemingway,23,TE,South Carolina St.,177.0,2015*,12.0,75.0,1062.0,8.0,1.0,20.0,0.0
+Temarrick Hemingway,23,TE,,,,8.0,0.0,0.0,0.0,,,
+Jerell Adams,23,TE,South Carolina,184.0,2012*,9.0,4.0,90.0,1.0,0.0,0.0,0.0
+Jerell Adams,23,TE,South Carolina,184.0,2013*,7.0,13.0,187.0,2.0,0.0,0.0,0.0
+Jerell Adams,23,TE,South Carolina,184.0,2014*,13.0,21.0,279.0,1.0,0.0,0.0,0.0
+Jerell Adams,23,TE,South Carolina,184.0,2015,12.0,28.0,421.0,3.0,0.0,0.0,0.0
+Jerell Adams,23,TE,,,,13.0,16.0,122.0,1.0,,,
+David Morgan,23,TE,Texas-San Antonio,188.0,2013,5.0,7.0,69.0,0.0,0.0,0.0,0.0
+David Morgan,23,TE,Texas-San Antonio,188.0,2014,9.0,20.0,255.0,1.0,0.0,0.0,0.0
+David Morgan,23,TE,Texas-San Antonio,188.0,2015,12.0,45.0,566.0,5.0,0.0,0.0,0.0
+David Morgan,23,TE,,,,12.0,1.0,4.0,0.0,,,
+Rico Gathers,22,TE,,,,15.0,3.0,45.0,0.0,,,
+Thomas Duarte,21,TE,UCLA,231.0,2013*,10.0,16.0,214.0,3.0,0.0,0.0,0.0
+Thomas Duarte,21,TE,UCLA,231.0,2014*,12.0,28.0,540.0,4.0,0.0,0.0,0.0
+Thomas Duarte,21,TE,UCLA,231.0,2015*,13.0,53.0,872.0,10.0,0.0,0.0,0.0
+Thomas Duarte,21,TE,,,,,,,,,,
+Beau Sandland,23,TE,,,,,,,,,,
+O.J. Howard,22,TE,Alabama,19.0,2013*,10.0,14.0,269.0,2.0,0.0,0.0,0.0
+O.J. Howard,22,TE,Alabama,19.0,2014*,14.0,17.0,260.0,0.0,0.0,0.0,0.0
+O.J. Howard,22,TE,Alabama,19.0,2015*,15.0,38.0,602.0,2.0,0.0,0.0,0.0
+O.J. Howard,22,TE,Alabama,19.0,2016*,15.0,45.0,595.0,3.0,0.0,0.0,0.0
+O.J. Howard,22,TE,,,,14.0,26.0,432.0,6.0,,,
+Evan Engram,23,TE,Mississippi,23.0,2013*,8.0,21.0,268.0,3.0,0.0,0.0,0.0
+Evan Engram,23,TE,Mississippi,23.0,2014*,13.0,38.0,662.0,2.0,0.0,0.0,0.0
+Evan Engram,23,TE,Mississippi,23.0,2015*,13.0,38.0,464.0,2.0,0.0,0.0,0.0
+Evan Engram,23,TE,Mississippi,23.0,2016,11.0,65.0,926.0,8.0,0.0,0.0,0.0
+Evan Engram,23,TE,,,,15.0,64.0,722.0,6.0,,,
+David Njoku,21,TE,Miami (FL),29.0,2015*,13.0,21.0,362.0,1.0,0.0,0.0,0.0
+David Njoku,21,TE,Miami (FL),29.0,2016*,13.0,43.0,698.0,8.0,0.0,0.0,0.0
+David Njoku,21,TE,,,,16.0,32.0,386.0,4.0,,,
+Gerald Everett,23,TE,South Alabama,44.0,2014,12.0,17.0,292.0,1.0,0.0,0.0,0.0
+Gerald Everett,23,TE,South Alabama,44.0,2015,12.0,41.0,575.0,8.0,8.0,7.0,4.0
+Gerald Everett,23,TE,South Alabama,44.0,2016*,13.0,49.0,717.0,4.0,0.0,0.0,0.0
+Gerald Everett,23,TE,,,,16.0,16.0,244.0,2.0,,,
+Adam Shaheen,22,TE,Ashland,45.0,2014,12.0,17.0,292.0,1.0,0.0,0.0,0.0
+Adam Shaheen,22,TE,Ashland,45.0,2015,12.0,41.0,575.0,8.0,8.0,7.0,4.0
+Adam Shaheen,22,TE,Ashland,45.0,2016*,13.0,49.0,717.0,4.0,0.0,0.0,0.0
+Adam Shaheen,22,TE,,,,13.0,12.0,127.0,3.0,,,
+Jonnu Smith,22,TE,Florida International,100.0,2013,12.0,39.0,388.0,2.0,0.0,0.0,0.0
+Jonnu Smith,22,TE,Florida International,100.0,2014,12.0,61.0,710.0,8.0,0.0,0.0,0.0
+Jonnu Smith,22,TE,Florida International,100.0,2015,8.0,36.0,397.0,4.0,0.0,0.0,0.0
+Jonnu Smith,22,TE,Florida International,100.0,2016,11.0,42.0,506.0,4.0,1.0,5.0,0.0
+Jonnu Smith,22,TE,,,,16.0,18.0,157.0,2.0,,,
+Michael Roberts,23,TE,Toledo,127.0,2013,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Michael Roberts,23,TE,Toledo,127.0,2014*,9.0,4.0,65.0,2.0,0.0,0.0,0.0
+Michael Roberts,23,TE,Toledo,127.0,2015*,12.0,21.0,234.0,4.0,0.0,0.0,0.0
+Michael Roberts,23,TE,Toledo,127.0,2016*,13.0,45.0,533.0,16.0,0.0,0.0,0.0
+Michael Roberts,23,TE,,,,15.0,4.0,46.0,0.0,,,
+Jake Butt,22,TE,Michigan,145.0,2013*,9.0,20.0,235.0,2.0,0.0,0.0,0.0
+Jake Butt,22,TE,Michigan,145.0,2014,10.0,21.0,211.0,2.0,0.0,0.0,0.0
+Jake Butt,22,TE,Michigan,145.0,2015*,13.0,51.0,654.0,3.0,0.0,2.0,0.0
+Jake Butt,22,TE,Michigan,145.0,2016*,13.0,46.0,546.0,4.0,0.0,0.0,0.0
+Jake Butt,22,TE,,,,3.0,8.0,85.0,0.0,,,
+George Kittle,23,TE,Iowa,146.0,2013*,3.0,5.0,108.0,0.0,0.0,0.0,0.0
+George Kittle,23,TE,Iowa,146.0,2014*,12.0,1.0,25.0,0.0,0.0,0.0,0.0
+George Kittle,23,TE,Iowa,146.0,2015*,14.0,20.0,290.0,6.0,0.0,0.0,0.0
+George Kittle,23,TE,Iowa,146.0,2016*,11.0,22.0,314.0,4.0,0.0,0.0,0.0
+George Kittle,23,TE,,,,15.0,43.0,515.0,2.0,,,
+Jordan Leggett,22,TE,Clemson,150.0,2013*,7.0,12.0,176.0,2.0,0.0,0.0,0.0
+Jordan Leggett,22,TE,Clemson,150.0,2014*,11.0,14.0,161.0,1.0,0.0,0.0,0.0
+Jordan Leggett,22,TE,Clemson,150.0,2015*,15.0,40.0,525.0,8.0,0.0,0.0,0.0
+Jordan Leggett,22,TE,Clemson,150.0,2016*,15.0,46.0,736.0,7.0,0.0,0.0,0.0
+Jordan Leggett,22,TE,,,,15.0,14.0,114.0,1.0,,,
+Jeremy Sprinkle,23,TE,Arkansas,154.0,2013,4.0,4.0,68.0,0.0,1.0,1.0,0.0
+Jeremy Sprinkle,23,TE,Arkansas,154.0,2014*,13.0,7.0,84.0,1.0,0.0,0.0,0.0
+Jeremy Sprinkle,23,TE,Arkansas,154.0,2015*,13.0,27.0,389.0,6.0,1.0,4.0,0.0
+Jeremy Sprinkle,23,TE,Arkansas,154.0,2016*,13.0,33.0,380.0,4.0,0.0,0.0,0.0
+Jeremy Sprinkle,23,TE,,,,11.0,2.0,13.0,1.0,,,
+Eric Saubert,23,TE,Drake,174.0,2014*,12.0,6.0,67.0,0.0,7.0,78.0,0.0
+Eric Saubert,23,TE,Drake,174.0,2015*,10.0,10.0,123.0,0.0,11.0,117.0,2.0
+Eric Saubert,23,TE,Drake,174.0,2016*,13.0,44.0,633.0,7.0,19.0,134.0,2.0
+Eric Saubert,23,TE,,,,14.0,0.0,0.0,0.0,,,
+Bucky Hodges,22,TE,Virginia Tech,201.0,2014*,13.0,45.0,526.0,7.0,7.0,20.0,0.0
+Bucky Hodges,22,TE,Virginia Tech,201.0,2015*,13.0,40.0,530.0,6.0,5.0,27.0,1.0
+Bucky Hodges,22,TE,Virginia Tech,201.0,2016*,14.0,48.0,691.0,7.0,9.0,42.0,0.0
+Bucky Hodges,22,TE,,,,,,,,,,
+Mason Schreck,23,TE,Buffalo,251.0,2013*,12.0,17.0,147.0,2.0,0.0,0.0,0.0
+Mason Schreck,23,TE,Buffalo,251.0,2014,6.0,10.0,106.0,0.0,0.0,0.0,0.0
+Mason Schreck,23,TE,Buffalo,251.0,2015,9.0,21.0,209.0,0.0,0.0,0.0,0.0
+Mason Schreck,23,TE,Buffalo,251.0,2016,12.0,59.0,651.0,4.0,0.0,0.0,0.0
+Mason Schreck,23,TE,,,,6.0,0.0,0.0,0.0,,,
+Hayden Hurst,25,TE,South Carolina,25.0,2015,12.0,8.0,106.0,0.0,0.0,0.0,0.0
+Hayden Hurst,25,TE,South Carolina,25.0,2016*,13.0,48.0,616.0,1.0,2.0,9.0,0.0
+Hayden Hurst,25,TE,South Carolina,25.0,2017*,13.0,44.0,559.0,2.0,9.0,30.0,1.0
+Hayden Hurst,25,TE,,,,12.0,13.0,163.0,1.0,,,
+Mike Gesicki,22,TE,Penn St.,42.0,2014*,12.0,11.0,114.0,0.0,0.0,0.0,0.0
+Mike Gesicki,22,TE,Penn St.,42.0,2015*,12.0,13.0,125.0,1.0,0.0,0.0,0.0
+Mike Gesicki,22,TE,Penn St.,42.0,2016*,14.0,48.0,679.0,5.0,0.0,0.0,0.0
+Mike Gesicki,22,TE,Penn St.,42.0,2017*,13.0,57.0,563.0,9.0,0.0,0.0,0.0
+Mike Gesicki,22,TE,,,,16.0,22.0,202.0,0.0,,,
+Dallas Goedert,23,TE,South Dakota St.,49.0,2015*,13.0,80.0,1009.0,7.0,11.0,54.0,0.0
+Dallas Goedert,23,TE,South Dakota St.,49.0,2016*,13.0,83.0,928.0,9.0,8.0,35.0,0.0
+Dallas Goedert,23,TE,South Dakota St.,49.0,2017*,13.0,71.0,919.0,10.0,4.0,31.0,0.0
+Dallas Goedert,23,TE,,,,16.0,33.0,334.0,4.0,,,
+Mark Andrews,23,TE,Oklahoma,86.0,2014*,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Mark Andrews,23,TE,Oklahoma,86.0,2015*,13.0,19.0,318.0,7.0,0.0,0.0,0.0
+Mark Andrews,23,TE,Oklahoma,86.0,2016*,13.0,31.0,489.0,7.0,0.0,0.0,0.0
+Mark Andrews,23,TE,Oklahoma,86.0,2017*,14.0,62.0,958.0,8.0,0.0,0.0,0.0
+Mark Andrews,23,TE,,,,16.0,34.0,552.0,3.0,,,
+Jordan Akins,26,TE,Central Florida,98.0,2014*,13.0,12.0,135.0,0.0,0.0,0.0,0.0
+Jordan Akins,26,TE,Central Florida,98.0,2015,3.0,14.0,152.0,2.0,0.0,0.0,0.0
+Jordan Akins,26,TE,Central Florida,98.0,2016*,13.0,23.0,347.0,2.0,0.0,0.0,0.0
+Jordan Akins,26,TE,Central Florida,98.0,2017*,12.0,32.0,515.0,4.0,0.0,0.0,0.0
+Jordan Akins,26,TE,,,,16.0,17.0,225.0,0.0,,,
+Ian Thomas,22,TE,Indiana,101.0,2016*,13.0,3.0,28.0,0.0,0.0,0.0,0.0
+Ian Thomas,22,TE,Indiana,101.0,2017,10.0,25.0,376.0,5.0,0.0,0.0,0.0
+Ian Thomas,22,TE,,,,16.0,36.0,333.0,2.0,,,
+Chris Herndon,22,TE,Miami (FL),107.0,2014*,7.0,0.0,0.0,0.0,0.0,0.0,0.0
+Chris Herndon,22,TE,Miami (FL),107.0,2015*,13.0,18.0,237.0,1.0,0.0,0.0,0.0
+Chris Herndon,22,TE,Miami (FL),107.0,2016*,13.0,28.0,334.0,2.0,0.0,0.0,0.0
+Chris Herndon,22,TE,Miami (FL),107.0,2017*,11.0,40.0,477.0,4.0,0.0,0.0,0.0
+Chris Herndon,22,TE,,,,16.0,39.0,502.0,4.0,,,
+Will Dissly,22,TE,Washington,120.0,2014*,6.0,0.0,0.0,0.0,0.0,0.0,0.0
+Will Dissly,22,TE,Washington,120.0,2015*,12.0,0.0,0.0,0.0,0.0,0.0,0.0
+Will Dissly,22,TE,Washington,120.0,2016*,14.0,4.0,47.0,1.0,0.0,0.0,0.0
+Will Dissly,22,TE,Washington,120.0,2017*,13.0,21.0,289.0,2.0,0.0,0.0,0.0
+Will Dissly,22,TE,,,,4.0,8.0,156.0,2.0,,,
+Durham Smythe,23,TE,Notre Dame,123.0,2014*,12.0,1.0,7.0,0.0,0.0,0.0,0.0
+Durham Smythe,23,TE,Notre Dame,123.0,2015*,3.0,3.0,18.0,1.0,0.0,0.0,0.0
+Durham Smythe,23,TE,Notre Dame,123.0,2016,11.0,9.0,112.0,4.0,0.0,0.0,0.0
+Durham Smythe,23,TE,Notre Dame,123.0,2017*,13.0,15.0,244.0,1.0,0.0,0.0,0.0
+Durham Smythe,23,TE,,,,15.0,6.0,50.0,0.0,,,
+Dalton Schultz,22,TE,Stanford,137.0,2015*,14.0,10.0,121.0,1.0,0.0,0.0,0.0
+Dalton Schultz,22,TE,Stanford,137.0,2016*,13.0,23.0,222.0,1.0,0.0,0.0,0.0
+Dalton Schultz,22,TE,Stanford,137.0,2017*,13.0,22.0,212.0,3.0,0.0,0.0,0.0
+Dalton Schultz,22,TE,,,,11.0,12.0,116.0,0.0,,,
+Troy Fumagalli,23,TE,Wisconsin,156.0,2014*,14.0,14.0,187.0,0.0,0.0,0.0,0.0
+Troy Fumagalli,23,TE,Wisconsin,156.0,2015*,11.0,28.0,313.0,1.0,0.0,0.0,0.0
+Troy Fumagalli,23,TE,Wisconsin,156.0,2016*,14.0,47.0,580.0,2.0,0.0,0.0,0.0
+Troy Fumagalli,23,TE,Wisconsin,156.0,2017*,13.0,46.0,547.0,4.0,0.0,0.0,0.0
+Troy Fumagalli,23,TE,,,,11.0,6.0,38.0,1.0,,,
+Tyler Conklin,23,TE,Central Michigan,157.0,2015*,13.0,6.0,95.0,0.0,0.0,0.0,0.0
+Tyler Conklin,23,TE,Central Michigan,157.0,2016*,13.0,42.0,560.0,6.0,0.0,0.0,0.0
+Tyler Conklin,23,TE,Central Michigan,157.0,2017*,8.0,35.0,504.0,5.0,0.0,0.0,0.0
+Tyler Conklin,23,TE,,,,16.0,5.0,77.0,0.0,,,
+Jaylen Samuels,22,TE,North Carolina St.,165.0,2014*,13.0,6.0,96.0,1.0,15.0,143.0,1.0
+Jaylen Samuels,22,TE,North Carolina St.,165.0,2015*,13.0,65.0,597.0,7.0,56.0,368.0,9.0
+Jaylen Samuels,22,TE,North Carolina St.,165.0,2016*,13.0,55.0,565.0,7.0,33.0,189.0,6.0
+Jaylen Samuels,22,TE,North Carolina St.,165.0,2017*,13.0,76.0,597.0,4.0,77.0,403.0,12.0
+Jaylen Samuels,22,TE,,,,,,,,,,
+Jordan Thomas,22,TE,Mississippi St.,211.0,2016*,12.0,9.0,48.0,1.0,0.0,0.0,0.0
+Jordan Thomas,22,TE,Mississippi St.,211.0,2017*,13.0,22.0,263.0,3.0,0.0,0.0,0.0
+Jordan Thomas,22,TE,,,,16.0,20.0,215.0,4.0,,,
+Ryan Izzo,22,TE,Florida St.,250.0,2014*,2.0,1.0,7.0,0.0,0.0,0.0,0.0
+Ryan Izzo,22,TE,Florida St.,250.0,2015*,13.0,14.0,210.0,2.0,0.0,0.0,0.0
+Ryan Izzo,22,TE,Florida St.,250.0,2016*,13.0,19.0,227.0,1.0,0.0,0.0,0.0
+Ryan Izzo,22,TE,Florida St.,250.0,2017*,13.0,20.0,317.0,3.0,0.0,0.0,0.0
+Ryan Izzo,22,TE,,,,6.0,6.0,114.0,1.0,,,
+T.J. Hockenson,22,TE,Iowa,8.0,2017*,13.0,24.0,320.0,3.0,0.0,0.0,0.0
+T.J. Hockenson,22,TE,Iowa,8.0,2018*,13.0,49.0,760.0,6.0,1.0,4.0,1.0
+T.J. Hockenson,22,TE,,,,12.0,32.0,367.0,2.0,,,
+Noah Fant,21,TE,Iowa,20.0,2016*,10.0,9.0,70.0,1.0,0.0,0.0,0.0
+Noah Fant,21,TE,Iowa,20.0,2017*,13.0,30.0,494.0,11.0,2.0,-1.0,0.0
+Noah Fant,21,TE,Iowa,20.0,2018*,12.0,39.0,519.0,7.0,2.0,1.0,0.0
+Noah Fant,21,TE,,,,16.0,40.0,562.0,3.0,,,
+Irv Smith Jr.,21,TE,Alabama,50.0,2016*,9.0,0.0,0.0,0.0,0.0,0.0,0.0
+Irv Smith Jr.,21,TE,Alabama,50.0,2017*,14.0,14.0,128.0,3.0,0.0,0.0,0.0
+Irv Smith Jr.,21,TE,Alabama,50.0,2018*,15.0,44.0,710.0,7.0,0.0,0.0,0.0
+Irv Smith Jr.,21,TE,,,,16.0,36.0,311.0,2.0,,,
+Drew Sample,23,TE,Washington,52.0,2014*,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Drew Sample,23,TE,Washington,52.0,2015*,13.0,5.0,45.0,2.0,0.0,0.0,0.0
+Drew Sample,23,TE,Washington,52.0,2016*,14.0,9.0,106.0,0.0,0.0,0.0,0.0
+Drew Sample,23,TE,Washington,52.0,2017*,10.0,7.0,84.0,0.0,0.0,0.0,0.0
+Drew Sample,23,TE,Washington,52.0,2018*,14.0,25.0,252.0,3.0,0.0,0.0,0.0
+Drew Sample,23,TE,,,,9.0,5.0,30.0,0.0,,,
+Josh Oliver,22,TE,San Jose St.,69.0,2015*,13.0,4.0,36.0,1.0,1.0,7.0,0.0
+Josh Oliver,22,TE,San Jose St.,69.0,2016,12.0,3.0,26.0,1.0,0.0,0.0,0.0
+Josh Oliver,22,TE,San Jose St.,69.0,2017,11.0,35.0,296.0,1.0,0.0,0.0,0.0
+Josh Oliver,22,TE,San Jose St.,69.0,2018,12.0,56.0,709.0,4.0,0.0,0.0,0.0
+Josh Oliver,22,TE,,,,4.0,3.0,15.0,0.0,,,
+Jace Sternberger,23,TE,Texas A&M,75.0,2016,10.0,1.0,5.0,0.0,0.0,0.0,0.0
+Jace Sternberger,23,TE,Texas A&M,75.0,2018*,13.0,48.0,832.0,10.0,1.0,4.0,0.0
+Jace Sternberger,23,TE,,,,6.0,0.0,0.0,0.0,,,
+Kahale Warring,22,TE,San Diego St.,86.0,2016*,4.0,2.0,17.0,2.0,0.0,0.0,0.0
+Kahale Warring,22,TE,San Diego St.,86.0,2017*,13.0,18.0,248.0,3.0,0.0,0.0,0.0
+Kahale Warring,22,TE,San Diego St.,86.0,2018*,12.0,31.0,372.0,3.0,0.0,0.0,0.0
+Kahale Warring,22,TE,,,,7.0,3.0,35.0,0.0,,,
+Dawson Knox,22,TE,Mississippi,96.0,2016,5.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dawson Knox,22,TE,Mississippi,96.0,2017,10.0,24.0,321.0,0.0,0.0,0.0,0.0
+Dawson Knox,22,TE,Mississippi,96.0,2018,12.0,15.0,284.0,0.0,0.0,0.0,0.0
+Dawson Knox,22,TE,,,,15.0,28.0,388.0,2.0,,,
+Trevon Wesco,23,TE,West Virginia,121.0,2016*,10.0,1.0,6.0,1.0,0.0,0.0,0.0
+Trevon Wesco,23,TE,West Virginia,121.0,2017*,12.0,1.0,1.0,0.0,0.0,0.0,0.0
+Trevon Wesco,23,TE,West Virginia,121.0,2018*,12.0,26.0,366.0,1.0,1.0,3.0,0.0
+Trevon Wesco,23,TE,,,,16.0,2.0,47.0,0.0,,,
+Foster Moreau,22,TE,LSU,137.0,2015*,12.0,0.0,0.0,0.0,0.0,0.0,0.0
+Foster Moreau,22,TE,LSU,137.0,2016*,11.0,6.0,79.0,1.0,0.0,0.0,0.0
+Foster Moreau,22,TE,LSU,137.0,2017*,13.0,24.0,278.0,3.0,0.0,0.0,0.0
+Foster Moreau,22,TE,LSU,137.0,2018*,13.0,22.0,272.0,2.0,0.0,0.0,0.0
+Foster Moreau,22,TE,,,,13.0,21.0,174.0,5.0,,,
+Zach Gentry,22,TE,Michigan,141.0,2016*,7.0,0.0,0.0,0.0,0.0,0.0,0.0
+Zach Gentry,22,TE,Michigan,141.0,2017*,13.0,17.0,303.0,2.0,0.0,0.0,0.0
+Zach Gentry,22,TE,Michigan,141.0,2018*,13.0,32.0,514.0,2.0,0.0,0.0,0.0
+Zach Gentry,22,TE,,,,4.0,1.0,4.0,0.0,,,
+Kaden Smith,22,TE,Stanford,176.0,2017*,14.0,23.0,414.0,5.0,0.0,0.0,0.0
+Kaden Smith,22,TE,Stanford,176.0,2018*,10.0,47.0,635.0,2.0,0.0,0.0,0.0
+Kaden Smith,22,TE,,,,9.0,31.0,268.0,3.0,,,
+Isaac Nauta,22,TE,Georgia,224.0,2016*,13.0,29.0,361.0,3.0,0.0,0.0,0.0
+Isaac Nauta,22,TE,Georgia,224.0,2017*,15.0,9.0,114.0,2.0,0.0,0.0,0.0
+Isaac Nauta,22,TE,Georgia,224.0,2018*,14.0,30.0,430.0,3.0,0.0,31.0,1.0
+Isaac Nauta,22,TE,,,,6.0,2.0,13.0,0.0,,,
+Tommy Sweeney,24,TE,Boston Col.,228.0,2015,12.0,5.0,68.0,0.0,0.0,0.0,0.0
+Tommy Sweeney,24,TE,Boston Col.,228.0,2016*,13.0,26.0,353.0,3.0,0.0,0.0,0.0
+Tommy Sweeney,24,TE,Boston Col.,228.0,2017*,13.0,36.0,512.0,4.0,0.0,0.0,0.0
+Tommy Sweeney,24,TE,Boston Col.,228.0,2018,12.0,32.0,348.0,3.0,0.0,0.0,0.0
+Tommy Sweeney,24,TE,,,,6.0,8.0,114.0,0.0,,,
+Alizé Mack,22,TE,Notre Dame,231.0,2015*,13.0,13.0,190.0,0.0,0.0,0.0,0.0
+Alizé Mack,22,TE,Notre Dame,231.0,2017*,10.0,19.0,166.0,1.0,0.0,0.0,0.0
+Alizé Mack,22,TE,Notre Dame,231.0,2018*,12.0,36.0,360.0,3.0,0.0,0.0,0.0
+Alizé Mack,22,TE,,,,,,,,,,
+Caleb Wilson,23,TE,UCLA,254.0,2016,12.0,16.0,220.0,0.0,0.0,0.0,0.0
+Caleb Wilson,23,TE,UCLA,254.0,2017*,5.0,38.0,489.0,1.0,0.0,0.0,0.0
+Caleb Wilson,23,TE,UCLA,254.0,2018,12.0,60.0,965.0,4.0,1.0,4.0,0.0
+Caleb Wilson,23,TE,,,,,,,,,,
+Cole Kmet,21,TE,Notre Dame,43.0,2017*,13.0,2.0,14.0,0.0,0.0,0.0,0.0
+Cole Kmet,21,TE,Notre Dame,43.0,2018*,11.0,15.0,162.0,0.0,0.0,0.0,0.0
+Cole Kmet,21,TE,Notre Dame,43.0,2019*,11.0,43.0,515.0,6.0,0.0,0.0,0.0
+Cole Kmet,21,TE,,,,16.0,28.0,243.0,2.0,,,
+Devin Asiasi,23,TE,UCLA,91.0,2016*,13.0,2.0,18.0,1.0,0.0,0.0,0.0
+Devin Asiasi,23,TE,UCLA,91.0,2018,9.0,6.0,130.0,1.0,0.0,0.0,0.0
+Devin Asiasi,23,TE,UCLA,91.0,2019,12.0,44.0,641.0,4.0,0.0,0.0,0.0
+Devin Asiasi,23,TE,,,,9.0,2.0,39.0,1.0,,,
+Josiah Deguara,23,TE,Cincinnati,94.0,2016,12.0,4.0,47.0,0.0,1.0,-2.0,0.0
+Josiah Deguara,23,TE,Cincinnati,94.0,2017,7.0,11.0,98.0,0.0,0.0,0.0,0.0
+Josiah Deguara,23,TE,Cincinnati,94.0,2018*,13.0,38.0,468.0,5.0,0.0,0.0,0.0
+Josiah Deguara,23,TE,Cincinnati,94.0,2019*,14.0,39.0,504.0,7.0,0.0,2.0,1.0
+Josiah Deguara,23,TE,,,,2.0,1.0,12.0,0.0,,,
+Dalton Keene,21,TE,Virginia Tech,101.0,2017*,13.0,10.0,167.0,0.0,0.0,0.0,0.0
+Dalton Keene,21,TE,Virginia Tech,101.0,2018*,12.0,28.0,341.0,3.0,0.0,0.0,0.0
+Dalton Keene,21,TE,Virginia Tech,101.0,2019*,13.0,21.0,240.0,5.0,11.0,33.0,0.0
+Dalton Keene,21,TE,,,,6.0,3.0,16.0,0.0,,,
+Adam Trautman,23,TE,Dayton,105.0,2017*,13.0,10.0,167.0,0.0,0.0,0.0,0.0
+Adam Trautman,23,TE,Dayton,105.0,2018*,12.0,28.0,341.0,3.0,0.0,0.0,0.0
+Adam Trautman,23,TE,Dayton,105.0,2019*,13.0,21.0,240.0,5.0,11.0,33.0,0.0
+Adam Trautman,23,TE,,,,15.0,15.0,171.0,1.0,,,
+Harrison Bryant,22,TE,Florida Atlantic,115.0,2016,12.0,6.0,63.0,0.0,0.0,0.0,0.0
+Harrison Bryant,22,TE,Florida Atlantic,115.0,2017*,11.0,32.0,408.0,5.0,0.0,0.0,0.0
+Harrison Bryant,22,TE,Florida Atlantic,115.0,2018,12.0,45.0,662.0,4.0,1.0,2.0,0.0
+Harrison Bryant,22,TE,Florida Atlantic,115.0,2019*,13.0,65.0,1004.0,7.0,0.0,0.0,0.0
+Harrison Bryant,22,TE,,,,15.0,24.0,238.0,3.0,,,
+Albert Okwuegbunam,22,TE,Missouri,118.0,2017*,13.0,29.0,415.0,11.0,0.0,0.0,0.0
+Albert Okwuegbunam,22,TE,Missouri,118.0,2018*,9.0,43.0,466.0,6.0,0.0,0.0,0.0
+Albert Okwuegbunam,22,TE,Missouri,118.0,2019,11.0,26.0,306.0,6.0,0.0,0.0,0.0
+Albert Okwuegbunam,22,TE,,,,4.0,11.0,121.0,1.0,,,
+Colby Parkinson,21,TE,Stanford,133.0,2017*,14.0,10.0,97.0,4.0,0.0,0.0,0.0
+Colby Parkinson,21,TE,Stanford,133.0,2018*,13.0,29.0,485.0,7.0,0.0,0.0,0.0
+Colby Parkinson,21,TE,Stanford,133.0,2019,12.0,48.0,589.0,1.0,0.0,0.0,0.0
+Colby Parkinson,21,TE,,,,6.0,2.0,16.0,0.0,,,
+Brycen Hopkins,23,TE,Purdue,136.0,2016,11.0,10.0,183.0,4.0,0.0,0.0,0.0
+Brycen Hopkins,23,TE,Purdue,136.0,2017*,12.0,25.0,349.0,3.0,0.0,0.0,0.0
+Brycen Hopkins,23,TE,Purdue,136.0,2018*,13.0,34.0,583.0,2.0,0.0,0.0,0.0
+Brycen Hopkins,23,TE,Purdue,136.0,2019,12.0,61.0,830.0,7.0,0.0,0.0,0.0
+Brycen Hopkins,23,TE,,,,5.0,0.0,0.0,0.0,,,
+Charlie Woerner,22,TE,Georgia,190.0,2016*,12.0,5.0,50.0,0.0,0.0,0.0,0.0
+Charlie Woerner,22,TE,Georgia,190.0,2017*,13.0,9.0,100.0,0.0,0.0,0.0,0.0
+Charlie Woerner,22,TE,Georgia,190.0,2018*,14.0,11.0,148.0,0.0,0.0,0.0,0.0
+Charlie Woerner,22,TE,Georgia,190.0,2019*,14.0,9.0,78.0,1.0,0.0,0.0,0.0
+Charlie Woerner,22,TE,,,,14.0,3.0,36.0,0.0,,,
+Tyler Davis,23,TE,Georgia Tech,206.0,2016,11.0,11.0,107.0,1.0,0.0,0.0,0.0
+Tyler Davis,23,TE,Georgia Tech,206.0,2017,11.0,14.0,156.0,0.0,0.0,0.0,0.0
+Tyler Davis,23,TE,Georgia Tech,206.0,2018,12.0,22.0,237.0,6.0,0.0,0.0,0.0
+Tyler Davis,23,TE,Georgia Tech,206.0,2019,12.0,17.0,148.0,1.0,0.0,0.0,0.0
+Tyler Davis,23,TE,,,,8.0,0.0,0.0,0.0,,,
+Stephen Sullivan,23,TE,LSU,251.0,2016*,8.0,0.0,0.0,0.0,0.0,0.0,0.0
+Stephen Sullivan,23,TE,LSU,251.0,2017*,13.0,11.0,219.0,1.0,2.0,5.0,1.0
+Stephen Sullivan,23,TE,LSU,251.0,2018*,13.0,23.0,363.0,2.0,2.0,20.0,0.0
+Stephen Sullivan,23,TE,LSU,251.0,2019*,15.0,12.0,130.0,0.0,0.0,0.0,0.0
+Stephen Sullivan,23,TE,,,,1.0,0.0,0.0,0.0,,,
+Kyle Pitts,20,TE,Florida,4.0,2018*,11.0,3.0,73.0,1.0,0.0,0.0,0.0
+Kyle Pitts,20,TE,Florida,4.0,2019*,13.0,54.0,649.0,5.0,0.0,0.0,0.0
+Kyle Pitts,20,TE,Florida,4.0,2020*,8.0,43.0,770.0,12.0,0.0,0.0,0.0
+Kyle Pitts,20,TE,,,,17.0,68.0,1026.0,1.0,,,
+Pat Freiermuth,22,TE,Penn St.,55.0,2018*,13.0,26.0,368.0,8.0,0.0,0.0,0.0
+Pat Freiermuth,22,TE,Penn St.,55.0,2019*,13.0,43.0,507.0,7.0,0.0,0.0,0.0
+Pat Freiermuth,22,TE,Penn St.,55.0,2020,4.0,23.0,310.0,1.0,0.0,0.0,0.0
+Pat Freiermuth,22,TE,,,,16.0,60.0,497.0,7.0,,,
+Hunter Long,23,TE,Boston Col.,81.0,2018,12.0,4.0,103.0,2.0,0.0,0.0,0.0
+Hunter Long,23,TE,Boston Col.,81.0,2019*,13.0,28.0,509.0,2.0,0.0,0.0,0.0
+Hunter Long,23,TE,Boston Col.,81.0,2020,11.0,57.0,685.0,5.0,0.0,0.0,0.0
+Hunter Long,23,TE,,,,7.0,1.0,8.0,0.0,,,
+Tommy Tremble,21,TE,Notre Dame,83.0,2019*,13.0,16.0,183.0,4.0,0.0,0.0,0.0
+Tommy Tremble,21,TE,Notre Dame,83.0,2020*,12.0,19.0,213.0,0.0,1.0,4.0,0.0
+Tommy Tremble,21,TE,,,,16.0,20.0,180.0,1.0,,,
+Tre' McKitty,22,TE,Georgia,97.0,2017*,11.0,1.0,23.0,0.0,0.0,0.0,0.0
+Tre' McKitty,22,TE,Georgia,97.0,2018,12.0,26.0,256.0,2.0,0.0,0.0,0.0
+Tre' McKitty,22,TE,Georgia,97.0,2019*,12.0,23.0,241.0,0.0,0.0,0.0,0.0
+Tre' McKitty,22,TE,Georgia,97.0,2020*,7.0,6.0,108.0,1.0,0.0,0.0,0.0
+Tre' McKitty,22,TE,,,,11.0,6.0,45.0,0.0,,,
+John Bates,23,TE,Boise St.,124.0,2017*,14.0,3.0,34.0,0.0,0.0,0.0,0.0
+John Bates,23,TE,Boise St.,124.0,2018,13.0,10.0,155.0,1.0,0.0,0.0,0.0
+John Bates,23,TE,Boise St.,124.0,2019*,14.0,22.0,273.0,1.0,0.0,0.0,0.0
+John Bates,23,TE,Boise St.,124.0,2020,5.0,12.0,117.0,0.0,0.0,0.0,0.0
+John Bates,23,TE,,,,17.0,20.0,249.0,1.0,,,
+Kylen Granson,23,TE,SMU,127.0,2016,7.0,33.0,381.0,2.0,4.0,41.0,0.0
+Kylen Granson,23,TE,SMU,127.0,2017,9.0,18.0,241.0,0.0,6.0,51.0,0.0
+Kylen Granson,23,TE,SMU,127.0,2019*,13.0,43.0,721.0,9.0,2.0,11.0,0.0
+Kylen Granson,23,TE,SMU,127.0,2020,10.0,35.0,536.0,5.0,1.0,0.0,0.0
+Kylen Granson,23,TE,,,,17.0,11.0,106.0,0.0,,,
+Luke Farrell,23,TE,Ohio St.,145.0,2017*,9.0,2.0,19.0,0.0,0.0,0.0,0.0
+Luke Farrell,23,TE,Ohio St.,145.0,2018*,13.0,20.0,205.0,1.0,0.0,0.0,0.0
+Luke Farrell,23,TE,Ohio St.,145.0,2019*,14.0,7.0,119.0,2.0,0.0,0.0,0.0
+Luke Farrell,23,TE,Ohio St.,145.0,2020*,7.0,5.0,37.0,1.0,0.0,0.0,0.0
+Luke Farrell,23,TE,,,,15.0,7.0,56.0,0.0,,,
+Brevin Jordan,21,TE,Miami (FL),147.0,2018*,12.0,32.0,287.0,4.0,0.0,0.0,0.0
+Brevin Jordan,21,TE,Miami (FL),147.0,2019*,11.0,35.0,495.0,2.0,1.0,0.0,0.0
+Brevin Jordan,21,TE,Miami (FL),147.0,2020*,8.0,38.0,576.0,7.0,2.0,1.0,0.0
+Brevin Jordan,21,TE,,,,9.0,20.0,178.0,3.0,,,
+Noah Gray,22,TE,Duke,162.0,2017*,13.0,5.0,37.0,2.0,0.0,0.0,0.0
+Noah Gray,22,TE,Duke,162.0,2018*,13.0,20.0,234.0,1.0,0.0,0.0,0.0
+Noah Gray,22,TE,Duke,162.0,2019,12.0,51.0,392.0,3.0,0.0,0.0,0.0
+Noah Gray,22,TE,Duke,162.0,2020,10.0,29.0,285.0,2.0,2.0,3.0,0.0
+Noah Gray,22,TE,,,,16.0,7.0,36.0,1.0,,,
+Zach Davidson,23,TE,Central Missouri St.,168.0,2017*,13.0,5.0,37.0,2.0,0.0,0.0,0.0
+Zach Davidson,23,TE,Central Missouri St.,168.0,2018*,13.0,20.0,234.0,1.0,0.0,0.0,0.0
+Zach Davidson,23,TE,Central Missouri St.,168.0,2019,12.0,51.0,392.0,3.0,0.0,0.0,0.0
+Zach Davidson,23,TE,Central Missouri St.,168.0,2020,10.0,29.0,285.0,2.0,2.0,3.0,0.0
+Zach Davidson,23,TE,,,,2.0,1.0,5.0,0.0,,,
+Trey McBride,22,TE,Colorado St.,55.0,2018,12.0,7.0,89.0,1.0,2.0,3.0,0.0
+Trey McBride,22,TE,Colorado St.,55.0,2019,12.0,45.0,560.0,4.0,0.0,0.0,0.0
+Trey McBride,22,TE,Colorado St.,55.0,2020,4.0,22.0,330.0,4.0,0.0,0.0,0.0
+Trey McBride,22,TE,Colorado St.,55.0,2021,12.0,90.0,1121.0,1.0,1.0,69.0,1.0
+Trey McBride,22,TE,,,,16.0,29.0,265.0,1.0,,,
+Jelani Woods,23,TE,Virginia,73.0,2018*,11.0,7.0,120.0,2.0,0.0,0.0,0.0
+Jelani Woods,23,TE,Virginia,73.0,2019*,13.0,16.0,112.0,1.0,0.0,0.0,0.0
+Jelani Woods,23,TE,Virginia,73.0,2020*,10.0,8.0,129.0,1.0,1.0,5.0,0.0
+Jelani Woods,23,TE,Virginia,73.0,2021,11.0,44.0,598.0,8.0,1.0,1.0,0.0
+Jelani Woods,23,TE,,,,15.0,25.0,312.0,3.0,,,
+Greg Dulcich,22,TE,UCLA,80.0,2018,3.0,1.0,6.0,0.0,0.0,0.0,0.0
+Greg Dulcich,22,TE,UCLA,80.0,2019,11.0,8.0,105.0,1.0,0.0,0.0,0.0
+Greg Dulcich,22,TE,UCLA,80.0,2020,7.0,26.0,517.0,5.0,0.0,0.0,0.0
+Greg Dulcich,22,TE,UCLA,80.0,2021,12.0,42.0,725.0,5.0,0.0,0.0,0.0
+Greg Dulcich,22,TE,,,,10.0,33.0,411.0,2.0,,,
+Jeremy Ruckert,22,TE,Ohio St.,101.0,2018*,10.0,1.0,13.0,0.0,0.0,0.0,0.0
+Jeremy Ruckert,22,TE,Ohio St.,101.0,2019*,14.0,14.0,142.0,4.0,0.0,0.0,0.0
+Jeremy Ruckert,22,TE,Ohio St.,101.0,2020*,8.0,13.0,151.0,5.0,0.0,0.0,0.0
+Jeremy Ruckert,22,TE,Ohio St.,101.0,2021*,12.0,26.0,309.0,3.0,0.0,0.0,0.0
+Jeremy Ruckert,22,TE,,,,9.0,1.0,8.0,0.0,,,
+Cade Otton,23,TE,Washington,106.0,2018*,14.0,13.0,174.0,3.0,0.0,0.0,0.0
+Cade Otton,23,TE,Washington,106.0,2019*,13.0,32.0,344.0,2.0,0.0,0.0,0.0
+Cade Otton,23,TE,Washington,106.0,2020,4.0,18.0,258.0,3.0,0.0,0.0,0.0
+Cade Otton,23,TE,Washington,106.0,2021,8.0,28.0,250.0,1.0,0.0,0.0,0.0
+Cade Otton,23,TE,,,,16.0,42.0,391.0,2.0,,,
+Daniel Bellinger,21,TE,San Diego St.,112.0,2018*,9.0,1.0,10.0,0.0,0.0,0.0,0.0
+Daniel Bellinger,21,TE,San Diego St.,112.0,2019*,13.0,15.0,201.0,3.0,1.0,-6.0,0.0
+Daniel Bellinger,21,TE,San Diego St.,112.0,2020,8.0,21.0,203.0,0.0,0.0,0.0,0.0
+Daniel Bellinger,21,TE,San Diego St.,112.0,2021*,13.0,31.0,357.0,2.0,1.0,2.0,0.0
+Daniel Bellinger,21,TE,,,,12.0,30.0,268.0,2.0,,,
+Charlie Kolar,23,TE,Iowa St.,128.0,2018*,13.0,11.0,137.0,3.0,0.0,0.0,0.0
+Charlie Kolar,23,TE,Iowa St.,128.0,2019*,13.0,51.0,697.0,7.0,0.0,0.0,0.0
+Charlie Kolar,23,TE,Iowa St.,128.0,2020*,11.0,44.0,591.0,7.0,0.0,0.0,0.0
+Charlie Kolar,23,TE,Iowa St.,128.0,2021*,12.0,62.0,756.0,6.0,0.0,0.0,0.0
+Charlie Kolar,23,TE,,,,2.0,4.0,49.0,0.0,,,
+Jake Ferguson,23,TE,Wisconsin,129.0,2018*,13.0,36.0,456.0,4.0,0.0,0.0,0.0
+Jake Ferguson,23,TE,Wisconsin,129.0,2019*,14.0,33.0,407.0,2.0,0.0,0.0,0.0
+Jake Ferguson,23,TE,Wisconsin,129.0,2020*,7.0,30.0,305.0,4.0,0.0,0.0,0.0
+Jake Ferguson,23,TE,Wisconsin,129.0,2021*,13.0,46.0,450.0,3.0,0.0,0.0,0.0
+Jake Ferguson,23,TE,,,,16.0,19.0,174.0,2.0,,,
+Isaiah Likely,22,TE,Coastal Carolina,139.0,2018,12.0,12.0,106.0,5.0,0.0,0.0,0.0
+Isaiah Likely,22,TE,Coastal Carolina,139.0,2019,12.0,32.0,431.0,5.0,0.0,0.0,0.0
+Isaiah Likely,22,TE,Coastal Carolina,139.0,2020*,11.0,30.0,601.0,5.0,0.0,0.0,0.0
+Isaiah Likely,22,TE,Coastal Carolina,139.0,2021*,13.0,59.0,912.0,12.0,3.0,10.0,0.0
+Isaiah Likely,22,TE,,,,16.0,36.0,373.0,3.0,,,
+Chigoziem Okonkwo,22,TE,Maryland,143.0,2018,12.0,6.0,69.0,1.0,3.0,72.0,3.0
+Chigoziem Okonkwo,22,TE,Maryland,143.0,2019,12.0,19.0,201.0,2.0,0.0,0.0,0.0
+Chigoziem Okonkwo,22,TE,Maryland,143.0,2020,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Chigoziem Okonkwo,22,TE,Maryland,143.0,2021*,13.0,52.0,447.0,5.0,0.0,0.0,0.0
+Chigoziem Okonkwo,22,TE,,,,17.0,32.0,450.0,3.0,,,
+Cole Turner,22,TE,Nevada,149.0,2018*,12.0,2.0,37.0,1.0,0.0,0.0,0.0
+Cole Turner,22,TE,Nevada,149.0,2019*,13.0,4.0,51.0,0.0,0.0,0.0,0.0
+Cole Turner,22,TE,Nevada,149.0,2020*,9.0,49.0,605.0,9.0,0.0,0.0,0.0
+Cole Turner,22,TE,Nevada,149.0,2021*,11.0,62.0,677.0,10.0,0.0,0.0,0.0
+Cole Turner,22,TE,,,,10.0,2.0,23.0,0.0,,,
+Teagan Quitoriano,22,TE,Oregon St.,170.0,2018,10.0,2.0,13.0,0.0,0.0,0.0,0.0
+Teagan Quitoriano,22,TE,Oregon St.,170.0,2019,12.0,5.0,100.0,2.0,0.0,0.0,0.0
+Teagan Quitoriano,22,TE,Oregon St.,170.0,2020,7.0,14.0,185.0,1.0,0.0,0.0,0.0
+Teagan Quitoriano,22,TE,Oregon St.,170.0,2021*,13.0,19.0,214.0,3.0,0.0,0.0,0.0
+Teagan Quitoriano,22,TE,,,,9.0,7.0,113.0,2.0,,,
+James Mitchell,23,TE,Virginia Tech,177.0,2018*,13.0,0.0,0.0,0.0,0.0,0.0,0.0
+James Mitchell,23,TE,Virginia Tech,177.0,2019*,13.0,21.0,361.0,2.0,5.0,7.0,4.0
+James Mitchell,23,TE,Virginia Tech,177.0,2020,10.0,26.0,435.0,4.0,1.0,1.0,1.0
+James Mitchell,23,TE,Virginia Tech,177.0,2021*,2.0,5.0,42.0,1.0,1.0,1.0,0.0
+James Mitchell,23,TE,,,,14.0,11.0,113.0,1.0,,,
+Andrew Ogletree,24,TE,Youngstown St.,192.0,2018*,8.0,8.0,138.0,2.0,9.0,128.0,1.0
+Andrew Ogletree,24,TE,Youngstown St.,192.0,2019*,4.0,15.0,106.0,0.0,5.0,27.0,0.0
+Andrew Ogletree,24,TE,Youngstown St.,192.0,2020,7.0,26.0,515.0,4.0,2.0,11.0,0.0
+Andrew Ogletree,24,TE,Youngstown St.,192.0,2021*,9.0,37.0,694.0,6.0,1.0,-3.0,0.0
+Andrew Ogletree,24,TE,,,,12.0,9.0,147.0,2.0,,,
+Grant Calcaterra,23,TE,SMU,198.0,2017*,14.0,10.0,162.0,3.0,0.0,0.0,0.0
+Grant Calcaterra,23,TE,SMU,198.0,2018*,14.0,26.0,396.0,6.0,0.0,0.0,0.0
+Grant Calcaterra,23,TE,SMU,198.0,2019*,5.0,5.0,79.0,0.0,0.0,0.0,0.0
+Grant Calcaterra,23,TE,SMU,198.0,2021,12.0,38.0,465.0,4.0,0.0,0.0,0.0
+Grant Calcaterra,23,TE,,,,15.0,5.0,81.0,0.0,,,
+Connor Heyward,23,TE,,,,17.0,12.0,151.0,1.0,,,
+John FitzPatrick,22,TE,Georgia,213.0,2018*,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+John FitzPatrick,22,TE,Georgia,213.0,2019*,11.0,1.0,22.0,0.0,0.0,0.0,0.0
+John FitzPatrick,22,TE,Georgia,213.0,2020*,10.0,10.0,95.0,1.0,0.0,0.0,0.0
+John FitzPatrick,22,TE,Georgia,213.0,2021*,15.0,6.0,83.0,0.0,0.0,0.0,0.0
+John FitzPatrick,22,TE,,,,9.0,1.0,12.0,0.0,,,
+Ko Kieft,24,TE,Minnesota,218.0,2017,12.0,2.0,17.0,0.0,0.0,0.0,0.0
+Ko Kieft,24,TE,Minnesota,218.0,2018*,13.0,1.0,19.0,0.0,0.0,0.0,0.0
+Ko Kieft,24,TE,Minnesota,218.0,2019*,12.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ko Kieft,24,TE,Minnesota,218.0,2020,4.0,2.0,29.0,1.0,1.0,-2.0,0.0
+Ko Kieft,24,TE,Minnesota,218.0,2021*,13.0,7.0,101.0,1.0,0.0,0.0,0.0
+Ko Kieft,24,TE,,,,17.0,7.0,80.0,1.0,,,
+Nick Muse,23,TE,South Carolina,227.0,2019,8.0,17.0,158.0,0.0,0.0,0.0,0.0
+Nick Muse,23,TE,South Carolina,227.0,2020,10.0,30.0,425.0,1.0,0.0,0.0,0.0
+Nick Muse,23,TE,South Carolina,227.0,2021*,13.0,20.0,222.0,2.0,0.0,0.0,0.0
+Nick Muse,23,TE,,,,10.0,0.0,0.0,0.0,,,
+Dalton Kincaid,23,TE,Utah,25.0,2020,5.0,1.0,14.0,0.0,0.0,0.0,0.0
+Dalton Kincaid,23,TE,Utah,25.0,2021*,14.0,36.0,510.0,8.0,1.0,4.0,0.0
+Dalton Kincaid,23,TE,Utah,25.0,2022*,12.0,70.0,890.0,8.0,0.0,0.0,0.0
+Dalton Kincaid,23,TE,,,,16.0,73.0,673.0,2.0,,,
+Sam LaPorta,22,TE,Iowa,34.0,2019*,12.0,15.0,188.0,0.0,0.0,0.0,0.0
+Sam LaPorta,22,TE,Iowa,34.0,2020,8.0,27.0,271.0,1.0,0.0,0.0,0.0
+Sam LaPorta,22,TE,Iowa,34.0,2021*,14.0,53.0,670.0,3.0,0.0,0.0,0.0
+Sam LaPorta,22,TE,Iowa,34.0,2022*,12.0,58.0,657.0,1.0,2.0,6.0,0.0
+Sam LaPorta,22,TE,,,,17.0,86.0,889.0,10.0,,,
+Michael Mayer,22,TE,Notre Dame,35.0,2020*,12.0,42.0,450.0,2.0,0.0,0.0,0.0
+Michael Mayer,22,TE,Notre Dame,35.0,2021*,12.0,71.0,840.0,7.0,0.0,0.0,0.0
+Michael Mayer,22,TE,Notre Dame,35.0,2022*,12.0,67.0,809.0,9.0,0.0,0.0,0.0
+Michael Mayer,22,TE,,,,14.0,27.0,304.0,2.0,,,
+Luke Musgrave,23,TE,Oregon St.,42.0,2019,12.0,2.0,18.0,0.0,0.0,0.0,0.0
+Luke Musgrave,23,TE,Oregon St.,42.0,2020,7.0,12.0,142.0,0.0,0.0,0.0,0.0
+Luke Musgrave,23,TE,Oregon St.,42.0,2021*,13.0,22.0,304.0,1.0,1.0,-1.0,0.0
+Luke Musgrave,23,TE,Oregon St.,42.0,2022*,2.0,11.0,169.0,1.0,0.0,0.0,0.0
+Luke Musgrave,23,TE,,,,11.0,34.0,352.0,1.0,,,
+Luke Schoonmaker,24,TE,Michigan,58.0,2018*,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Luke Schoonmaker,24,TE,Michigan,58.0,2019*,11.0,2.0,54.0,1.0,0.0,0.0,0.0
+Luke Schoonmaker,24,TE,Michigan,58.0,2020,6.0,0.0,0.0,0.0,0.0,0.0,0.0
+Luke Schoonmaker,24,TE,Michigan,58.0,2021*,14.0,17.0,165.0,3.0,0.0,0.0,0.0
+Luke Schoonmaker,24,TE,Michigan,58.0,2022*,12.0,35.0,418.0,3.0,0.0,0.0,0.0
+Luke Schoonmaker,24,TE,,,,17.0,8.0,65.0,2.0,,,
+Brenton Strange,22,TE,Penn St.,61.0,2019*,2.0,1.0,4.0,1.0,0.0,0.0,0.0
+Brenton Strange,22,TE,Penn St.,61.0,2020,9.0,17.0,164.0,2.0,0.0,0.0,0.0
+Brenton Strange,22,TE,Penn St.,61.0,2021*,13.0,20.0,225.0,3.0,0.0,0.0,0.0
+Brenton Strange,22,TE,Penn St.,61.0,2022*,13.0,32.0,362.0,5.0,1.0,0.0,0.0
+Brenton Strange,22,TE,,,,14.0,5.0,35.0,1.0,,,
+Tucker Kraft,22,TE,South Dakota St.,78.0,2018,4.0,1.0,-3.0,0.0,0.0,0.0,0.0
+Tucker Kraft,22,TE,South Dakota St.,78.0,2019*,11.0,4.0,60.0,1.0,0.0,0.0,0.0
+Tucker Kraft,22,TE,South Dakota St.,78.0,2020,10.0,3.0,67.0,1.0,0.0,0.0,0.0
+Tucker Kraft,22,TE,South Dakota St.,78.0,2021*,13.0,64.0,1081.0,12.0,0.0,0.0,0.0
+Tucker Kraft,22,TE,South Dakota St.,78.0,2022*,6.0,37.0,417.0,3.0,0.0,0.0,0.0
+Tucker Kraft,22,TE,,,,17.0,31.0,355.0,2.0,,,
+Darnell Washington,22,TE,Georgia,93.0,2020*,10.0,7.0,166.0,0.0,0.0,0.0,0.0
+Darnell Washington,22,TE,Georgia,93.0,2021*,11.0,10.0,154.0,1.0,0.0,0.0,0.0
+Darnell Washington,22,TE,Georgia,93.0,2022*,15.0,28.0,454.0,2.0,0.0,0.0,0.0
+Darnell Washington,22,TE,,,,17.0,7.0,61.0,0.0,,,
+Cameron Latu,23,TE,Alabama,101.0,2018*,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+Cameron Latu,23,TE,Alabama,101.0,2019*,11.0,0.0,0.0,0.0,0.0,0.0,0.0
+Cameron Latu,23,TE,Alabama,101.0,2020*,11.0,0.0,0.0,0.0,0.0,0.0,0.0
+Cameron Latu,23,TE,Alabama,101.0,2021*,15.0,26.0,410.0,8.0,0.0,0.0,0.0
+Cameron Latu,23,TE,Alabama,101.0,2022*,11.0,30.0,377.0,4.0,0.0,0.0,0.0
+Cameron Latu,23,TE,,,,,,,,,,
+Josh Whyle,23,TE,Cincinnati,147.0,2018*,5.0,0.0,0.0,0.0,0.0,0.0,0.0
+Josh Whyle,23,TE,Cincinnati,147.0,2019*,12.0,2.0,51.0,0.0,0.0,0.0,0.0
+Josh Whyle,23,TE,Cincinnati,147.0,2020*,10.0,28.0,353.0,6.0,0.0,0.0,0.0
+Josh Whyle,23,TE,Cincinnati,147.0,2021*,14.0,26.0,332.0,6.0,0.0,0.0,0.0
+Josh Whyle,23,TE,Cincinnati,147.0,2022*,12.0,32.0,326.0,3.0,0.0,0.0,0.0
+Josh Whyle,23,TE,,,,11.0,9.0,94.0,1.0,,,
+Will Mallory,24,TE,Miami (FL),162.0,2018*,10.0,5.0,37.0,1.0,0.0,0.0,0.0
+Will Mallory,24,TE,Miami (FL),162.0,2019*,13.0,16.0,293.0,2.0,0.0,0.0,0.0
+Will Mallory,24,TE,Miami (FL),162.0,2020*,11.0,22.0,329.0,4.0,0.0,0.0,0.0
+Will Mallory,24,TE,Miami (FL),162.0,2021,12.0,30.0,347.0,4.0,0.0,0.0,0.0
+Will Mallory,24,TE,Miami (FL),162.0,2022,12.0,42.0,538.0,3.0,0.0,0.0,0.0
+Will Mallory,24,TE,,,,12.0,18.0,207.0,0.0,,,
+Payne Durham,23,TE,Purdue,171.0,2018*,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+Payne Durham,23,TE,Purdue,171.0,2019,12.0,9.0,82.0,4.0,0.0,0.0,0.0
+Payne Durham,23,TE,Purdue,171.0,2020,6.0,16.0,166.0,3.0,0.0,0.0,0.0
+Payne Durham,23,TE,Purdue,171.0,2021*,12.0,45.0,467.0,6.0,0.0,0.0,0.0
+Payne Durham,23,TE,Purdue,171.0,2022*,13.0,56.0,560.0,8.0,1.0,4.0,0.0
+Payne Durham,23,TE,,,,13.0,5.0,58.0,0.0,,,
+Davis Allen,22,TE,Clemson,175.0,2019*,15.0,5.0,53.0,0.0,0.0,0.0,0.0
+Davis Allen,22,TE,Clemson,175.0,2020*,12.0,16.0,247.0,4.0,0.0,0.0,0.0
+Davis Allen,22,TE,Clemson,175.0,2021*,13.0,28.0,208.0,3.0,0.0,0.0,0.0
+Davis Allen,22,TE,Clemson,175.0,2022*,14.0,39.0,443.0,5.0,0.0,0.0,0.0
+Davis Allen,22,TE,,,,15.0,10.0,95.0,1.0,,,
+Zack Kuntz,24,TE,Old Dominion,220.0,2018*,1.0,1.0,8.0,0.0,0.0,0.0,0.0
+Zack Kuntz,24,TE,Old Dominion,220.0,2019*,13.0,2.0,18.0,0.0,0.0,0.0,0.0
+Zack Kuntz,24,TE,Old Dominion,220.0,2020,7.0,0.0,0.0,0.0,0.0,0.0,0.0
+Zack Kuntz,24,TE,Old Dominion,220.0,2021*,13.0,73.0,692.0,5.0,0.0,0.0,0.0
+Zack Kuntz,24,TE,Old Dominion,220.0,2022,5.0,12.0,144.0,2.0,0.0,0.0,0.0
+Zack Kuntz,24,TE,,,,,,,,,,
+Brayden Willis,23,TE,Oklahoma,247.0,2018*,13.0,1.0,29.0,0.0,0.0,0.0,0.0
+Brayden Willis,23,TE,Oklahoma,247.0,2019*,14.0,11.0,168.0,3.0,2.0,-1.0,0.0
+Brayden Willis,23,TE,Oklahoma,247.0,2020*,5.0,9.0,110.0,1.0,0.0,0.0,0.0
+Brayden Willis,23,TE,Oklahoma,247.0,2021*,13.0,15.0,177.0,2.0,0.0,0.0,0.0
+Brayden Willis,23,TE,Oklahoma,247.0,2022*,13.0,39.0,514.0,7.0,10.0,26.0,0.0
+Brayden Willis,23,TE,,,,,,,,,,
+Brock Bowers,21,TE,Georgia,13.0,2021*,15.0,56.0,882.0,13.0,4.0,56.0,1.0
+Brock Bowers,21,TE,Georgia,13.0,2022*,15.0,63.0,942.0,7.0,9.0,109.0,3.0
+Brock Bowers,21,TE,Georgia,13.0,2023*,10.0,56.0,714.0,6.0,6.0,28.0,1.0
+Brock Bowers,21,TE,,,,17.0,112.0,1194.0,5.0,,,
+Ben Sinnott,22,TE,Kansas St.,53.0,2021*,12.0,2.0,15.0,0.0,3.0,12.0,1.0
+Ben Sinnott,22,TE,Kansas St.,53.0,2022*,14.0,31.0,447.0,4.0,0.0,0.0,0.0
+Ben Sinnott,22,TE,Kansas St.,53.0,2023*,12.0,49.0,676.0,6.0,0.0,0.0,0.0
+Ben Sinnott,22,TE,,,,17.0,5.0,28.0,1.0,,,
+Tip Reiman,22,TE,Illinois,82.0,2020,8.0,0.0,0.0,0.0,0.0,0.0,0.0
+Tip Reiman,22,TE,Illinois,82.0,2021,11.0,3.0,43.0,1.0,0.0,0.0,0.0
+Tip Reiman,22,TE,Illinois,82.0,2022*,13.0,19.0,174.0,1.0,0.0,0.0,0.0
+Tip Reiman,22,TE,Illinois,82.0,2023,12.0,19.0,203.0,3.0,0.0,0.0,0.0
+Tip Reiman,22,TE,,,,17.0,6.0,37.0,0.0,,,
+Ja'Tavion Sanders,21,TE,Texas,101.0,2021,12.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ja'Tavion Sanders,21,TE,Texas,101.0,2022*,13.0,54.0,613.0,5.0,0.0,0.0,0.0
+Ja'Tavion Sanders,21,TE,Texas,101.0,2023*,14.0,45.0,682.0,2.0,1.0,12.0,0.0
+Ja'Tavion Sanders,21,TE,,,,16.0,33.0,342.0,1.0,,,
+Theo Johnson,23,TE,Penn St.,107.0,2020,7.0,4.0,56.0,0.0,0.0,0.0,0.0
+Theo Johnson,23,TE,Penn St.,107.0,2021*,13.0,19.0,213.0,1.0,0.0,0.0,0.0
+Theo Johnson,23,TE,Penn St.,107.0,2022*,11.0,20.0,328.0,4.0,0.0,0.0,0.0
+Theo Johnson,23,TE,Penn St.,107.0,2023*,13.0,34.0,341.0,7.0,0.0,0.0,0.0
+Theo Johnson,23,TE,,,,12.0,29.0,331.0,1.0,,,
+Erick All,23,TE,Iowa,115.0,2019*,11.0,1.0,10.0,0.0,0.0,0.0,0.0
+Erick All,23,TE,Iowa,115.0,2020,6.0,12.0,82.0,0.0,0.0,0.0,0.0
+Erick All,23,TE,Iowa,115.0,2021*,13.0,38.0,437.0,2.0,0.0,0.0,0.0
+Erick All,23,TE,Iowa,115.0,2022*,3.0,3.0,36.0,0.0,0.0,0.0,0.0
+Erick All,23,TE,Iowa,115.0,2023*,7.0,21.0,299.0,3.0,0.0,0.0,0.0
+Erick All,23,TE,,,,9.0,20.0,158.0,0.0,,,
+AJ Barner,22,TE,Michigan,121.0,2020*,8.0,0.0,0.0,0.0,0.0,0.0,0.0
+AJ Barner,22,TE,Michigan,121.0,2021,12.0,14.0,162.0,1.0,0.0,0.0,0.0
+AJ Barner,22,TE,Michigan,121.0,2022,10.0,28.0,199.0,3.0,0.0,0.0,0.0
+AJ Barner,22,TE,Michigan,121.0,2023*,15.0,22.0,249.0,1.0,0.0,0.0,0.0
+AJ Barner,22,TE,,,,17.0,30.0,245.0,4.0,,,
+Cade Stover,24,TE,Ohio St.,123.0,2019*,3.0,0.0,0.0,0.0,0.0,0.0,0.0
+Cade Stover,24,TE,Ohio St.,123.0,2020*,6.0,0.0,0.0,0.0,0.0,0.0,0.0
+Cade Stover,24,TE,Ohio St.,123.0,2021*,13.0,5.0,76.0,0.0,0.0,0.0,0.0
+Cade Stover,24,TE,Ohio St.,123.0,2022*,13.0,36.0,406.0,5.0,0.0,0.0,0.0
+Cade Stover,24,TE,Ohio St.,123.0,2023*,12.0,41.0,576.0,5.0,0.0,0.0,0.0
+Cade Stover,24,TE,,,,15.0,15.0,133.0,1.0,,,
+Jared Wiley,23,TE,TCU,131.0,2019*,12.0,1.0,15.0,0.0,0.0,0.0,0.0
+Jared Wiley,23,TE,TCU,131.0,2020*,9.0,9.0,166.0,1.0,0.0,0.0,0.0
+Jared Wiley,23,TE,TCU,131.0,2021,11.0,9.0,67.0,2.0,0.0,0.0,0.0
+Jared Wiley,23,TE,TCU,131.0,2022*,15.0,24.0,245.0,4.0,0.0,0.0,0.0
+Jared Wiley,23,TE,TCU,131.0,2023,12.0,47.0,520.0,8.0,0.0,0.0,0.0
+Jared Wiley,23,TE,,,,7.0,1.0,7.0,0.0,,,
+Tanner McLachlan,25,TE,Arizona,194.0,2022,12.0,34.0,456.0,2.0,0.0,0.0,0.0
+Tanner McLachlan,25,TE,Arizona,194.0,2023*,13.0,45.0,528.0,4.0,0.0,0.0,0.0
+Tanner McLachlan,25,TE,,,,,,,,,,
+Jaheim Bell,23,TE,Florida St.,231.0,2020,5.0,1.0,29.0,0.0,0.0,0.0,0.0
+Jaheim Bell,23,TE,Florida St.,231.0,2021*,13.0,30.0,497.0,5.0,7.0,40.0,0.0
+Jaheim Bell,23,TE,Florida St.,231.0,2022*,12.0,25.0,231.0,2.0,73.0,261.0,3.0
+Jaheim Bell,23,TE,Florida St.,231.0,2023*,13.0,39.0,503.0,2.0,4.0,2.0,1.0
+Jaheim Bell,23,TE,,,,15.0,2.0,20.0,0.0,,,
+Devin Culp,24,TE,Washington,246.0,2019*,12.0,0.0,0.0,0.0,0.0,0.0,0.0
+Devin Culp,24,TE,Washington,246.0,2020,2.0,1.0,15.0,0.0,0.0,0.0,0.0
+Devin Culp,24,TE,Washington,246.0,2021,12.0,20.0,222.0,1.0,0.0,0.0,0.0
+Devin Culp,24,TE,Washington,246.0,2022*,13.0,29.0,266.0,1.0,1.0,2.0,0.0
+Devin Culp,24,TE,Washington,246.0,2023*,15.0,16.0,208.0,2.0,0.0,0.0,0.0
+Devin Culp,24,TE,,,,5.0,5.0,88.0,0.0,,,
