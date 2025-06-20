@@ -134,13 +134,13 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
                     }
                     print(nfl_dict)
                     if position == 'QB': 
-                        all_COLLEGE_QB_records.append(nfl_dict)
+                        all_NFL_QB_records.append(nfl_dict)
                     elif position == 'RB': 
-                        all_COLLEGE_RB_records.append(nfl_dict)
+                        all_NFL_RB_records.append(nfl_dict)
                     elif position == 'WR': 
-                        all_COLLEGE_WR_records.append(nfl_dict)
+                        all_NFL_WR_records.append(nfl_dict)
                     elif position == 'TE':
-                        all_COLLEGE_TE_records.append(nfl_dict)
+                        all_NFL_TE_records.append(nfl_dict)
 
 
                 except Exception as e: 
@@ -180,13 +180,13 @@ def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
             rec_yds =  int(rushing_Rookie_Row.find('td', {'data-stat': 'rec_yds'}).text.strip())
 
             return {
-                'games': games,
-                'passCMP': passing_cmp,
-                'passingYDS': passing_yds,
-                'passingTDS': passing_tds,
-                'passingINT': passing_int,
-                'rushingYDS': rushingYDS,
-                'rushingTDS': rushingTDS
+                'nfl_games': games,
+                'nfl_passCMP': passing_cmp,
+                'nfl_passingYDS': passing_yds,
+                'nfl_passingTDS': passing_tds,
+                'nfl_passingINT': passing_int,
+                'nfl_rushingYDS': rushingYDS,
+                'nfl_rushingTDS': rushingTDS
             } 
         
         elif position == 'RB':
@@ -201,12 +201,12 @@ def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
             rushingTDS = int(rushing_Rookie_Row.find('td', {'data-stat':'rush_td'}).text.strip())
 
             return {
-                'rushingYDS': rushingYDS,
-                'rushingTDS': rushingTDS,
-                'games':games,
-                'recs': receptions,
-                'recYDS': rec_yds,
-                'recTDS': rec_tds
+                'nfl_rushingYDS': rushingYDS,
+                'nfl_rushingTDS': rushingTDS,
+                'nfl_games':games,
+                'nfl_recs': receptions,
+                'nfl_recYDS': rec_yds,
+                'nfl_recTDS': rec_tds
             }
 
         elif position == 'WR' or position == 'TE':
@@ -219,10 +219,10 @@ def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
             rec_tds = int(receiving_rookie_row.find('td', {'data-stat': 'rec_td'}).text.strip())
 
             return {
-                'games':games,
-                'recs':receptions,
-                'recYDS': rec_yds,
-                'recTDS': rec_tds
+                'nfl_games':games,
+                'nfl_recs':receptions,
+                'nfl_recYDS': rec_yds,
+                'nfl_recTDS': rec_tds
             }
         else:
             print("Defense is retarded")
@@ -385,7 +385,7 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
                         'games': int(row.find('td', {'data-stat': 'games'}).text.strip()),
                         'pass_cmp': int(row.find('td', {'data-stat': 'pass_cmp'}).text.strip()),
                         'pass_att': int(row.find('td', {'data-stat': 'pass_att'}).text.strip()),
-                        'cmp%': float(row.find('td', {'data-stat': 'pass_att'}).text.strip()),
+                        'cmp%': float(row.find('td', {'data-stat': 'pass_cmp_pct'}).text.strip()),
                         'yds': int(row.find('td', {'data-stat': 'pass_yds'}).text.strip()),
                         'TDs': int(row.find('td', {'data-stat': 'pass_td'}).text.strip()),
                         'TD%': float(row.find('td', {'data-stat': 'pass_td_pct'}).text.strip()),
@@ -468,14 +468,14 @@ def main():
     # You can specify the path and filename.
     # index=False prevents Pandas from writing the DataFrame index as a column in the CSV.
 
-    nfl_qb_df.to_csv('nfl_qb_data.csv', index=False)
-    nfl_rb_df.to_csv('nfl_rb_data.csv', index=False)
-    nfl_wr_df.to_csv('nfl_wr_data.csv', index=False)
-    nfl_te_df.to_csv('nfl_te_data.csv', index=False)
-    college_qb_df.to_csv('college_qb_data.csv', index=False)
-    college_rb_df.to_csv('college_rb_data.csv', index=False)
-    college_wr_df.to_csv('college_wr_data.csv', index=False)
-    college_te_df.to_csv('college_te_data.csv', index=False)
+    nfl_qb_df.to_csv('nfl_qb_data_2.csv', index=False)
+    nfl_rb_df.to_csv('nfl_rb_data_2.csv', index=False)
+    nfl_wr_df.to_csv('nfl_wr_data_2.csv', index=False)
+    nfl_te_df.to_csv('nfl_te_data_2.csv', index=False)
+    college_qb_df.to_csv('college_qb_data_2.csv', index=False)
+    college_rb_df.to_csv('college_rb_data_2.csv', index=False)
+    college_wr_df.to_csv('college_wr_data_2.csv', index=False)
+    college_te_df.to_csv('college_te_data_2.csv', index=False)
 
     print("Player data successfully saved to CSV files:")
     print("- nfl_qb_data.csv")
