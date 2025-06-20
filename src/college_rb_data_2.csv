@@ -1,0 +1,730 @@
+name,age,position,school,draft_pick,season,games,rushATT,rushYDS,rushTDS,recs,recYDS,recTDS
+Todd Gurley,21,RB,Georgia,10,2012*,14,222,1385,17,16,117,0
+Todd Gurley,21,RB,Georgia,10,2013*,10,165,989,10,37,441,6
+Todd Gurley,21,RB,Georgia,10,2014*,6,123,911,9,12,57,0
+Melvin Gordon,22,RB,Wisconsin,15,2011*,4,20,98,1,0,0,0
+Melvin Gordon,22,RB,Wisconsin,15,2012*,14,62,621,3,2,65,1
+Melvin Gordon,22,RB,Wisconsin,15,2013*,13,206,1609,12,1,10,0
+Melvin Gordon,22,RB,Wisconsin,15,2014*,14,343,2587,29,19,153,3
+T.J. Yeldon,21,RB,Alabama,36,2012*,14,175,1108,12,11,131,1
+T.J. Yeldon,21,RB,Alabama,36,2013*,12,207,1235,14,20,183,0
+T.J. Yeldon,21,RB,Alabama,36,2014*,13,194,979,11,15,180,1
+Ameer Abdullah,22,RB,Nebraska,54,2011*,13,42,150,3,1,11,0
+Ameer Abdullah,22,RB,Nebraska,54,2012*,14,226,1137,8,24,178,2
+Ameer Abdullah,22,RB,Nebraska,54,2013*,13,281,1690,9,26,232,2
+Ameer Abdullah,22,RB,Nebraska,54,2014*,13,264,1611,19,22,269,3
+Tevin Coleman,22,RB,Indiana,73,2012,12,51,225,1,10,49,0
+Tevin Coleman,22,RB,Indiana,73,2013,9,131,958,12,19,193,0
+Tevin Coleman,22,RB,Indiana,73,2014,12,270,2036,15,25,141,0
+Duke Johnson,21,RB,Miami (FL),77,2012,12,139,947,10,27,221,1
+Duke Johnson,21,RB,Miami (FL),77,2013*,8,145,920,6,4,77,0
+Duke Johnson,21,RB,Miami (FL),77,2014*,13,242,1652,10,38,421,3
+David Johnson,23,RB,Northern Iowa,86,2012*,11,0,0,0,3,59,1
+David Johnson,23,RB,Northern Iowa,86,2013*,13,0,0,0,43,573,4
+David Johnson,23,RB,Northern Iowa,86,2014*,13,0,0,0,24,269,0
+Matt Jones,22,RB,Florida,95,2012*,12,52,275,3,3,10,0
+Matt Jones,22,RB,Florida,95,2013,5,79,339,2,5,25,0
+Matt Jones,22,RB,Florida,95,2014*,11,166,817,6,11,65,1
+Jeremy Langford,23,RB,Michigan St.,106,2011*,13,0,0,0,0,0,0
+Jeremy Langford,23,RB,Michigan St.,106,2012*,9,9,23,0,0,0,0
+Jeremy Langford,23,RB,Michigan St.,106,2013*,14,292,1422,18,28,157,1
+Jeremy Langford,23,RB,Michigan St.,106,2014*,13,276,1522,22,11,62,0
+Javorius Allen,24,RB,USC,125,2012*,3,6,32,0,0,0,0
+Javorius Allen,24,RB,USC,125,2013*,13,135,785,14,22,252,1
+Javorius Allen,24,RB,USC,125,2014*,13,276,1489,11,41,458,1
+Mike Davis,22,RB,South Carolina,126,2012*,12,52,275,2,4,35,0
+Mike Davis,22,RB,South Carolina,126,2013*,12,203,1183,11,34,352,0
+Mike Davis,22,RB,South Carolina,126,2014*,13,199,982,9,32,368,2
+David Cobb,22,RB,Minnesota,138,2011,4,10,57,0,0,0,0
+David Cobb,22,RB,Minnesota,138,2012*,5,1,8,0,1,3,0
+David Cobb,22,RB,Minnesota,138,2013*,13,237,1202,7,17,174,0
+David Cobb,22,RB,Minnesota,138,2014*,13,314,1626,13,16,162,0
+Jay Ajayi,22,RB,Boise St.,149,2012*,11,82,548,4,1,14,0
+Jay Ajayi,22,RB,Boise St.,149,2013*,13,249,1425,18,22,222,1
+Jay Ajayi,22,RB,Boise St.,149,2014*,14,347,1823,28,50,535,4
+Karlos Williams,22,RB,Florida St.,155,2011*,12,0,0,0,0,0,0
+Karlos Williams,22,RB,Florida St.,155,2012*,13,0,0,0,0,0,0
+Karlos Williams,22,RB,Florida St.,155,2013*,14,91,730,11,8,63,0
+Karlos Williams,22,RB,Florida St.,155,2014*,12,150,689,11,29,265,1
+Cameron Artis-Payne,25,RB,Auburn,174,2013*,13,91,610,6,1,4,0
+Cameron Artis-Payne,25,RB,Auburn,174,2014*,13,303,1608,13,13,147,0
+Josh Robinson,23,RB,Mississippi St.,205,2012*,12,55,335,1,3,8,0
+Josh Robinson,23,RB,Mississippi St.,205,2013*,13,78,459,3,12,115,0
+Josh Robinson,23,RB,Mississippi St.,205,2014*,13,190,1203,11,28,370,1
+Marcus Murphy,23,RB,Missouri,230,2010*,12,22,181,2,2,5,0
+Marcus Murphy,23,RB,Missouri,230,2012,12,46,251,1,9,22,0
+Marcus Murphy,23,RB,Missouri,230,2013*,14,92,601,9,11,79,1
+Marcus Murphy,23,RB,Missouri,230,2014*,14,177,924,4,28,212,1
+Kenny Hilliard,23,RB,LSU,235,2011*,13,62,336,8,3,13,1
+Kenny Hilliard,23,RB,LSU,235,2012*,12,82,464,6,3,21,0
+Kenny Hilliard,23,RB,LSU,235,2013*,12,68,310,7,1,0,0
+Kenny Hilliard,23,RB,LSU,235,2014*,11,90,447,6,4,35,0
+Ezekiel Elliott,21,RB,Ohio St.,4,2013*,7,30,262,2,3,23,1
+Ezekiel Elliott,21,RB,Ohio St.,4,2014*,15,273,1878,18,28,220,0
+Ezekiel Elliott,21,RB,Ohio St.,4,2015*,13,289,1821,23,27,206,0
+Derrick Henry,22,RB,Alabama,45,2013*,10,35,382,3,1,61,1
+Derrick Henry,22,RB,Alabama,45,2014*,14,172,990,11,5,133,2
+Derrick Henry,22,RB,Alabama,45,2015*,15,395,2219,28,11,91,0
+Kenyan Drake,22,RB,Alabama,73,2012*,12,42,281,5,0,0,0
+Kenyan Drake,22,RB,Alabama,73,2013*,11,92,694,8,12,135,1
+Kenyan Drake,22,RB,Alabama,73,2014*,5,22,112,4,5,159,2
+Kenyan Drake,22,RB,Alabama,73,2015*,13,77,408,1,29,276,1
+C.J. Prosise,22,RB,Notre Dame,90,2013*,9,0,0,0,7,72,0
+C.J. Prosise,22,RB,Notre Dame,90,2014*,13,10,126,1,29,516,2
+C.J. Prosise,22,RB,Notre Dame,90,2015*,11,156,1032,11,26,308,1
+Tyler Ervin,22,RB,San Jose St.,119,2011,12,29,107,1,3,17,0
+Tyler Ervin,22,RB,San Jose St.,119,2012*,9,45,205,1,10,126,1
+Tyler Ervin,22,RB,San Jose St.,119,2013,1,2,2,0,0,0,0
+Tyler Ervin,22,RB,San Jose St.,119,2014,12,158,888,4,29,306,1
+Tyler Ervin,22,RB,San Jose St.,119,2015*,13,294,1601,13,45,334,2
+Kenneth Dixon,22,RB,Louisiana Tech,134,2012,12,200,1194,27,10,35,1
+Kenneth Dixon,22,RB,Louisiana Tech,134,2013,10,151,917,4,14,85,1
+Kenneth Dixon,22,RB,Louisiana Tech,134,2014*,14,253,1299,22,30,385,6
+Kenneth Dixon,22,RB,Louisiana Tech,134,2015*,11,197,1070,19,34,467,7
+Devontae Booker,24,RB,Utah,136,2014*,13,292,1512,10,43,306,2
+Devontae Booker,24,RB,Utah,136,2015*,10,268,1261,11,37,318,0
+DeAndre Washington,23,RB,Texas Tech,143,2011,12,77,366,3,19,109,0
+DeAndre Washington,23,RB,Texas Tech,143,2013*,12,107,450,4,34,269,0
+DeAndre Washington,23,RB,Texas Tech,143,2014,12,188,1103,2,30,328,2
+DeAndre Washington,23,RB,Texas Tech,143,2015*,13,233,1492,14,41,385,2
+Paul Perkins,21,RB,UCLA,149,2013*,13,134,573,6,24,296,0
+Paul Perkins,21,RB,UCLA,149,2014*,13,251,1575,9,26,201,2
+Paul Perkins,21,RB,UCLA,149,2015*,13,237,1343,14,30,242,1
+Jordan Howard,21,RB,Indiana,150,2013,11,145,881,2,4,83,1
+Jordan Howard,21,RB,Indiana,150,2014,12,306,1587,13,9,72,1
+Jordan Howard,21,RB,Indiana,150,2015*,9,196,1213,9,11,106,1
+Wendell Smallwood,22,RB,West Virginia,153,2013,12,39,221,1,11,132,0
+Wendell Smallwood,22,RB,West Virginia,153,2014*,13,148,722,2,31,326,0
+Wendell Smallwood,22,RB,West Virginia,153,2015*,13,238,1519,9,26,160,0
+Jonathan Williams,22,RB,Arkansas,156,2012,11,45,231,0,8,208,2
+Jonathan Williams,22,RB,Arkansas,156,2013,12,150,900,4,7,72,2
+Jonathan Williams,22,RB,Arkansas,156,2014*,13,211,1190,12,11,65,2
+Jonathan Williams,22,RB,Arkansas,156,2015*,1,0,0,0,0,0,0
+Alex Collins,22,RB,Arkansas,171,2013,12,190,1026,4,11,63,0
+Alex Collins,22,RB,Arkansas,171,2014*,13,204,1100,12,3,9,0
+Alex Collins,22,RB,Arkansas,171,2015*,13,271,1577,20,13,95,0
+Keenan Reynolds,22,RB,Navy,182,2012*,13,162,649,10,0,0,0
+Keenan Reynolds,22,RB,Navy,182,2013*,13,300,1346,31,0,0,0
+Keenan Reynolds,22,RB,Navy,182,2014*,11,250,1191,23,0,0,0
+Keenan Reynolds,22,RB,Navy,182,2015*,13,265,1373,24,1,47,0
+Kelvin Taylor,22,RB,Florida,211,2013,9,111,508,4,5,37,0
+Kelvin Taylor,22,RB,Florida,211,2014*,12,116,565,6,2,-8,0
+Kelvin Taylor,22,RB,Florida,211,2015*,14,259,1035,13,17,150,0
+Darius Jackson,22,RB,Eastern Michigan,216,2012,12,3,12,0,0,0,0
+Darius Jackson,22,RB,Eastern Michigan,216,2013,7,49,201,2,3,26,0
+Darius Jackson,22,RB,Eastern Michigan,216,2014,12,61,295,1,20,148,2
+Darius Jackson,22,RB,Eastern Michigan,216,2015,12,208,1078,14,21,201,2
+Dwayne Washington,22,RB,Washington,236,2013*,11,47,332,4,1,5,1
+Dwayne Washington,22,RB,Washington,236,2014*,13,132,697,9,15,91,0
+Dwayne Washington,22,RB,Washington,236,2015*,8,47,282,4,25,315,3
+Daniel Lasco,23,RB,California,237,2012,12,6,109,1,0,0,0
+Daniel Lasco,23,RB,California,237,2013,8,67,317,2,11,78,0
+Daniel Lasco,23,RB,California,237,2014,12,210,1115,12,33,356,2
+Daniel Lasco,23,RB,California,237,2015*,10,65,331,3,4,24,0
+Keith Marshall,22,RB,Georgia,242,2012*,14,117,759,8,11,91,1
+Keith Marshall,22,RB,Georgia,242,2013*,5,56,246,1,8,111,1
+Keith Marshall,22,RB,Georgia,242,2014*,3,12,24,0,1,-5,0
+Keith Marshall,22,RB,Georgia,242,2015*,11,68,350,3,4,28,1
+Zac Brooks,23,RB,Clemson,247,2012*,8,26,119,0,3,9,0
+Zac Brooks,23,RB,Clemson,247,2013*,9,48,246,2,6,83,1
+Zac Brooks,23,RB,Clemson,247,2015*,14,41,234,3,9,113,2
+Leonard Fournette,22,RB,LSU,4,2014*,13,187,1034,10,7,127,0
+Leonard Fournette,22,RB,LSU,4,2015*,12,300,1953,22,19,253,1
+Leonard Fournette,22,RB,LSU,4,2016*,7,129,843,8,15,146,0
+Christian McCaffrey,21,RB,Stanford,8,2014*,13,42,300,0,17,251,2
+Christian McCaffrey,21,RB,Stanford,8,2015*,14,337,2019,8,45,645,5
+Christian McCaffrey,21,RB,Stanford,8,2016*,11,253,1603,13,37,310,3
+Dalvin Cook,22,RB,Florida St.,41,2014*,13,170,1008,8,22,203,0
+Dalvin Cook,22,RB,Florida St.,41,2015*,12,229,1691,19,24,244,1
+Dalvin Cook,22,RB,Florida St.,41,2016*,13,288,1765,19,33,488,1
+Joe Mixon,21,RB,Oklahoma,48,2015*,13,113,753,7,28,356,4
+Joe Mixon,21,RB,Oklahoma,48,2016*,12,187,1274,10,37,538,5
+Alvin Kamara,22,RB,Tennessee,67,2015*,13,107,698,7,34,291,3
+Alvin Kamara,22,RB,Tennessee,67,2016*,11,103,596,9,40,392,4
+Kareem Hunt,22,RB,Toledo,86,2013,11,137,866,6,12,68,0
+Kareem Hunt,22,RB,Toledo,86,2014*,10,205,1631,16,9,39,0
+Kareem Hunt,22,RB,Toledo,86,2015*,10,178,973,12,11,45,0
+Kareem Hunt,22,RB,Toledo,86,2016*,13,262,1475,10,41,403,1
+D'Onta Foreman,21,RB,Texas,89,2014*,7,15,73,0,1,7,0
+D'Onta Foreman,21,RB,Texas,89,2015,10,95,681,5,5,64,0
+D'Onta Foreman,21,RB,Texas,89,2016,11,323,2028,15,7,75,0
+James Conner,22,RB,Pittsburgh,105,2013*,12,146,799,8,3,33,0
+James Conner,22,RB,Pittsburgh,105,2014*,13,298,1765,26,5,70,0
+James Conner,22,RB,Pittsburgh,105,2015*,1,8,77,2,1,7,0
+James Conner,22,RB,Pittsburgh,105,2016*,13,216,1092,16,21,302,4
+Samaje Perine,21,RB,Oklahoma,114,2014*,13,263,1713,21,15,108,0
+Samaje Perine,21,RB,Oklahoma,114,2015*,13,226,1349,16,15,107,1
+Samaje Perine,21,RB,Oklahoma,114,2016*,10,196,1060,12,10,106,1
+Tarik Cohen,22,RB,North Carolina A&T,119,2013*,8,0,0,0,0,0,0
+Tarik Cohen,22,RB,North Carolina A&T,119,2014*,13,0,0,0,35,613,8
+Tarik Cohen,22,RB,North Carolina A&T,119,2015*,14,0,0,0,30,745,8
+Tarik Cohen,22,RB,North Carolina A&T,119,2016*,7,0,0,0,16,309,4
+Joe Williams,24,RB,Utah,121,2015*,10,104,477,3,11,84,0
+Joe Williams,24,RB,Utah,121,2016*,9,210,1407,10,9,107,0
+Donnel Pumphrey,22,RB,San Diego St.,132,2013*,13,125,752,8,22,234,2
+Donnel Pumphrey,22,RB,San Diego St.,132,2014*,13,276,1867,20,23,160,0
+Donnel Pumphrey,22,RB,San Diego St.,132,2015*,14,309,1653,17,28,416,3
+Donnel Pumphrey,22,RB,San Diego St.,132,2016*,14,349,2133,17,27,231,0
+Jamaal Williams,22,RB,BYU,134,2012*,13,166,775,12,27,315,1
+Jamaal Williams,22,RB,BYU,134,2013*,12,217,1233,7,18,125,0
+Jamaal Williams,22,RB,BYU,134,2014*,8,109,518,4,8,47,0
+Jamaal Williams,22,RB,BYU,134,2016*,10,234,1375,12,7,80,0
+Wayne Gallman,22,RB,Clemson,140,2014*,13,161,769,4,24,108,1
+Wayne Gallman,22,RB,Clemson,140,2015*,14,283,1527,13,21,213,1
+Wayne Gallman,22,RB,Clemson,140,2016*,15,232,1133,17,20,152,0
+Marlon Mack,21,RB,South Florida,143,2014,12,202,1041,9,21,160,0
+Marlon Mack,21,RB,South Florida,143,2015*,12,210,1381,8,16,111,1
+Marlon Mack,21,RB,South Florida,143,2016*,12,174,1187,15,28,227,0
+Brian Hill,21,RB,Wyoming,156,2014,12,145,796,7,13,204,0
+Brian Hill,21,RB,Wyoming,156,2015,12,281,1631,6,20,132,0
+Brian Hill,21,RB,Wyoming,156,2016*,14,349,1860,22,8,67,0
+Jeremy McNichols,21,RB,Boise St.,162,2014*,9,17,159,1,15,155,1
+Jeremy McNichols,21,RB,Boise St.,162,2015*,12,240,1337,20,51,460,6
+Jeremy McNichols,21,RB,Boise St.,162,2016*,13,314,1709,23,37,474,4
+T.J. Logan,23,RB,North Carolina,179,2013*,9,93,533,4,10,124,0
+T.J. Logan,23,RB,North Carolina,179,2014*,13,119,582,3,26,144,0
+T.J. Logan,23,RB,North Carolina,179,2015*,14,66,400,5,11,151,1
+T.J. Logan,23,RB,North Carolina,179,2016*,13,120,650,7,29,244,3
+Aaron Jones,22,RB,Texas-El Paso,182,2013,9,155,811,4,4,14,0
+Aaron Jones,22,RB,Texas-El Paso,182,2014*,12,242,1321,11,30,293,3
+Aaron Jones,22,RB,Texas-El Paso,182,2015,2,32,209,1,9,106,1
+Aaron Jones,22,RB,Texas-El Paso,182,2016,12,229,1773,17,28,233,3
+Elijah McGuire,23,RB,Louisiana,188,2013*,13,103,863,8,22,384,3
+Elijah McGuire,23,RB,Louisiana,188,2014*,13,166,1264,14,45,468,2
+Elijah McGuire,23,RB,Louisiana,188,2015,12,210,1058,13,33,293,3
+Elijah McGuire,23,RB,Louisiana,188,2016*,13,232,1127,7,29,238,2
+De'Angelo Henderson,24,RB,Coastal Carolina,203,2014*,13,7,20,0,45,526,7
+De'Angelo Henderson,24,RB,Coastal Carolina,203,2015*,13,5,27,1,40,530,6
+De'Angelo Henderson,24,RB,Coastal Carolina,203,2016*,14,9,42,0,48,691,7
+Brandon Wilson,23,RB,Houston,207,2013*,4,0,0,0,0,0,0
+Brandon Wilson,23,RB,Houston,207,2014*,13,0,0,0,0,0,0
+Brandon Wilson,23,RB,Houston,207,2015*,14,37,188,2,6,49,0
+Brandon Wilson,23,RB,Houston,207,2016*,10,4,6,0,5,52,0
+Devante Mays,23,RB,Utah St.,238,2015*,13,165,966,9,1,9,0
+Devante Mays,23,RB,Utah St.,238,2016,6,37,259,3,1,8,0
+Khalfani Muhammad,22,RB,California,241,2013,11,74,445,4,14,187,1
+Khalfani Muhammad,22,RB,California,241,2014,11,46,215,4,7,63,0
+Khalfani Muhammad,22,RB,California,241,2015*,12,87,586,1,17,189,2
+Khalfani Muhammad,22,RB,California,241,2016,11,152,827,2,17,132,0
+Elijah Hood,21,RB,North Carolina,242,2014*,9,67,259,4,2,-2,0
+Elijah Hood,21,RB,North Carolina,242,2015*,14,219,1463,17,13,71,0
+Elijah Hood,21,RB,North Carolina,242,2016*,11,145,858,8,25,142,0
+Chris Carson,22,RB,Oklahoma St.,249,2015*,12,131,517,4,17,170,0
+Chris Carson,22,RB,Oklahoma St.,249,2016*,9,82,559,9,13,128,1
+Matthew Dayes,23,RB,North Carolina St.,252,2013,11,63,252,4,10,173,1
+Matthew Dayes,23,RB,North Carolina St.,252,2014*,13,104,573,8,32,321,5
+Matthew Dayes,23,RB,North Carolina St.,252,2015*,8,134,865,12,24,172,0
+Matthew Dayes,23,RB,North Carolina St.,252,2016*,13,249,1166,10,32,267,0
+Saquon Barkley,21,RB,Penn St.,2,2015*,11,182,1076,7,20,161,1
+Saquon Barkley,21,RB,Penn St.,2,2016*,14,272,1496,18,28,402,4
+Saquon Barkley,21,RB,Penn St.,2,2017*,13,217,1271,18,54,632,3
+Rashaad Penny,22,RB,San Diego St.,27,2014*,13,2,22,0,0,0,0
+Rashaad Penny,22,RB,San Diego St.,27,2015*,14,61,368,4,8,120,1
+Rashaad Penny,22,RB,San Diego St.,27,2016*,14,136,1018,11,15,224,3
+Rashaad Penny,22,RB,San Diego St.,27,2017*,13,289,2248,23,19,135,2
+Sony Michel,23,RB,Georgia,31,2014*,8,64,410,5,7,106,1
+Sony Michel,23,RB,Georgia,31,2015*,13,219,1161,8,26,270,3
+Sony Michel,23,RB,Georgia,31,2016*,12,152,840,4,22,149,1
+Sony Michel,23,RB,Georgia,31,2017*,14,156,1227,16,9,96,1
+Nick Chubb,22,RB,Georgia,35,2014*,13,219,1547,14,18,213,2
+Nick Chubb,22,RB,Georgia,35,2015*,6,92,747,7,4,32,1
+Nick Chubb,22,RB,Georgia,35,2016*,13,224,1130,8,5,86,1
+Nick Chubb,22,RB,Georgia,35,2017*,15,223,1345,15,4,30,0
+Ronald Jones II,21,RB,USC,38,2015*,14,153,987,8,7,39,1
+Ronald Jones II,21,RB,USC,38,2016*,13,177,1082,12,11,76,1
+Ronald Jones II,21,RB,USC,38,2017*,13,261,1550,19,14,187,1
+Kerryon Johnson,21,RB,Auburn,43,2015*,13,52,208,3,14,159,0
+Kerryon Johnson,21,RB,Auburn,43,2016*,12,182,895,11,17,125,0
+Kerryon Johnson,21,RB,Auburn,43,2017*,12,285,1391,18,24,194,2
+Derrius Guice,21,RB,LSU,59,2015*,12,51,436,3,5,20,0
+Derrius Guice,21,RB,LSU,59,2016*,12,183,1387,15,9,106,1
+Derrius Guice,21,RB,LSU,59,2017*,12,237,1251,11,18,124,2
+Royce Freeman,22,RB,Oregon,71,2014*,15,252,1365,18,16,158,1
+Royce Freeman,22,RB,Oregon,71,2015*,13,283,1836,17,26,348,2
+Royce Freeman,22,RB,Oregon,71,2016,11,168,945,9,23,144,1
+Royce Freeman,22,RB,Oregon,71,2017*,12,244,1475,16,14,164,0
+Nyheim Hines,21,RB,North Carolina St.,104,2015*,13,48,243,1,20,256,1
+Nyheim Hines,21,RB,North Carolina St.,104,2016*,12,13,44,0,43,525,0
+Nyheim Hines,21,RB,North Carolina St.,104,2017*,13,197,1112,12,26,152,0
+Mark Walton,21,RB,Miami (FL),112,2015*,13,129,450,9,22,293,1
+Mark Walton,21,RB,Miami (FL),112,2016*,13,209,1117,14,27,240,1
+Mark Walton,21,RB,Miami (FL),112,2017*,5,56,428,3,7,91,0
+Ito Smith,22,RB,Southern Miss,126,2014,12,136,536,2,8,76,0
+Ito Smith,22,RB,Southern Miss,126,2015*,14,171,1128,10,49,515,3
+Ito Smith,22,RB,Southern Miss,126,2016*,13,265,1459,17,43,459,2
+Ito Smith,22,RB,Southern Miss,126,2017*,13,248,1413,13,40,396,2
+Kalen Ballage,22,RB,Arizona St.,131,2014*,12,42,126,3,6,64,1
+Kalen Ballage,22,RB,Arizona St.,131,2015*,10,125,653,4,12,60,0
+Kalen Ballage,22,RB,Arizona St.,131,2016,12,126,536,14,44,469,1
+Kalen Ballage,22,RB,Arizona St.,131,2017*,13,157,669,6,20,91,0
+Chase Edmonds,22,RB,Fordham,134,2014*,12,0,0,0,2,33,0
+Chase Edmonds,22,RB,Fordham,134,2015,12,0,0,0,29,350,3
+Chase Edmonds,22,RB,Fordham,134,2016,12,0,0,1,62,1012,8
+Chase Edmonds,22,RB,Fordham,134,2017*,13,0,0,0,65,1082,10
+Jordan Wilkins,24,RB,Mississippi,169,2014*,13,52,361,1,1,6,0
+Jordan Wilkins,24,RB,Mississippi,169,2015*,13,72,379,4,5,75,0
+Jordan Wilkins,24,RB,Mississippi,169,2017,12,155,1011,9,26,241,1
+John Kelly,21,RB,Tennessee,176,2015*,10,40,165,1,0,0,0
+John Kelly,21,RB,Tennessee,176,2016*,12,98,630,5,6,51,0
+John Kelly,21,RB,Tennessee,176,2017,11,189,778,9,37,299,0
+Boston Scott,23,RB,Louisiana Tech,201,2013,1,0,0,0,0,0,0
+Boston Scott,23,RB,Louisiana Tech,201,2014*,1,1,3,0,0,0,0
+Boston Scott,23,RB,Louisiana Tech,201,2015*,11,34,275,0,1,1,0
+Boston Scott,23,RB,Louisiana Tech,201,2016*,14,70,515,6,11,125,0
+Boston Scott,23,RB,Louisiana Tech,201,2017*,13,182,1040,8,20,181,1
+Trenton Cannon,24,RB,Virginia St.,204,2014,10,36,-125,0,0,0,0
+Trenton Cannon,24,RB,Virginia St.,204,2015,9,23,-162,0,0,0,0
+Trenton Cannon,24,RB,Virginia St.,204,2017,12,30,-97,2,0,0,0
+David Williams,24,RB,Arkansas,226,2014*,13,45,256,2,7,99,0
+David Williams,24,RB,Arkansas,226,2015,12,86,299,0,11,93,0
+David Williams,24,RB,Arkansas,226,2016*,13,56,239,3,9,72,0
+David Williams,24,RB,Arkansas,226,2017,12,117,656,8,10,171,2
+Bo Scarbrough,23,RB,Alabama,236,2015*,7,18,104,1,0,0,0
+Bo Scarbrough,23,RB,Alabama,236,2016*,13,125,812,11,4,22,0
+Bo Scarbrough,23,RB,Alabama,236,2017*,14,124,596,8,17,109,0
+Nick Bawden,22,RB,San Diego St.,237,2014*,6,11,43,0,0,0,0
+Nick Bawden,22,RB,San Diego St.,237,2015*,9,0,0,0,0,0,0
+Nick Bawden,22,RB,San Diego St.,237,2016*,13,1,4,0,15,137,0
+Nick Bawden,22,RB,San Diego St.,237,2017*,12,0,0,0,15,103,1
+Justin Jackson,22,RB,Northwestern,251,2014,12,245,1187,10,22,201,1
+Justin Jackson,22,RB,Northwestern,251,2015*,13,312,1418,5,21,162,0
+Justin Jackson,22,RB,Northwestern,251,2016*,13,298,1524,15,35,219,0
+Justin Jackson,22,RB,Northwestern,251,2017*,13,287,1311,11,44,276,0
+Josh Jacobs,21,RB,Alabama,24,2016*,15,85,567,4,14,156,0
+Josh Jacobs,21,RB,Alabama,24,2017*,12,46,284,1,14,168,2
+Josh Jacobs,21,RB,Alabama,24,2018*,15,120,640,11,20,247,3
+Miles Sanders,22,RB,Penn St.,53,2016*,13,25,184,1,2,24,1
+Miles Sanders,22,RB,Penn St.,53,2017*,12,31,191,2,6,30,0
+Miles Sanders,22,RB,Penn St.,53,2018*,13,220,1274,9,24,139,0
+Darrell Henderson,22,RB,Memphis,70,2016*,13,87,482,5,20,237,3
+Darrell Henderson,22,RB,Memphis,70,2017*,12,130,1154,9,24,226,2
+Darrell Henderson,22,RB,Memphis,70,2018*,13,214,1909,22,19,295,3
+David Montgomery,22,RB,Iowa St.,73,2016,12,109,563,2,13,129,0
+David Montgomery,22,RB,Iowa St.,73,2017*,13,258,1146,11,36,296,0
+David Montgomery,22,RB,Iowa St.,73,2018*,12,257,1216,13,22,157,0
+Devin Singletary,22,RB,Florida Atlantic,74,2016,12,152,1021,12,26,163,0
+Devin Singletary,22,RB,Florida Atlantic,74,2017*,14,301,1920,32,19,198,1
+Devin Singletary,22,RB,Florida Atlantic,74,2018,12,261,1348,22,6,36,0
+Damien Harris,22,RB,Alabama,87,2015*,12,36,113,0,4,13,0
+Damien Harris,22,RB,Alabama,87,2016*,15,120,790,1,14,99,2
+Damien Harris,22,RB,Alabama,87,2017*,14,135,1000,11,12,91,0
+Damien Harris,22,RB,Alabama,87,2018*,15,150,876,9,22,204,0
+Alexander Mattison,21,RB,Boise St.,102,2016*,13,67,328,4,5,54,0
+Alexander Mattison,21,RB,Boise St.,102,2017*,14,212,1086,12,28,284,1
+Alexander Mattison,21,RB,Boise St.,102,2018,13,302,1415,17,27,173,0
+Bryce Love,22,RB,Stanford,112,2015*,14,29,226,2,15,250,1
+Bryce Love,22,RB,Stanford,112,2016*,12,111,783,3,8,83,1
+Bryce Love,22,RB,Stanford,112,2017*,13,263,2118,19,6,33,0
+Bryce Love,22,RB,Stanford,112,2018*,10,166,739,6,20,99,0
+Justice Hill,21,RB,Oklahoma St.,113,2016*,13,206,1142,6,5,46,0
+Justice Hill,21,RB,Oklahoma St.,113,2017*,13,268,1467,15,31,190,1
+Justice Hill,21,RB,Oklahoma St.,113,2018*,10,158,930,9,13,68,0
+Benny Snell Jr.,21,RB,Kentucky,122,2016*,13,186,1091,13,2,39,0
+Benny Snell Jr.,21,RB,Kentucky,122,2017*,13,262,1333,19,10,72,0
+Benny Snell Jr.,21,RB,Kentucky,122,2018*,13,289,1449,16,17,105,0
+Tony Pollard,22,RB,Memphis,128,2016*,13,31,159,1,29,298,2
+Tony Pollard,22,RB,Memphis,128,2017*,13,30,230,2,36,536,4
+Tony Pollard,22,RB,Memphis,128,2018*,14,78,552,6,39,458,3
+Ryquell Armstead,22,RB,Temple,140,2015*,12,51,191,2,2,7,0
+Ryquell Armstead,22,RB,Temple,140,2016*,13,156,919,14,5,41,0
+Ryquell Armstead,22,RB,Temple,140,2017*,13,156,604,5,14,75,0
+Ryquell Armstead,22,RB,Temple,140,2018*,10,210,1098,13,8,52,0
+Qadree Ollison,22,RB,Pittsburgh,152,2015*,13,212,1121,11,14,77,1
+Qadree Ollison,22,RB,Pittsburgh,152,2016*,13,33,127,2,2,38,0
+Qadree Ollison,22,RB,Pittsburgh,152,2017,12,90,398,5,23,194,2
+Qadree Ollison,22,RB,Pittsburgh,152,2018*,14,194,1213,11,11,66,0
+Jordan Scarlett,23,RB,Florida,154,2015*,9,34,181,1,1,1,0
+Jordan Scarlett,23,RB,Florida,154,2016*,13,179,889,6,4,23,0
+Jordan Scarlett,23,RB,Florida,154,2018*,13,131,776,5,10,84,0
+Trayveon Williams,21,RB,Texas A&M,182,2016*,13,156,1057,8,19,91,0
+Trayveon Williams,21,RB,Texas A&M,182,2017*,12,173,798,8,20,192,0
+Trayveon Williams,21,RB,Texas A&M,182,2018*,13,271,1760,18,27,278,1
+Ty Johnson,21,RB,Maryland,186,2015,12,35,250,3,2,30,0
+Ty Johnson,21,RB,Maryland,186,2016*,13,110,1004,6,16,206,1
+Ty Johnson,21,RB,Maryland,186,2017,12,137,875,5,5,60,1
+Ty Johnson,21,RB,Maryland,186,2018,9,66,506,3,6,22,0
+Dexter Williams,22,RB,Notre Dame,194,2015*,7,21,81,1,0,0,0
+Dexter Williams,22,RB,Notre Dame,194,2016,11,39,200,3,4,16,0
+Dexter Williams,22,RB,Notre Dame,194,2017*,10,39,360,4,2,13,1
+Dexter Williams,22,RB,Notre Dame,194,2018*,9,158,995,12,16,133,1
+Travis Homer,21,RB,Miami (FL),204,2016*,12,7,44,0,0,0,0
+Travis Homer,21,RB,Miami (FL),204,2017*,13,163,966,8,18,219,1
+Travis Homer,21,RB,Miami (FL),204,2018*,13,164,985,4,19,186,0
+Rodney Anderson,22,RB,Oklahoma,211,2015*,2,1,5,0,0,0,0
+Rodney Anderson,22,RB,Oklahoma,211,2017*,14,188,1161,13,17,281,5
+Rodney Anderson,22,RB,Oklahoma,211,2018*,2,11,119,3,0,0,0
+Darwin Thompson,22,RB,Utah St.,214,2018*,13,153,1044,14,23,351,2
+Mike Weber,22,RB,Ohio St.,218,2016*,13,182,1096,9,23,91,0
+Mike Weber,22,RB,Ohio St.,218,2017*,12,101,626,10,10,94,0
+Mike Weber,22,RB,Ohio St.,218,2018*,13,172,954,5,21,112,1
+Cullen Gillaspia,24,RB,Texas A&M,220,2015*,1,0,0,0,0,0,0
+Cullen Gillaspia,24,RB,Texas A&M,220,2016*,13,0,0,0,0,0,0
+Cullen Gillaspia,24,RB,Texas A&M,220,2017*,13,0,0,0,0,0,0
+Cullen Gillaspia,24,RB,Texas A&M,220,2018*,13,5,33,1,5,52,0
+Kerrith Whyte Jr,22,RB,Florida Atlantic,222,2016,11,43,145,1,5,21,0
+Kerrith Whyte Jr,22,RB,Florida Atlantic,222,2017*,14,55,347,2,7,46,0
+Kerrith Whyte Jr,22,RB,Florida Atlantic,222,2018,12,134,866,8,10,160,2
+Chandler Cox,23,RB,Auburn,233,2015*,13,0,0,0,3,25,0
+Chandler Cox,23,RB,Auburn,233,2016*,12,7,15,1,4,41,0
+Chandler Cox,23,RB,Auburn,233,2017*,14,1,0,0,8,78,0
+Chandler Cox,23,RB,Auburn,233,2018*,13,3,3,2,11,93,1
+Myles Gaskin,22,RB,Washington,234,2015*,13,227,1302,14,6,19,0
+Myles Gaskin,22,RB,Washington,234,2016*,14,237,1373,10,19,137,1
+Myles Gaskin,22,RB,Washington,234,2017*,13,222,1380,21,19,232,3
+Myles Gaskin,22,RB,Washington,234,2018*,12,259,1268,12,21,77,1
+Clyde Edwards-Helaire,21,RB,LSU,32,2017*,13,9,31,0,3,46,0
+Clyde Edwards-Helaire,21,RB,LSU,32,2018*,13,146,658,7,11,96,0
+Clyde Edwards-Helaire,21,RB,LSU,32,2019*,15,215,1414,16,55,453,1
+D'Andre Swift,21,RB,Georgia,35,2017*,15,81,618,3,17,153,1
+D'Andre Swift,21,RB,Georgia,35,2018*,14,163,1049,10,32,297,3
+D'Andre Swift,21,RB,Georgia,35,2019*,14,196,1218,7,24,216,1
+Jonathan Taylor,21,RB,Wisconsin,41,2017*,14,299,1977,13,8,95,0
+Jonathan Taylor,21,RB,Wisconsin,41,2018*,13,307,2194,16,8,60,0
+Jonathan Taylor,21,RB,Wisconsin,41,2019*,14,320,2003,21,26,252,5
+Cam Akers,21,RB,Florida St.,52,2017*,13,194,1024,7,16,116,1
+Cam Akers,21,RB,Florida St.,52,2018,12,161,706,6,23,145,2
+Cam Akers,21,RB,Florida St.,52,2019*,11,231,1144,14,30,225,4
+J.K. Dobbins,21,RB,Ohio St.,55,2017*,14,194,1403,7,22,135,1
+J.K. Dobbins,21,RB,Ohio St.,55,2018*,14,230,1053,10,26,263,2
+J.K. Dobbins,21,RB,Ohio St.,55,2019*,14,301,2003,21,23,247,2
+AJ Dillon,22,RB,Boston Col.,62,2017*,13,300,1589,14,0,0,0
+AJ Dillon,22,RB,Boston Col.,62,2018,10,227,1108,10,8,41,1
+AJ Dillon,22,RB,Boston Col.,62,2019*,13,318,1685,14,13,195,1
+Antonio Gibson,22,RB,Memphis,66,2018*,14,0,0,0,6,99,2
+Antonio Gibson,22,RB,Memphis,66,2019*,14,33,369,4,38,735,8
+Ke'Shawn Vaughn,23,RB,Illinois,76,2015,11,157,723,6,16,119,0
+Ke'Shawn Vaughn,23,RB,Illinois,76,2016,11,60,301,3,9,89,0
+Ke'Shawn Vaughn,23,RB,Illinois,76,2018*,12,157,1244,12,13,170,2
+Ke'Shawn Vaughn,23,RB,Illinois,76,2019,12,198,1028,9,29,286,1
+Zack Moss,22,RB,Utah,86,2016*,10,84,382,2,1,4,0
+Zack Moss,22,RB,Utah,86,2017*,13,214,1173,10,29,243,0
+Zack Moss,22,RB,Utah,86,2018*,9,179,1096,11,8,50,1
+Zack Moss,22,RB,Utah,86,2019*,13,235,1416,15,28,388,2
+Darrynton Evans,22,RB,Appalachian St.,93,2016*,12,48,217,0,6,34,0
+Darrynton Evans,22,RB,Appalachian St.,93,2018*,13,179,1187,7,12,87,1
+Darrynton Evans,22,RB,Appalachian St.,93,2019*,14,255,1480,18,21,198,5
+Joshua Kelley,22,RB,UCLA,112,2018,11,225,1243,12,27,193,0
+Joshua Kelley,22,RB,UCLA,112,2019,11,229,1060,12,11,71,1
+La'Mical Perine,22,RB,Florida,120,2016*,13,91,421,1,9,161,1
+La'Mical Perine,22,RB,Florida,120,2017,11,136,562,8,10,81,1
+La'Mical Perine,22,RB,Florida,120,2018*,13,134,826,7,13,170,1
+La'Mical Perine,22,RB,Florida,120,2019*,13,132,676,6,40,262,5
+Anthony McFarland Jr.,22,RB,Maryland,124,2018,12,131,1034,4,7,73,0
+Anthony McFarland Jr.,22,RB,Maryland,124,2019,11,114,614,8,17,126,1
+DeeJay Dallas,21,RB,Miami (FL),144,2017*,12,41,217,3,4,92,0
+DeeJay Dallas,21,RB,Miami (FL),144,2018*,13,109,617,6,10,85,0
+DeeJay Dallas,21,RB,Miami (FL),144,2019*,10,115,693,8,14,140,2
+Jason Huntley,22,RB,New Mexico St.,172,2016,11,40,167,1,8,35,0
+Jason Huntley,22,RB,New Mexico St.,172,2017*,12,70,420,1,39,363,2
+Jason Huntley,22,RB,New Mexico St.,172,2018,12,109,505,7,47,529,3
+Jason Huntley,22,RB,New Mexico St.,172,2019,12,154,1090,9,40,192,2
+Eno Benjamin,21,RB,Arizona St.,222,2017*,10,23,142,1,5,15,0
+Eno Benjamin,21,RB,Arizona St.,222,2018*,13,300,1642,16,35,263,2
+Eno Benjamin,21,RB,Arizona St.,222,2019*,12,253,1083,10,42,347,2
+Raymond Calais,22,RB,Louisiana,245,2016*,9,23,117,1,0,0,0
+Raymond Calais,22,RB,Louisiana,245,2017,12,15,88,1,1,9,0
+Raymond Calais,22,RB,Louisiana,245,2018*,14,81,754,7,6,69,0
+Raymond Calais,22,RB,Louisiana,245,2019*,14,117,886,6,10,67,1
+Malcolm Perry,23,RB,Navy,246,2016*,3,9,73,1,0,0,0
+Malcolm Perry,23,RB,Navy,246,2017*,12,138,1182,11,13,303,2
+Malcolm Perry,23,RB,Navy,246,2018,13,172,1087,7,9,167,1
+Malcolm Perry,23,RB,Navy,246,2019*,13,295,2017,21,0,0,0
+Najee Harris,23,RB,Alabama,24,2017*,14,61,370,3,6,45,0
+Najee Harris,23,RB,Alabama,24,2018*,15,117,783,4,4,7,0
+Najee Harris,23,RB,Alabama,24,2019*,13,209,1224,13,27,304,7
+Najee Harris,23,RB,Alabama,24,2020*,13,251,1466,26,43,425,4
+Travis Etienne,22,RB,Clemson,25,2017*,13,107,766,13,5,57,0
+Travis Etienne,22,RB,Clemson,25,2018*,15,204,1658,24,12,78,2
+Travis Etienne,22,RB,Clemson,25,2019*,15,207,1614,19,37,432,4
+Travis Etienne,22,RB,Clemson,25,2020*,12,168,914,14,48,588,2
+Javonte Williams,21,RB,North Carolina,35,2018,11,43,224,5,8,58,0
+Javonte Williams,21,RB,North Carolina,35,2019*,13,166,933,5,17,176,1
+Javonte Williams,21,RB,North Carolina,35,2020*,11,157,1140,19,25,305,3
+Trey Sermon,22,RB,Ohio St.,88,2017*,14,121,744,5,16,139,2
+Trey Sermon,22,RB,Ohio St.,88,2018*,14,164,947,13,12,181,0
+Trey Sermon,22,RB,Ohio St.,88,2019*,9,54,385,4,8,71,1
+Trey Sermon,22,RB,Ohio St.,88,2020*,8,116,870,4,12,95,0
+Michael Carter,22,RB,North Carolina,107,2017,11,97,558,8,11,100,1
+Michael Carter,22,RB,North Carolina,107,2018,9,84,597,2,25,135,1
+Michael Carter,22,RB,North Carolina,107,2019*,13,177,1003,3,21,154,2
+Michael Carter,22,RB,North Carolina,107,2020*,11,156,1245,9,25,267,2
+Kene Nwangwu,23,RB,Iowa St.,119,2016,12,27,133,0,1,16,0
+Kene Nwangwu,23,RB,Iowa St.,119,2018*,13,39,157,0,2,11,0
+Kene Nwangwu,23,RB,Iowa St.,119,2019*,13,16,115,0,1,8,0
+Kene Nwangwu,23,RB,Iowa St.,119,2020*,12,61,339,4,3,22,0
+Rhamondre Stevenson,23,RB,Oklahoma,120,2019*,13,64,515,6,10,87,0
+Rhamondre Stevenson,23,RB,Oklahoma,120,2020*,6,101,665,7,18,211,0
+Chuba Hubbard,22,RB,Oklahoma St.,126,2018*,13,124,740,7,22,229,2
+Chuba Hubbard,22,RB,Oklahoma St.,126,2019*,13,328,2094,21,23,198,0
+Chuba Hubbard,22,RB,Oklahoma St.,126,2020*,7,133,625,5,8,52,1
+Kenneth Gainwell,22,RB,Memphis,150,2018*,4,4,91,1,6,52,0
+Kenneth Gainwell,22,RB,Memphis,150,2019*,14,231,1459,13,51,610,3
+Elijah Mitchell,23,RB,Louisiana,194,2017,5,42,257,4,3,25,1
+Elijah Mitchell,23,RB,Louisiana,194,2018*,14,145,977,13,20,349,3
+Elijah Mitchell,23,RB,Louisiana,194,2019*,14,198,1147,16,10,70,1
+Elijah Mitchell,23,RB,Louisiana,194,2020*,10,141,878,8,16,153,0
+Gary Brightwell,22,RB,Arizona,196,2017*,13,0,0,0,0,0,0
+Gary Brightwell,22,RB,Arizona,196,2018,11,91,525,3,2,9,0
+Gary Brightwell,22,RB,Arizona,196,2019,11,66,390,5,4,59,1
+Gary Brightwell,22,RB,Arizona,196,2020,5,88,390,1,13,53,0
+Larry Rountree,22,RB,Missouri,198,2017*,13,126,703,6,5,57,0
+Larry Rountree,22,RB,Missouri,198,2018*,13,225,1216,11,14,62,0
+Larry Rountree,22,RB,Missouri,198,2019,12,186,829,9,13,70,0
+Larry Rountree,22,RB,Missouri,198,2020,10,209,972,14,15,100,0
+Chris Evans,23,RB,Michigan,202,2016*,13,88,614,4,6,87,0
+Chris Evans,23,RB,Michigan,202,2017*,13,135,685,6,16,157,1
+Chris Evans,23,RB,Michigan,202,2018*,11,81,423,4,18,148,1
+Chris Evans,23,RB,Michigan,202,2020,6,16,73,1,9,87,0
+Demetric Felton,23,RB,UCLA,211,2017*,11,10,75,1,2,-2,0
+Demetric Felton,23,RB,UCLA,211,2018,12,5,27,0,20,207,1
+Demetric Felton,23,RB,UCLA,211,2019,12,86,331,1,55,594,4
+Demetric Felton,23,RB,UCLA,211,2020,6,132,668,5,22,159,3
+Khalil Herbert,23,RB,Virginia Tech,217,2016,8,44,189,3,5,38,0
+Khalil Herbert,23,RB,Virginia Tech,217,2017,11,120,663,4,8,38,0
+Khalil Herbert,23,RB,Virginia Tech,217,2018,12,113,499,5,9,39,0
+Khalil Herbert,23,RB,Virginia Tech,217,2019,4,43,384,2,1,-1,0
+Khalil Herbert,23,RB,Virginia Tech,217,2020,11,154,1182,8,10,179,1
+Jake Funk,23,RB,Maryland,233,2016*,13,29,136,1,7,42,1
+Jake Funk,23,RB,Maryland,233,2017,12,27,145,4,1,4,1
+Jake Funk,23,RB,Maryland,233,2018,3,2,-2,0,1,4,0
+Jake Funk,23,RB,Maryland,233,2019,3,17,173,2,4,16,0
+Jake Funk,23,RB,Maryland,233,2020,5,60,516,3,10,68,1
+Gerrid Doaks,23,RB,Cincinnati,244,2017,9,87,513,2,14,135,1
+Gerrid Doaks,23,RB,Cincinnati,244,2018*,1,0,0,0,0,0,0
+Gerrid Doaks,23,RB,Cincinnati,244,2019*,12,100,526,5,8,70,1
+Gerrid Doaks,23,RB,Cincinnati,244,2020*,9,144,673,7,14,202,2
+Kylin Hill,23,RB,Mississippi St.,256,2017*,13,78,393,2,4,38,0
+Kylin Hill,23,RB,Mississippi St.,256,2018*,11,117,734,4,22,176,4
+Kylin Hill,23,RB,Mississippi St.,256,2019*,13,242,1350,10,18,180,1
+Kylin Hill,23,RB,Mississippi St.,256,2020*,3,15,58,0,23,237,1
+Jermar Jefferson,21,RB,Oregon St.,257,2018,12,239,1380,12,25,147,0
+Jermar Jefferson,21,RB,Oregon St.,257,2019,9,142,685,8,9,85,2
+Jermar Jefferson,21,RB,Oregon St.,257,2020,6,133,858,7,9,67,0
+Breece Hall,21,RB,Iowa St.,36,2019*,12,186,897,9,23,252,1
+Breece Hall,21,RB,Iowa St.,36,2020*,12,279,1572,21,23,180,2
+Breece Hall,21,RB,Iowa St.,36,2021*,12,253,1464,20,36,302,3
+Kenneth Walker III,21,RB,Michigan St.,41,2019*,13,98,579,4,3,17,0
+Kenneth Walker III,21,RB,Michigan St.,41,2020*,8,119,579,13,3,30,0
+Kenneth Walker III,21,RB,Michigan St.,41,2021*,12,263,1636,18,13,89,1
+James Cook,22,RB,Georgia,63,2018*,13,41,284,2,8,89,0
+James Cook,22,RB,Georgia,63,2019*,14,31,188,2,16,132,0
+James Cook,22,RB,Georgia,63,2020*,8,45,303,3,16,225,2
+James Cook,22,RB,Georgia,63,2021*,15,113,728,7,27,284,4
+Rachaad White,23,RB,Arizona St.,91,2020,4,42,420,5,8,151,1
+Rachaad White,23,RB,Arizona St.,91,2021*,11,182,1006,15,43,456,1
+Tyrion Davis-Price,21,RB,LSU,93,2019*,14,64,295,6,10,74,0
+Tyrion Davis-Price,21,RB,LSU,93,2020,9,104,446,3,8,47,0
+Tyrion Davis-Price,21,RB,LSU,93,2021*,12,211,1003,6,10,64,0
+Brian Robinson Jr.,23,RB,Alabama,98,2017*,11,24,165,2,0,0,0
+Brian Robinson Jr.,23,RB,Alabama,98,2018*,15,63,272,2,0,0,0
+Brian Robinson Jr.,23,RB,Alabama,98,2019*,13,96,441,5,11,124,0
+Brian Robinson Jr.,23,RB,Alabama,98,2020*,13,91,483,6,6,26,0
+Brian Robinson Jr.,23,RB,Alabama,98,2021*,14,271,1343,14,35,296,2
+Dameon Pierce,22,RB,Florida,107,2018*,13,69,424,2,5,20,1
+Dameon Pierce,22,RB,Florida,107,2019*,12,54,305,4,4,30,0
+Dameon Pierce,22,RB,Florida,107,2020*,12,106,503,4,17,156,1
+Dameon Pierce,22,RB,Florida,107,2021*,13,100,574,13,19,216,3
+Zamir White,22,RB,Georgia,122,2019*,13,78,408,3,2,20,0
+Zamir White,22,RB,Georgia,122,2020*,10,144,779,11,6,37,0
+Zamir White,22,RB,Georgia,122,2021*,15,160,856,11,9,75,0
+Isaiah Spiller,21,RB,Texas A&M,123,2019*,13,174,946,10,29,203,0
+Isaiah Spiller,21,RB,Texas A&M,123,2020*,10,188,1036,9,20,193,0
+Isaiah Spiller,21,RB,Texas A&M,123,2021,12,179,1011,6,25,189,1
+Pierre Strong,23,RB,South Dakota St.,127,2018,2,0,0,0,2,48,1
+Pierre Strong,23,RB,South Dakota St.,127,2019,12,0,0,0,42,664,4
+Pierre Strong,23,RB,South Dakota St.,127,2020,10,0,0,0,46,748,6
+Pierre Strong,23,RB,South Dakota St.,127,2021*,11,10,138,2,48,705,4
+Hassan Haskins,22,RB,Michigan,131,2018*,3,0,0,0,0,0,0
+Hassan Haskins,22,RB,Michigan,131,2019*,13,121,622,4,6,40,0
+Hassan Haskins,22,RB,Michigan,131,2020,6,61,375,6,0,0,0
+Hassan Haskins,22,RB,Michigan,131,2021*,14,270,1327,20,18,131,0
+Tyler Allgeier,22,RB,BYU,151,2018*,4,9,49,0,1,-3,0
+Tyler Allgeier,22,RB,BYU,151,2019*,13,17,119,0,3,67,1
+Tyler Allgeier,22,RB,BYU,151,2020*,11,150,1130,13,14,174,0
+Tyler Allgeier,22,RB,BYU,151,2021*,13,276,1606,23,28,199,0
+Snoop Conner,22,RB,Mississippi,154,2019,12,81,512,5,6,60,0
+Snoop Conner,22,RB,Mississippi,154,2020*,10,93,421,8,12,83,0
+Snoop Conner,22,RB,Mississippi,154,2021*,13,130,647,13,14,82,0
+Jerome Ford,22,RB,Cincinnati,156,2018*,5,7,37,0,0,0,0
+Jerome Ford,22,RB,Cincinnati,156,2019*,4,24,114,3,2,11,0
+Jerome Ford,22,RB,Cincinnati,156,2020*,10,73,483,8,8,51,0
+Jerome Ford,22,RB,Cincinnati,156,2021*,13,214,1319,19,21,220,1
+Kyren Williams,22,RB,Notre Dame,164,2019*,4,4,26,0,1,3,0
+Kyren Williams,22,RB,Notre Dame,164,2020*,12,211,1125,13,35,313,1
+Kyren Williams,22,RB,Notre Dame,164,2021*,12,204,1002,14,42,359,3
+Ty Chandler,24,RB,North Carolina,169,2017,12,71,305,2,10,108,0
+Ty Chandler,24,RB,North Carolina,169,2018,11,115,630,4,19,183,3
+Ty Chandler,24,RB,North Carolina,169,2019*,13,135,655,3,13,63,0
+Ty Chandler,24,RB,North Carolina,169,2020,10,100,456,4,16,111,0
+Ty Chandler,24,RB,North Carolina,169,2021*,13,182,1092,13,15,216,1
+Kevin Harris,21,RB,South Carolina,183,2019,6,21,179,4,3,26,0
+Kevin Harris,21,RB,South Carolina,183,2020,10,185,1138,15,21,159,1
+Kevin Harris,21,RB,South Carolina,183,2021*,12,152,659,4,11,89,0
+Tyler Badie,22,RB,Missouri,196,2018*,12,89,437,2,12,130,0
+Tyler Badie,22,RB,Missouri,196,2019,12,108,457,3,32,356,5
+Tyler Badie,22,RB,Missouri,196,2020,10,48,242,4,28,333,2
+Tyler Badie,22,RB,Missouri,196,2021*,12,268,1604,14,54,330,4
+Keaontay Ingram,22,RB,USC,201,2018*,13,142,708,3,27,170,2
+Keaontay Ingram,22,RB,USC,201,2019*,13,144,853,7,29,242,3
+Keaontay Ingram,22,RB,USC,201,2020*,6,53,250,1,11,103,1
+Keaontay Ingram,22,RB,USC,201,2021,10,156,911,5,22,156,0
+Trestan Ebner,23,RB,Baylor,203,2017,11,23,121,2,20,267,3
+Trestan Ebner,23,RB,Baylor,203,2018*,13,69,413,1,29,348,1
+Trestan Ebner,23,RB,Baylor,203,2019*,14,53,250,3,24,317,2
+Trestan Ebner,23,RB,Baylor,203,2020,9,50,107,1,26,299,3
+Trestan Ebner,23,RB,Baylor,203,2021*,14,148,799,2,28,284,2
+Brittain Brown,24,RB,UCLA,250,2017*,13,130,701,7,14,161,0
+Brittain Brown,24,RB,UCLA,250,2018*,9,80,369,3,1,44,1
+Brittain Brown,24,RB,UCLA,250,2019,3,12,56,0,2,13,0
+Brittain Brown,24,RB,UCLA,250,2020,7,82,543,4,6,84,1
+Brittain Brown,24,RB,UCLA,250,2021,10,102,615,7,18,129,0
+Isiah Pacheco,23,RB,Rutgers,251,2018,12,111,551,3,2,11,0
+Isiah Pacheco,23,RB,Rutgers,251,2019,11,169,729,7,13,83,0
+Isiah Pacheco,23,RB,Rutgers,251,2020,9,116,515,3,19,130,1
+Isiah Pacheco,23,RB,Rutgers,251,2021*,12,167,647,5,13,25,0
+Zander Horvath,23,RB,Purdue,260,2018*,13,9,42,1,4,38,0
+Zander Horvath,23,RB,Purdue,260,2019,11,79,377,2,17,142,1
+Zander Horvath,23,RB,Purdue,260,2020,6,89,442,2,30,304,0
+Zander Horvath,23,RB,Purdue,260,2021*,8,91,320,3,17,108,0
+Bijan Robinson,21,RB,Texas,8,2020*,9,86,703,4,15,196,2
+Bijan Robinson,21,RB,Texas,8,2021,10,195,1127,11,26,295,4
+Bijan Robinson,21,RB,Texas,8,2022*,12,258,1580,18,19,314,2
+Jahmyr Gibbs,21,RB,Alabama,12,2020,7,89,460,4,24,303,3
+Jahmyr Gibbs,21,RB,Alabama,12,2021,12,143,746,4,36,470,2
+Jahmyr Gibbs,21,RB,Alabama,12,2022*,12,151,926,7,44,444,3
+Zach Charbonnet,22,RB,UCLA,52,2019*,13,149,726,11,8,30,0
+Zach Charbonnet,22,RB,UCLA,52,2020,5,19,124,1,6,41,0
+Zach Charbonnet,22,RB,UCLA,52,2021,12,203,1137,13,24,197,0
+Zach Charbonnet,22,RB,UCLA,52,2022*,10,195,1359,14,37,321,0
+Kendre Miller,21,RB,TCU,71,2020,9,54,388,2,1,-4,0
+Kendre Miller,21,RB,TCU,71,2021,10,83,623,7,12,117,1
+Kendre Miller,21,RB,TCU,71,2022*,14,224,1399,17,16,116,0
+Tyjae Spears,22,RB,Tulane,81,2019*,5,32,192,1,5,133,1
+Tyjae Spears,22,RB,Tulane,81,2020*,3,37,274,2,2,30,0
+Tyjae Spears,22,RB,Tulane,81,2021,12,129,863,9,19,145,0
+Tyjae Spears,22,RB,Tulane,81,2022*,14,229,1581,19,22,256,2
+De'Von Achane,21,RB,Texas A&M,84,2020*,8,43,364,4,5,97,1
+De'Von Achane,21,RB,Texas A&M,84,2021,12,130,910,9,24,261,1
+De'Von Achane,21,RB,Texas A&M,84,2022,10,196,1102,8,36,196,3
+Tank Bigsby,22,RB,Auburn,88,2020*,10,138,834,5,11,84,0
+Tank Bigsby,22,RB,Auburn,88,2021*,13,224,1102,10,21,184,0
+Tank Bigsby,22,RB,Auburn,88,2022,12,179,970,10,30,180,0
+Roschon Johnson,22,RB,Texas,115,2019*,13,123,649,7,23,158,1
+Roschon Johnson,22,RB,Texas,115,2020*,10,80,418,6,8,51,1
+Roschon Johnson,22,RB,Texas,115,2021,12,96,569,5,11,83,0
+Roschon Johnson,22,RB,Texas,115,2022*,12,93,554,5,14,128,1
+Israel Abanikanda,20,RB,Pittsburgh,143,2020,7,28,95,1,2,11,1
+Israel Abanikanda,20,RB,Pittsburgh,143,2021*,13,123,651,7,24,197,1
+Israel Abanikanda,20,RB,Pittsburgh,143,2022*,11,239,1431,20,12,146,1
+Chase Brown,23,RB,Illinois,163,2018*,15,71,352,0,10,75,0
+Chase Brown,23,RB,Illinois,163,2019*,4,3,18,0,0,0,0
+Chase Brown,23,RB,Illinois,163,2020,8,104,540,3,7,64,0
+Chase Brown,23,RB,Illinois,163,2021,10,170,1005,5,14,142,0
+Chase Brown,23,RB,Illinois,163,2022*,12,328,1643,10,27,240,3
+Eric Gray,23,RB,Oklahoma,172,2019*,13,101,539,4,13,115,1
+Eric Gray,23,RB,Oklahoma,172,2020,9,157,772,4,30,254,2
+Eric Gray,23,RB,Oklahoma,172,2021*,13,78,412,2,23,229,2
+Eric Gray,23,RB,Oklahoma,172,2022*,12,213,1366,11,33,229,0
+Evan Hull,22,RB,Northwestern,176,2019,5,46,286,4,0,0,0
+Evan Hull,22,RB,Northwestern,176,2020*,9,25,209,2,6,41,0
+Evan Hull,22,RB,Northwestern,176,2021,12,196,1009,7,33,264,2
+Evan Hull,22,RB,Northwestern,176,2022,12,221,913,5,55,546,2
+Chris Rodriguez,22,RB,Kentucky,193,2018*,2,2,43,0,0,0,0
+Chris Rodriguez,22,RB,Kentucky,193,2019*,13,71,533,6,1,2,0
+Chris Rodriguez,22,RB,Kentucky,193,2020*,9,119,785,11,1,12,0
+Chris Rodriguez,22,RB,Kentucky,193,2021*,13,225,1379,9,13,61,3
+Chris Rodriguez,22,RB,Kentucky,193,2022*,8,175,904,6,5,41,0
+Deuce Vaughn,21,RB,Kansas St.,212,2020,10,123,642,7,25,434,2
+Deuce Vaughn,21,RB,Kansas St.,212,2021*,13,235,1404,18,49,468,4
+Deuce Vaughn,21,RB,Kansas St.,212,2022*,14,293,1558,9,42,378,3
+Zach Evans,22,RB,Mississippi,215,2020,9,54,415,4,8,76,0
+Zach Evans,22,RB,Mississippi,215,2021,6,92,648,5,10,130,1
+Zach Evans,22,RB,Mississippi,215,2022*,12,144,936,9,12,119,1
+DeWayne McBride,22,RB,Ala-Birmingham,222,2020,6,47,439,4,0,0,0
+DeWayne McBride,22,RB,Ala-Birmingham,222,2021*,13,204,1371,13,3,19,0
+DeWayne McBride,22,RB,Ala-Birmingham,222,2022*,11,233,1713,19,2,10,0
+Lew Nichols,22,RB,Central Michigan,235,2019*,4,19,89,0,0,0,0
+Lew Nichols,22,RB,Central Michigan,235,2020,6,78,507,4,10,109,1
+Lew Nichols,22,RB,Central Michigan,235,2021*,13,341,1848,16,40,338,2
+Lew Nichols,22,RB,Central Michigan,235,2022,9,176,616,6,21,128,0
+Kenny McIntosh,23,RB,Georgia,237,2019*,11,25,174,2,1,3,0
+Kenny McIntosh,23,RB,Georgia,237,2020*,8,47,251,1,10,111,0
+Kenny McIntosh,23,RB,Georgia,237,2021*,14,58,328,3,22,242,2
+Kenny McIntosh,23,RB,Georgia,237,2022*,15,150,829,10,43,505,2
+Jonathon Brooks,21,RB,Texas,46,2021,5,21,143,1,1,12,0
+Jonathon Brooks,21,RB,Texas,46,2022*,7,30,197,5,2,37,1
+Jonathon Brooks,21,RB,Texas,46,2023*,11,187,1139,10,25,286,1
+Trey Benson,21,RB,Florida St.,66,2021*,10,6,22,1,0,0,0
+Trey Benson,21,RB,Florida St.,66,2022*,13,154,990,9,13,144,0
+Trey Benson,21,RB,Florida St.,66,2023*,13,156,906,14,20,227,1
+Blake Corum,23,RB,Michigan,83,2020,6,26,77,2,5,73,0
+Blake Corum,23,RB,Michigan,83,2021*,12,143,952,11,24,141,1
+Blake Corum,23,RB,Michigan,83,2022*,12,247,1463,18,11,80,1
+Blake Corum,23,RB,Michigan,83,2023*,15,258,1245,27,16,117,1
+MarShawn Lloyd,23,RB,USC,88,2021*,12,64,228,1,3,44,0
+MarShawn Lloyd,23,RB,USC,88,2022*,9,111,573,9,18,176,2
+MarShawn Lloyd,23,RB,USC,88,2023*,11,116,820,9,13,232,0
+Jaylen Wright,21,RB,Tennessee,120,2021*,9,85,409,4,6,22,0
+Jaylen Wright,21,RB,Tennessee,120,2022*,13,146,875,10,2,8,0
+Jaylen Wright,21,RB,Tennessee,120,2023*,12,137,1013,4,22,141,0
+Bucky Irving,22,RB,Oregon,125,2021*,12,133,699,4,8,73,0
+Bucky Irving,22,RB,Oregon,125,2022*,13,156,1058,5,31,299,3
+Bucky Irving,22,RB,Oregon,125,2023*,14,186,1180,11,56,413,2
+Will Shipley,22,RB,Clemson,127,2021*,10,149,738,11,16,116,0
+Will Shipley,22,RB,Clemson,127,2022*,14,210,1182,15,38,242,0
+Will Shipley,22,RB,Clemson,127,2023*,12,167,827,5,31,244,2
+Ray Davis,24,RB,Kentucky,128,2019*,12,193,936,8,15,181,2
+Ray Davis,24,RB,Kentucky,128,2020,4,78,308,1,12,62,0
+Ray Davis,24,RB,Kentucky,128,2021,3,44,211,1,5,27,0
+Ray Davis,24,RB,Kentucky,128,2022,12,232,1042,5,29,169,3
+Ray Davis,24,RB,Kentucky,128,2023*,13,199,1129,14,33,323,7
+Isaac Guerendo,24,RB,Louisville,129,2018*,3,0,0,0,0,0,0
+Isaac Guerendo,24,RB,Louisville,129,2019*,6,1,1,0,1,3,0
+Isaac Guerendo,24,RB,Louisville,129,2020*,2,11,36,0,0,0,0
+Isaac Guerendo,24,RB,Louisville,129,2021*,4,23,160,1,2,6,0
+Isaac Guerendo,24,RB,Louisville,129,2022*,12,64,385,5,17,115,1
+Isaac Guerendo,24,RB,Louisville,129,2023*,14,132,810,11,22,234,0
+Braelon Allen,20,RB,Wisconsin,134,2021*,12,186,1268,12,8,39,0
+Braelon Allen,20,RB,Wisconsin,134,2022*,12,230,1242,11,13,104,0
+Braelon Allen,20,RB,Wisconsin,134,2023*,11,181,984,12,28,132,0
+Audric Estime,21,RB,Notre Dame,147,2021*,12,7,60,0,0,0,0
+Audric Estime,21,RB,Notre Dame,147,2022*,13,156,920,11,9,135,1
+Audric Estime,21,RB,Notre Dame,147,2023*,12,210,1341,18,17,142,0
+Rasheen Ali,23,RB,Marshall,165,2020*,6,5,22,0,0,0,0
+Rasheen Ali,23,RB,Marshall,165,2021*,13,250,1401,23,46,342,1
+Rasheen Ali,23,RB,Marshall,165,2022*,3,47,273,1,2,10,1
+Rasheen Ali,23,RB,Marshall,165,2023*,12,212,1135,15,28,213,1
+Tyrone Tracy Jr.,24,RB,Purdue,166,2018*,4,1,-1,0,1,22,0
+Tyrone Tracy Jr.,24,RB,Purdue,166,2019*,13,6,39,1,36,589,3
+Tyrone Tracy Jr.,24,RB,Purdue,166,2020,8,2,22,0,14,154,1
+Tyrone Tracy Jr.,24,RB,Purdue,166,2021*,13,7,33,1,15,106,1
+Tyrone Tracy Jr.,24,RB,Purdue,166,2022*,14,17,138,0,28,198,0
+Tyrone Tracy Jr.,24,RB,Purdue,166,2023,11,113,716,8,19,132,0
+Keilan Robinson,24,RB,Texas,167,2019*,8,39,254,2,0,0,0
+Keilan Robinson,24,RB,Texas,167,2021,11,45,322,3,7,57,0
+Keilan Robinson,24,RB,Texas,167,2022*,13,25,86,0,20,219,3
+Keilan Robinson,24,RB,Texas,167,2023*,13,12,134,3,8,56,0
+Isaiah Davis,22,RB,South Dakota St.,173,2018,3,8,40,0,0,0,0
+Isaiah Davis,22,RB,South Dakota St.,173,2019*,4,23,228,3,1,18,0
+Isaiah Davis,22,RB,South Dakota St.,173,2020,8,97,559,7,1,5,0
+Isaiah Davis,22,RB,South Dakota St.,173,2021,10,134,530,7,0,-13,0
+Isaiah Davis,22,RB,South Dakota St.,173,2022*,13,82,417,7,1,2,1
+Isaiah Davis,22,RB,South Dakota St.,173,2023*,11,73,176,7,0,0,0
+Kimani Vidal,23,RB,Troy,181,2020,9,101,516,4,26,225,0
+Kimani Vidal,23,RB,Troy,181,2021,11,152,701,5,22,134,0
+Kimani Vidal,23,RB,Troy,181,2022*,14,231,1132,10,26,140,0
+Kimani Vidal,23,RB,Troy,181,2023*,14,297,1661,14,18,201,1
+Jase McClellan,22,RB,Alabama,186,2020*,11,23,245,2,1,1,0
+Jase McClellan,22,RB,Alabama,186,2021*,5,40,191,1,10,97,3
+Jase McClellan,22,RB,Alabama,186,2022*,13,112,655,7,14,174,3
+Jase McClellan,22,RB,Alabama,186,2023*,13,180,890,8,15,137,0
+Jawhar Jordan,25,RB,Louisville,205,2019,4,15,105,1,2,87,0
+Jawhar Jordan,25,RB,Louisville,205,2020,3,29,72,0,5,34,0
+Jawhar Jordan,25,RB,Louisville,205,2021*,4,14,94,0,1,24,0
+Jawhar Jordan,25,RB,Louisville,205,2022*,13,142,815,4,10,85,0
+Jawhar Jordan,25,RB,Louisville,205,2023*,13,181,1128,13,21,246,1
+Dylan Laube,24,RB,New Hampshire,208,2019,4,15,105,1,2,87,0
+Dylan Laube,24,RB,New Hampshire,208,2020,3,29,72,0,5,34,0
+Dylan Laube,24,RB,New Hampshire,208,2021*,4,14,94,0,1,24,0
+Dylan Laube,24,RB,New Hampshire,208,2022*,13,142,815,4,10,85,0
+Dylan Laube,24,RB,New Hampshire,208,2023*,13,181,1128,13,21,246,1
