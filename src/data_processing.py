@@ -15,11 +15,16 @@ CURRENT_ROOKIES_STATS = 2024
 
 
 def scrape_all_player_data(YEARS_TO_SCRAPE: range):
-
-    all_QB_records = []
-    all_RB_records = []
-    all_WR_records = []
-    all_TE_records = []
+    all_NFL_QB_records = []
+    all_NFL_RB_records = []
+    all_NFL_WR_records = []
+    all_NFL_TE_records = []
+    
+    all_COLLEGE_QB_records = []
+    all_COLLEGE_RB_records = []
+    all_COLLEGE_WR_records = []
+    all_COLLEGE_TE_records = []
+    
     #Scrape the draft html for every year
     for year in YEARS_TO_SCRAPE:
         print(f"--- Scraping Year: {year} ---") 
@@ -70,21 +75,20 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
                             SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "v"}
                             parts = playerName.lower().split()
 
-                        # Remove suffix if it's at the end
+                            # Remove suffix if it's at the end
                             if parts[-1].strip(".") in SUFFIXES:
                                 parts = parts[:-1]
 
-                            first = parts[0]
-                            last = parts[-1]
-            
-                            player_college_URL = f"https://www.sports-reference.com/cfb/players/{first}-{last}-1.html"
+                                first = parts[0]
+                                last = parts[-1]
 
+                                player_college_URL = f"https://www.sports-reference.com/cfb/players/{first}-{last}-1.html"
 
                         except Exception as e:
                             print(f"SKIPPING: No college stats link for {playerName}.")
                             continue
-                    player_college_URL = a_tag['href']
-                    #This is to get our a href thing 
+                    else:
+                        player_college_URL = a_tag['href']
                     
 
                     #playerURL Attmepts for their rookie stats:
@@ -110,28 +114,43 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
                             'school': school,
                             'draft_pick': draft_pick,
                             'season': season_year,
-                            **season_stats,
-                            **rookie_stats_dict
+                            **season_stats
                         }
                         print(flat_row)
                         if position == 'QB':
-                            all_QB_records.append(flat_row)
+                            all_COLLEGE_QB_records.append(flat_row)
                         elif position == 'RB':
-                            all_RB_records.append(flat_row)
+                            all_COLLEGE_RB_records.append(flat_row)
                         elif position == 'WR':
-                            all_WR_records.append(flat_row)
+                            all_COLLEGE_WR_records.append(flat_row)
                         elif position == 'TE':
-                            all_TE_records.append(flat_row)
+                            all_COLLEGE_TE_records.append(flat_row)
+                    
+                    nfl_dict = {
+                        'name': playerName, 
+                        'age': age, 
+                        'position': position, 
+                        **rookie_stats_dict
+                    }
+                    print(nfl_dict)
+                    if position == 'QB': 
+                        all_COLLEGE_QB_records.append(nfl_dict)
+                    elif position == 'RB': 
+                        all_COLLEGE_RB_records.append(nfl_dict)
+                    elif position == 'WR': 
+                        all_COLLEGE_WR_records.append(nfl_dict)
+                    elif position == 'TE':
+                        all_COLLEGE_TE_records.append(nfl_dict)
 
 
                 except Exception as e: 
-                    print("Tough luck")
+                    print(e)
                     continue
         except Exception as e: 
-            print("Oof")
+            print(e)
             continue
 
-    return all_QB_records, all_RB_records, all_WR_records, all_TE_records
+    return all_NFL_QB_records, all_NFL_RB_records, all_NFL_WR_records, all_NFL_TE_records, all_COLLEGE_QB_records, all_COLLEGE_RB_records, all_COLLEGE_WR_records, all_COLLEGE_TE_records
 
 def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
     try:
@@ -209,6 +228,7 @@ def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
             print("Defense is retarded")
             return {}
     except Exception as e:
+        print(e)
         return {}
 
     """
@@ -424,6 +444,7 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
             print("Don't care about defense")
         return college_dict
     except Exception as e: 
+        print(e)
         return {}
 
 
@@ -431,27 +452,40 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
 
 def main():
         
-    qb_list, rb_list, wr_list, te_list = scrape_all_player_data(YEARS_TO_SCRAPE)
+    nfl_qb_list,  nfl_rb_list, nfl_wr_list, nfl_te_list, college_qb_list, college_rb_list, college_wr_list, college_te_list = scrape_all_player_data(YEARS_TO_SCRAPE)
 
-    qb_df = pd.DataFrame(qb_list)
-    rb_df = pd.DataFrame(rb_list)
-    wr_df = pd.DataFrame(wr_list)
-    te_df = pd.DataFrame(te_list)
+    nfl_qb_df = pd.DataFrame(nfl_qb_list)
+    nfl_rb_df = pd.DataFrame(nfl_rb_list)
+    nfl_wr_df = pd.DataFrame(nfl_wr_list)
+    nfl_te_df = pd.DataFrame(nfl_te_list)
+    
+    college_qb_df = pd.DataFrame(college_qb_list)
+    college_rb_df = pd.DataFrame(college_rb_list)
+    college_wr_df = pd.DataFrame(college_wr_list)
+    college_te_df = pd.DataFrame(college_te_list)
 
     # 2. Write each DataFrame to a separate CSV file
     # You can specify the path and filename.
     # index=False prevents Pandas from writing the DataFrame index as a column in the CSV.
 
-    qb_df.to_csv('qb_data.csv', index=False)
-    rb_df.to_csv('rb_data.csv', index=False)
-    wr_df.to_csv('wr_data.csv', index=False)
-    te_df.to_csv('te_data.csv', index=False)
+    nfl_qb_df.to_csv('nfl_qb_data.csv', index=False)
+    nfl_rb_df.to_csv('nfl_rb_data.csv', index=False)
+    nfl_wr_df.to_csv('nfl_wr_data.csv', index=False)
+    nfl_te_df.to_csv('nfl_te_data.csv', index=False)
+    college_qb_df.to_csv('college_qb_data.csv', index=False)
+    college_rb_df.to_csv('college_rb_data.csv', index=False)
+    college_wr_df.to_csv('college_wr_data.csv', index=False)
+    college_te_df.to_csv('college_te_data.csv', index=False)
 
     print("Player data successfully saved to CSV files:")
-    print("- qb_data.csv")
-    print("- rb_data.csv")
-    print("- wr_data.csv")
-    print("- te_data.csv")
+    print("- nfl_qb_data.csv")
+    print("- nfl_rb_data.csv")
+    print("- nfl_wr_data.csv")
+    print("- nfl_te_data.csv")
+    print("- college_qb_data.csv")
+    print("- college_rb_data.csv")
+    print("- college_wr_data.csv")
+    print("- college_te_data.csv")
 
 
 if __name__ == "__main__":
