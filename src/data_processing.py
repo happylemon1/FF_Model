@@ -134,13 +134,13 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
                     }
                     print(nfl_dict)
                     if position == 'QB': 
-                        all_NFL_QB_records.append(nfl_dict)
+                        all_COLLEGE_QB_records.append(nfl_dict)
                     elif position == 'RB': 
-                        all_NFL_RB_records.append(nfl_dict)
+                        all_COLLEGE_RB_records.append(nfl_dict)
                     elif position == 'WR': 
-                        all_NFL_WR_records.append(nfl_dict)
+                        all_COLLEGE_WR_records.append(nfl_dict)
                     elif position == 'TE':
-                        all_NFL_TE_records.append(nfl_dict)
+                        all_COLLEGE_TE_records.append(nfl_dict)
 
 
                 except Exception as e: 
@@ -180,13 +180,13 @@ def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
             rec_yds =  int(rushing_Rookie_Row.find('td', {'data-stat': 'rec_yds'}).text.strip())
 
             return {
-                'nfl_games': games,
-                'nfl_passCMP': passing_cmp,
-                'nfl_passingYDS': passing_yds,
-                'nfl_passingTDS': passing_tds,
-                'nfl_passingINT': passing_int,
-                'nfl_rushingYDS': rushingYDS,
-                'nfl_rushingTDS': rushingTDS
+                'games': games,
+                'passCMP': passing_cmp,
+                'passingYDS': passing_yds,
+                'passingTDS': passing_tds,
+                'passingINT': passing_int,
+                'rushingYDS': rushingYDS,
+                'rushingTDS': rushingTDS
             } 
         
         elif position == 'RB':
@@ -201,12 +201,12 @@ def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
             rushingTDS = int(rushing_Rookie_Row.find('td', {'data-stat':'rush_td'}).text.strip())
 
             return {
-                'nfl_rushingYDS': rushingYDS,
-                'nfl_rushingTDS': rushingTDS,
-                'nfl_games':games,
-                'nfl_recs': receptions,
-                'nfl_recYDS': rec_yds,
-                'nfl_recTDS': rec_tds
+                'rushingYDS': rushingYDS,
+                'rushingTDS': rushingTDS,
+                'games':games,
+                'recs': receptions,
+                'recYDS': rec_yds,
+                'recTDS': rec_tds
             }
 
         elif position == 'WR' or position == 'TE':
@@ -219,10 +219,10 @@ def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
             rec_tds = int(receiving_rookie_row.find('td', {'data-stat': 'rec_td'}).text.strip())
 
             return {
-                'nfl_games':games,
-                'nfl_recs':receptions,
-                'nfl_recYDS': rec_yds,
-                'nfl_recTDS': rec_tds
+                'games':games,
+                'recs':receptions,
+                'recYDS': rec_yds,
+                'recTDS': rec_tds
             }
         else:
             print("Defense is retarded")
@@ -230,130 +230,6 @@ def get_rookie_stats(year: int, position: str, draftURL: str) -> dict:
     except Exception as e:
         print(e)
         return {}
-
-    """
-    if position == 'QB':
-        passing_completion = float((int(row.find('td', {'data-stat': 'pass_cmp'}).text.strip()))/(int(row.find('td', {'data-stat': 'pass_att'}).text.strip())))
-        passing_yds = int(row.find('td', {'data-stat': 'pass_yds'}).text.strip())
-        passing_tds = int(row.find('td', {'data-stat': 'pass_td'}).text.strip())
-        passing_int = int(row.find('td', {'data-stat': 'pass_int'}).text.strip())
-        rushing_yds = int(row.find('td', {'data-stat': 'rush_yds'}).text.strip())
-        rushing_tds = int(row.find('td', {'data-stat': 'rush_td'}).text.strip())
-
-        return {
-            'passCMP': passing_completion,
-            'passingYDS': passing_yds,
-            'passingTDS': passing_tds,
-            'passingINT': passing_int,
-            'rushingYDS': rushing_yds,
-            'rushingTDS': rushing_tds
-        }
-    if position == 'RB':
-        rushing_yds = int(row.find('td', {'data-stat': 'rush_yds'}).text.strip())
-        rushing_tds = int(row.find('td', {'data-stat': 'rush_td'}).text.strip())
-        receptions = int(row.find('td', {'data-stat': 'rec'}).text.strip())
-        rec_tds = int(row.find('td', {'data-stat': 'rec_td'}).text.strip())
-        rec_yds =  int(row.find('td', {'data-stat': 'rec_yds'}).text.strip())
-        rec_tds = int(row.find('td', {'data-stat': 'rec_td'}).text.strip())
-
-        return {
-            'rushingYDS': rushing_yds,
-            'rushingTDS': rushing_tds,
-            'recs': receptions,
-            'recYDS': rec_yds,
-            'recTDS': rec_tds
-        }
-    if position == 'WR' or position == 'TE':
-        receptions = int(row.find('td', {'data-stat': 'rec'}).text.strip())
-        rec_yds =  int(row.find('td', {'data-stat': 'rec_yds'}).text.strip())
-        rec_tds = int(row.find('td', {'data-stat': 'rec_td'}).text.strip())
-
-        return {
-            'recs':receptions,
-            'recYDS': rec_yds,
-            'recTDS': rec_tds
-        }
-    """
-"""
-def generate_college_stats(position: str, player_college_URL: str) -> dict:
-    time.sleep(3)
-    print(player_college_URL)
-    time.sleep(3)
-    response = requests.get(player_college_URL)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.content, 'html.parser')
-    college_dict = {}
-    if position == 'QB':
-        passing_table = soup.find('table',{'id': 'passing_standard'})
-        passing_table_body= passing_table.find('tbody')
-        passing_rows = passing_table_body.find_all('tr')
-
-        rushing_table = soup.find('table', {'id': 'rushing_standard'})
-        rushing_table_body = rushing_table.find('tbody')
-
-
-        for row in passing_rows:           
-            time.sleep(3)
-            key = str(row.find('th').text).strip()
-            key = key.replace('*', '')
-            print(key)
-            rushing_row = rushing_table_body.find('tr', {'id': 'rushing_standard.' + key})
-            college_dict[key] = {
-                'games': int(row.find('td', {'data-stat': 'games'}).text.strip()),
-                'pass_cmp': int(row.find('td', {'data-stat': 'pass_cmp'}).text.strip()),
-                'pass_att': int(row.find('td', {'data-stat': 'pass_att'}).text.strip()),
-                'pass_cmp_pct': float(row.find('td', {'data-stat': 'pass_cmp_pct'}).text.strip()),
-                'pass_yds': int(row.find('td', {'data-stat': 'pass_yds'}).text.strip()),
-                'pass_td': int(row.find('td', {'data-stat': 'pass_td'}).text.strip()),
-                'pass_td_pct': float(row.find('td', {'data-stat': 'pass_td_pct'}).text.strip()),
-                'pass_int': int(row.find('td', {'data-stat': 'pass_int'}).text.strip()),
-                'pass_int_pct': float(row.find('td', {'data-stat': 'pass_int_pct'}).text.strip()),
-                'pass_yds_per_att': float(row.find('td', {'data-stat': 'pass_yds_per_att'}).text.strip()),
-                'pass_rating': float(row.find('td', {'data-stat': 'pass_rating'}).text.strip()),
-                'Rush Attempts': int(rushing_row.find('td', {'data-stat': 'rush_att'}).text.strip()),
-                'Rush Yards': int(rushing_row.find('td', {'data-stat': 'rush_yds'}).text.strip()),
-                'Rush TDs': float(rushing_row.find('td', {'data-stat': 'rush_td'}).text.strip()),
-            }
-    elif position == 'RB':
-        rushing_table = soup.find('table', {'id': "rushing_standard"})
-        if rushing_table == None:
-            rushing_table = soup.find('table',{'id': 'receiving_standard'})
-        rushing_body = rushing_table.find('tbody')
-        rushing_rows = rushing_body.find_all('tr')
-                    
-        for row in rushing_rows:
-            key = str(row.find('th').text).strip()
-            cells = row.find_all('td')
-            college_dict[key] = {
-                'games': int(row.find('td', {'data-stat': 'games'}).text.strip()),
-                'rush_att': int(row.find('td', {'data-stat': 'rush_att'}).text.strip()),
-                'rush_yds': int(row.find('td', {'data-stat': 'rush_yds'}).text.strip()),
-                'rush_td': int(row.find('td', {'data-stat': 'rush_td'}).text.strip()),
-                'rec': int(row.find('td', {'data-stat': 'rec'}).text.strip()),
-                'rec_yds': int(row.find('td', {'data-stat': 'rec_yds'}).text.strip()),
-                'rec_td': int(row.find('td', {'data-stat': 'rec_td'}).text.strip()),
-            }
-    elif position == 'WR' or position == 'TE': 
-        receiving_table = soup.find('table', {'id': 'receiving_standard'})
-        receiving_table_body = receiving_table.find('tbody')
-        receiving_rows = receiving_table_body.find_all('tr')
-
-        for row in receiving_rows: 
-            key = str(row.find('th').text).strip()
-            cells = row.find_all('td')
-            college_dict[key] = {
-                'games': int(row.find('td', {'data-stat': 'games'}).text.strip()),
-                'rec': int(row.find('td', {'data-stat': 'rec'}).text.strip()),
-                'rec_yds': int(row.find('td', {'data-stat': 'rec_yds'}).text.strip()), 
-                'rec_td': int(row.find('td', {'data-stat': 'rec_td'}).text.strip()), 
-                'rush_att': int(row.find('td', {'data-stat': 'rush_att'}).text.strip()),
-                'rush_yds': int(row.find('td', {'data-stat': 'rush_yds'}).text.strip()), 
-                'rush_td': int(row.find('td', {'data-stat': 'rush_td'}).text.strip())
-            }
-    else: 
-        print("Don't care about defense")
-    return college_dict
-"""
 
 def generate_college_stats(position: str, player_college_URL: str) -> dict:
     try: 
@@ -385,7 +261,7 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
                         'games': int(row.find('td', {'data-stat': 'games'}).text.strip()),
                         'pass_cmp': int(row.find('td', {'data-stat': 'pass_cmp'}).text.strip()),
                         'pass_att': int(row.find('td', {'data-stat': 'pass_att'}).text.strip()),
-                        'cmp%': float(row.find('td', {'data-stat': 'pass_cmp_pct'}).text.strip()),
+                        'cmp%': float(row.find('td', {'data-stat': 'pass_att'}).text.strip()),
                         'yds': int(row.find('td', {'data-stat': 'pass_yds'}).text.strip()),
                         'TDs': int(row.find('td', {'data-stat': 'pass_td'}).text.strip()),
                         'TD%': float(row.find('td', {'data-stat': 'pass_td_pct'}).text.strip()),
@@ -446,8 +322,6 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
     except Exception as e: 
         print(e)
         return {}
-
-
     
 
 def main():
@@ -468,14 +342,14 @@ def main():
     # You can specify the path and filename.
     # index=False prevents Pandas from writing the DataFrame index as a column in the CSV.
 
-    nfl_qb_df.to_csv('nfl_qb_data_2.csv', index=False)
-    nfl_rb_df.to_csv('nfl_rb_data_2.csv', index=False)
-    nfl_wr_df.to_csv('nfl_wr_data_2.csv', index=False)
-    nfl_te_df.to_csv('nfl_te_data_2.csv', index=False)
-    college_qb_df.to_csv('college_qb_data_2.csv', index=False)
-    college_rb_df.to_csv('college_rb_data_2.csv', index=False)
-    college_wr_df.to_csv('college_wr_data_2.csv', index=False)
-    college_te_df.to_csv('college_te_data_2.csv', index=False)
+    nfl_qb_df.to_csv('nfl_qb_data.csv', index=False)
+    nfl_rb_df.to_csv('nfl_rb_data.csv', index=False)
+    nfl_wr_df.to_csv('nfl_wr_data.csv', index=False)
+    nfl_te_df.to_csv('nfl_te_data.csv', index=False)
+    college_qb_df.to_csv('college_qb_data.csv', index=False)
+    college_rb_df.to_csv('college_rb_data.csv', index=False)
+    college_wr_df.to_csv('college_wr_data.csv', index=False)
+    college_te_df.to_csv('college_te_data.csv', index=False)
 
     print("Player data successfully saved to CSV files:")
     print("- nfl_qb_data.csv")
