@@ -93,7 +93,7 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
 
                     #playerURL Attmepts for their rookie stats:
                     urlRow = row.find('td', {'data-stat': 'player'})
-                    nfl_a_tag = urlRow.find('a')                   
+                    nfl_a_tag = urlRow.find('a')
                     player_nfl_href = 'https://www.pro-football-reference.com/' + nfl_a_tag['href']
                     print(player_nfl_href)
 
@@ -293,8 +293,9 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
                         'recs': int(row.find('td', {'data-stat': 'rec'}).text.strip()),
                         'recYDS': int(row.find('td', {'data-stat': 'rec_yds'}).text.strip()),
                         'recTDS': int(row.find('td', {'data-stat': 'rec_td'}).text.strip()),
+                        'collegeURL': str(row.find('td', {'data-stat': 'team_name_abbr'})).find('a').get('href')
                     }
-                else: 
+                else:
                     continue
         elif position == 'WR' or position == 'TE':
             receiving_table = soup.find('table', {'id': 'receiving_standard'})
