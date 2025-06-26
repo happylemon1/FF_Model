@@ -53,7 +53,7 @@ def load_and_clean_receiver_data(college_data_path, nfl_data_path):
             lastSeason['second_last_RPG'] = secondLast['RPG']
             lastSeason['second_last_YPG'] = secondLast['YPG']
         #append to data frame
-        trend_data_list.append(lastSeason)
+            trend_data_list.append(lastSeason)
     if trend_data_list:
         final_college_df = pd.DataFrame(trend_data_list)
     else:
