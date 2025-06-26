@@ -270,8 +270,10 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
                         'Rating': float(row.find('td', {'data-stat': 'pass_rating'}).text.strip()),
                         'Rush Attempts': int(rushing_row.find('td', {'data-stat': 'rush_att'}).text.strip()),
                         'Rush Yards': int(rushing_row.find('td', {'data-stat': 'rush_yds'}).text.strip()),
-                        'Rush TDs': float(rushing_row.find('td', {'data-stat': 'rush_td'}).text.strip())
+                        'Rush TDs': float(rushing_row.find('td', {'data-stat': 'rush_td'}).text.strip()),
+                        'collegeURL': str(row.find('td', {'data-stat': 'team_name_abbr'}).find('a').get('href'))
                     }
+                    print(college_dict)
                 else:
                     continue
         elif position == 'RB':
@@ -293,8 +295,9 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
                         'recs': int(row.find('td', {'data-stat': 'rec'}).text.strip()),
                         'recYDS': int(row.find('td', {'data-stat': 'rec_yds'}).text.strip()),
                         'recTDS': int(row.find('td', {'data-stat': 'rec_td'}).text.strip()),
-                        'collegeURL': str(row.find('td', {'data-stat': 'team_name_abbr'})).find('a').get('href')
+                        'collegeURL': str(row.find('td', {'data-stat': 'team_name_abbr'}).find('a').get('href'))
                     }
+                    print(college_dict)
                 else:
                     continue
         elif position == 'WR' or position == 'TE':
@@ -313,8 +316,10 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
                         'recTDS': int(row.find('td', {'data-stat': 'rec_td'}).text.strip()), 
                         'rushAttempts': int(row.find('td', {'data-stat': 'rush_att'}).text.strip()),
                         'rushYards': int(row.find('td', {'data-stat': 'rush_yds'}).text.strip()), 
-                        'rushTDS': int(row.find('td', {'data-stat': 'rush_td'}).text.strip())
+                        'rushTDS': int(row.find('td', {'data-stat': 'rush_td'}).text.strip()),
+                        'collegeURL': str(row.find('td', {'data-stat': 'team_name_abbr'}).find('a').get('href'))
                     }
+                    print(college_dict)                    
                 else:
                     continue
         else: 
@@ -343,14 +348,14 @@ def main():
     # You can specify the path and filename.
     # index=False prevents Pandas from writing the DataFrame index as a column in the CSV.
 
-    nfl_qb_df.to_csv('nfl_qb_data.csv', index=False)
-    nfl_rb_df.to_csv('nfl_rb_data.csv', index=False)
-    nfl_wr_df.to_csv('nfl_wr_data.csv', index=False)
-    nfl_te_df.to_csv('nfl_te_data.csv', index=False)
-    college_qb_df.to_csv('college_qb_data.csv', index=False)
-    college_rb_df.to_csv('college_rb_data.csv', index=False)
-    college_wr_df.to_csv('college_wr_data.csv', index=False)
-    college_te_df.to_csv('college_te_data.csv', index=False)
+    nfl_qb_df.to_csv('nfl_qb_data_3.csv', index=False)
+    nfl_rb_df.to_csv('nfl_rb_data_3.csv', index=False)
+    nfl_wr_df.to_csv('nfl_wr_data_3.csv', index=False)
+    nfl_te_df.to_csv('nfl_te_data_3.csv', index=False)
+    college_qb_df.to_csv('college_qb_data_3.csv', index=False)
+    college_rb_df.to_csv('college_rb_data_3.csv', index=False)
+    college_wr_df.to_csv('college_wr_data_3.csv', index=False)
+    college_te_df.to_csv('college_te_data_3.csv', index=False)
 
     print("Player data successfully saved to CSV files:")
     print("- nfl_qb_data.csv")
