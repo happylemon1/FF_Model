@@ -16,15 +16,15 @@ def load_and_clean_receiver_data(college_data_path, nfl_data_path):
         return None
 
     # Creating some new columns for per game basis in case players missed games
+    college_df = college_df[college_df['school'].notna()]
     college_df = college_df.drop(columns = ['age'])
     college_df['YPC'] = college_df['recYDS'] / college_df['recs']
     college_df ['YPG'] = college_df['recYDS'] / college_df['games']
     college_df['TDPG'] = college_df['recTDS'] / college_df['games']
     college_df['RPG'] = college_df['recs']/ college_df['games']
     college_df['season'] = college_df['season'].str.extract(r'(\d{4})').astype(int)
-    college_df = college_df[college_df['school'].notna()]
     #For each player add how their college did that season in terms of receiving statistics
-    #college_df = addCollegiateInfo(college_df)
+    college_df = addCollegiateInfo(college_df)
 
 
     # Calculate the trending average of the last two seasons to see which direction the receiver is going to
@@ -61,12 +61,16 @@ def load_and_clean_receiver_data(college_data_path, nfl_data_path):
 
     print(final_college_df.head(9))
 
+    final_college_df.to_csv('wr_and_CollegeStats.csv', index=False)
+
 
 def addCollegiateInfo(college_df):
     for index, row in college_df.iterrows():
-        semiURL = college_df['collegeURL']
+        semiURL = row['collegeURL']
+        print  (semiURL)
         
         realURL = 'https://www.sports-reference.com' + str(semiURL)
+        print(realURL)
         #From here create a new response
         time.sleep(2)
         response = requests.get(realURL)
