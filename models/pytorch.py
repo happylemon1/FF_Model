@@ -36,7 +36,7 @@ def receiverLinearPrediction():
     # print("Merged df", merged_df.head(3))
 
     # Get the actual numeric data from the columns
-    x = df[['YPG', 'Yards_percentage']]
+    x = df[['YPG', 'Yards_percentage', 'draft_pick', 'RPG', 'TDPG', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG']]
     y = df['nfl_YPG']
 
     # Make sure all values are numeric
@@ -49,7 +49,7 @@ def receiverLinearPrediction():
     y = data['nfl_YPG']
 
     # Train the model
-    model = Ridge(alpha=1.0)
+    model = LinearRegression()
     model.fit(x, y)
 
     print("Coefficients:", model.coef_)
@@ -57,7 +57,7 @@ def receiverLinearPrediction():
     print('this method ran ')
 
     #Now we do the model predictions
-    features= ['YPG', 'Yards_percentage']
+    features= ['YPG', 'Yards_percentage', 'draft_pick', 'RPG', 'TDPG', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG']
 
     featured_df = merged_df[features]
     # print("Featured df: ", featured_df)
@@ -65,7 +65,7 @@ def receiverLinearPrediction():
     # print(featured_df.head(1))
     predictions = model.predict(featured_df)
     merged_df['predicted_nfl_YPG'] = predictions
-    print(merged_df[['name', 'predicted_nfl_YPG']].head(10))
+    print(merged_df[['name', 'predicted_nfl_YPG']].head(20))
     
 
     conferences = []
