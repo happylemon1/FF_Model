@@ -1,5 +1,6 @@
 import sklearn
 from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Ridge
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -21,7 +22,7 @@ def receiverLinearPrediction():
     print("Games", df_24['games'])
     df_24['RPG'] = df_24['recs']/ df_24['games']
     df_24['TDPG'] = df_24['recTDS']/ df_24['games']
-    df_24['Yards_percentage'] = df_24['recYDS'] / df_24['YPG']
+    df_24['Yards_percentage'] = df_24['recYDS'] / df_24['TEAM_YARDS']
     df_23['games'] = (df_23['recYDS']/ df_23['YPG'])
     df_23['second_last_TDPG'] = df_23['recTDS']/ df_23['games']
     df_23['second_last_RPG'] = df_23['recs']/ df_23['games']
@@ -35,7 +36,7 @@ def receiverLinearPrediction():
     # print("Merged df", merged_df.head(3))
 
     # Get the actual numeric data from the columns
-    x = df[['draft_pick', 'YPG', 'RPG', 'TDPG', 'age', 'Yards_percentage', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG', 'recs', 'recYDS', 'recTDS']]
+    x = df[['YPG', 'Yards_percentage']]
     y = df['nfl_YPG']
 
     # Make sure all values are numeric
@@ -48,15 +49,15 @@ def receiverLinearPrediction():
     y = data['nfl_YPG']
 
     # Train the model
-    model = LinearRegression()
+    model = Ridge(alpha=1.0)
     model.fit(x, y)
 
-    # print("Coefficients:", model.coef_)
-    # print("Intercept:", model.intercept_)
-    # print('this method ran ')
+    print("Coefficients:", model.coef_)
+    print("Intercept:", model.intercept_)
+    print('this method ran ')
 
     #Now we do the model predictions
-    features= ['draft_pick', 'YPG', 'RPG', 'TDPG', 'age', 'Yards_percentage', 'second_last_TDPG', 'second_last_RPG',  'second_last_YPG', 'recs', 'recYDS', 'recTDS']
+    features= ['YPG', 'Yards_percentage']
 
     featured_df = merged_df[features]
     # print("Featured df: ", featured_df)
