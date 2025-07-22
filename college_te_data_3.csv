@@ -1,655 +1,302 @@
 name,age,position,school,draft_pick,season,games,recs,recYDS,recTDS,rushAttempts,rushYards,rushTDS,collegeURL
-Devin Funchess,21,TE,Michigan,41.0,2012*,13.0,15.0,234.0,5.0,0.0,0.0,0.0,/cfb/schools/michigan/2012.html
-Devin Funchess,21,TE,Michigan,41.0,2013*,13.0,49.0,748.0,6.0,6.0,34.0,0.0,/cfb/schools/michigan/2013.html
-Devin Funchess,21,TE,Michigan,41.0,2014,11.0,62.0,733.0,4.0,2.0,-11.0,0.0,/cfb/schools/michigan/2014.html
-Devin Funchess,21,TE,,,,16.0,31.0,473.0,5.0,,,,
-Maxx Williams,21,TE,Minnesota,55.0,2013*,13.0,25.0,417.0,5.0,1.0,7.0,0.0,/cfb/schools/minnesota/2013.html
-Maxx Williams,21,TE,Minnesota,55.0,2014*,12.0,36.0,569.0,8.0,0.0,0.0,0.0,/cfb/schools/minnesota/2014.html
-Maxx Williams,21,TE,,,,14.0,32.0,268.0,1.0,,,,
-Clive Walford,23,TE,Miami (FL),68.0,2011,12.0,18.0,172.0,1.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2011.html
-Clive Walford,23,TE,Miami (FL),68.0,2012,12.0,25.0,451.0,4.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2012.html
-Clive Walford,23,TE,Miami (FL),68.0,2013*,12.0,34.0,454.0,2.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2013.html
-Clive Walford,23,TE,Miami (FL),68.0,2014*,12.0,44.0,676.0,7.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2014.html
-Clive Walford,23,TE,,,,16.0,28.0,329.0,3.0,,,,
-Tyler Kroft,22,TE,Rutgers,85.0,2012*,11.0,3.0,59.0,1.0,0.0,0.0,0.0,/cfb/schools/rutgers/2012.html
-Tyler Kroft,22,TE,Rutgers,85.0,2013*,13.0,43.0,573.0,4.0,0.0,0.0,0.0,/cfb/schools/rutgers/2013.html
-Tyler Kroft,22,TE,Rutgers,85.0,2014*,13.0,24.0,269.0,0.0,0.0,0.0,0.0,/cfb/schools/rutgers/2014.html
-Tyler Kroft,22,TE,,,,16.0,11.0,129.0,1.0,,,,
-Jeff Heuerman,22,TE,Ohio St.,92.0,2011*,11.0,1.0,25.0,0.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2011.html
-Jeff Heuerman,22,TE,Ohio St.,92.0,2012,12.0,8.0,94.0,1.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2012.html
-Jeff Heuerman,22,TE,Ohio St.,92.0,2013*,10.0,26.0,466.0,4.0,1.0,6.0,0.0,/cfb/schools/ohio-state/2013.html
-Jeff Heuerman,22,TE,Ohio St.,92.0,2014*,14.0,17.0,207.0,2.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2014.html
-Jeff Heuerman,22,TE,,,,12.0,9.0,141.0,0.0,,,,
-Blake Bell,24,TE,,,,14.0,15.0,186.0,0.0,,,,
-MyCole Pruitt,23,TE,Southern Illinois,143.0,2011*,9.0,38.0,596.0,7.0,3.0,44.0,0.0,/cfb/schools/florida-state/2011.html
-MyCole Pruitt,23,TE,Southern Illinois,143.0,2012*,14.0,57.0,741.0,6.0,4.0,30.0,1.0,/cfb/schools/florida-state/2012.html
-MyCole Pruitt,23,TE,Southern Illinois,143.0,2013*,14.0,76.0,1128.0,9.0,1.0,9.0,0.0,/cfb/schools/florida-state/2013.html
-MyCole Pruitt,23,TE,Southern Illinois,143.0,2014*,14.0,99.0,1365.0,7.0,1.0,-2.0,0.0,/cfb/schools/florida-state/2014.html
-MyCole Pruitt,23,TE,,,,16.0,10.0,89.0,0.0,,,,
-C.J. Uzomah,22,TE,Auburn,157.0,2011*,13.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/auburn/2011.html
-C.J. Uzomah,22,TE,Auburn,157.0,2012,11.0,7.0,136.0,1.0,0.0,0.0,0.0,/cfb/schools/auburn/2012.html
-C.J. Uzomah,22,TE,Auburn,157.0,2013*,6.0,11.0,154.0,3.0,0.0,0.0,0.0,/cfb/schools/auburn/2013.html
-C.J. Uzomah,22,TE,Auburn,157.0,2014*,13.0,11.0,145.0,3.0,1.0,1.0,0.0,/cfb/schools/auburn/2014.html
-C.J. Uzomah,22,TE,,,,5.0,1.0,4.0,0.0,,,,
-Jesse James,21,TE,Penn St.,160.0,2012,10.0,15.0,276.0,5.0,0.0,0.0,0.0,/cfb/schools/penn-state/2012.html
-Jesse James,21,TE,Penn St.,160.0,2013,10.0,25.0,333.0,3.0,0.0,0.0,0.0,/cfb/schools/penn-state/2013.html
-Jesse James,21,TE,Penn St.,160.0,2014*,13.0,38.0,396.0,3.0,0.0,0.0,0.0,/cfb/schools/penn-state/2014.html
-Jesse James,21,TE,,,,8.0,8.0,56.0,1.0,,,,
-Nick Boyle,22,TE,Delaware,171.0,2011*,13.0,32.0,461.0,3.0,3.0,100.0,1.0,/cfb/schools/nebraska/2011.html
-Nick Boyle,22,TE,Delaware,171.0,2012*,14.0,50.0,863.0,8.0,2.0,8.0,0.0,/cfb/schools/nebraska/2012.html
-Nick Boyle,22,TE,Delaware,171.0,2013*,13.0,52.0,577.0,4.0,1.0,1.0,0.0,/cfb/schools/nebraska/2013.html
-Nick Boyle,22,TE,Delaware,171.0,2014*,13.0,47.0,788.0,6.0,0.0,0.0,0.0,/cfb/schools/nebraska/2014.html
-Nick Boyle,22,TE,,,,11.0,18.0,153.0,0.0,,,,
-James O'Shaughnessy,23,TE,Illinois St.,173.0,2011*,13.0,32.0,461.0,3.0,3.0,100.0,1.0,/cfb/schools/nebraska/2011.html
-James O'Shaughnessy,23,TE,Illinois St.,173.0,2012*,14.0,50.0,863.0,8.0,2.0,8.0,0.0,/cfb/schools/nebraska/2012.html
-James O'Shaughnessy,23,TE,Illinois St.,173.0,2013*,13.0,52.0,577.0,4.0,1.0,1.0,0.0,/cfb/schools/nebraska/2013.html
-James O'Shaughnessy,23,TE,Illinois St.,173.0,2014*,13.0,47.0,788.0,6.0,0.0,0.0,0.0,/cfb/schools/nebraska/2014.html
-James O'Shaughnessy,23,TE,,,,7.0,6.0,87.0,0.0,,,,
-Nick O'Leary,23,TE,Florida St.,194.0,2011*,13.0,12.0,164.0,1.0,0.0,0.0,0.0,/cfb/schools/florida-state/2011.html
-Nick O'Leary,23,TE,Florida St.,194.0,2012*,13.0,21.0,252.0,3.0,0.0,0.0,0.0,/cfb/schools/florida-state/2012.html
-Nick O'Leary,23,TE,Florida St.,194.0,2013*,12.0,33.0,557.0,7.0,0.0,0.0,0.0,/cfb/schools/florida-state/2013.html
-Nick O'Leary,23,TE,Florida St.,194.0,2014*,14.0,48.0,618.0,6.0,0.0,0.0,1.0,/cfb/schools/florida-state/2014.html
-Nick O'Leary,23,TE,,,,4.0,1.0,37.0,0.0,,,,
-Malcolm Johnson,23,TE,Mississippi St.,195.0,2011*,11.0,11.0,206.0,3.0,0.0,0.0,0.0,/cfb/schools/mississippi-state/2011.html
-Malcolm Johnson,23,TE,Mississippi St.,195.0,2012*,8.0,10.0,171.0,2.0,0.0,0.0,0.0,/cfb/schools/mississippi-state/2012.html
-Malcolm Johnson,23,TE,Mississippi St.,195.0,2013*,12.0,30.0,391.0,2.0,0.0,0.0,0.0,/cfb/schools/mississippi-state/2013.html
-Malcolm Johnson,23,TE,Mississippi St.,195.0,2014*,13.0,28.0,380.0,3.0,0.0,0.0,0.0,/cfb/schools/mississippi-state/2014.html
-Malcolm Johnson,23,TE,,,,12.0,4.0,15.0,0.0,,,,
-Randall Telfer,23,TE,USC,198.0,2011,12.0,26.0,273.0,5.0,0.0,0.0,0.0,/cfb/schools/southern-california/2011.html
-Randall Telfer,23,TE,USC,198.0,2012*,12.0,12.0,100.0,4.0,0.0,0.0,0.0,/cfb/schools/southern-california/2012.html
-Randall Telfer,23,TE,USC,198.0,2013*,5.0,6.0,78.0,1.0,0.0,0.0,0.0,/cfb/schools/southern-california/2013.html
-Randall Telfer,23,TE,USC,198.0,2014*,13.0,21.0,197.0,2.0,0.0,0.0,0.0,/cfb/schools/southern-california/2014.html
-Randall Telfer,23,TE,,,,14.0,2.0,4.0,0.0,,,,
-A.J. Derby,23,TE,Arkansas,202.0,2011*,9.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/iowa/2011.html
-A.J. Derby,23,TE,Arkansas,202.0,2013,5.0,0.0,0.0,0.0,6.0,2.0,0.0,/cfb/schools/arkansas/2013.html
-A.J. Derby,23,TE,Arkansas,202.0,2014*,11.0,22.0,303.0,3.0,1.0,-6.0,0.0,/cfb/schools/arkansas/2014.html
-A.J. Derby,23,TE,,,,10.0,16.0,160.0,0.0,,,,
-Kennard Backman,22,TE,Ala-Birmingham,213.0,2011,12.0,6.0,43.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama-birmingham/2011.html
-Kennard Backman,22,TE,Ala-Birmingham,213.0,2012,12.0,23.0,235.0,4.0,0.0,0.0,0.0,/cfb/schools/alabama-birmingham/2012.html
-Kennard Backman,22,TE,Ala-Birmingham,213.0,2013,11.0,28.0,302.0,2.0,0.0,0.0,0.0,/cfb/schools/alabama-birmingham/2013.html
-Kennard Backman,22,TE,Ala-Birmingham,213.0,2014,12.0,39.0,399.0,3.0,0.0,0.0,0.0,/cfb/schools/alabama-birmingham/2014.html
-Kennard Backman,22,TE,,,,,,,,,,,
-Ben Koyack,22,TE,Notre Dame,229.0,2011*,12.0,1.0,5.0,0.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2011.html
-Ben Koyack,22,TE,Notre Dame,229.0,2012*,12.0,3.0,39.0,0.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2012.html
-Ben Koyack,22,TE,Notre Dame,229.0,2013*,5.0,10.0,171.0,3.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2013.html
-Ben Koyack,22,TE,Notre Dame,229.0,2014*,13.0,30.0,317.0,2.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2014.html
-Ben Koyack,22,TE,,,,14.0,19.0,161.0,1.0,,,,
-Geoff Swaim,21,TE,Texas,246.0,2013*,3.0,3.0,14.0,0.0,0.0,0.0,0.0,/cfb/schools/texas/2013.html
-Geoff Swaim,21,TE,Texas,246.0,2014*,13.0,10.0,70.0,1.0,0.0,0.0,0.0,/cfb/schools/texas/2014.html
-Geoff Swaim,21,TE,,,,4.0,1.0,0.0,0.0,,,,
-Rory Anderson,22,TE,South Carolina,254.0,2011*,13.0,8.0,188.0,3.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2011.html
-Rory Anderson,22,TE,South Carolina,254.0,2012*,13.0,14.0,271.0,5.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2012.html
-Rory Anderson,22,TE,South Carolina,254.0,2013*,9.0,17.0,235.0,0.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2013.html
-Rory Anderson,22,TE,South Carolina,254.0,2014*,10.0,22.0,260.0,1.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2014.html
-Rory Anderson,22,TE,,,,,,,,,,,
-Gerald Christian,24,TE,Louisville,256.0,2011*,7.0,4.0,72.0,1.0,0.0,0.0,0.0,/cfb/schools/florida/2011.html
-Gerald Christian,24,TE,Louisville,256.0,2013*,12.0,28.0,426.0,4.0,0.0,0.0,0.0,/cfb/schools/louisville/2013.html
-Gerald Christian,24,TE,Louisville,256.0,2014*,13.0,32.0,384.0,5.0,0.0,0.0,0.0,/cfb/schools/louisville/2014.html
-Gerald Christian,24,TE,,,,3.0,1.0,14.0,0.0,,,,
-Hunter Henry,21,TE,Arkansas,35.0,2013,10.0,28.0,409.0,4.0,0.0,0.0,0.0,/cfb/schools/arkansas/2013.html
-Hunter Henry,21,TE,Arkansas,35.0,2014*,13.0,37.0,513.0,2.0,0.0,0.0,0.0,/cfb/schools/arkansas/2014.html
-Hunter Henry,21,TE,Arkansas,35.0,2015*,13.0,51.0,739.0,3.0,0.0,0.0,0.0,/cfb/schools/arkansas/2015.html
-Hunter Henry,21,TE,,,,15.0,36.0,478.0,8.0,,,,
-Austin Hooper,21,TE,Stanford,81.0,2014*,13.0,40.0,499.0,2.0,0.0,0.0,0.0,/cfb/schools/stanford/2014.html
-Austin Hooper,21,TE,Stanford,81.0,2015*,14.0,34.0,438.0,6.0,0.0,0.0,0.0,/cfb/schools/stanford/2015.html
-Austin Hooper,21,TE,,,,14.0,19.0,271.0,3.0,,,,
-Nick Vannett,23,TE,Ohio St.,94.0,2012,12.0,9.0,123.0,0.0,1.0,-1.0,0.0,/cfb/schools/ohio-state/2012.html
-Nick Vannett,23,TE,Ohio St.,94.0,2013*,5.0,8.0,80.0,1.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2013.html
-Nick Vannett,23,TE,Ohio St.,94.0,2014*,14.0,19.0,220.0,5.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2014.html
-Nick Vannett,23,TE,Ohio St.,94.0,2015*,13.0,19.0,162.0,0.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2015.html
-Nick Vannett,23,TE,,,,9.0,3.0,32.0,0.0,,,,
-Tyler Higbee,23,TE,Western Kentucky,110.0,2011,11.0,2.0,92.0,1.0,0.0,0.0,0.0,/cfb/schools/western-kentucky/2011.html
-Tyler Higbee,23,TE,Western Kentucky,110.0,2013,5.0,13.0,169.0,1.0,0.0,0.0,0.0,/cfb/schools/western-kentucky/2013.html
-Tyler Higbee,23,TE,Western Kentucky,110.0,2014*,11.0,15.0,230.0,4.0,0.0,0.0,0.0,/cfb/schools/western-kentucky/2014.html
-Tyler Higbee,23,TE,Western Kentucky,110.0,2015*,9.0,38.0,563.0,8.0,0.0,0.0,0.0,/cfb/schools/western-kentucky/2015.html
-Tyler Higbee,23,TE,,,,16.0,11.0,85.0,1.0,,,,
-Seth Devalve,23,TE,,,,12.0,10.0,127.0,2.0,,,,
-Temarrick Hemingway,23,TE,South Carolina St.,177.0,2013*,14.0,68.0,837.0,6.0,0.0,0.0,0.0,/cfb/schools/colorado-state/2013.html
-Temarrick Hemingway,23,TE,South Carolina St.,177.0,2014*,12.0,96.0,1750.0,17.0,0.0,0.0,0.0,/cfb/schools/colorado-state/2014.html
-Temarrick Hemingway,23,TE,South Carolina St.,177.0,2015*,12.0,75.0,1062.0,8.0,1.0,20.0,0.0,/cfb/schools/colorado-state/2015.html
-Temarrick Hemingway,23,TE,,,,8.0,0.0,0.0,0.0,,,,
-Jerell Adams,23,TE,South Carolina,184.0,2012*,9.0,4.0,90.0,1.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2012.html
-Jerell Adams,23,TE,South Carolina,184.0,2013*,7.0,13.0,187.0,2.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2013.html
-Jerell Adams,23,TE,South Carolina,184.0,2014*,13.0,21.0,279.0,1.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2014.html
-Jerell Adams,23,TE,South Carolina,184.0,2015,12.0,28.0,421.0,3.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2015.html
-Jerell Adams,23,TE,,,,13.0,16.0,122.0,1.0,,,,
-David Morgan,23,TE,Texas-San Antonio,188.0,2013,5.0,7.0,69.0,0.0,0.0,0.0,0.0,/cfb/schools/texas-san-antonio/2013.html
-David Morgan,23,TE,Texas-San Antonio,188.0,2014,9.0,20.0,255.0,1.0,0.0,0.0,0.0,/cfb/schools/texas-san-antonio/2014.html
-David Morgan,23,TE,Texas-San Antonio,188.0,2015,12.0,45.0,566.0,5.0,0.0,0.0,0.0,/cfb/schools/texas-san-antonio/2015.html
-David Morgan,23,TE,,,,12.0,1.0,4.0,0.0,,,,
-Rico Gathers,22,TE,,,,15.0,3.0,45.0,0.0,,,,
-Thomas Duarte,21,TE,UCLA,231.0,2013*,10.0,16.0,214.0,3.0,0.0,0.0,0.0,/cfb/schools/ucla/2013.html
-Thomas Duarte,21,TE,UCLA,231.0,2014*,12.0,28.0,540.0,4.0,0.0,0.0,0.0,/cfb/schools/ucla/2014.html
-Thomas Duarte,21,TE,UCLA,231.0,2015*,13.0,53.0,872.0,10.0,0.0,0.0,0.0,/cfb/schools/ucla/2015.html
-Thomas Duarte,21,TE,,,,,,,,,,,
-Beau Sandland,23,TE,,,,,,,,,,,
-O.J. Howard,22,TE,Alabama,19.0,2013*,10.0,14.0,269.0,2.0,0.0,0.0,0.0,/cfb/schools/alabama/2013.html
-O.J. Howard,22,TE,Alabama,19.0,2014*,14.0,17.0,260.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2014.html
-O.J. Howard,22,TE,Alabama,19.0,2015*,15.0,38.0,602.0,2.0,0.0,0.0,0.0,/cfb/schools/alabama/2015.html
-O.J. Howard,22,TE,Alabama,19.0,2016*,15.0,45.0,595.0,3.0,0.0,0.0,0.0,/cfb/schools/alabama/2016.html
-O.J. Howard,22,TE,,,,14.0,26.0,432.0,6.0,,,,
-Evan Engram,23,TE,Mississippi,23.0,2013*,8.0,21.0,268.0,3.0,0.0,0.0,0.0,/cfb/schools/mississippi/2013.html
-Evan Engram,23,TE,Mississippi,23.0,2014*,13.0,38.0,662.0,2.0,0.0,0.0,0.0,/cfb/schools/mississippi/2014.html
-Evan Engram,23,TE,Mississippi,23.0,2015*,13.0,38.0,464.0,2.0,0.0,0.0,0.0,/cfb/schools/mississippi/2015.html
-Evan Engram,23,TE,Mississippi,23.0,2016,11.0,65.0,926.0,8.0,0.0,0.0,0.0,/cfb/schools/mississippi/2016.html
-Evan Engram,23,TE,,,,15.0,64.0,722.0,6.0,,,,
-David Njoku,21,TE,Miami (FL),29.0,2015*,13.0,21.0,362.0,1.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2015.html
-David Njoku,21,TE,Miami (FL),29.0,2016*,13.0,43.0,698.0,8.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2016.html
-David Njoku,21,TE,,,,16.0,32.0,386.0,4.0,,,,
-Gerald Everett,23,TE,South Alabama,44.0,2014,12.0,17.0,292.0,1.0,0.0,0.0,0.0,/cfb/schools/alabama-birmingham/2014.html
-Gerald Everett,23,TE,South Alabama,44.0,2015,12.0,41.0,575.0,8.0,8.0,7.0,4.0,/cfb/schools/south-alabama/2015.html
-Gerald Everett,23,TE,South Alabama,44.0,2016*,13.0,49.0,717.0,4.0,0.0,0.0,0.0,/cfb/schools/south-alabama/2016.html
-Gerald Everett,23,TE,,,,16.0,16.0,244.0,2.0,,,,
-Adam Shaheen,22,TE,Ashland,45.0,2014,12.0,17.0,292.0,1.0,0.0,0.0,0.0,/cfb/schools/alabama-birmingham/2014.html
-Adam Shaheen,22,TE,Ashland,45.0,2015,12.0,41.0,575.0,8.0,8.0,7.0,4.0,/cfb/schools/south-alabama/2015.html
-Adam Shaheen,22,TE,Ashland,45.0,2016*,13.0,49.0,717.0,4.0,0.0,0.0,0.0,/cfb/schools/south-alabama/2016.html
-Adam Shaheen,22,TE,,,,13.0,12.0,127.0,3.0,,,,
-Jonnu Smith,22,TE,Florida International,100.0,2013,12.0,39.0,388.0,2.0,0.0,0.0,0.0,/cfb/schools/florida-international/2013.html
-Jonnu Smith,22,TE,Florida International,100.0,2014,12.0,61.0,710.0,8.0,0.0,0.0,0.0,/cfb/schools/florida-international/2014.html
-Jonnu Smith,22,TE,Florida International,100.0,2015,8.0,36.0,397.0,4.0,0.0,0.0,0.0,/cfb/schools/florida-international/2015.html
-Jonnu Smith,22,TE,Florida International,100.0,2016,11.0,42.0,506.0,4.0,1.0,5.0,0.0,/cfb/schools/florida-international/2016.html
-Jonnu Smith,22,TE,,,,16.0,18.0,157.0,2.0,,,,
-Michael Roberts,23,TE,Toledo,127.0,2013,1.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/toledo/2013.html
-Michael Roberts,23,TE,Toledo,127.0,2014*,9.0,4.0,65.0,2.0,0.0,0.0,0.0,/cfb/schools/toledo/2014.html
-Michael Roberts,23,TE,Toledo,127.0,2015*,12.0,21.0,234.0,4.0,0.0,0.0,0.0,/cfb/schools/toledo/2015.html
-Michael Roberts,23,TE,Toledo,127.0,2016*,13.0,45.0,533.0,16.0,0.0,0.0,0.0,/cfb/schools/toledo/2016.html
-Michael Roberts,23,TE,,,,15.0,4.0,46.0,0.0,,,,
-Jake Butt,22,TE,Michigan,145.0,2013*,9.0,20.0,235.0,2.0,0.0,0.0,0.0,/cfb/schools/michigan/2013.html
-Jake Butt,22,TE,Michigan,145.0,2014,10.0,21.0,211.0,2.0,0.0,0.0,0.0,/cfb/schools/michigan/2014.html
-Jake Butt,22,TE,Michigan,145.0,2015*,13.0,51.0,654.0,3.0,0.0,2.0,0.0,/cfb/schools/michigan/2015.html
-Jake Butt,22,TE,Michigan,145.0,2016*,13.0,46.0,546.0,4.0,0.0,0.0,0.0,/cfb/schools/michigan/2016.html
-Jake Butt,22,TE,,,,3.0,8.0,85.0,0.0,,,,
-George Kittle,23,TE,Iowa,146.0,2013*,3.0,5.0,108.0,0.0,0.0,0.0,0.0,/cfb/schools/iowa/2013.html
-George Kittle,23,TE,Iowa,146.0,2014*,12.0,1.0,25.0,0.0,0.0,0.0,0.0,/cfb/schools/iowa/2014.html
-George Kittle,23,TE,Iowa,146.0,2015*,14.0,20.0,290.0,6.0,0.0,0.0,0.0,/cfb/schools/iowa/2015.html
-George Kittle,23,TE,Iowa,146.0,2016*,11.0,22.0,314.0,4.0,0.0,0.0,0.0,/cfb/schools/iowa/2016.html
-George Kittle,23,TE,,,,15.0,43.0,515.0,2.0,,,,
-Jordan Leggett,22,TE,Clemson,150.0,2013*,7.0,12.0,176.0,2.0,0.0,0.0,0.0,/cfb/schools/clemson/2013.html
-Jordan Leggett,22,TE,Clemson,150.0,2014*,11.0,14.0,161.0,1.0,0.0,0.0,0.0,/cfb/schools/clemson/2014.html
-Jordan Leggett,22,TE,Clemson,150.0,2015*,15.0,40.0,525.0,8.0,0.0,0.0,0.0,/cfb/schools/clemson/2015.html
-Jordan Leggett,22,TE,Clemson,150.0,2016*,15.0,46.0,736.0,7.0,0.0,0.0,0.0,/cfb/schools/clemson/2016.html
-Jordan Leggett,22,TE,,,,15.0,14.0,114.0,1.0,,,,
-Jeremy Sprinkle,23,TE,Arkansas,154.0,2013,4.0,4.0,68.0,0.0,1.0,1.0,0.0,/cfb/schools/arkansas/2013.html
-Jeremy Sprinkle,23,TE,Arkansas,154.0,2014*,13.0,7.0,84.0,1.0,0.0,0.0,0.0,/cfb/schools/arkansas/2014.html
-Jeremy Sprinkle,23,TE,Arkansas,154.0,2015*,13.0,27.0,389.0,6.0,1.0,4.0,0.0,/cfb/schools/arkansas/2015.html
-Jeremy Sprinkle,23,TE,Arkansas,154.0,2016*,13.0,33.0,380.0,4.0,0.0,0.0,0.0,/cfb/schools/arkansas/2016.html
-Jeremy Sprinkle,23,TE,,,,11.0,2.0,13.0,1.0,,,,
-Eric Saubert,23,TE,Drake,174.0,2014*,12.0,6.0,67.0,0.0,7.0,78.0,0.0,/cfb/schools/georgia/2014.html
-Eric Saubert,23,TE,Drake,174.0,2015*,10.0,10.0,123.0,0.0,11.0,117.0,2.0,/cfb/schools/georgia/2015.html
-Eric Saubert,23,TE,Drake,174.0,2016*,13.0,44.0,633.0,7.0,19.0,134.0,2.0,/cfb/schools/georgia/2016.html
-Eric Saubert,23,TE,,,,14.0,0.0,0.0,0.0,,,,
-Bucky Hodges,22,TE,Virginia Tech,201.0,2014*,13.0,45.0,526.0,7.0,7.0,20.0,0.0,/cfb/schools/virginia-tech/2014.html
-Bucky Hodges,22,TE,Virginia Tech,201.0,2015*,13.0,40.0,530.0,6.0,5.0,27.0,1.0,/cfb/schools/virginia-tech/2015.html
-Bucky Hodges,22,TE,Virginia Tech,201.0,2016*,14.0,48.0,691.0,7.0,9.0,42.0,0.0,/cfb/schools/virginia-tech/2016.html
-Bucky Hodges,22,TE,,,,,,,,,,,
-Mason Schreck,23,TE,Buffalo,251.0,2013*,12.0,17.0,147.0,2.0,0.0,0.0,0.0,/cfb/schools/buffalo/2013.html
-Mason Schreck,23,TE,Buffalo,251.0,2014,6.0,10.0,106.0,0.0,0.0,0.0,0.0,/cfb/schools/buffalo/2014.html
-Mason Schreck,23,TE,Buffalo,251.0,2015,9.0,21.0,209.0,0.0,0.0,0.0,0.0,/cfb/schools/buffalo/2015.html
-Mason Schreck,23,TE,Buffalo,251.0,2016,12.0,59.0,651.0,4.0,0.0,0.0,0.0,/cfb/schools/buffalo/2016.html
-Mason Schreck,23,TE,,,,6.0,0.0,0.0,0.0,,,,
-Hayden Hurst,25,TE,South Carolina,25.0,2015,12.0,8.0,106.0,0.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2015.html
-Hayden Hurst,25,TE,South Carolina,25.0,2016*,13.0,48.0,616.0,1.0,2.0,9.0,0.0,/cfb/schools/south-carolina/2016.html
-Hayden Hurst,25,TE,South Carolina,25.0,2017*,13.0,44.0,559.0,2.0,9.0,30.0,1.0,/cfb/schools/south-carolina/2017.html
-Hayden Hurst,25,TE,,,,12.0,13.0,163.0,1.0,,,,
-Mike Gesicki,22,TE,Penn St.,42.0,2014*,12.0,11.0,114.0,0.0,0.0,0.0,0.0,/cfb/schools/penn-state/2014.html
-Mike Gesicki,22,TE,Penn St.,42.0,2015*,12.0,13.0,125.0,1.0,0.0,0.0,0.0,/cfb/schools/penn-state/2015.html
-Mike Gesicki,22,TE,Penn St.,42.0,2016*,14.0,48.0,679.0,5.0,0.0,0.0,0.0,/cfb/schools/penn-state/2016.html
-Mike Gesicki,22,TE,Penn St.,42.0,2017*,13.0,57.0,563.0,9.0,0.0,0.0,0.0,/cfb/schools/penn-state/2017.html
-Mike Gesicki,22,TE,,,,16.0,22.0,202.0,0.0,,,,
-Dallas Goedert,23,TE,South Dakota St.,49.0,2015*,13.0,80.0,1009.0,7.0,11.0,54.0,0.0,/cfb/schools/texas-am/2015.html
-Dallas Goedert,23,TE,South Dakota St.,49.0,2016*,13.0,83.0,928.0,9.0,8.0,35.0,0.0,/cfb/schools/texas-am/2016.html
-Dallas Goedert,23,TE,South Dakota St.,49.0,2017*,13.0,71.0,919.0,10.0,4.0,31.0,0.0,/cfb/schools/texas-am/2017.html
-Dallas Goedert,23,TE,,,,16.0,33.0,334.0,4.0,,,,
-Mark Andrews,23,TE,Oklahoma,86.0,2014*,1.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2014.html
-Mark Andrews,23,TE,Oklahoma,86.0,2015*,13.0,19.0,318.0,7.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2015.html
-Mark Andrews,23,TE,Oklahoma,86.0,2016*,13.0,31.0,489.0,7.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2016.html
-Mark Andrews,23,TE,Oklahoma,86.0,2017*,14.0,62.0,958.0,8.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2017.html
-Mark Andrews,23,TE,,,,16.0,34.0,552.0,3.0,,,,
-Jordan Akins,26,TE,Central Florida,98.0,2014*,13.0,12.0,135.0,0.0,0.0,0.0,0.0,/cfb/schools/central-florida/2014.html
-Jordan Akins,26,TE,Central Florida,98.0,2015,3.0,14.0,152.0,2.0,0.0,0.0,0.0,/cfb/schools/central-florida/2015.html
-Jordan Akins,26,TE,Central Florida,98.0,2016*,13.0,23.0,347.0,2.0,0.0,0.0,0.0,/cfb/schools/central-florida/2016.html
-Jordan Akins,26,TE,Central Florida,98.0,2017*,12.0,32.0,515.0,4.0,0.0,0.0,0.0,/cfb/schools/central-florida/2017.html
-Jordan Akins,26,TE,,,,16.0,17.0,225.0,0.0,,,,
-Ian Thomas,22,TE,Indiana,101.0,2016*,13.0,3.0,28.0,0.0,0.0,0.0,0.0,/cfb/schools/indiana/2016.html
-Ian Thomas,22,TE,Indiana,101.0,2017,10.0,25.0,376.0,5.0,0.0,0.0,0.0,/cfb/schools/indiana/2017.html
-Ian Thomas,22,TE,,,,16.0,36.0,333.0,2.0,,,,
-Chris Herndon,22,TE,Miami (FL),107.0,2014*,7.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2014.html
-Chris Herndon,22,TE,Miami (FL),107.0,2015*,13.0,18.0,237.0,1.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2015.html
-Chris Herndon,22,TE,Miami (FL),107.0,2016*,13.0,28.0,334.0,2.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2016.html
-Chris Herndon,22,TE,Miami (FL),107.0,2017*,11.0,40.0,477.0,4.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2017.html
-Chris Herndon,22,TE,,,,16.0,39.0,502.0,4.0,,,,
-Will Dissly,22,TE,Washington,120.0,2014*,6.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/washington/2014.html
-Will Dissly,22,TE,Washington,120.0,2015*,12.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/washington/2015.html
-Will Dissly,22,TE,Washington,120.0,2016*,14.0,4.0,47.0,1.0,0.0,0.0,0.0,/cfb/schools/washington/2016.html
-Will Dissly,22,TE,Washington,120.0,2017*,13.0,21.0,289.0,2.0,0.0,0.0,0.0,/cfb/schools/washington/2017.html
-Will Dissly,22,TE,,,,4.0,8.0,156.0,2.0,,,,
-Durham Smythe,23,TE,Notre Dame,123.0,2014*,12.0,1.0,7.0,0.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2014.html
-Durham Smythe,23,TE,Notre Dame,123.0,2015*,3.0,3.0,18.0,1.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2015.html
-Durham Smythe,23,TE,Notre Dame,123.0,2016,11.0,9.0,112.0,4.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2016.html
-Durham Smythe,23,TE,Notre Dame,123.0,2017*,13.0,15.0,244.0,1.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2017.html
-Durham Smythe,23,TE,,,,15.0,6.0,50.0,0.0,,,,
-Dalton Schultz,22,TE,Stanford,137.0,2015*,14.0,10.0,121.0,1.0,0.0,0.0,0.0,/cfb/schools/stanford/2015.html
-Dalton Schultz,22,TE,Stanford,137.0,2016*,13.0,23.0,222.0,1.0,0.0,0.0,0.0,/cfb/schools/stanford/2016.html
-Dalton Schultz,22,TE,Stanford,137.0,2017*,13.0,22.0,212.0,3.0,0.0,0.0,0.0,/cfb/schools/stanford/2017.html
-Dalton Schultz,22,TE,,,,11.0,12.0,116.0,0.0,,,,
-Troy Fumagalli,23,TE,Wisconsin,156.0,2014*,14.0,14.0,187.0,0.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2014.html
-Troy Fumagalli,23,TE,Wisconsin,156.0,2015*,11.0,28.0,313.0,1.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2015.html
-Troy Fumagalli,23,TE,Wisconsin,156.0,2016*,14.0,47.0,580.0,2.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2016.html
-Troy Fumagalli,23,TE,Wisconsin,156.0,2017*,13.0,46.0,547.0,4.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2017.html
-Troy Fumagalli,23,TE,,,,11.0,6.0,38.0,1.0,,,,
-Tyler Conklin,23,TE,Central Michigan,157.0,2015*,13.0,6.0,95.0,0.0,0.0,0.0,0.0,/cfb/schools/central-michigan/2015.html
-Tyler Conklin,23,TE,Central Michigan,157.0,2016*,13.0,42.0,560.0,6.0,0.0,0.0,0.0,/cfb/schools/central-michigan/2016.html
-Tyler Conklin,23,TE,Central Michigan,157.0,2017*,8.0,35.0,504.0,5.0,0.0,0.0,0.0,/cfb/schools/central-michigan/2017.html
-Tyler Conklin,23,TE,,,,16.0,5.0,77.0,0.0,,,,
-Jaylen Samuels,22,TE,North Carolina St.,165.0,2014*,13.0,6.0,96.0,1.0,15.0,143.0,1.0,/cfb/schools/north-carolina-state/2014.html
-Jaylen Samuels,22,TE,North Carolina St.,165.0,2015*,13.0,65.0,597.0,7.0,56.0,368.0,9.0,/cfb/schools/north-carolina-state/2015.html
-Jaylen Samuels,22,TE,North Carolina St.,165.0,2016*,13.0,55.0,565.0,7.0,33.0,189.0,6.0,/cfb/schools/north-carolina-state/2016.html
-Jaylen Samuels,22,TE,North Carolina St.,165.0,2017*,13.0,76.0,597.0,4.0,77.0,403.0,12.0,/cfb/schools/north-carolina-state/2017.html
-Jaylen Samuels,22,TE,,,,,,,,,,,
-Jordan Thomas,22,TE,Mississippi St.,211.0,2016*,12.0,9.0,48.0,1.0,0.0,0.0,0.0,/cfb/schools/mississippi-state/2016.html
-Jordan Thomas,22,TE,Mississippi St.,211.0,2017*,13.0,22.0,263.0,3.0,0.0,0.0,0.0,/cfb/schools/mississippi-state/2017.html
-Jordan Thomas,22,TE,,,,16.0,20.0,215.0,4.0,,,,
-Ryan Izzo,22,TE,Florida St.,250.0,2014*,2.0,1.0,7.0,0.0,0.0,0.0,0.0,/cfb/schools/florida-state/2014.html
-Ryan Izzo,22,TE,Florida St.,250.0,2015*,13.0,14.0,210.0,2.0,0.0,0.0,0.0,/cfb/schools/florida-state/2015.html
-Ryan Izzo,22,TE,Florida St.,250.0,2016*,13.0,19.0,227.0,1.0,0.0,0.0,0.0,/cfb/schools/florida-state/2016.html
-Ryan Izzo,22,TE,Florida St.,250.0,2017*,13.0,20.0,317.0,3.0,0.0,0.0,0.0,/cfb/schools/florida-state/2017.html
-Ryan Izzo,22,TE,,,,6.0,6.0,114.0,1.0,,,,
-T.J. Hockenson,22,TE,Iowa,8.0,2017*,13.0,24.0,320.0,3.0,0.0,0.0,0.0,/cfb/schools/iowa/2017.html
-T.J. Hockenson,22,TE,Iowa,8.0,2018*,13.0,49.0,760.0,6.0,1.0,4.0,1.0,/cfb/schools/iowa/2018.html
-T.J. Hockenson,22,TE,,,,12.0,32.0,367.0,2.0,,,,
-Noah Fant,21,TE,Iowa,20.0,2016*,10.0,9.0,70.0,1.0,0.0,0.0,0.0,/cfb/schools/iowa/2016.html
-Noah Fant,21,TE,Iowa,20.0,2017*,13.0,30.0,494.0,11.0,2.0,-1.0,0.0,/cfb/schools/iowa/2017.html
-Noah Fant,21,TE,Iowa,20.0,2018*,12.0,39.0,519.0,7.0,2.0,1.0,0.0,/cfb/schools/iowa/2018.html
-Noah Fant,21,TE,,,,16.0,40.0,562.0,3.0,,,,
-Irv Smith Jr.,21,TE,Alabama,50.0,2016*,9.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2016.html
-Irv Smith Jr.,21,TE,Alabama,50.0,2017*,14.0,14.0,128.0,3.0,0.0,0.0,0.0,/cfb/schools/alabama/2017.html
-Irv Smith Jr.,21,TE,Alabama,50.0,2018*,15.0,44.0,710.0,7.0,0.0,0.0,0.0,/cfb/schools/alabama/2018.html
-Irv Smith Jr.,21,TE,,,,16.0,36.0,311.0,2.0,,,,
-Drew Sample,23,TE,Washington,52.0,2014*,1.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/washington/2014.html
-Drew Sample,23,TE,Washington,52.0,2015*,13.0,5.0,45.0,2.0,0.0,0.0,0.0,/cfb/schools/washington/2015.html
-Drew Sample,23,TE,Washington,52.0,2016*,14.0,9.0,106.0,0.0,0.0,0.0,0.0,/cfb/schools/washington/2016.html
-Drew Sample,23,TE,Washington,52.0,2017*,10.0,7.0,84.0,0.0,0.0,0.0,0.0,/cfb/schools/washington/2017.html
-Drew Sample,23,TE,Washington,52.0,2018*,14.0,25.0,252.0,3.0,0.0,0.0,0.0,/cfb/schools/washington/2018.html
-Drew Sample,23,TE,,,,9.0,5.0,30.0,0.0,,,,
-Josh Oliver,22,TE,San Jose St.,69.0,2015*,13.0,4.0,36.0,1.0,1.0,7.0,0.0,/cfb/schools/san-jose-state/2015.html
-Josh Oliver,22,TE,San Jose St.,69.0,2016,12.0,3.0,26.0,1.0,0.0,0.0,0.0,/cfb/schools/san-jose-state/2016.html
-Josh Oliver,22,TE,San Jose St.,69.0,2017,11.0,35.0,296.0,1.0,0.0,0.0,0.0,/cfb/schools/san-jose-state/2017.html
-Josh Oliver,22,TE,San Jose St.,69.0,2018,12.0,56.0,709.0,4.0,0.0,0.0,0.0,/cfb/schools/san-jose-state/2018.html
-Josh Oliver,22,TE,,,,4.0,3.0,15.0,0.0,,,,
-Jace Sternberger,23,TE,Texas A&M,75.0,2016,10.0,1.0,5.0,0.0,0.0,0.0,0.0,/cfb/schools/kansas/2016.html
-Jace Sternberger,23,TE,Texas A&M,75.0,2018*,13.0,48.0,832.0,10.0,1.0,4.0,0.0,/cfb/schools/texas-am/2018.html
-Jace Sternberger,23,TE,,,,6.0,0.0,0.0,0.0,,,,
-Kahale Warring,22,TE,San Diego St.,86.0,2016*,4.0,2.0,17.0,2.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2016.html
-Kahale Warring,22,TE,San Diego St.,86.0,2017*,13.0,18.0,248.0,3.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2017.html
-Kahale Warring,22,TE,San Diego St.,86.0,2018*,12.0,31.0,372.0,3.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2018.html
-Kahale Warring,22,TE,,,,7.0,3.0,35.0,0.0,,,,
-Dawson Knox,22,TE,Mississippi,96.0,2016,5.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/mississippi/2016.html
-Dawson Knox,22,TE,Mississippi,96.0,2017,10.0,24.0,321.0,0.0,0.0,0.0,0.0,/cfb/schools/mississippi/2017.html
-Dawson Knox,22,TE,Mississippi,96.0,2018,12.0,15.0,284.0,0.0,0.0,0.0,0.0,/cfb/schools/mississippi/2018.html
-Dawson Knox,22,TE,,,,15.0,28.0,388.0,2.0,,,,
-Trevon Wesco,23,TE,West Virginia,121.0,2016*,10.0,1.0,6.0,1.0,0.0,0.0,0.0,/cfb/schools/west-virginia/2016.html
-Trevon Wesco,23,TE,West Virginia,121.0,2017*,12.0,1.0,1.0,0.0,0.0,0.0,0.0,/cfb/schools/west-virginia/2017.html
-Trevon Wesco,23,TE,West Virginia,121.0,2018*,12.0,26.0,366.0,1.0,1.0,3.0,0.0,/cfb/schools/west-virginia/2018.html
-Trevon Wesco,23,TE,,,,16.0,2.0,47.0,0.0,,,,
-Foster Moreau,22,TE,LSU,137.0,2015*,12.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2015.html
-Foster Moreau,22,TE,LSU,137.0,2016*,11.0,6.0,79.0,1.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2016.html
-Foster Moreau,22,TE,LSU,137.0,2017*,13.0,24.0,278.0,3.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2017.html
-Foster Moreau,22,TE,LSU,137.0,2018*,13.0,22.0,272.0,2.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2018.html
-Foster Moreau,22,TE,,,,13.0,21.0,174.0,5.0,,,,
-Zach Gentry,22,TE,Michigan,141.0,2016*,7.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/michigan/2016.html
-Zach Gentry,22,TE,Michigan,141.0,2017*,13.0,17.0,303.0,2.0,0.0,0.0,0.0,/cfb/schools/michigan/2017.html
-Zach Gentry,22,TE,Michigan,141.0,2018*,13.0,32.0,514.0,2.0,0.0,0.0,0.0,/cfb/schools/michigan/2018.html
-Zach Gentry,22,TE,,,,4.0,1.0,4.0,0.0,,,,
-Kaden Smith,22,TE,Stanford,176.0,2017*,14.0,23.0,414.0,5.0,0.0,0.0,0.0,/cfb/schools/stanford/2017.html
-Kaden Smith,22,TE,Stanford,176.0,2018*,10.0,47.0,635.0,2.0,0.0,0.0,0.0,/cfb/schools/stanford/2018.html
-Kaden Smith,22,TE,,,,9.0,31.0,268.0,3.0,,,,
-Isaac Nauta,22,TE,Georgia,224.0,2016*,13.0,29.0,361.0,3.0,0.0,0.0,0.0,/cfb/schools/georgia/2016.html
-Isaac Nauta,22,TE,Georgia,224.0,2017*,15.0,9.0,114.0,2.0,0.0,0.0,0.0,/cfb/schools/georgia/2017.html
-Isaac Nauta,22,TE,Georgia,224.0,2018*,14.0,30.0,430.0,3.0,0.0,31.0,1.0,/cfb/schools/georgia/2018.html
-Isaac Nauta,22,TE,,,,6.0,2.0,13.0,0.0,,,,
-Tommy Sweeney,24,TE,Boston Col.,228.0,2015,12.0,5.0,68.0,0.0,0.0,0.0,0.0,/cfb/schools/boston-college/2015.html
-Tommy Sweeney,24,TE,Boston Col.,228.0,2016*,13.0,26.0,353.0,3.0,0.0,0.0,0.0,/cfb/schools/boston-college/2016.html
-Tommy Sweeney,24,TE,Boston Col.,228.0,2017*,13.0,36.0,512.0,4.0,0.0,0.0,0.0,/cfb/schools/boston-college/2017.html
-Tommy Sweeney,24,TE,Boston Col.,228.0,2018,12.0,32.0,348.0,3.0,0.0,0.0,0.0,/cfb/schools/boston-college/2018.html
-Tommy Sweeney,24,TE,,,,6.0,8.0,114.0,0.0,,,,
-Alizé Mack,22,TE,Notre Dame,231.0,2015*,13.0,13.0,190.0,0.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2015.html
-Alizé Mack,22,TE,Notre Dame,231.0,2017*,10.0,19.0,166.0,1.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2017.html
-Alizé Mack,22,TE,Notre Dame,231.0,2018*,12.0,36.0,360.0,3.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2018.html
-Alizé Mack,22,TE,,,,,,,,,,,
-Caleb Wilson,23,TE,UCLA,254.0,2016,12.0,16.0,220.0,0.0,0.0,0.0,0.0,/cfb/schools/ucla/2016.html
-Caleb Wilson,23,TE,UCLA,254.0,2017*,5.0,38.0,489.0,1.0,0.0,0.0,0.0,/cfb/schools/ucla/2017.html
-Caleb Wilson,23,TE,UCLA,254.0,2018,12.0,60.0,965.0,4.0,1.0,4.0,0.0,/cfb/schools/ucla/2018.html
-Caleb Wilson,23,TE,,,,,,,,,,,
-Cole Kmet,21,TE,Notre Dame,43.0,2017*,13.0,2.0,14.0,0.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2017.html
-Cole Kmet,21,TE,Notre Dame,43.0,2018*,11.0,15.0,162.0,0.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2018.html
-Cole Kmet,21,TE,Notre Dame,43.0,2019*,11.0,43.0,515.0,6.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2019.html
-Cole Kmet,21,TE,,,,16.0,28.0,243.0,2.0,,,,
-Devin Asiasi,23,TE,UCLA,91.0,2016*,13.0,2.0,18.0,1.0,0.0,0.0,0.0,/cfb/schools/michigan/2016.html
-Devin Asiasi,23,TE,UCLA,91.0,2018,9.0,6.0,130.0,1.0,0.0,0.0,0.0,/cfb/schools/ucla/2018.html
-Devin Asiasi,23,TE,UCLA,91.0,2019,12.0,44.0,641.0,4.0,0.0,0.0,0.0,/cfb/schools/ucla/2019.html
-Devin Asiasi,23,TE,,,,9.0,2.0,39.0,1.0,,,,
-Josiah Deguara,23,TE,Cincinnati,94.0,2016,12.0,4.0,47.0,0.0,1.0,-2.0,0.0,/cfb/schools/cincinnati/2016.html
-Josiah Deguara,23,TE,Cincinnati,94.0,2017,7.0,11.0,98.0,0.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2017.html
-Josiah Deguara,23,TE,Cincinnati,94.0,2018*,13.0,38.0,468.0,5.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2018.html
-Josiah Deguara,23,TE,Cincinnati,94.0,2019*,14.0,39.0,504.0,7.0,0.0,2.0,1.0,/cfb/schools/cincinnati/2019.html
-Josiah Deguara,23,TE,,,,2.0,1.0,12.0,0.0,,,,
-Dalton Keene,21,TE,Virginia Tech,101.0,2017*,13.0,10.0,167.0,0.0,0.0,0.0,0.0,/cfb/schools/virginia-tech/2017.html
-Dalton Keene,21,TE,Virginia Tech,101.0,2018*,12.0,28.0,341.0,3.0,0.0,0.0,0.0,/cfb/schools/virginia-tech/2018.html
-Dalton Keene,21,TE,Virginia Tech,101.0,2019*,13.0,21.0,240.0,5.0,11.0,33.0,0.0,/cfb/schools/virginia-tech/2019.html
-Dalton Keene,21,TE,,,,6.0,3.0,16.0,0.0,,,,
-Adam Trautman,23,TE,Dayton,105.0,2017*,13.0,10.0,167.0,0.0,0.0,0.0,0.0,/cfb/schools/virginia-tech/2017.html
-Adam Trautman,23,TE,Dayton,105.0,2018*,12.0,28.0,341.0,3.0,0.0,0.0,0.0,/cfb/schools/virginia-tech/2018.html
-Adam Trautman,23,TE,Dayton,105.0,2019*,13.0,21.0,240.0,5.0,11.0,33.0,0.0,/cfb/schools/virginia-tech/2019.html
-Adam Trautman,23,TE,,,,15.0,15.0,171.0,1.0,,,,
-Harrison Bryant,22,TE,Florida Atlantic,115.0,2016,12.0,6.0,63.0,0.0,0.0,0.0,0.0,/cfb/schools/florida-atlantic/2016.html
-Harrison Bryant,22,TE,Florida Atlantic,115.0,2017*,11.0,32.0,408.0,5.0,0.0,0.0,0.0,/cfb/schools/florida-atlantic/2017.html
-Harrison Bryant,22,TE,Florida Atlantic,115.0,2018,12.0,45.0,662.0,4.0,1.0,2.0,0.0,/cfb/schools/florida-atlantic/2018.html
-Harrison Bryant,22,TE,Florida Atlantic,115.0,2019*,13.0,65.0,1004.0,7.0,0.0,0.0,0.0,/cfb/schools/florida-atlantic/2019.html
-Harrison Bryant,22,TE,,,,15.0,24.0,238.0,3.0,,,,
-Albert Okwuegbunam,22,TE,Missouri,118.0,2017*,13.0,29.0,415.0,11.0,0.0,0.0,0.0,/cfb/schools/missouri/2017.html
-Albert Okwuegbunam,22,TE,Missouri,118.0,2018*,9.0,43.0,466.0,6.0,0.0,0.0,0.0,/cfb/schools/missouri/2018.html
-Albert Okwuegbunam,22,TE,Missouri,118.0,2019,11.0,26.0,306.0,6.0,0.0,0.0,0.0,/cfb/schools/missouri/2019.html
-Albert Okwuegbunam,22,TE,,,,4.0,11.0,121.0,1.0,,,,
-Colby Parkinson,21,TE,Stanford,133.0,2017*,14.0,10.0,97.0,4.0,0.0,0.0,0.0,/cfb/schools/stanford/2017.html
-Colby Parkinson,21,TE,Stanford,133.0,2018*,13.0,29.0,485.0,7.0,0.0,0.0,0.0,/cfb/schools/stanford/2018.html
-Colby Parkinson,21,TE,Stanford,133.0,2019,12.0,48.0,589.0,1.0,0.0,0.0,0.0,/cfb/schools/stanford/2019.html
-Colby Parkinson,21,TE,,,,6.0,2.0,16.0,0.0,,,,
-Brycen Hopkins,23,TE,Purdue,136.0,2016,11.0,10.0,183.0,4.0,0.0,0.0,0.0,/cfb/schools/purdue/2016.html
-Brycen Hopkins,23,TE,Purdue,136.0,2017*,12.0,25.0,349.0,3.0,0.0,0.0,0.0,/cfb/schools/purdue/2017.html
-Brycen Hopkins,23,TE,Purdue,136.0,2018*,13.0,34.0,583.0,2.0,0.0,0.0,0.0,/cfb/schools/purdue/2018.html
-Brycen Hopkins,23,TE,Purdue,136.0,2019,12.0,61.0,830.0,7.0,0.0,0.0,0.0,/cfb/schools/purdue/2019.html
-Brycen Hopkins,23,TE,,,,5.0,0.0,0.0,0.0,,,,
-Charlie Woerner,22,TE,Georgia,190.0,2016*,12.0,5.0,50.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2016.html
-Charlie Woerner,22,TE,Georgia,190.0,2017*,13.0,9.0,100.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2017.html
-Charlie Woerner,22,TE,Georgia,190.0,2018*,14.0,11.0,148.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2018.html
-Charlie Woerner,22,TE,Georgia,190.0,2019*,14.0,9.0,78.0,1.0,0.0,0.0,0.0,/cfb/schools/georgia/2019.html
-Charlie Woerner,22,TE,,,,14.0,3.0,36.0,0.0,,,,
-Tyler Davis,23,TE,Georgia Tech,206.0,2016,11.0,11.0,107.0,1.0,0.0,0.0,0.0,/cfb/schools/connecticut/2016.html
-Tyler Davis,23,TE,Georgia Tech,206.0,2017,11.0,14.0,156.0,0.0,0.0,0.0,0.0,/cfb/schools/connecticut/2017.html
-Tyler Davis,23,TE,Georgia Tech,206.0,2018,12.0,22.0,237.0,6.0,0.0,0.0,0.0,/cfb/schools/connecticut/2018.html
-Tyler Davis,23,TE,Georgia Tech,206.0,2019,12.0,17.0,148.0,1.0,0.0,0.0,0.0,/cfb/schools/georgia-tech/2019.html
-Tyler Davis,23,TE,,,,8.0,0.0,0.0,0.0,,,,
-Stephen Sullivan,23,TE,LSU,251.0,2016*,8.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2016.html
-Stephen Sullivan,23,TE,LSU,251.0,2017*,13.0,11.0,219.0,1.0,2.0,5.0,1.0,/cfb/schools/louisiana-state/2017.html
-Stephen Sullivan,23,TE,LSU,251.0,2018*,13.0,23.0,363.0,2.0,2.0,20.0,0.0,/cfb/schools/louisiana-state/2018.html
-Stephen Sullivan,23,TE,LSU,251.0,2019*,15.0,12.0,130.0,0.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2019.html
-Stephen Sullivan,23,TE,,,,1.0,0.0,0.0,0.0,,,,
-Kyle Pitts,20,TE,Florida,4.0,2018*,11.0,3.0,73.0,1.0,0.0,0.0,0.0,/cfb/schools/florida/2018.html
-Kyle Pitts,20,TE,Florida,4.0,2019*,13.0,54.0,649.0,5.0,0.0,0.0,0.0,/cfb/schools/florida/2019.html
-Kyle Pitts,20,TE,Florida,4.0,2020*,8.0,43.0,770.0,12.0,0.0,0.0,0.0,/cfb/schools/florida/2020.html
-Kyle Pitts,20,TE,,,,17.0,68.0,1026.0,1.0,,,,
-Pat Freiermuth,22,TE,Penn St.,55.0,2018*,13.0,26.0,368.0,8.0,0.0,0.0,0.0,/cfb/schools/penn-state/2018.html
-Pat Freiermuth,22,TE,Penn St.,55.0,2019*,13.0,43.0,507.0,7.0,0.0,0.0,0.0,/cfb/schools/penn-state/2019.html
-Pat Freiermuth,22,TE,Penn St.,55.0,2020,4.0,23.0,310.0,1.0,0.0,0.0,0.0,/cfb/schools/penn-state/2020.html
-Pat Freiermuth,22,TE,,,,16.0,60.0,497.0,7.0,,,,
-Hunter Long,23,TE,Boston Col.,81.0,2018,12.0,4.0,103.0,2.0,0.0,0.0,0.0,/cfb/schools/boston-college/2018.html
-Hunter Long,23,TE,Boston Col.,81.0,2019*,13.0,28.0,509.0,2.0,0.0,0.0,0.0,/cfb/schools/boston-college/2019.html
-Hunter Long,23,TE,Boston Col.,81.0,2020,11.0,57.0,685.0,5.0,0.0,0.0,0.0,/cfb/schools/boston-college/2020.html
-Hunter Long,23,TE,,,,7.0,1.0,8.0,0.0,,,,
-Tommy Tremble,21,TE,Notre Dame,83.0,2019*,13.0,16.0,183.0,4.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2019.html
-Tommy Tremble,21,TE,Notre Dame,83.0,2020*,12.0,19.0,213.0,0.0,1.0,4.0,0.0,/cfb/schools/notre-dame/2020.html
-Tommy Tremble,21,TE,,,,16.0,20.0,180.0,1.0,,,,
-Tre' McKitty,22,TE,Georgia,97.0,2017*,11.0,1.0,23.0,0.0,0.0,0.0,0.0,/cfb/schools/florida-state/2017.html
-Tre' McKitty,22,TE,Georgia,97.0,2018,12.0,26.0,256.0,2.0,0.0,0.0,0.0,/cfb/schools/florida-state/2018.html
-Tre' McKitty,22,TE,Georgia,97.0,2019*,12.0,23.0,241.0,0.0,0.0,0.0,0.0,/cfb/schools/florida-state/2019.html
-Tre' McKitty,22,TE,Georgia,97.0,2020*,7.0,6.0,108.0,1.0,0.0,0.0,0.0,/cfb/schools/georgia/2020.html
-Tre' McKitty,22,TE,,,,11.0,6.0,45.0,0.0,,,,
-John Bates,23,TE,Boise St.,124.0,2017*,14.0,3.0,34.0,0.0,0.0,0.0,0.0,/cfb/schools/boise-state/2017.html
-John Bates,23,TE,Boise St.,124.0,2018,13.0,10.0,155.0,1.0,0.0,0.0,0.0,/cfb/schools/boise-state/2018.html
-John Bates,23,TE,Boise St.,124.0,2019*,14.0,22.0,273.0,1.0,0.0,0.0,0.0,/cfb/schools/boise-state/2019.html
-John Bates,23,TE,Boise St.,124.0,2020,5.0,12.0,117.0,0.0,0.0,0.0,0.0,/cfb/schools/boise-state/2020.html
-John Bates,23,TE,,,,17.0,20.0,249.0,1.0,,,,
-Kylen Granson,23,TE,SMU,127.0,2016,7.0,33.0,381.0,2.0,4.0,41.0,0.0,/cfb/schools/rice/2016.html
-Kylen Granson,23,TE,SMU,127.0,2017,9.0,18.0,241.0,0.0,6.0,51.0,0.0,/cfb/schools/rice/2017.html
-Kylen Granson,23,TE,SMU,127.0,2019*,13.0,43.0,721.0,9.0,2.0,11.0,0.0,/cfb/schools/southern-methodist/2019.html
-Kylen Granson,23,TE,SMU,127.0,2020,10.0,35.0,536.0,5.0,1.0,0.0,0.0,/cfb/schools/southern-methodist/2020.html
-Kylen Granson,23,TE,,,,17.0,11.0,106.0,0.0,,,,
-Luke Farrell,23,TE,Ohio St.,145.0,2017*,9.0,2.0,19.0,0.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2017.html
-Luke Farrell,23,TE,Ohio St.,145.0,2018*,13.0,20.0,205.0,1.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2018.html
-Luke Farrell,23,TE,Ohio St.,145.0,2019*,14.0,7.0,119.0,2.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2019.html
-Luke Farrell,23,TE,Ohio St.,145.0,2020*,7.0,5.0,37.0,1.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2020.html
-Luke Farrell,23,TE,,,,15.0,7.0,56.0,0.0,,,,
-Brevin Jordan,21,TE,Miami (FL),147.0,2018*,12.0,32.0,287.0,4.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2018.html
-Brevin Jordan,21,TE,Miami (FL),147.0,2019*,11.0,35.0,495.0,2.0,1.0,0.0,0.0,/cfb/schools/miami-fl/2019.html
-Brevin Jordan,21,TE,Miami (FL),147.0,2020*,8.0,38.0,576.0,7.0,2.0,1.0,0.0,/cfb/schools/miami-fl/2020.html
-Brevin Jordan,21,TE,,,,9.0,20.0,178.0,3.0,,,,
-Noah Gray,22,TE,Duke,162.0,2017*,13.0,5.0,37.0,2.0,0.0,0.0,0.0,/cfb/schools/duke/2017.html
-Noah Gray,22,TE,Duke,162.0,2018*,13.0,20.0,234.0,1.0,0.0,0.0,0.0,/cfb/schools/duke/2018.html
-Noah Gray,22,TE,Duke,162.0,2019,12.0,51.0,392.0,3.0,0.0,0.0,0.0,/cfb/schools/duke/2019.html
-Noah Gray,22,TE,Duke,162.0,2020,10.0,29.0,285.0,2.0,2.0,3.0,0.0,/cfb/schools/duke/2020.html
-Noah Gray,22,TE,,,,16.0,7.0,36.0,1.0,,,,
-Zach Davidson,23,TE,Central Missouri St.,168.0,2017*,13.0,5.0,37.0,2.0,0.0,0.0,0.0,/cfb/schools/duke/2017.html
-Zach Davidson,23,TE,Central Missouri St.,168.0,2018*,13.0,20.0,234.0,1.0,0.0,0.0,0.0,/cfb/schools/duke/2018.html
-Zach Davidson,23,TE,Central Missouri St.,168.0,2019,12.0,51.0,392.0,3.0,0.0,0.0,0.0,/cfb/schools/duke/2019.html
-Zach Davidson,23,TE,Central Missouri St.,168.0,2020,10.0,29.0,285.0,2.0,2.0,3.0,0.0,/cfb/schools/duke/2020.html
-Zach Davidson,23,TE,,,,2.0,1.0,5.0,0.0,,,,
-Trey McBride,22,TE,Colorado St.,55.0,2018,12.0,7.0,89.0,1.0,2.0,3.0,0.0,/cfb/schools/colorado-state/2018.html
-Trey McBride,22,TE,Colorado St.,55.0,2019,12.0,45.0,560.0,4.0,0.0,0.0,0.0,/cfb/schools/colorado-state/2019.html
-Trey McBride,22,TE,Colorado St.,55.0,2020,4.0,22.0,330.0,4.0,0.0,0.0,0.0,/cfb/schools/colorado-state/2020.html
-Trey McBride,22,TE,Colorado St.,55.0,2021,12.0,90.0,1121.0,1.0,1.0,69.0,1.0,/cfb/schools/colorado-state/2021.html
-Trey McBride,22,TE,,,,16.0,29.0,265.0,1.0,,,,
-Jelani Woods,23,TE,Virginia,73.0,2018*,11.0,7.0,120.0,2.0,0.0,0.0,0.0,/cfb/schools/oklahoma-state/2018.html
-Jelani Woods,23,TE,Virginia,73.0,2019*,13.0,16.0,112.0,1.0,0.0,0.0,0.0,/cfb/schools/oklahoma-state/2019.html
-Jelani Woods,23,TE,Virginia,73.0,2020*,10.0,8.0,129.0,1.0,1.0,5.0,0.0,/cfb/schools/oklahoma-state/2020.html
-Jelani Woods,23,TE,Virginia,73.0,2021,11.0,44.0,598.0,8.0,1.0,1.0,0.0,/cfb/schools/virginia/2021.html
-Jelani Woods,23,TE,,,,15.0,25.0,312.0,3.0,,,,
-Greg Dulcich,22,TE,UCLA,80.0,2018,3.0,1.0,6.0,0.0,0.0,0.0,0.0,/cfb/schools/ucla/2018.html
-Greg Dulcich,22,TE,UCLA,80.0,2019,11.0,8.0,105.0,1.0,0.0,0.0,0.0,/cfb/schools/ucla/2019.html
-Greg Dulcich,22,TE,UCLA,80.0,2020,7.0,26.0,517.0,5.0,0.0,0.0,0.0,/cfb/schools/ucla/2020.html
-Greg Dulcich,22,TE,UCLA,80.0,2021,12.0,42.0,725.0,5.0,0.0,0.0,0.0,/cfb/schools/ucla/2021.html
-Greg Dulcich,22,TE,,,,10.0,33.0,411.0,2.0,,,,
-Jeremy Ruckert,22,TE,Ohio St.,101.0,2018*,10.0,1.0,13.0,0.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2018.html
-Jeremy Ruckert,22,TE,Ohio St.,101.0,2019*,14.0,14.0,142.0,4.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2019.html
-Jeremy Ruckert,22,TE,Ohio St.,101.0,2020*,8.0,13.0,151.0,5.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2020.html
-Jeremy Ruckert,22,TE,Ohio St.,101.0,2021*,12.0,26.0,309.0,3.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2021.html
-Jeremy Ruckert,22,TE,,,,9.0,1.0,8.0,0.0,,,,
-Cade Otton,23,TE,Washington,106.0,2018*,14.0,13.0,174.0,3.0,0.0,0.0,0.0,/cfb/schools/washington/2018.html
-Cade Otton,23,TE,Washington,106.0,2019*,13.0,32.0,344.0,2.0,0.0,0.0,0.0,/cfb/schools/washington/2019.html
-Cade Otton,23,TE,Washington,106.0,2020,4.0,18.0,258.0,3.0,0.0,0.0,0.0,/cfb/schools/washington/2020.html
-Cade Otton,23,TE,Washington,106.0,2021,8.0,28.0,250.0,1.0,0.0,0.0,0.0,/cfb/schools/washington/2021.html
-Cade Otton,23,TE,,,,16.0,42.0,391.0,2.0,,,,
-Daniel Bellinger,21,TE,San Diego St.,112.0,2018*,9.0,1.0,10.0,0.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2018.html
-Daniel Bellinger,21,TE,San Diego St.,112.0,2019*,13.0,15.0,201.0,3.0,1.0,-6.0,0.0,/cfb/schools/san-diego-state/2019.html
-Daniel Bellinger,21,TE,San Diego St.,112.0,2020,8.0,21.0,203.0,0.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2020.html
-Daniel Bellinger,21,TE,San Diego St.,112.0,2021*,13.0,31.0,357.0,2.0,1.0,2.0,0.0,/cfb/schools/san-diego-state/2021.html
-Daniel Bellinger,21,TE,,,,12.0,30.0,268.0,2.0,,,,
-Charlie Kolar,23,TE,Iowa St.,128.0,2018*,13.0,11.0,137.0,3.0,0.0,0.0,0.0,/cfb/schools/iowa-state/2018.html
-Charlie Kolar,23,TE,Iowa St.,128.0,2019*,13.0,51.0,697.0,7.0,0.0,0.0,0.0,/cfb/schools/iowa-state/2019.html
-Charlie Kolar,23,TE,Iowa St.,128.0,2020*,11.0,44.0,591.0,7.0,0.0,0.0,0.0,/cfb/schools/iowa-state/2020.html
-Charlie Kolar,23,TE,Iowa St.,128.0,2021*,12.0,62.0,756.0,6.0,0.0,0.0,0.0,/cfb/schools/iowa-state/2021.html
-Charlie Kolar,23,TE,,,,2.0,4.0,49.0,0.0,,,,
-Jake Ferguson,23,TE,Wisconsin,129.0,2018*,13.0,36.0,456.0,4.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2018.html
-Jake Ferguson,23,TE,Wisconsin,129.0,2019*,14.0,33.0,407.0,2.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2019.html
-Jake Ferguson,23,TE,Wisconsin,129.0,2020*,7.0,30.0,305.0,4.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2020.html
-Jake Ferguson,23,TE,Wisconsin,129.0,2021*,13.0,46.0,450.0,3.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2021.html
-Jake Ferguson,23,TE,,,,16.0,19.0,174.0,2.0,,,,
-Isaiah Likely,22,TE,Coastal Carolina,139.0,2018,12.0,12.0,106.0,5.0,0.0,0.0,0.0,/cfb/schools/coastal-carolina/2018.html
-Isaiah Likely,22,TE,Coastal Carolina,139.0,2019,12.0,32.0,431.0,5.0,0.0,0.0,0.0,/cfb/schools/coastal-carolina/2019.html
-Isaiah Likely,22,TE,Coastal Carolina,139.0,2020*,11.0,30.0,601.0,5.0,0.0,0.0,0.0,/cfb/schools/coastal-carolina/2020.html
-Isaiah Likely,22,TE,Coastal Carolina,139.0,2021*,13.0,59.0,912.0,12.0,3.0,10.0,0.0,/cfb/schools/coastal-carolina/2021.html
-Isaiah Likely,22,TE,,,,16.0,36.0,373.0,3.0,,,,
-Chigoziem Okonkwo,22,TE,Maryland,143.0,2018,12.0,6.0,69.0,1.0,3.0,72.0,3.0,/cfb/schools/maryland/2018.html
-Chigoziem Okonkwo,22,TE,Maryland,143.0,2019,12.0,19.0,201.0,2.0,0.0,0.0,0.0,/cfb/schools/maryland/2019.html
-Chigoziem Okonkwo,22,TE,Maryland,143.0,2020,1.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/maryland/2020.html
-Chigoziem Okonkwo,22,TE,Maryland,143.0,2021*,13.0,52.0,447.0,5.0,0.0,0.0,0.0,/cfb/schools/maryland/2021.html
-Chigoziem Okonkwo,22,TE,,,,17.0,32.0,450.0,3.0,,,,
-Cole Turner,22,TE,Nevada,149.0,2018*,12.0,2.0,37.0,1.0,0.0,0.0,0.0,/cfb/schools/nevada/2018.html
-Cole Turner,22,TE,Nevada,149.0,2019*,13.0,4.0,51.0,0.0,0.0,0.0,0.0,/cfb/schools/nevada/2019.html
-Cole Turner,22,TE,Nevada,149.0,2020*,9.0,49.0,605.0,9.0,0.0,0.0,0.0,/cfb/schools/nevada/2020.html
-Cole Turner,22,TE,Nevada,149.0,2021*,11.0,62.0,677.0,10.0,0.0,0.0,0.0,/cfb/schools/nevada/2021.html
-Cole Turner,22,TE,,,,10.0,2.0,23.0,0.0,,,,
-Teagan Quitoriano,22,TE,Oregon St.,170.0,2018,10.0,2.0,13.0,0.0,0.0,0.0,0.0,/cfb/schools/oregon-state/2018.html
-Teagan Quitoriano,22,TE,Oregon St.,170.0,2019,12.0,5.0,100.0,2.0,0.0,0.0,0.0,/cfb/schools/oregon-state/2019.html
-Teagan Quitoriano,22,TE,Oregon St.,170.0,2020,7.0,14.0,185.0,1.0,0.0,0.0,0.0,/cfb/schools/oregon-state/2020.html
-Teagan Quitoriano,22,TE,Oregon St.,170.0,2021*,13.0,19.0,214.0,3.0,0.0,0.0,0.0,/cfb/schools/oregon-state/2021.html
-Teagan Quitoriano,22,TE,,,,9.0,7.0,113.0,2.0,,,,
-James Mitchell,23,TE,Virginia Tech,177.0,2018*,13.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/virginia-tech/2018.html
-James Mitchell,23,TE,Virginia Tech,177.0,2019*,13.0,21.0,361.0,2.0,5.0,7.0,4.0,/cfb/schools/virginia-tech/2019.html
-James Mitchell,23,TE,Virginia Tech,177.0,2020,10.0,26.0,435.0,4.0,1.0,1.0,1.0,/cfb/schools/virginia-tech/2020.html
-James Mitchell,23,TE,Virginia Tech,177.0,2021*,2.0,5.0,42.0,1.0,1.0,1.0,0.0,/cfb/schools/virginia-tech/2021.html
-James Mitchell,23,TE,,,,14.0,11.0,113.0,1.0,,,,
-Andrew Ogletree,24,TE,Youngstown St.,192.0,2018*,8.0,8.0,138.0,2.0,9.0,128.0,1.0,/cfb/schools/michigan-state/2018.html
-Andrew Ogletree,24,TE,Youngstown St.,192.0,2019*,4.0,15.0,106.0,0.0,5.0,27.0,0.0,/cfb/schools/michigan-state/2019.html
-Andrew Ogletree,24,TE,Youngstown St.,192.0,2020,7.0,26.0,515.0,4.0,2.0,11.0,0.0,/cfb/schools/michigan-state/2020.html
-Andrew Ogletree,24,TE,Youngstown St.,192.0,2021*,9.0,37.0,694.0,6.0,1.0,-3.0,0.0,/cfb/schools/michigan-state/2021.html
-Andrew Ogletree,24,TE,,,,12.0,9.0,147.0,2.0,,,,
-Grant Calcaterra,23,TE,SMU,198.0,2017*,14.0,10.0,162.0,3.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2017.html
-Grant Calcaterra,23,TE,SMU,198.0,2018*,14.0,26.0,396.0,6.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2018.html
-Grant Calcaterra,23,TE,SMU,198.0,2019*,5.0,5.0,79.0,0.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2019.html
-Grant Calcaterra,23,TE,SMU,198.0,2021,12.0,38.0,465.0,4.0,0.0,0.0,0.0,/cfb/schools/southern-methodist/2021.html
-Grant Calcaterra,23,TE,,,,15.0,5.0,81.0,0.0,,,,
-Connor Heyward,23,TE,,,,17.0,12.0,151.0,1.0,,,,
-John FitzPatrick,22,TE,Georgia,213.0,2018*,2.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2018.html
-John FitzPatrick,22,TE,Georgia,213.0,2019*,11.0,1.0,22.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2019.html
-John FitzPatrick,22,TE,Georgia,213.0,2020*,10.0,10.0,95.0,1.0,0.0,0.0,0.0,/cfb/schools/georgia/2020.html
-John FitzPatrick,22,TE,Georgia,213.0,2021*,15.0,6.0,83.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2021.html
-John FitzPatrick,22,TE,,,,9.0,1.0,12.0,0.0,,,,
-Ko Kieft,24,TE,Minnesota,218.0,2017,12.0,2.0,17.0,0.0,0.0,0.0,0.0,/cfb/schools/minnesota/2017.html
-Ko Kieft,24,TE,Minnesota,218.0,2018*,13.0,1.0,19.0,0.0,0.0,0.0,0.0,/cfb/schools/minnesota/2018.html
-Ko Kieft,24,TE,Minnesota,218.0,2019*,12.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/minnesota/2019.html
-Ko Kieft,24,TE,Minnesota,218.0,2020,4.0,2.0,29.0,1.0,1.0,-2.0,0.0,/cfb/schools/minnesota/2020.html
-Ko Kieft,24,TE,Minnesota,218.0,2021*,13.0,7.0,101.0,1.0,0.0,0.0,0.0,/cfb/schools/minnesota/2021.html
-Ko Kieft,24,TE,,,,17.0,7.0,80.0,1.0,,,,
-Nick Muse,23,TE,South Carolina,227.0,2019,8.0,17.0,158.0,0.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2019.html
-Nick Muse,23,TE,South Carolina,227.0,2020,10.0,30.0,425.0,1.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2020.html
-Nick Muse,23,TE,South Carolina,227.0,2021*,13.0,20.0,222.0,2.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2021.html
-Nick Muse,23,TE,,,,10.0,0.0,0.0,0.0,,,,
-Dalton Kincaid,23,TE,Utah,25.0,2020,5.0,1.0,14.0,0.0,0.0,0.0,0.0,/cfb/schools/utah/2020.html
-Dalton Kincaid,23,TE,Utah,25.0,2021*,14.0,36.0,510.0,8.0,1.0,4.0,0.0,/cfb/schools/utah/2021.html
-Dalton Kincaid,23,TE,Utah,25.0,2022*,12.0,70.0,890.0,8.0,0.0,0.0,0.0,/cfb/schools/utah/2022.html
-Dalton Kincaid,23,TE,,,,16.0,73.0,673.0,2.0,,,,
-Sam LaPorta,22,TE,Iowa,34.0,2019*,12.0,15.0,188.0,0.0,0.0,0.0,0.0,/cfb/schools/iowa/2019.html
-Sam LaPorta,22,TE,Iowa,34.0,2020,8.0,27.0,271.0,1.0,0.0,0.0,0.0,/cfb/schools/iowa/2020.html
-Sam LaPorta,22,TE,Iowa,34.0,2021*,14.0,53.0,670.0,3.0,0.0,0.0,0.0,/cfb/schools/iowa/2021.html
-Sam LaPorta,22,TE,Iowa,34.0,2022*,12.0,58.0,657.0,1.0,2.0,6.0,0.0,/cfb/schools/iowa/2022.html
-Sam LaPorta,22,TE,,,,17.0,86.0,889.0,10.0,,,,
-Michael Mayer,22,TE,Notre Dame,35.0,2020*,12.0,42.0,450.0,2.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2020.html
-Michael Mayer,22,TE,Notre Dame,35.0,2021*,12.0,71.0,840.0,7.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2021.html
-Michael Mayer,22,TE,Notre Dame,35.0,2022*,12.0,67.0,809.0,9.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2022.html
-Michael Mayer,22,TE,,,,14.0,27.0,304.0,2.0,,,,
-Luke Musgrave,23,TE,Oregon St.,42.0,2019,12.0,2.0,18.0,0.0,0.0,0.0,0.0,/cfb/schools/oregon-state/2019.html
-Luke Musgrave,23,TE,Oregon St.,42.0,2020,7.0,12.0,142.0,0.0,0.0,0.0,0.0,/cfb/schools/oregon-state/2020.html
-Luke Musgrave,23,TE,Oregon St.,42.0,2021*,13.0,22.0,304.0,1.0,1.0,-1.0,0.0,/cfb/schools/oregon-state/2021.html
-Luke Musgrave,23,TE,Oregon St.,42.0,2022*,2.0,11.0,169.0,1.0,0.0,0.0,0.0,/cfb/schools/oregon-state/2022.html
-Luke Musgrave,23,TE,,,,11.0,34.0,352.0,1.0,,,,
-Luke Schoonmaker,24,TE,Michigan,58.0,2018*,1.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/michigan/2018.html
-Luke Schoonmaker,24,TE,Michigan,58.0,2019*,11.0,2.0,54.0,1.0,0.0,0.0,0.0,/cfb/schools/michigan/2019.html
-Luke Schoonmaker,24,TE,Michigan,58.0,2020,6.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/michigan/2020.html
-Luke Schoonmaker,24,TE,Michigan,58.0,2021*,14.0,17.0,165.0,3.0,0.0,0.0,0.0,/cfb/schools/michigan/2021.html
-Luke Schoonmaker,24,TE,Michigan,58.0,2022*,12.0,35.0,418.0,3.0,0.0,0.0,0.0,/cfb/schools/michigan/2022.html
-Luke Schoonmaker,24,TE,,,,17.0,8.0,65.0,2.0,,,,
-Brenton Strange,22,TE,Penn St.,61.0,2019*,2.0,1.0,4.0,1.0,0.0,0.0,0.0,/cfb/schools/penn-state/2019.html
-Brenton Strange,22,TE,Penn St.,61.0,2020,9.0,17.0,164.0,2.0,0.0,0.0,0.0,/cfb/schools/penn-state/2020.html
-Brenton Strange,22,TE,Penn St.,61.0,2021*,13.0,20.0,225.0,3.0,0.0,0.0,0.0,/cfb/schools/penn-state/2021.html
-Brenton Strange,22,TE,Penn St.,61.0,2022*,13.0,32.0,362.0,5.0,1.0,0.0,0.0,/cfb/schools/penn-state/2022.html
-Brenton Strange,22,TE,,,,14.0,5.0,35.0,1.0,,,,
-Tucker Kraft,22,TE,South Dakota St.,78.0,2018,4.0,1.0,-3.0,0.0,0.0,0.0,0.0,/cfb/schools/tennessee/2018.html
-Tucker Kraft,22,TE,South Dakota St.,78.0,2019*,11.0,4.0,60.0,1.0,0.0,0.0,0.0,/cfb/schools/tennessee/2019.html
-Tucker Kraft,22,TE,South Dakota St.,78.0,2020,10.0,3.0,67.0,1.0,0.0,0.0,0.0,/cfb/schools/tennessee/2020.html
-Tucker Kraft,22,TE,South Dakota St.,78.0,2021*,13.0,64.0,1081.0,12.0,0.0,0.0,0.0,/cfb/schools/tennessee/2021.html
-Tucker Kraft,22,TE,South Dakota St.,78.0,2022*,6.0,37.0,417.0,3.0,0.0,0.0,0.0,/cfb/schools/tennessee/2022.html
-Tucker Kraft,22,TE,,,,17.0,31.0,355.0,2.0,,,,
-Darnell Washington,22,TE,Georgia,93.0,2020*,10.0,7.0,166.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2020.html
-Darnell Washington,22,TE,Georgia,93.0,2021*,11.0,10.0,154.0,1.0,0.0,0.0,0.0,/cfb/schools/georgia/2021.html
-Darnell Washington,22,TE,Georgia,93.0,2022*,15.0,28.0,454.0,2.0,0.0,0.0,0.0,/cfb/schools/georgia/2022.html
-Darnell Washington,22,TE,,,,17.0,7.0,61.0,0.0,,,,
-Cameron Latu,23,TE,Alabama,101.0,2018*,2.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2018.html
-Cameron Latu,23,TE,Alabama,101.0,2019*,11.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2019.html
-Cameron Latu,23,TE,Alabama,101.0,2020*,11.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2020.html
-Cameron Latu,23,TE,Alabama,101.0,2021*,15.0,26.0,410.0,8.0,0.0,0.0,0.0,/cfb/schools/alabama/2021.html
-Cameron Latu,23,TE,Alabama,101.0,2022*,11.0,30.0,377.0,4.0,0.0,0.0,0.0,/cfb/schools/alabama/2022.html
-Cameron Latu,23,TE,,,,,,,,,,,
-Josh Whyle,23,TE,Cincinnati,147.0,2018*,5.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2018.html
-Josh Whyle,23,TE,Cincinnati,147.0,2019*,12.0,2.0,51.0,0.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2019.html
-Josh Whyle,23,TE,Cincinnati,147.0,2020*,10.0,28.0,353.0,6.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2020.html
-Josh Whyle,23,TE,Cincinnati,147.0,2021*,14.0,26.0,332.0,6.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2021.html
-Josh Whyle,23,TE,Cincinnati,147.0,2022*,12.0,32.0,326.0,3.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2022.html
-Josh Whyle,23,TE,,,,11.0,9.0,94.0,1.0,,,,
-Will Mallory,24,TE,Miami (FL),162.0,2018*,10.0,5.0,37.0,1.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2018.html
-Will Mallory,24,TE,Miami (FL),162.0,2019*,13.0,16.0,293.0,2.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2019.html
-Will Mallory,24,TE,Miami (FL),162.0,2020*,11.0,22.0,329.0,4.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2020.html
-Will Mallory,24,TE,Miami (FL),162.0,2021,12.0,30.0,347.0,4.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2021.html
-Will Mallory,24,TE,Miami (FL),162.0,2022,12.0,42.0,538.0,3.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2022.html
-Will Mallory,24,TE,,,,12.0,18.0,207.0,0.0,,,,
-Payne Durham,23,TE,Purdue,171.0,2018*,2.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/purdue/2018.html
-Payne Durham,23,TE,Purdue,171.0,2019,12.0,9.0,82.0,4.0,0.0,0.0,0.0,/cfb/schools/purdue/2019.html
-Payne Durham,23,TE,Purdue,171.0,2020,6.0,16.0,166.0,3.0,0.0,0.0,0.0,/cfb/schools/purdue/2020.html
-Payne Durham,23,TE,Purdue,171.0,2021*,12.0,45.0,467.0,6.0,0.0,0.0,0.0,/cfb/schools/purdue/2021.html
-Payne Durham,23,TE,Purdue,171.0,2022*,13.0,56.0,560.0,8.0,1.0,4.0,0.0,/cfb/schools/purdue/2022.html
-Payne Durham,23,TE,,,,13.0,5.0,58.0,0.0,,,,
-Davis Allen,22,TE,Clemson,175.0,2019*,15.0,5.0,53.0,0.0,0.0,0.0,0.0,/cfb/schools/clemson/2019.html
-Davis Allen,22,TE,Clemson,175.0,2020*,12.0,16.0,247.0,4.0,0.0,0.0,0.0,/cfb/schools/clemson/2020.html
-Davis Allen,22,TE,Clemson,175.0,2021*,13.0,28.0,208.0,3.0,0.0,0.0,0.0,/cfb/schools/clemson/2021.html
-Davis Allen,22,TE,Clemson,175.0,2022*,14.0,39.0,443.0,5.0,0.0,0.0,0.0,/cfb/schools/clemson/2022.html
-Davis Allen,22,TE,,,,15.0,10.0,95.0,1.0,,,,
-Zack Kuntz,24,TE,Old Dominion,220.0,2018*,1.0,1.0,8.0,0.0,0.0,0.0,0.0,/cfb/schools/penn-state/2018.html
-Zack Kuntz,24,TE,Old Dominion,220.0,2019*,13.0,2.0,18.0,0.0,0.0,0.0,0.0,/cfb/schools/penn-state/2019.html
-Zack Kuntz,24,TE,Old Dominion,220.0,2020,7.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/penn-state/2020.html
-Zack Kuntz,24,TE,Old Dominion,220.0,2021*,13.0,73.0,692.0,5.0,0.0,0.0,0.0,/cfb/schools/old-dominion/2021.html
-Zack Kuntz,24,TE,Old Dominion,220.0,2022,5.0,12.0,144.0,2.0,0.0,0.0,0.0,/cfb/schools/old-dominion/2022.html
-Zack Kuntz,24,TE,,,,,,,,,,,
-Brayden Willis,23,TE,Oklahoma,247.0,2018*,13.0,1.0,29.0,0.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2018.html
-Brayden Willis,23,TE,Oklahoma,247.0,2019*,14.0,11.0,168.0,3.0,2.0,-1.0,0.0,/cfb/schools/oklahoma/2019.html
-Brayden Willis,23,TE,Oklahoma,247.0,2020*,5.0,9.0,110.0,1.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2020.html
-Brayden Willis,23,TE,Oklahoma,247.0,2021*,13.0,15.0,177.0,2.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2021.html
-Brayden Willis,23,TE,Oklahoma,247.0,2022*,13.0,39.0,514.0,7.0,10.0,26.0,0.0,/cfb/schools/oklahoma/2022.html
-Brayden Willis,23,TE,,,,,,,,,,,
-Brock Bowers,21,TE,Georgia,13.0,2021*,15.0,56.0,882.0,13.0,4.0,56.0,1.0,/cfb/schools/georgia/2021.html
-Brock Bowers,21,TE,Georgia,13.0,2022*,15.0,63.0,942.0,7.0,9.0,109.0,3.0,/cfb/schools/georgia/2022.html
-Brock Bowers,21,TE,Georgia,13.0,2023*,10.0,56.0,714.0,6.0,6.0,28.0,1.0,/cfb/schools/georgia/2023.html
-Brock Bowers,21,TE,,,,17.0,112.0,1194.0,5.0,,,,
-Ben Sinnott,22,TE,Kansas St.,53.0,2021*,12.0,2.0,15.0,0.0,3.0,12.0,1.0,/cfb/schools/kansas-state/2021.html
-Ben Sinnott,22,TE,Kansas St.,53.0,2022*,14.0,31.0,447.0,4.0,0.0,0.0,0.0,/cfb/schools/kansas-state/2022.html
-Ben Sinnott,22,TE,Kansas St.,53.0,2023*,12.0,49.0,676.0,6.0,0.0,0.0,0.0,/cfb/schools/kansas-state/2023.html
-Ben Sinnott,22,TE,,,,17.0,5.0,28.0,1.0,,,,
-Tip Reiman,22,TE,Illinois,82.0,2020,8.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/illinois/2020.html
-Tip Reiman,22,TE,Illinois,82.0,2021,11.0,3.0,43.0,1.0,0.0,0.0,0.0,/cfb/schools/illinois/2021.html
-Tip Reiman,22,TE,Illinois,82.0,2022*,13.0,19.0,174.0,1.0,0.0,0.0,0.0,/cfb/schools/illinois/2022.html
-Tip Reiman,22,TE,Illinois,82.0,2023,12.0,19.0,203.0,3.0,0.0,0.0,0.0,/cfb/schools/illinois/2023.html
-Tip Reiman,22,TE,,,,17.0,6.0,37.0,0.0,,,,
-Ja'Tavion Sanders,21,TE,Texas,101.0,2021,12.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/texas/2021.html
-Ja'Tavion Sanders,21,TE,Texas,101.0,2022*,13.0,54.0,613.0,5.0,0.0,0.0,0.0,/cfb/schools/texas/2022.html
-Ja'Tavion Sanders,21,TE,Texas,101.0,2023*,14.0,45.0,682.0,2.0,1.0,12.0,0.0,/cfb/schools/texas/2023.html
-Ja'Tavion Sanders,21,TE,,,,16.0,33.0,342.0,1.0,,,,
-Theo Johnson,23,TE,Penn St.,107.0,2020,7.0,4.0,56.0,0.0,0.0,0.0,0.0,/cfb/schools/penn-state/2020.html
-Theo Johnson,23,TE,Penn St.,107.0,2021*,13.0,19.0,213.0,1.0,0.0,0.0,0.0,/cfb/schools/penn-state/2021.html
-Theo Johnson,23,TE,Penn St.,107.0,2022*,11.0,20.0,328.0,4.0,0.0,0.0,0.0,/cfb/schools/penn-state/2022.html
-Theo Johnson,23,TE,Penn St.,107.0,2023*,13.0,34.0,341.0,7.0,0.0,0.0,0.0,/cfb/schools/penn-state/2023.html
-Theo Johnson,23,TE,,,,12.0,29.0,331.0,1.0,,,,
-Erick All,23,TE,Iowa,115.0,2019*,11.0,1.0,10.0,0.0,0.0,0.0,0.0,/cfb/schools/michigan/2019.html
-Erick All,23,TE,Iowa,115.0,2020,6.0,12.0,82.0,0.0,0.0,0.0,0.0,/cfb/schools/michigan/2020.html
-Erick All,23,TE,Iowa,115.0,2021*,13.0,38.0,437.0,2.0,0.0,0.0,0.0,/cfb/schools/michigan/2021.html
-Erick All,23,TE,Iowa,115.0,2022*,3.0,3.0,36.0,0.0,0.0,0.0,0.0,/cfb/schools/michigan/2022.html
-Erick All,23,TE,Iowa,115.0,2023*,7.0,21.0,299.0,3.0,0.0,0.0,0.0,/cfb/schools/iowa/2023.html
-Erick All,23,TE,,,,9.0,20.0,158.0,0.0,,,,
-AJ Barner,22,TE,Michigan,121.0,2020*,8.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/indiana/2020.html
-AJ Barner,22,TE,Michigan,121.0,2021,12.0,14.0,162.0,1.0,0.0,0.0,0.0,/cfb/schools/indiana/2021.html
-AJ Barner,22,TE,Michigan,121.0,2022,10.0,28.0,199.0,3.0,0.0,0.0,0.0,/cfb/schools/indiana/2022.html
-AJ Barner,22,TE,Michigan,121.0,2023*,15.0,22.0,249.0,1.0,0.0,0.0,0.0,/cfb/schools/michigan/2023.html
-AJ Barner,22,TE,,,,17.0,30.0,245.0,4.0,,,,
-Cade Stover,24,TE,Ohio St.,123.0,2019*,3.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2019.html
-Cade Stover,24,TE,Ohio St.,123.0,2020*,6.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2020.html
-Cade Stover,24,TE,Ohio St.,123.0,2021*,13.0,5.0,76.0,0.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2021.html
-Cade Stover,24,TE,Ohio St.,123.0,2022*,13.0,36.0,406.0,5.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2022.html
-Cade Stover,24,TE,Ohio St.,123.0,2023*,12.0,41.0,576.0,5.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2023.html
-Cade Stover,24,TE,,,,15.0,15.0,133.0,1.0,,,,
-Jared Wiley,23,TE,TCU,131.0,2019*,12.0,1.0,15.0,0.0,0.0,0.0,0.0,/cfb/schools/texas/2019.html
-Jared Wiley,23,TE,TCU,131.0,2020*,9.0,9.0,166.0,1.0,0.0,0.0,0.0,/cfb/schools/texas/2020.html
-Jared Wiley,23,TE,TCU,131.0,2021,11.0,9.0,67.0,2.0,0.0,0.0,0.0,/cfb/schools/texas/2021.html
-Jared Wiley,23,TE,TCU,131.0,2022*,15.0,24.0,245.0,4.0,0.0,0.0,0.0,/cfb/schools/texas-christian/2022.html
-Jared Wiley,23,TE,TCU,131.0,2023,12.0,47.0,520.0,8.0,0.0,0.0,0.0,/cfb/schools/texas-christian/2023.html
-Jared Wiley,23,TE,,,,7.0,1.0,7.0,0.0,,,,
-Tanner McLachlan,25,TE,Arizona,194.0,2022,12.0,34.0,456.0,2.0,0.0,0.0,0.0,/cfb/schools/arizona/2022.html
-Tanner McLachlan,25,TE,Arizona,194.0,2023*,13.0,45.0,528.0,4.0,0.0,0.0,0.0,/cfb/schools/arizona/2023.html
-Tanner McLachlan,25,TE,,,,,,,,,,,
-Jaheim Bell,23,TE,Florida St.,231.0,2020,5.0,1.0,29.0,0.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2020.html
-Jaheim Bell,23,TE,Florida St.,231.0,2021*,13.0,30.0,497.0,5.0,7.0,40.0,0.0,/cfb/schools/south-carolina/2021.html
-Jaheim Bell,23,TE,Florida St.,231.0,2022*,12.0,25.0,231.0,2.0,73.0,261.0,3.0,/cfb/schools/south-carolina/2022.html
-Jaheim Bell,23,TE,Florida St.,231.0,2023*,13.0,39.0,503.0,2.0,4.0,2.0,1.0,/cfb/schools/florida-state/2023.html
-Jaheim Bell,23,TE,,,,15.0,2.0,20.0,0.0,,,,
-Devin Culp,24,TE,Washington,246.0,2019*,12.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/washington/2019.html
-Devin Culp,24,TE,Washington,246.0,2020,2.0,1.0,15.0,0.0,0.0,0.0,0.0,/cfb/schools/washington/2020.html
-Devin Culp,24,TE,Washington,246.0,2021,12.0,20.0,222.0,1.0,0.0,0.0,0.0,/cfb/schools/washington/2021.html
-Devin Culp,24,TE,Washington,246.0,2022*,13.0,29.0,266.0,1.0,1.0,2.0,0.0,/cfb/schools/washington/2022.html
-Devin Culp,24,TE,Washington,246.0,2023*,15.0,16.0,208.0,2.0,0.0,0.0,0.0,/cfb/schools/washington/2023.html
-Devin Culp,24,TE,,,,5.0,5.0,88.0,0.0,,,,
+Jermaine Gresham,22,TE,Oklahoma,21.0,2006*,13.0,8.0,161.0,1.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2006.html
+Jermaine Gresham,22,TE,Oklahoma,21.0,2007*,14.0,37.0,518.0,11.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2007.html
+Jermaine Gresham,22,TE,Oklahoma,21.0,2008*,14.0,66.0,950.0,14.0,1.0,5.0,0.0,/cfb/schools/oklahoma/2008.html
+Jermaine Gresham,22,TE,,,,15.0,52.0,471.0,4.0,,,,
+Rob Gronkowski,21,TE,Arizona,42.0,2007,12.0,28.0,525.0,6.0,0.0,0.0,0.0,/cfb/schools/arizona/2007.html
+Rob Gronkowski,21,TE,Arizona,42.0,2008*,10.0,47.0,672.0,10.0,0.0,0.0,0.0,/cfb/schools/arizona/2008.html
+Rob Gronkowski,21,TE,,,,16.0,42.0,546.0,10.0,,,,
+Ed Dickson,23,TE,Oregon,70.0,2006*,13.0,4.0,45.0,0.0,0.0,0.0,0.0,/cfb/schools/oregon/2006.html
+Ed Dickson,23,TE,Oregon,70.0,2007*,13.0,43.0,453.0,3.0,2.0,10.0,0.0,/cfb/schools/oregon/2007.html
+Ed Dickson,23,TE,Oregon,70.0,2008*,13.0,35.0,508.0,3.0,3.0,18.0,0.0,/cfb/schools/oregon/2008.html
+Ed Dickson,23,TE,Oregon,70.0,2009*,13.0,42.0,551.0,6.0,0.0,0.0,0.0,/cfb/schools/oregon/2009.html
+Ed Dickson,23,TE,,,,15.0,11.0,152.0,1.0,,,,
+Tony Moeaki,23,TE,Iowa,93.0,2005*,12.0,8.0,112.0,0.0,0.0,0.0,0.0,/cfb/schools/iowa/2005.html
+Tony Moeaki,23,TE,Iowa,93.0,2006*,13.0,11.0,140.0,3.0,0.0,0.0,0.0,/cfb/schools/iowa/2006.html
+Tony Moeaki,23,TE,Iowa,93.0,2007,4.0,14.0,170.0,3.0,0.0,0.0,0.0,/cfb/schools/iowa/2007.html
+Tony Moeaki,23,TE,Iowa,93.0,2008*,9.0,13.0,144.0,1.0,0.0,0.0,0.0,/cfb/schools/iowa/2008.html
+Tony Moeaki,23,TE,Iowa,93.0,2009*,10.0,30.0,387.0,4.0,0.0,0.0,0.0,/cfb/schools/iowa/2009.html
+Tony Moeaki,23,TE,,,,15.0,47.0,556.0,3.0,,,,
+Jimmy Graham,23,TE,Miami (FL),95.0,2009*,13.0,17.0,213.0,5.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2009.html
+Jimmy Graham,23,TE,,,,15.0,31.0,356.0,5.0,,,,
+Aaron Hernandez,20,TE,Florida,113.0,2007*,13.0,9.0,151.0,2.0,0.0,0.0,0.0,/cfb/schools/florida/2007.html
+Aaron Hernandez,20,TE,Florida,113.0,2008*,13.0,34.0,381.0,5.0,0.0,0.0,0.0,/cfb/schools/florida/2008.html
+Aaron Hernandez,20,TE,Florida,113.0,2009*,14.0,68.0,850.0,5.0,1.0,16.0,0.0,/cfb/schools/florida/2009.html
+Aaron Hernandez,20,TE,,,,14.0,45.0,563.0,6.0,,,,
+Dennis Pitta,25,TE,BYU,114.0,2004,11.0,17.0,176.0,2.0,0.0,0.0,0.0,/cfb/schools/brigham-young/2004.html
+Dennis Pitta,25,TE,BYU,114.0,2007*,13.0,59.0,813.0,5.0,0.0,0.0,0.0,/cfb/schools/brigham-young/2007.html
+Dennis Pitta,25,TE,BYU,114.0,2008*,13.0,83.0,1083.0,6.0,0.0,0.0,0.0,/cfb/schools/brigham-young/2008.html
+Dennis Pitta,25,TE,BYU,114.0,2009*,13.0,62.0,829.0,8.0,0.0,0.0,0.0,/cfb/schools/brigham-young/2009.html
+Dennis Pitta,25,TE,,,,11.0,1.0,1.0,0.0,,,,
+Garrett Graham,24,TE,Wisconsin,118.0,2007*,13.0,30.0,328.0,4.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2007.html
+Garrett Graham,24,TE,Wisconsin,118.0,2008*,11.0,40.0,540.0,5.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2008.html
+Garrett Graham,24,TE,Wisconsin,118.0,2009*,13.0,51.0,624.0,7.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2009.html
+Garrett Graham,24,TE,,,,6.0,0.0,0.0,0.0,,,,
+Clay Harbor,23,TE,,,,9.0,9.0,72.0,1.0,,,,
+Michael Hoomanawanui,22,TE,Illinois,132.0,2006,10.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/illinois/2006.html
+Michael Hoomanawanui,22,TE,Illinois,132.0,2007*,11.0,5.0,64.0,2.0,0.0,0.0,0.0,/cfb/schools/illinois/2007.html
+Michael Hoomanawanui,22,TE,Illinois,132.0,2008,12.0,25.0,312.0,2.0,0.0,0.0,0.0,/cfb/schools/illinois/2008.html
+Michael Hoomanawanui,22,TE,Illinois,132.0,2009,8.0,10.0,114.0,0.0,0.0,0.0,0.0,/cfb/schools/illinois/2009.html
+Michael Hoomanawanui,22,TE,,,,8.0,13.0,146.0,3.0,,,,
+Andrew Quarless,21,TE,Penn St.,154.0,2006*,11.0,21.0,288.0,2.0,0.0,0.0,0.0,/cfb/schools/penn-state/2006.html
+Andrew Quarless,21,TE,Penn St.,154.0,2007*,11.0,14.0,205.0,2.0,0.0,0.0,0.0,/cfb/schools/penn-state/2007.html
+Andrew Quarless,21,TE,Penn St.,154.0,2008*,12.0,11.0,117.0,1.0,0.0,0.0,0.0,/cfb/schools/penn-state/2008.html
+Andrew Quarless,21,TE,Penn St.,154.0,2009*,13.0,41.0,536.0,3.0,0.0,0.0,0.0,/cfb/schools/penn-state/2009.html
+Andrew Quarless,21,TE,,,,13.0,21.0,238.0,1.0,,,,
+Brody Eldridge,23,TE,Oklahoma,162.0,2006*,14.0,3.0,18.0,0.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2006.html
+Brody Eldridge,23,TE,Oklahoma,162.0,2007*,14.0,4.0,37.0,0.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2007.html
+Brody Eldridge,23,TE,Oklahoma,162.0,2008*,12.0,4.0,24.0,1.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2008.html
+Brody Eldridge,23,TE,Oklahoma,162.0,2009*,9.0,2.0,19.0,0.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2009.html
+Brody Eldridge,23,TE,,,,14.0,5.0,39.0,0.0,,,,
+Fendi Onobun,23,TE,Arizona,170.0,2009*,11.0,2.0,33.0,1.0,0.0,0.0,0.0,/cfb/schools/houston/2009.html
+Fendi Onobun,23,TE,,,,3.0,2.0,15.0,0.0,,,,
+Nate Byham,22,TE,Pittsburgh,182.0,2006,11.0,2.0,34.0,1.0,0.0,0.0,0.0,/cfb/schools/pittsburgh/2006.html
+Nate Byham,22,TE,Pittsburgh,182.0,2007,11.0,15.0,210.0,1.0,0.0,0.0,0.0,/cfb/schools/pittsburgh/2007.html
+Nate Byham,22,TE,Pittsburgh,182.0,2008*,12.0,20.0,260.0,1.0,0.0,0.0,0.0,/cfb/schools/pittsburgh/2008.html
+Nate Byham,22,TE,Pittsburgh,182.0,2009*,13.0,10.0,108.0,0.0,0.0,0.0,0.0,/cfb/schools/pittsburgh/2009.html
+Nate Byham,22,TE,,,,14.0,5.0,27.0,0.0,,,,
+Anthony McCoy,22,TE,USC,185.0,2007*,13.0,2.0,18.0,1.0,0.0,0.0,0.0,/cfb/schools/southern-california/2007.html
+Anthony McCoy,22,TE,USC,185.0,2008*,13.0,22.0,256.0,1.0,0.0,23.0,0.0,/cfb/schools/southern-california/2008.html
+Anthony McCoy,22,TE,USC,185.0,2009*,10.0,22.0,457.0,1.0,1.0,2.0,0.0,/cfb/schools/southern-california/2009.html
+Anthony McCoy,22,TE,,,,2.0,0.0,0.0,0.0,,,,
+Mickey Shuler,23,TE,Penn St.,214.0,2007*,13.0,7.0,91.0,1.0,0.0,0.0,0.0,/cfb/schools/penn-state/2007.html
+Mickey Shuler,23,TE,Penn St.,214.0,2008*,13.0,9.0,120.0,1.0,0.0,0.0,0.0,/cfb/schools/penn-state/2008.html
+Mickey Shuler,23,TE,Penn St.,214.0,2009*,13.0,11.0,89.0,2.0,0.0,0.0,0.0,/cfb/schools/penn-state/2009.html
+Mickey Shuler,23,TE,,,,6.0,2.0,44.0,0.0,,,,
+Jim Dray,23,TE,Stanford,233.0,2006,12.0,19.0,178.0,1.0,0.0,0.0,0.0,/cfb/schools/stanford/2006.html
+Jim Dray,23,TE,Stanford,233.0,2007,6.0,9.0,116.0,1.0,0.0,0.0,0.0,/cfb/schools/stanford/2007.html
+Jim Dray,23,TE,Stanford,233.0,2008,8.0,2.0,12.0,2.0,0.0,0.0,0.0,/cfb/schools/stanford/2008.html
+Jim Dray,23,TE,Stanford,233.0,2009*,13.0,11.0,149.0,3.0,0.0,0.0,0.0,/cfb/schools/stanford/2009.html
+Jim Dray,23,TE,,,,16.0,3.0,47.0,0.0,,,,
+Dedrick Epps,22,TE,Miami (FL),235.0,2007,10.0,8.0,83.0,1.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2007.html
+Dedrick Epps,22,TE,Miami (FL),235.0,2008*,12.0,22.0,304.0,2.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2008.html
+Dedrick Epps,22,TE,Miami (FL),235.0,2009*,12.0,19.0,247.0,3.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2009.html
+Dedrick Epps,22,TE,,,,3.0,0.0,0.0,0.0,,,,
+Jameson Konz,24,TE,Kent St.,245.0,2005,11.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/kent-state/2005.html
+Jameson Konz,24,TE,Kent St.,245.0,2006,11.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/kent-state/2006.html
+Jameson Konz,24,TE,Kent St.,245.0,2007,12.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/kent-state/2007.html
+Jameson Konz,24,TE,Kent St.,245.0,2008,1.0,2.0,12.0,0.0,0.0,0.0,0.0,/cfb/schools/kent-state/2008.html
+Jameson Konz,24,TE,Kent St.,245.0,2009,12.0,21.0,298.0,2.0,0.0,0.0,0.0,/cfb/schools/kent-state/2009.html
+Jameson Konz,24,TE,,,,,,,,,,,
+Kyle Rudolph,21,TE,Notre Dame,43.0,2008*,13.0,29.0,340.0,2.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2008.html
+Kyle Rudolph,21,TE,Notre Dame,43.0,2009,10.0,33.0,364.0,3.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2009.html
+Kyle Rudolph,21,TE,Notre Dame,43.0,2010*,6.0,28.0,328.0,3.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2010.html
+Kyle Rudolph,21,TE,,,,15.0,26.0,249.0,3.0,,,,
+Lance Kendricks,23,TE,Wisconsin,47.0,2008*,7.0,6.0,141.0,0.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2008.html
+Lance Kendricks,23,TE,Wisconsin,47.0,2009*,13.0,29.0,356.0,3.0,7.0,102.0,0.0,/cfb/schools/wisconsin/2009.html
+Lance Kendricks,23,TE,Wisconsin,47.0,2010*,13.0,43.0,663.0,5.0,2.0,-10.0,0.0,/cfb/schools/wisconsin/2010.html
+Lance Kendricks,23,TE,,,,15.0,28.0,352.0,0.0,,,,
+Rob Housler,23,TE,Florida Atlantic,69.0,2006,11.0,2.0,16.0,0.0,0.0,0.0,0.0,/cfb/schools/florida-atlantic/2006.html
+Rob Housler,23,TE,Florida Atlantic,69.0,2007*,13.0,5.0,64.0,0.0,3.0,83.0,1.0,/cfb/schools/florida-atlantic/2007.html
+Rob Housler,23,TE,Florida Atlantic,69.0,2008*,13.0,32.0,519.0,4.0,1.0,-4.0,0.0,/cfb/schools/florida-atlantic/2008.html
+Rob Housler,23,TE,Florida Atlantic,69.0,2010,12.0,39.0,629.0,4.0,1.0,29.0,0.0,/cfb/schools/florida-atlantic/2010.html
+Rob Housler,23,TE,,,,12.0,12.0,133.0,0.0,,,,
+Jordan Cameron,23,TE,USC,102.0,2010,12.0,16.0,126.0,1.0,1.0,6.0,0.0,/cfb/schools/southern-california/2010.html
+Jordan Cameron,23,TE,,,,8.0,6.0,33.0,0.0,,,,
+Luke Stocker,23,TE,Tennessee,104.0,2007*,14.0,4.0,11.0,1.0,0.0,0.0,0.0,/cfb/schools/tennessee/2007.html
+Luke Stocker,23,TE,Tennessee,104.0,2008,12.0,13.0,139.0,0.0,0.0,0.0,0.0,/cfb/schools/tennessee/2008.html
+Luke Stocker,23,TE,Tennessee,104.0,2009*,13.0,29.0,389.0,5.0,0.0,0.0,0.0,/cfb/schools/tennessee/2009.html
+Luke Stocker,23,TE,Tennessee,104.0,2010*,13.0,39.0,417.0,2.0,0.0,0.0,0.0,/cfb/schools/tennessee/2010.html
+Luke Stocker,23,TE,,,,14.0,12.0,92.0,0.0,,,,
+Julius Thomas,23,TE,,,,5.0,1.0,5.0,0.0,,,,
+D.J. Williams,22,TE,Arkansas,141.0,2007*,13.0,5.0,94.0,0.0,0.0,0.0,0.0,/cfb/schools/arkansas/2007.html
+D.J. Williams,22,TE,Arkansas,141.0,2008,12.0,61.0,723.0,3.0,0.0,0.0,0.0,/cfb/schools/arkansas/2008.html
+D.J. Williams,22,TE,Arkansas,141.0,2009*,13.0,32.0,411.0,3.0,0.0,0.0,0.0,/cfb/schools/arkansas/2009.html
+D.J. Williams,22,TE,Arkansas,141.0,2010*,13.0,54.0,627.0,4.0,0.0,0.0,0.0,/cfb/schools/arkansas/2010.html
+D.J. Williams,22,TE,,,,13.0,2.0,13.0,0.0,,,,
+Lee Smith,23,TE,Marshall,159.0,2007,11.0,2.0,9.0,0.0,0.0,0.0,0.0,/cfb/schools/marshall/2007.html
+Lee Smith,23,TE,Marshall,159.0,2008,12.0,12.0,89.0,0.0,0.0,0.0,0.0,/cfb/schools/marshall/2008.html
+Lee Smith,23,TE,Marshall,159.0,2009*,13.0,23.0,335.0,0.0,1.0,0.0,0.0,/cfb/schools/marshall/2009.html
+Lee Smith,23,TE,Marshall,159.0,2010,12.0,38.0,358.0,3.0,0.0,0.0,0.0,/cfb/schools/marshall/2010.html
+Lee Smith,23,TE,,,,10.0,4.0,11.0,0.0,,,,
+Charles Clay,22,TE,Tulsa,174.0,2007*,14.0,69.0,1024.0,7.0,57.0,304.0,1.0,/cfb/schools/tulsa/2007.html
+Charles Clay,22,TE,Tulsa,174.0,2008*,13.0,38.0,464.0,9.0,25.0,145.0,2.0,/cfb/schools/tulsa/2008.html
+Charles Clay,22,TE,Tulsa,174.0,2009,12.0,39.0,530.0,5.0,63.0,236.0,7.0,/cfb/schools/tulsa/2009.html
+Charles Clay,22,TE,Tulsa,174.0,2010*,13.0,43.0,526.0,7.0,34.0,226.0,0.0,/cfb/schools/tulsa/2010.html
+Charles Clay,22,TE,,,,14.0,16.0,233.0,3.0,,,,
+Richard Gordon,24,TE,Miami (FL),181.0,2006*,11.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2006.html
+Richard Gordon,24,TE,Miami (FL),181.0,2007,11.0,1.0,8.0,0.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2007.html
+Richard Gordon,24,TE,Miami (FL),181.0,2008*,12.0,3.0,24.0,0.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2008.html
+Richard Gordon,24,TE,Miami (FL),181.0,2010*,13.0,6.0,30.0,0.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2010.html
+Richard Gordon,24,TE,,,,14.0,1.0,2.0,0.0,,,,
+Virgil Green,23,TE,Nevada,204.0,2008*,13.0,14.0,164.0,1.0,2.0,18.0,0.0,/cfb/schools/nevada/2008.html
+Virgil Green,23,TE,Nevada,204.0,2009*,13.0,23.0,260.0,5.0,1.0,16.0,0.0,/cfb/schools/nevada/2009.html
+Virgil Green,23,TE,Nevada,204.0,2010*,14.0,35.0,515.0,5.0,4.0,19.0,0.0,/cfb/schools/nevada/2010.html
+Virgil Green,23,TE,,,,15.0,3.0,24.0,0.0,,,,
+Ryan Taylor,23,TE,North Carolina,218.0,2006,11.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/north-carolina/2006.html
+Ryan Taylor,23,TE,North Carolina,218.0,2007,11.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/north-carolina/2007.html
+Ryan Taylor,23,TE,North Carolina,218.0,2008*,13.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/north-carolina/2008.html
+Ryan Taylor,23,TE,North Carolina,218.0,2010*,13.0,36.0,330.0,2.0,0.0,0.0,0.0,/cfb/schools/north-carolina/2010.html
+Ryan Taylor,23,TE,,,,15.0,1.0,4.0,1.0,,,,
+Daniel Hardy,24,TE,Idaho,238.0,2008,7.0,9.0,128.0,2.0,0.0,0.0,0.0,/cfb/schools/idaho/2008.html
+Daniel Hardy,24,TE,Idaho,238.0,2009*,12.0,39.0,691.0,3.0,0.0,0.0,0.0,/cfb/schools/idaho/2009.html
+Daniel Hardy,24,TE,Idaho,238.0,2010,8.0,32.0,545.0,1.0,0.0,0.0,0.0,/cfb/schools/idaho/2010.html
+Daniel Hardy,24,TE,,,,,,,,,,,
+Coby Fleener,23,TE,Stanford,34.0,2008,12.0,13.0,176.0,0.0,0.0,0.0,0.0,/cfb/schools/stanford/2008.html
+Coby Fleener,23,TE,Stanford,34.0,2009*,13.0,21.0,266.0,1.0,0.0,0.0,0.0,/cfb/schools/stanford/2009.html
+Coby Fleener,23,TE,Stanford,34.0,2010*,13.0,28.0,434.0,7.0,0.0,0.0,0.0,/cfb/schools/stanford/2010.html
+Coby Fleener,23,TE,Stanford,34.0,2011*,13.0,34.0,667.0,10.0,0.0,0.0,0.0,/cfb/schools/stanford/2011.html
+Coby Fleener,23,TE,,,,12.0,26.0,281.0,2.0,,,,
+Dwayne Allen,22,TE,Clemson,64.0,2009*,14.0,10.0,108.0,3.0,0.0,0.0,0.0,/cfb/schools/clemson/2009.html
+Dwayne Allen,22,TE,Clemson,64.0,2010*,13.0,33.0,373.0,1.0,0.0,0.0,0.0,/cfb/schools/clemson/2010.html
+Dwayne Allen,22,TE,Clemson,64.0,2011*,14.0,50.0,598.0,8.0,0.0,0.0,0.0,/cfb/schools/clemson/2011.html
+Dwayne Allen,22,TE,,,,16.0,45.0,521.0,3.0,,,,
+Michael Egnew,22,TE,Missouri,78.0,2008*,13.0,4.0,22.0,0.0,0.0,0.0,0.0,/cfb/schools/missouri/2008.html
+Michael Egnew,22,TE,Missouri,78.0,2009*,11.0,3.0,25.0,0.0,0.0,0.0,0.0,/cfb/schools/missouri/2009.html
+Michael Egnew,22,TE,Missouri,78.0,2010*,13.0,90.0,762.0,5.0,0.0,0.0,0.0,/cfb/schools/missouri/2010.html
+Michael Egnew,22,TE,Missouri,78.0,2011*,13.0,50.0,523.0,3.0,3.0,8.0,0.0,/cfb/schools/missouri/2011.html
+Michael Egnew,22,TE,,,,2.0,0.0,0.0,0.0,,,,
+Ladarius Green,22,TE,Louisiana,110.0,2007*,10.0,1.0,44.0,0.0,2.0,-1.0,0.0,/cfb/schools/fresno-state/2007.html
+Ladarius Green,22,TE,Louisiana,110.0,2008*,9.0,22.0,269.0,2.0,4.0,51.0,0.0,/cfb/schools/fresno-state/2008.html
+Ladarius Green,22,TE,Louisiana,110.0,2009*,10.0,17.0,259.0,4.0,3.0,16.0,0.0,/cfb/schools/fresno-state/2009.html
+Ladarius Green,22,TE,Louisiana,110.0,2010*,1.0,2.0,39.0,1.0,1.0,4.0,0.0,/cfb/schools/fresno-state/2010.html
+Ladarius Green,22,TE,Louisiana,110.0,2011,13.0,56.0,716.0,1.0,8.0,48.0,0.0,/cfb/schools/fresno-state/2011.html
+Ladarius Green,22,TE,,,,4.0,4.0,56.0,0.0,,,,
+Evan Rodriguez,23,TE,Temple,111.0,2009*,13.0,13.0,145.0,3.0,0.0,0.0,0.0,/cfb/schools/temple/2009.html
+Evan Rodriguez,23,TE,Temple,111.0,2010,11.0,21.0,247.0,2.0,1.0,1.0,0.0,/cfb/schools/temple/2010.html
+Evan Rodriguez,23,TE,Temple,111.0,2011*,13.0,35.0,479.0,2.0,0.0,0.0,0.0,/cfb/schools/temple/2011.html
+Evan Rodriguez,23,TE,,,,12.0,4.0,21.0,0.0,,,,
+Orson Charles,21,TE,Georgia,116.0,2009*,13.0,23.0,374.0,3.0,0.0,0.0,0.0,/cfb/schools/georgia/2009.html
+Orson Charles,21,TE,Georgia,116.0,2010*,13.0,26.0,422.0,2.0,0.0,0.0,0.0,/cfb/schools/georgia/2010.html
+Orson Charles,21,TE,Georgia,116.0,2011*,14.0,45.0,574.0,5.0,0.0,0.0,0.0,/cfb/schools/georgia/2011.html
+Orson Charles,21,TE,,,,16.0,8.0,101.0,0.0,,,,
+Adrien Robinson,23,TE,Cincinnati,127.0,2008*,7.0,1.0,12.0,0.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2008.html
+Adrien Robinson,23,TE,Cincinnati,127.0,2009*,10.0,10.0,174.0,1.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2009.html
+Adrien Robinson,23,TE,Cincinnati,127.0,2010,9.0,6.0,65.0,1.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2010.html
+Adrien Robinson,23,TE,Cincinnati,127.0,2011*,13.0,12.0,183.0,3.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2011.html
+Adrien Robinson,23,TE,,,,2.0,0.0,0.0,0.0,,,,
+Taylor Thompson,22,TE,,,,16.0,6.0,46.0,0.0,,,,
+James Hanna,23,TE,Oklahoma,186.0,2008*,14.0,1.0,-1.0,0.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2008.html
+James Hanna,23,TE,Oklahoma,186.0,2009*,13.0,6.0,48.0,0.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2009.html
+James Hanna,23,TE,Oklahoma,186.0,2010*,14.0,18.0,292.0,7.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2010.html
+James Hanna,23,TE,Oklahoma,186.0,2011*,13.0,27.0,381.0,2.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2011.html
+James Hanna,23,TE,,,,16.0,8.0,86.0,0.0,,,,
+Drake Dunsmore,23,TE,Northwestern,233.0,2007,12.0,11.0,141.0,0.0,0.0,0.0,0.0,/cfb/schools/northwestern/2007.html
+Drake Dunsmore,23,TE,Northwestern,233.0,2009*,13.0,47.0,523.0,3.0,0.0,0.0,0.0,/cfb/schools/northwestern/2009.html
+Drake Dunsmore,23,TE,Northwestern,233.0,2010*,13.0,40.0,381.0,5.0,0.0,0.0,0.0,/cfb/schools/northwestern/2010.html
+Drake Dunsmore,23,TE,Northwestern,233.0,2011*,13.0,45.0,522.0,6.0,0.0,0.0,0.0,/cfb/schools/northwestern/2011.html
+Drake Dunsmore,23,TE,,,,,,,,,,,
+David Paulson,23,TE,Oregon,240.0,2009*,13.0,12.0,185.0,0.0,0.0,0.0,0.0,/cfb/schools/oregon/2009.html
+David Paulson,23,TE,Oregon,240.0,2010*,13.0,24.0,418.0,4.0,0.0,0.0,0.0,/cfb/schools/oregon/2010.html
+David Paulson,23,TE,Oregon,240.0,2011*,14.0,31.0,438.0,6.0,0.0,0.0,0.0,/cfb/schools/oregon/2011.html
+David Paulson,23,TE,,,,16.0,7.0,51.0,0.0,,,,
+Brad Smelley,23,TE,Alabama,247.0,2008*,7.0,7.0,98.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2008.html
+Brad Smelley,23,TE,Alabama,247.0,2009*,13.0,7.0,50.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2009.html
+Brad Smelley,23,TE,Alabama,247.0,2010*,13.0,6.0,55.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2010.html
+Brad Smelley,23,TE,Alabama,247.0,2011*,13.0,34.0,356.0,4.0,1.0,1.0,0.0,/cfb/schools/alabama/2011.html
+Brad Smelley,23,TE,,,,2.0,1.0,3.0,0.0,,,,
+Tyler Eifert,22,TE,Notre Dame,21.0,2010*,11.0,27.0,352.0,2.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2010.html
+Tyler Eifert,22,TE,Notre Dame,21.0,2011*,13.0,63.0,803.0,5.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2011.html
+Tyler Eifert,22,TE,Notre Dame,21.0,2012*,13.0,50.0,685.0,4.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2012.html
+Tyler Eifert,22,TE,,,,15.0,39.0,445.0,2.0,,,,
+Zach Ertz,22,TE,Stanford,35.0,2010*,13.0,16.0,190.0,5.0,0.0,0.0,0.0,/cfb/schools/stanford/2010.html
+Zach Ertz,22,TE,Stanford,35.0,2011*,10.0,27.0,346.0,4.0,0.0,0.0,0.0,/cfb/schools/stanford/2011.html
+Zach Ertz,22,TE,Stanford,35.0,2012*,14.0,69.0,898.0,6.0,0.0,0.0,0.0,/cfb/schools/stanford/2012.html
+Zach Ertz,22,TE,,,,16.0,36.0,469.0,4.0,,,,
+Gavin Escobar,22,TE,San Diego St.,47.0,2010*,13.0,29.0,323.0,4.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2010.html
+Gavin Escobar,22,TE,San Diego St.,47.0,2011*,13.0,51.0,780.0,7.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2011.html
+Gavin Escobar,22,TE,San Diego St.,47.0,2012*,13.0,42.0,543.0,6.0,2.0,7.0,0.0,/cfb/schools/san-diego-state/2012.html
+Gavin Escobar,22,TE,,,,16.0,9.0,134.0,2.0,,,,
+Vance McDonald,23,TE,Rice,55.0,2009,10.0,12.0,118.0,0.0,0.0,0.0,0.0,/cfb/schools/rice/2009.html
+Vance McDonald,23,TE,Rice,55.0,2010,10.0,28.0,396.0,8.0,3.0,19.0,0.0,/cfb/schools/rice/2010.html
+Vance McDonald,23,TE,Rice,55.0,2011,12.0,43.0,532.0,5.0,1.0,13.0,0.0,/cfb/schools/rice/2011.html
+Vance McDonald,23,TE,Rice,55.0,2012*,10.0,36.0,458.0,2.0,3.0,20.0,0.0,/cfb/schools/rice/2012.html
+Vance McDonald,23,TE,,,,15.0,8.0,119.0,0.0,,,,
+Travis Kelce,23,TE,Cincinnati,63.0,2009*,11.0,1.0,3.0,0.0,8.0,47.0,2.0,/cfb/schools/cincinnati/2009.html
+Travis Kelce,23,TE,Cincinnati,63.0,2011*,11.0,13.0,150.0,2.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2011.html
+Travis Kelce,23,TE,Cincinnati,63.0,2012*,13.0,45.0,722.0,8.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2012.html
+Travis Kelce,23,TE,,,,1.0,0.0,0.0,0.0,,,,
+Jordan Reed,23,TE,Florida,85.0,2010*,12.0,6.0,79.0,1.0,77.0,328.0,5.0,/cfb/schools/florida/2010.html
+Jordan Reed,23,TE,Florida,85.0,2011*,11.0,28.0,307.0,2.0,0.0,0.0,0.0,/cfb/schools/florida/2011.html
+Jordan Reed,23,TE,Florida,85.0,2012*,13.0,45.0,559.0,3.0,0.0,0.0,0.0,/cfb/schools/florida/2012.html
+Jordan Reed,23,TE,,,,9.0,45.0,499.0,3.0,,,,
+Dion Sims,22,TE,Michigan St.,106.0,2009*,13.0,11.0,133.0,3.0,1.0,-2.0,0.0,/cfb/schools/michigan-state/2009.html
+Dion Sims,22,TE,Michigan St.,106.0,2011*,14.0,12.0,99.0,3.0,0.0,0.0,0.0,/cfb/schools/michigan-state/2011.html
+Dion Sims,22,TE,Michigan St.,106.0,2012*,12.0,36.0,475.0,2.0,0.0,0.0,0.0,/cfb/schools/michigan-state/2012.html
+Dion Sims,22,TE,,,,15.0,6.0,32.0,1.0,,,,
+Levine Toilolo,22,TE,Stanford,133.0,2010*,3.0,1.0,27.0,0.0,0.0,0.0,0.0,/cfb/schools/stanford/2010.html
+Levine Toilolo,22,TE,Stanford,133.0,2011*,13.0,25.0,343.0,6.0,0.0,0.0,0.0,/cfb/schools/stanford/2011.html
+Levine Toilolo,22,TE,Stanford,133.0,2012*,14.0,24.0,393.0,4.0,0.0,0.0,0.0,/cfb/schools/stanford/2012.html
+Levine Toilolo,22,TE,,,,16.0,11.0,55.0,2.0,,,,
+Luke Willson,23,TE,Rice,158.0,2009,12.0,7.0,122.0,1.0,0.0,0.0,0.0,/cfb/schools/rice/2009.html
+Luke Willson,23,TE,Rice,158.0,2010,11.0,33.0,425.0,3.0,0.0,0.0,0.0,/cfb/schools/rice/2010.html
+Luke Willson,23,TE,Rice,158.0,2011,11.0,29.0,313.0,3.0,0.0,0.0,0.0,/cfb/schools/rice/2011.html
+Luke Willson,23,TE,Rice,158.0,2012*,11.0,9.0,126.0,2.0,0.0,0.0,0.0,/cfb/schools/rice/2012.html
+Luke Willson,23,TE,,,,16.0,20.0,272.0,1.0,,,,
+Nick Kasa,22,TE,Colorado,172.0,2009,4.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/colorado/2009.html
+Nick Kasa,22,TE,Colorado,172.0,2010,12.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/colorado/2010.html
+Nick Kasa,22,TE,Colorado,172.0,2011,11.0,1.0,8.0,0.0,0.0,0.0,0.0,/cfb/schools/colorado/2011.html
+Nick Kasa,22,TE,Colorado,172.0,2012,12.0,25.0,391.0,3.0,0.0,0.0,0.0,/cfb/schools/colorado/2012.html
+Nick Kasa,22,TE,,,,16.0,1.0,9.0,1.0,,,,
+Mychal Rivera,22,TE,Tennessee,184.0,2010*,13.0,11.0,112.0,0.0,0.0,0.0,0.0,/cfb/schools/tennessee/2010.html
+Mychal Rivera,22,TE,Tennessee,184.0,2011,12.0,29.0,344.0,1.0,0.0,0.0,0.0,/cfb/schools/tennessee/2011.html
+Mychal Rivera,22,TE,Tennessee,184.0,2012,12.0,36.0,562.0,5.0,0.0,0.0,0.0,/cfb/schools/tennessee/2012.html
+Mychal Rivera,22,TE,,,,16.0,38.0,407.0,4.0,,,,
+Ryan Griffin,23,TE,Connecticut,201.0,2009*,11.0,23.0,272.0,0.0,0.0,0.0,0.0,/cfb/schools/connecticut/2009.html
+Ryan Griffin,23,TE,Connecticut,201.0,2010*,13.0,31.0,245.0,1.0,0.0,0.0,0.0,/cfb/schools/connecticut/2010.html
+Ryan Griffin,23,TE,Connecticut,201.0,2011,12.0,33.0,499.0,3.0,0.0,0.0,0.0,/cfb/schools/connecticut/2011.html
+Ryan Griffin,23,TE,Connecticut,201.0,2012,12.0,29.0,484.0,6.0,0.0,0.0,0.0,/cfb/schools/connecticut/2012.html
+Ryan Griffin,23,TE,,,,15.0,19.0,244.0,1.0,,,,
+Michael Williams,22,TE,Alabama,211.0,2009*,14.0,3.0,29.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2009.html
+Michael Williams,22,TE,Alabama,211.0,2010*,13.0,8.0,100.0,1.0,0.0,0.0,0.0,/cfb/schools/alabama/2010.html
+Michael Williams,22,TE,Alabama,211.0,2011*,13.0,16.0,191.0,2.0,0.0,0.0,0.0,/cfb/schools/alabama/2011.html
+Michael Williams,22,TE,Alabama,211.0,2012*,14.0,24.0,183.0,4.0,0.0,0.0,0.0,/cfb/schools/alabama/2012.html
+Michael Williams,22,TE,,,,15.0,3.0,26.0,0.0,,,,
+D.C. Jefferson,24,TE,Rutgers,219.0,2009*,12.0,5.0,108.0,0.0,0.0,0.0,0.0,/cfb/schools/rutgers/2009.html
+D.C. Jefferson,24,TE,Rutgers,219.0,2010,12.0,10.0,166.0,1.0,0.0,0.0,0.0,/cfb/schools/rutgers/2010.html
+D.C. Jefferson,24,TE,Rutgers,219.0,2011*,13.0,12.0,118.0,0.0,0.0,0.0,0.0,/cfb/schools/rutgers/2011.html
+D.C. Jefferson,24,TE,Rutgers,219.0,2012*,13.0,20.0,168.0,1.0,0.0,0.0,0.0,/cfb/schools/rutgers/2012.html
+D.C. Jefferson,24,TE,,,,,,,,,,,
+Chris Gragg,23,TE,Arkansas,222.0,2008,12.0,1.0,25.0,0.0,0.0,0.0,0.0,/cfb/schools/arkansas/2008.html
+Chris Gragg,23,TE,Arkansas,222.0,2010*,13.0,8.0,171.0,2.0,0.0,0.0,0.0,/cfb/schools/arkansas/2010.html
+Chris Gragg,23,TE,Arkansas,222.0,2011*,13.0,41.0,518.0,2.0,0.0,0.0,0.0,/cfb/schools/arkansas/2011.html
+Chris Gragg,23,TE,Arkansas,222.0,2012,5.0,22.0,289.0,3.0,0.0,0.0,0.0,/cfb/schools/arkansas/2012.html
+Chris Gragg,23,TE,,,,9.0,5.0,53.0,1.0,,,,
+Justice Cunningham,22,TE,South Carolina,254.0,2009*,13.0,2.0,23.0,0.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2009.html
+Justice Cunningham,22,TE,South Carolina,254.0,2010*,14.0,7.0,92.0,0.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2010.html
+Justice Cunningham,22,TE,South Carolina,254.0,2011*,13.0,18.0,142.0,1.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2011.html
+Justice Cunningham,22,TE,South Carolina,254.0,2012*,13.0,23.0,324.0,0.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2012.html
+Justice Cunningham,22,TE,,,,2.0,1.0,4.0,0.0,,,,
+Eric Ebron,21,TE,North Carolina,10.0,2011*,10.0,10.0,207.0,1.0,0.0,0.0,0.0,/cfb/schools/north-carolina/2011.html
+Eric Ebron,21,TE,North Carolina,10.0,2012,11.0,40.0,625.0,4.0,0.0,0.0,0.0,/cfb/schools/north-carolina/2012.html
+Eric Ebron,21,TE,North Carolina,10.0,2013*,13.0,62.0,973.0,3.0,2.0,7.0,0.0,/cfb/schools/north-carolina/2013.html
+Eric Ebron,21,TE,,,,13.0,25.0,248.0,1.0,,,,
+Austin Seferian-Jenkins,21,TE,Washington,38.0,2011*,13.0,41.0,538.0,6.0,0.0,0.0,0.0,/cfb/schools/washington/2011.html
+Austin Seferian-Jenkins,21,TE,Washington,38.0,2012*,13.0,69.0,852.0,7.0,0.0,0.0,0.0,/cfb/schools/washington/2012.html
+Austin Seferian-Jenkins,21,TE,Washington,38.0,2013*,12.0,36.0,450.0,8.0,0.0,0.0,0.0,/cfb/schools/washington/2013.html
+Austin Seferian-Jenkins,21,TE,,,,9.0,21.0,221.0,2.0,,,,
+Jace Amaro,22,TE,Texas Tech,49.0,2011,12.0,7.0,57.0,2.0,0.0,0.0,0.0,/cfb/schools/texas-tech/2011.html
+Jace Amaro,22,TE,Texas Tech,49.0,2012*,7.0,25.0,409.0,4.0,0.0,0.0,0.0,/cfb/schools/texas-tech/2012.html
+Jace Amaro,22,TE,Texas Tech,49.0,2013*,13.0,106.0,1352.0,7.0,0.0,0.0,0.0,/cfb/schools/texas-tech/2013.html
+Jace Amaro,22,TE,,,,14.0,38.0,345.0,2.0,,,,
+Troy Niklas,21,TE,Notre Dame,52.0,2011*,12.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2011.html
+Troy Niklas,21,TE,Notre Dame,52.0,2012*,13.0,5.0,75.0,1.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2012.html
+Troy Niklas,21,TE,Notre Dame,52.0,2013*,13.0,32.0,498.0,5.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2013.html
+Troy Niklas,21,TE,,,,7.0,3.0,38.0,0.0,,,,
+C.J. Fiedorowicz,22,TE,Iowa,65.0,2010*,13.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/iowa/2010.html
+C.J. Fiedorowicz,22,TE,Iowa,65.0,2011*,13.0,16.0,167.0,3.0,0.0,0.0,0.0,/cfb/schools/iowa/2011.html
+C.J. Fiedorowicz,22,TE,Iowa,65.0,2012,12.0,45.0,433.0,1.0,0.0,0.0,0.0,/cfb/schools/iowa/2012.html
+C.J. Fiedorowicz,22,TE,Iowa,65.0,2013*,13.0,30.0,299.0,6.0,0.0,0.0,0.0,/cfb/schools/iowa/2013.html
+C.J. Fiedorowicz,22,TE,,,,15.0,4.0,28.0,1.0,,,,
+Richard Rodgers,22,TE,California,98.0,2011*,13.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/california/2011.html
+Richard Rodgers,22,TE,California,98.0,2012,11.0,20.0,288.0,1.0,0.0,0.0,0.0,/cfb/schools/california/2012.html
+Richard Rodgers,22,TE,California,98.0,2013,11.0,39.0,608.0,1.0,7.0,9.0,0.0,/cfb/schools/california/2013.html
+Richard Rodgers,22,TE,,,,16.0,20.0,225.0,2.0,,,,
+Crockett Gillmore,22,TE,Colorado St.,99.0,2010,10.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/colorado-state/2010.html
+Crockett Gillmore,22,TE,Colorado St.,99.0,2011,12.0,45.0,468.0,4.0,0.0,0.0,0.0,/cfb/schools/colorado-state/2011.html
+Crockett Gillmore,22,TE,Colorado St.,99.0,2012,11.0,19.0,263.0,2.0,0.0,0.0,0.0,/cfb/schools/colorado-state/2012.html
+Crockett Gillmore,22,TE,Colorado St.,99.0,2013*,12.0,47.0,577.0,2.0,0.0,0.0,0.0,/cfb/schools/colorado-state/2013.html
+Crockett Gillmore,22,TE,,,,15.0,10.0,121.0,1.0,,,,
+Arthur Lynch,24,TE,Georgia,155.0,2009*,11.0,2.0,17.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2009.html
+Arthur Lynch,24,TE,Georgia,155.0,2011*,14.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2011.html
+Arthur Lynch,24,TE,Georgia,155.0,2012*,14.0,24.0,431.0,3.0,0.0,0.0,0.0,/cfb/schools/georgia/2012.html
+Arthur Lynch,24,TE,Georgia,155.0,2013*,11.0,30.0,459.0,5.0,0.0,0.0,0.0,/cfb/schools/georgia/2013.html
+Arthur Lynch,24,TE,,,,,,,,,,,
+Ted Bolser,23,TE,Indiana,217.0,2010,12.0,27.0,407.0,5.0,0.0,0.0,0.0,/cfb/schools/indiana/2010.html
+Ted Bolser,23,TE,Indiana,217.0,2011,12.0,14.0,165.0,1.0,0.0,0.0,0.0,/cfb/schools/indiana/2011.html
+Ted Bolser,23,TE,Indiana,217.0,2012,12.0,41.0,445.0,3.0,0.0,0.0,0.0,/cfb/schools/indiana/2012.html
+Ted Bolser,23,TE,Indiana,217.0,2013,11.0,35.0,320.0,6.0,0.0,0.0,0.0,/cfb/schools/indiana/2013.html
+Ted Bolser,23,TE,,,,,,,,,,,
+Rob Blanchflower,24,TE,Massachusetts,230.0,2012,10.0,43.0,464.0,2.0,0.0,0.0,0.0,/cfb/schools/massachusetts/2012.html
+Rob Blanchflower,24,TE,Massachusetts,230.0,2013,5.0,27.0,313.0,3.0,1.0,3.0,0.0,/cfb/schools/massachusetts/2013.html
+Rob Blanchflower,24,TE,,,,,,,,,,,

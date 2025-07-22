@@ -1,0 +1,661 @@
+name,age,position,school,draft_pick,season,games,recs,recYDS,recTDS,rushAttempts,rushYards,rushTDS,collegeURL
+Demaryius Thomas,22,WR,Georgia Tech,22.0,2007*,13.0,35.0,558.0,4.0,1.0,0.0,0.0,/cfb/schools/georgia-tech/2007.html
+Demaryius Thomas,22,WR,Georgia Tech,22.0,2008*,12.0,39.0,627.0,3.0,2.0,29.0,0.0,/cfb/schools/georgia-tech/2008.html
+Demaryius Thomas,22,WR,Georgia Tech,22.0,2009*,14.0,46.0,1154.0,8.0,1.0,3.0,0.0,/cfb/schools/georgia-tech/2009.html
+Demaryius Thomas,22,WR,,,,10.0,22.0,283.0,2.0,,,,
+Dez Bryant,21,WR,Oklahoma St.,24.0,2007*,12.0,43.0,622.0,6.0,2.0,16.0,0.0,/cfb/schools/oklahoma-state/2007.html
+Dez Bryant,21,WR,Oklahoma St.,24.0,2008*,13.0,87.0,1480.0,19.0,0.0,0.0,0.0,/cfb/schools/oklahoma-state/2008.html
+Dez Bryant,21,WR,Oklahoma St.,24.0,2009*,3.0,17.0,323.0,4.0,0.0,0.0,0.0,/cfb/schools/oklahoma-state/2009.html
+Dez Bryant,21,WR,,,,12.0,45.0,561.0,6.0,,,,
+Dexter McCluster,21,WR,,,,,,,,,,,
+Arrelious Benn,21,WR,Illinois,39.0,2007*,13.0,54.0,676.0,2.0,32.0,158.0,0.0,/cfb/schools/illinois/2007.html
+Arrelious Benn,21,WR,Illinois,39.0,2008,12.0,67.0,1055.0,3.0,23.0,101.0,2.0,/cfb/schools/illinois/2008.html
+Arrelious Benn,21,WR,Illinois,39.0,2009,12.0,38.0,490.0,2.0,7.0,23.0,1.0,/cfb/schools/illinois/2009.html
+Arrelious Benn,21,WR,,,,15.0,25.0,395.0,2.0,,,,
+Golden Tate,22,WR,Notre Dame,60.0,2007,12.0,6.0,131.0,1.0,1.0,4.0,0.0,/cfb/schools/notre-dame/2007.html
+Golden Tate,22,WR,Notre Dame,60.0,2008*,13.0,58.0,1080.0,10.0,5.0,37.0,1.0,/cfb/schools/notre-dame/2008.html
+Golden Tate,22,WR,Notre Dame,60.0,2009,12.0,93.0,1496.0,15.0,25.0,186.0,2.0,/cfb/schools/notre-dame/2009.html
+Golden Tate,22,WR,,,,11.0,21.0,227.0,0.0,,,,
+Damian Williams,22,WR,USC,77.0,2006*,13.0,19.0,235.0,2.0,1.0,5.0,0.0,/cfb/schools/arkansas/2006.html
+Damian Williams,22,WR,USC,77.0,2008*,13.0,58.0,869.0,9.0,4.0,43.0,0.0,/cfb/schools/southern-california/2008.html
+Damian Williams,22,WR,USC,77.0,2009*,12.0,70.0,1010.0,6.0,2.0,16.0,0.0,/cfb/schools/southern-california/2009.html
+Damian Williams,22,WR,,,,16.0,16.0,219.0,0.0,,,,
+Brandon LaFell,23,WR,LSU,78.0,2006*,11.0,5.0,140.0,2.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2006.html
+Brandon LaFell,23,WR,LSU,78.0,2007*,14.0,50.0,656.0,4.0,1.0,18.0,1.0,/cfb/schools/louisiana-state/2007.html
+Brandon LaFell,23,WR,LSU,78.0,2008*,13.0,63.0,929.0,8.0,2.0,6.0,0.0,/cfb/schools/louisiana-state/2008.html
+Brandon LaFell,23,WR,LSU,78.0,2009*,13.0,57.0,792.0,11.0,5.0,13.0,0.0,/cfb/schools/louisiana-state/2009.html
+Brandon LaFell,23,WR,,,,14.0,38.0,468.0,1.0,,,,
+Emmanuel Sanders,23,WR,SMU,82.0,2006,12.0,46.0,605.0,9.0,2.0,6.0,0.0,/cfb/schools/southern-methodist/2006.html
+Emmanuel Sanders,23,WR,SMU,82.0,2007,12.0,74.0,889.0,9.0,6.0,28.0,0.0,/cfb/schools/southern-methodist/2007.html
+Emmanuel Sanders,23,WR,SMU,82.0,2008,10.0,67.0,958.0,9.0,0.0,0.0,0.0,/cfb/schools/southern-methodist/2008.html
+Emmanuel Sanders,23,WR,SMU,82.0,2009*,13.0,98.0,1339.0,7.0,1.0,6.0,0.0,/cfb/schools/southern-methodist/2009.html
+Emmanuel Sanders,23,WR,,,,13.0,28.0,376.0,2.0,,,,
+Jordan Shipley,24,WR,Texas,84.0,2006*,13.0,16.0,229.0,4.0,7.0,110.0,0.0,/cfb/schools/texas/2006.html
+Jordan Shipley,24,WR,Texas,84.0,2007*,13.0,27.0,417.0,5.0,4.0,20.0,0.0,/cfb/schools/texas/2007.html
+Jordan Shipley,24,WR,Texas,84.0,2008*,13.0,89.0,1060.0,11.0,4.0,32.0,0.0,/cfb/schools/texas/2008.html
+Jordan Shipley,24,WR,Texas,84.0,2009*,14.0,116.0,1485.0,13.0,1.0,0.0,0.0,/cfb/schools/texas/2009.html
+Jordan Shipley,24,WR,,,,15.0,52.0,600.0,3.0,,,,
+Eric Decker,23,WR,Minnesota,87.0,2006*,13.0,26.0,378.0,3.0,1.0,5.0,0.0,/cfb/schools/minnesota/2006.html
+Eric Decker,23,WR,Minnesota,87.0,2007,12.0,67.0,909.0,9.0,3.0,22.0,0.0,/cfb/schools/minnesota/2007.html
+Eric Decker,23,WR,Minnesota,87.0,2008*,12.0,84.0,1074.0,7.0,11.0,87.0,1.0,/cfb/schools/minnesota/2008.html
+Eric Decker,23,WR,Minnesota,87.0,2009*,8.0,50.0,758.0,5.0,0.0,0.0,0.0,/cfb/schools/minnesota/2009.html
+Eric Decker,23,WR,,,,14.0,6.0,106.0,1.0,,,,
+Andre Roberts,22,WR,The Citadel,88.0,2006*,13.0,26.0,378.0,3.0,1.0,5.0,0.0,/cfb/schools/minnesota/2006.html
+Andre Roberts,22,WR,The Citadel,88.0,2007,12.0,67.0,909.0,9.0,3.0,22.0,0.0,/cfb/schools/minnesota/2007.html
+Andre Roberts,22,WR,The Citadel,88.0,2008*,12.0,84.0,1074.0,7.0,11.0,87.0,1.0,/cfb/schools/minnesota/2008.html
+Andre Roberts,22,WR,The Citadel,88.0,2009*,8.0,50.0,758.0,5.0,0.0,0.0,0.0,/cfb/schools/minnesota/2009.html
+Andre Roberts,22,WR,,,,15.0,24.0,307.0,2.0,,,,
+Armanti Edwards,22,WR,Appalachian St.,89.0,2006*,13.0,26.0,378.0,3.0,1.0,5.0,0.0,/cfb/schools/minnesota/2006.html
+Armanti Edwards,22,WR,Appalachian St.,89.0,2007,12.0,67.0,909.0,9.0,3.0,22.0,0.0,/cfb/schools/minnesota/2007.html
+Armanti Edwards,22,WR,Appalachian St.,89.0,2008*,12.0,84.0,1074.0,7.0,11.0,87.0,1.0,/cfb/schools/minnesota/2008.html
+Armanti Edwards,22,WR,Appalachian St.,89.0,2009*,8.0,50.0,758.0,5.0,0.0,0.0,0.0,/cfb/schools/minnesota/2009.html
+Armanti Edwards,22,WR,,,,3.0,0.0,0.0,0.0,,,,
+Taylor Price,22,WR,Ohio,90.0,2006*,14.0,9.0,77.0,0.0,2.0,-20.0,0.0,/cfb/schools/ohio/2006.html
+Taylor Price,22,WR,Ohio,90.0,2007,12.0,33.0,464.0,4.0,6.0,23.0,0.0,/cfb/schools/ohio/2007.html
+Taylor Price,22,WR,Ohio,90.0,2008,12.0,51.0,694.0,5.0,5.0,19.0,0.0,/cfb/schools/ohio/2008.html
+Taylor Price,22,WR,Ohio,90.0,2009*,14.0,56.0,784.0,5.0,11.0,103.0,0.0,/cfb/schools/ohio/2009.html
+Taylor Price,22,WR,,,,1.0,3.0,41.0,0.0,,,,
+Mardy Gilyard,23,WR,Cincinnati,99.0,2005,8.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2005.html
+Mardy Gilyard,23,WR,Cincinnati,99.0,2007*,13.0,36.0,536.0,3.0,0.0,0.0,0.0,/cfb/schools/cincinnati/2007.html
+Mardy Gilyard,23,WR,Cincinnati,99.0,2008*,14.0,81.0,1276.0,11.0,2.0,10.0,0.0,/cfb/schools/cincinnati/2008.html
+Mardy Gilyard,23,WR,Cincinnati,99.0,2009*,13.0,87.0,1191.0,11.0,5.0,16.0,1.0,/cfb/schools/cincinnati/2009.html
+Mardy Gilyard,23,WR,,,,11.0,6.0,63.0,0.0,,,,
+Mike Williams,23,WR,Syracuse,101.0,2006,10.0,24.0,461.0,4.0,0.0,0.0,0.0,/cfb/schools/syracuse/2006.html
+Mike Williams,23,WR,Syracuse,101.0,2007,12.0,60.0,837.0,10.0,0.0,0.0,0.0,/cfb/schools/syracuse/2007.html
+Mike Williams,23,WR,Syracuse,101.0,2009,7.0,49.0,746.0,6.0,1.0,-7.0,0.0,/cfb/schools/syracuse/2009.html
+Mike Williams,23,WR,,,,16.0,65.0,964.0,11.0,,,,
+Marcus Easley,22,WR,Connecticut,107.0,2007*,10.0,1.0,10.0,0.0,0.0,0.0,0.0,/cfb/schools/connecticut/2007.html
+Marcus Easley,22,WR,Connecticut,107.0,2008*,11.0,4.0,94.0,0.0,0.0,0.0,0.0,/cfb/schools/connecticut/2008.html
+Marcus Easley,22,WR,Connecticut,107.0,2009*,13.0,48.0,893.0,8.0,1.0,11.0,0.0,/cfb/schools/connecticut/2009.html
+Marcus Easley,22,WR,,,,16.0,2.0,13.0,0.0,,,,
+Jacoby Ford,23,WR,Clemson,108.0,2006*,13.0,15.0,187.0,2.0,8.0,104.0,0.0,/cfb/schools/clemson/2006.html
+Jacoby Ford,23,WR,Clemson,108.0,2007*,8.0,17.0,310.0,4.0,14.0,172.0,0.0,/cfb/schools/clemson/2007.html
+Jacoby Ford,23,WR,Clemson,108.0,2008*,13.0,55.0,710.0,4.0,18.0,96.0,0.0,/cfb/schools/clemson/2008.html
+Jacoby Ford,23,WR,Clemson,108.0,2009*,14.0,56.0,779.0,6.0,18.0,122.0,2.0,/cfb/schools/clemson/2009.html
+Jacoby Ford,23,WR,,,,16.0,25.0,470.0,2.0,,,,
+David Reed,23,WR,Utah,156.0,2008*,13.0,25.0,427.0,6.0,1.0,15.0,1.0,/cfb/schools/utah/2008.html
+David Reed,23,WR,Utah,156.0,2009*,13.0,81.0,1188.0,5.0,4.0,4.0,0.0,/cfb/schools/utah/2009.html
+David Reed,23,WR,,,,13.0,0.0,0.0,0.0,,,,
+Riley Cooper,22,WR,Florida,159.0,2006*,13.0,4.0,92.0,3.0,0.0,0.0,0.0,/cfb/schools/florida/2006.html
+Riley Cooper,22,WR,Florida,159.0,2007*,10.0,8.0,182.0,3.0,0.0,0.0,0.0,/cfb/schools/florida/2007.html
+Riley Cooper,22,WR,Florida,159.0,2008*,14.0,18.0,261.0,3.0,0.0,0.0,0.0,/cfb/schools/florida/2008.html
+Riley Cooper,22,WR,Florida,159.0,2009*,14.0,51.0,961.0,9.0,1.0,14.0,0.0,/cfb/schools/florida/2009.html
+Riley Cooper,22,WR,,,,13.0,7.0,116.0,1.0,,,,
+Kerry Meier,23,WR,Kansas,165.0,2006,8.0,1.0,5.0,0.0,99.0,344.0,5.0,/cfb/schools/kansas/2006.html
+Kerry Meier,23,WR,Kansas,165.0,2007*,13.0,26.0,274.0,2.0,15.0,78.0,1.0,/cfb/schools/kansas/2007.html
+Kerry Meier,23,WR,Kansas,165.0,2008*,13.0,97.0,1045.0,8.0,2.0,-5.0,0.0,/cfb/schools/kansas/2008.html
+Kerry Meier,23,WR,Kansas,165.0,2009,12.0,102.0,985.0,8.0,2.0,-2.0,0.0,/cfb/schools/kansas/2009.html
+Kerry Meier,23,WR,,,,,,,,,,,
+Carlton Mitchell,22,WR,South Florida,177.0,2007*,13.0,37.0,537.0,4.0,4.0,17.0,0.0,/cfb/schools/south-florida/2007.html
+Carlton Mitchell,22,WR,South Florida,177.0,2008*,13.0,28.0,405.0,1.0,1.0,7.0,0.0,/cfb/schools/south-florida/2008.html
+Carlton Mitchell,22,WR,South Florida,177.0,2009*,11.0,40.0,706.0,4.0,0.0,0.0,0.0,/cfb/schools/south-florida/2009.html
+Carlton Mitchell,22,WR,,,,5.0,0.0,0.0,0.0,,,,
+Dezmon Briscoe,21,WR,Kansas,191.0,2007*,13.0,43.0,496.0,7.0,0.0,0.0,0.0,/cfb/schools/kansas/2007.html
+Dezmon Briscoe,21,WR,Kansas,191.0,2008*,13.0,92.0,1407.0,15.0,2.0,18.0,0.0,/cfb/schools/kansas/2008.html
+Dezmon Briscoe,21,WR,Kansas,191.0,2009,11.0,84.0,1337.0,9.0,2.0,19.0,1.0,/cfb/schools/kansas/2009.html
+Dezmon Briscoe,21,WR,,,,2.0,6.0,93.0,1.0,,,,
+Antonio Brown,22,WR,Central Michigan,195.0,2007*,14.0,102.0,1003.0,6.0,10.0,74.0,1.0,/cfb/schools/central-michigan/2007.html
+Antonio Brown,22,WR,Central Michigan,195.0,2008*,13.0,93.0,998.0,7.0,20.0,116.0,0.0,/cfb/schools/central-michigan/2008.html
+Antonio Brown,22,WR,Central Michigan,195.0,2009*,14.0,110.0,1198.0,9.0,42.0,341.0,3.0,/cfb/schools/central-michigan/2009.html
+Antonio Brown,22,WR,,,,9.0,16.0,167.0,0.0,,,,
+Trindon Holliday,24,WR,,,,15.0,2.0,17.0,0.0,,,,
+David Gettis,23,WR,Baylor,198.0,2006,11.0,4.0,82.0,1.0,0.0,0.0,0.0,/cfb/schools/baylor/2006.html
+David Gettis,23,WR,Baylor,198.0,2007,12.0,31.0,407.0,0.0,0.0,0.0,0.0,/cfb/schools/baylor/2007.html
+David Gettis,23,WR,Baylor,198.0,2008,12.0,29.0,391.0,0.0,0.0,0.0,0.0,/cfb/schools/baylor/2008.html
+David Gettis,23,WR,Baylor,198.0,2009,12.0,52.0,675.0,3.0,0.0,0.0,0.0,/cfb/schools/baylor/2009.html
+David Gettis,23,WR,,,,15.0,37.0,508.0,3.0,,,,
+Joe Webb,23,WR,,,,,,,,,,,
+Kyle Williams,22,WR,Arizona St.,206.0,2006*,6.0,4.0,87.0,0.0,0.0,0.0,0.0,/cfb/schools/arizona-state/2006.html
+Kyle Williams,22,WR,Arizona St.,206.0,2007*,13.0,29.0,360.0,6.0,6.0,15.0,0.0,/cfb/schools/arizona-state/2007.html
+Kyle Williams,22,WR,Arizona St.,206.0,2008,11.0,19.0,364.0,4.0,6.0,42.0,0.0,/cfb/schools/arizona-state/2008.html
+Kyle Williams,22,WR,Arizona St.,206.0,2009,11.0,57.0,815.0,8.0,5.0,73.0,0.0,/cfb/schools/arizona-state/2009.html
+Kyle Williams,22,WR,,,,5.0,1.0,8.0,0.0,,,,
+Terrence Austin,22,WR,UCLA,219.0,2006*,9.0,2.0,29.0,0.0,1.0,7.0,0.0,/cfb/schools/ucla/2006.html
+Terrence Austin,22,WR,UCLA,219.0,2007*,13.0,17.0,248.0,0.0,4.0,24.0,0.0,/cfb/schools/ucla/2007.html
+Terrence Austin,22,WR,UCLA,219.0,2008,12.0,53.0,460.0,1.0,13.0,90.0,0.0,/cfb/schools/ucla/2008.html
+Terrence Austin,22,WR,UCLA,219.0,2009*,13.0,37.0,455.0,4.0,5.0,25.0,0.0,/cfb/schools/ucla/2009.html
+Terrence Austin,22,WR,,,,5.0,3.0,47.0,0.0,,,,
+Marc Mariani,23,WR,Montana,222.0,2006*,9.0,2.0,29.0,0.0,1.0,7.0,0.0,/cfb/schools/ucla/2006.html
+Marc Mariani,23,WR,Montana,222.0,2007*,13.0,17.0,248.0,0.0,4.0,24.0,0.0,/cfb/schools/ucla/2007.html
+Marc Mariani,23,WR,Montana,222.0,2008,12.0,53.0,460.0,1.0,13.0,90.0,0.0,/cfb/schools/ucla/2008.html
+Marc Mariani,23,WR,Montana,222.0,2009*,13.0,37.0,455.0,4.0,5.0,25.0,0.0,/cfb/schools/ucla/2009.html
+Marc Mariani,23,WR,,,,16.0,0.0,0.0,0.0,,,,
+Dorin Dickerson,22,WR,Pittsburgh,227.0,2006,7.0,1.0,5.0,0.0,3.0,25.0,1.0,/cfb/schools/pittsburgh/2006.html
+Dorin Dickerson,22,WR,Pittsburgh,227.0,2007,12.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/pittsburgh/2007.html
+Dorin Dickerson,22,WR,Pittsburgh,227.0,2008*,13.0,13.0,174.0,2.0,2.0,25.0,0.0,/cfb/schools/pittsburgh/2008.html
+Dorin Dickerson,22,WR,Pittsburgh,227.0,2009*,13.0,49.0,529.0,10.0,0.0,0.0,0.0,/cfb/schools/pittsburgh/2009.html
+Dorin Dickerson,22,WR,,,,7.0,0.0,0.0,0.0,,,,
+Tim Toone,25,WR,,,,,,,,,,,
+A.J. Green,23,WR,Georgia,4.0,2008*,13.0,56.0,963.0,8.0,4.0,61.0,0.0,/cfb/schools/georgia/2008.html
+A.J. Green,23,WR,Georgia,4.0,2009*,10.0,53.0,808.0,6.0,0.0,0.0,0.0,/cfb/schools/georgia/2009.html
+A.J. Green,23,WR,Georgia,4.0,2010*,9.0,57.0,848.0,9.0,3.0,44.0,0.0,/cfb/schools/georgia/2010.html
+A.J. Green,23,WR,,,,15.0,65.0,1057.0,7.0,,,,
+Julio Jones,22,WR,Alabama,6.0,2008*,14.0,58.0,924.0,4.0,0.0,0.0,0.0,/cfb/schools/alabama/2008.html
+Julio Jones,22,WR,Alabama,6.0,2009*,13.0,43.0,596.0,4.0,2.0,4.0,0.0,/cfb/schools/alabama/2009.html
+Julio Jones,22,WR,Alabama,6.0,2010*,13.0,78.0,1133.0,7.0,8.0,135.0,2.0,/cfb/schools/alabama/2010.html
+Julio Jones,22,WR,,,,13.0,54.0,959.0,8.0,,,,
+Jonathan Baldwin,22,WR,Pittsburgh,26.0,2008*,13.0,18.0,404.0,3.0,1.0,4.0,0.0,/cfb/schools/pittsburgh/2008.html
+Jonathan Baldwin,22,WR,Pittsburgh,26.0,2009*,13.0,57.0,1111.0,8.0,1.0,61.0,0.0,/cfb/schools/pittsburgh/2009.html
+Jonathan Baldwin,22,WR,Pittsburgh,26.0,2010*,13.0,53.0,822.0,5.0,3.0,3.0,0.0,/cfb/schools/pittsburgh/2010.html
+Jonathan Baldwin,22,WR,,,,11.0,21.0,254.0,1.0,,,,
+Titus Young,22,WR,Boise St.,44.0,2007*,13.0,44.0,639.0,5.0,13.0,66.0,2.0,/cfb/schools/boise-state/2007.html
+Titus Young,22,WR,Boise St.,44.0,2008*,3.0,10.0,168.0,1.0,5.0,52.0,2.0,/cfb/schools/boise-state/2008.html
+Titus Young,22,WR,Boise St.,44.0,2009*,14.0,79.0,1041.0,10.0,15.0,138.0,3.0,/cfb/schools/boise-state/2009.html
+Titus Young,22,WR,Boise St.,44.0,2010*,13.0,71.0,1215.0,9.0,14.0,94.0,1.0,/cfb/schools/boise-state/2010.html
+Titus Young,22,WR,,,,16.0,48.0,607.0,6.0,,,,
+Torrey Smith,22,WR,Maryland,58.0,2008*,13.0,24.0,336.0,2.0,1.0,0.0,0.0,/cfb/schools/maryland/2008.html
+Torrey Smith,22,WR,Maryland,58.0,2009,12.0,61.0,824.0,5.0,11.0,59.0,1.0,/cfb/schools/maryland/2009.html
+Torrey Smith,22,WR,Maryland,58.0,2010*,13.0,67.0,1055.0,12.0,9.0,7.0,0.0,/cfb/schools/maryland/2010.html
+Torrey Smith,22,WR,,,,16.0,50.0,841.0,7.0,,,,
+Greg Little,22,WR,,,,16.0,61.0,709.0,2.0,,,,
+Randall Cobb,21,WR,,,,15.0,25.0,375.0,1.0,,,,
+Austin Pettis,23,WR,Boise St.,78.0,2007*,13.0,46.0,465.0,6.0,0.0,0.0,0.0,/cfb/schools/boise-state/2007.html
+Austin Pettis,23,WR,Boise St.,78.0,2008*,13.0,49.0,567.0,9.0,0.0,0.0,0.0,/cfb/schools/boise-state/2008.html
+Austin Pettis,23,WR,Boise St.,78.0,2009*,13.0,63.0,855.0,14.0,1.0,-11.0,0.0,/cfb/schools/boise-state/2009.html
+Austin Pettis,23,WR,Boise St.,78.0,2010*,13.0,71.0,951.0,10.0,0.0,0.0,0.0,/cfb/schools/boise-state/2010.html
+Austin Pettis,23,WR,,,,12.0,27.0,256.0,0.0,,,,
+Leonard Hankerson,22,WR,Miami (FL),79.0,2007,8.0,6.0,63.0,1.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2007.html
+Leonard Hankerson,22,WR,Miami (FL),79.0,2008*,8.0,11.0,140.0,2.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2008.html
+Leonard Hankerson,22,WR,Miami (FL),79.0,2009*,13.0,45.0,801.0,6.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2009.html
+Leonard Hankerson,22,WR,Miami (FL),79.0,2010*,13.0,72.0,1156.0,13.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2010.html
+Leonard Hankerson,22,WR,,,,4.0,13.0,163.0,0.0,,,,
+Vincent Brown,22,WR,San Diego St.,82.0,2007,12.0,31.0,349.0,2.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2007.html
+Vincent Brown,22,WR,San Diego St.,82.0,2008,12.0,64.0,631.0,5.0,3.0,37.0,0.0,/cfb/schools/san-diego-state/2008.html
+Vincent Brown,22,WR,San Diego St.,82.0,2009,7.0,45.0,778.0,6.0,3.0,10.0,0.0,/cfb/schools/san-diego-state/2009.html
+Vincent Brown,22,WR,San Diego St.,82.0,2010*,13.0,69.0,1352.0,10.0,1.0,-13.0,0.0,/cfb/schools/san-diego-state/2010.html
+Vincent Brown,22,WR,,,,14.0,19.0,329.0,2.0,,,,
+Jerrel Jernigan,22,WR,Troy,83.0,2007,12.0,30.0,337.0,3.0,14.0,50.0,0.0,/cfb/schools/troy/2007.html
+Jerrel Jernigan,22,WR,Troy,83.0,2008*,12.0,77.0,868.0,5.0,33.0,254.0,1.0,/cfb/schools/troy/2008.html
+Jerrel Jernigan,22,WR,Troy,83.0,2009*,13.0,71.0,1101.0,4.0,40.0,266.0,1.0,/cfb/schools/troy/2009.html
+Jerrel Jernigan,22,WR,Troy,83.0,2010*,13.0,84.0,822.0,6.0,45.0,322.0,3.0,/cfb/schools/troy/2010.html
+Jerrel Jernigan,22,WR,,,,8.0,0.0,0.0,0.0,,,,
+Kris Durham,23,WR,Georgia,107.0,2006*,13.0,8.0,82.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2006.html
+Kris Durham,23,WR,Georgia,107.0,2007*,13.0,11.0,169.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2007.html
+Kris Durham,23,WR,Georgia,107.0,2008*,10.0,13.0,199.0,1.0,0.0,0.0,0.0,/cfb/schools/georgia/2008.html
+Kris Durham,23,WR,Georgia,107.0,2010*,11.0,32.0,659.0,3.0,0.0,0.0,0.0,/cfb/schools/georgia/2010.html
+Kris Durham,23,WR,,,,3.0,3.0,30.0,0.0,,,,
+Clyde Gates,25,WR,Abilene Christian,111.0,2006*,13.0,8.0,82.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2006.html
+Clyde Gates,25,WR,Abilene Christian,111.0,2007*,13.0,11.0,169.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2007.html
+Clyde Gates,25,WR,Abilene Christian,111.0,2008*,10.0,13.0,199.0,1.0,0.0,0.0,0.0,/cfb/schools/georgia/2008.html
+Clyde Gates,25,WR,Abilene Christian,111.0,2010*,11.0,32.0,659.0,3.0,0.0,0.0,0.0,/cfb/schools/georgia/2010.html
+Clyde Gates,25,WR,,,,15.0,2.0,19.0,0.0,,,,
+Greg Salas,23,WR,Hawaii,112.0,2007*,7.0,3.0,35.0,1.0,0.0,0.0,0.0,/cfb/schools/hawaii/2007.html
+Greg Salas,23,WR,Hawaii,112.0,2008*,14.0,57.0,831.0,3.0,0.0,0.0,0.0,/cfb/schools/hawaii/2008.html
+Greg Salas,23,WR,Hawaii,112.0,2009,13.0,106.0,1590.0,8.0,0.0,0.0,0.0,/cfb/schools/hawaii/2009.html
+Greg Salas,23,WR,Hawaii,112.0,2010*,14.0,119.0,1889.0,14.0,0.0,0.0,0.0,/cfb/schools/hawaii/2010.html
+Greg Salas,23,WR,,,,6.0,27.0,264.0,0.0,,,,
+Cecil Shorts,23,WR,Mount Union,114.0,2007*,7.0,3.0,35.0,1.0,0.0,0.0,0.0,/cfb/schools/hawaii/2007.html
+Cecil Shorts,23,WR,Mount Union,114.0,2008*,14.0,57.0,831.0,3.0,0.0,0.0,0.0,/cfb/schools/hawaii/2008.html
+Cecil Shorts,23,WR,Mount Union,114.0,2009,13.0,106.0,1590.0,8.0,0.0,0.0,0.0,/cfb/schools/hawaii/2009.html
+Cecil Shorts,23,WR,Mount Union,114.0,2010*,14.0,119.0,1889.0,14.0,0.0,0.0,0.0,/cfb/schools/hawaii/2010.html
+Cecil Shorts,23,WR,,,,10.0,2.0,30.0,1.0,,,,
+Tandon Doss,21,WR,Indiana,123.0,2008,8.0,14.0,186.0,1.0,0.0,0.0,0.0,/cfb/schools/indiana/2008.html
+Tandon Doss,21,WR,Indiana,123.0,2009,12.0,77.0,962.0,5.0,14.0,127.0,1.0,/cfb/schools/indiana/2009.html
+Tandon Doss,21,WR,Indiana,123.0,2010,11.0,63.0,706.0,7.0,28.0,163.0,1.0,/cfb/schools/indiana/2010.html
+Tandon Doss,21,WR,,,,6.0,0.0,0.0,0.0,,,,
+Kealoha Pilares,23,WR,Hawaii,132.0,2007*,11.0,26.0,249.0,1.0,68.0,388.0,3.0,/cfb/schools/hawaii/2007.html
+Kealoha Pilares,23,WR,Hawaii,132.0,2008*,10.0,29.0,246.0,2.0,56.0,300.0,5.0,/cfb/schools/hawaii/2008.html
+Kealoha Pilares,23,WR,Hawaii,132.0,2009,13.0,66.0,690.0,4.0,1.0,13.0,0.0,/cfb/schools/hawaii/2009.html
+Kealoha Pilares,23,WR,Hawaii,132.0,2010*,13.0,88.0,1306.0,15.0,0.0,0.0,0.0,/cfb/schools/hawaii/2010.html
+Kealoha Pilares,23,WR,,,,8.0,2.0,42.0,1.0,,,,
+Denarius Moore,22,WR,Tennessee,148.0,2007*,14.0,14.0,212.0,0.0,0.0,0.0,0.0,/cfb/schools/tennessee/2007.html
+Denarius Moore,22,WR,Tennessee,148.0,2008,12.0,11.0,271.0,2.0,0.0,0.0,0.0,/cfb/schools/tennessee/2008.html
+Denarius Moore,22,WR,Tennessee,148.0,2009*,13.0,40.0,540.0,7.0,3.0,23.0,0.0,/cfb/schools/tennessee/2009.html
+Denarius Moore,22,WR,Tennessee,148.0,2010*,13.0,47.0,981.0,9.0,7.0,82.0,1.0,/cfb/schools/tennessee/2010.html
+Denarius Moore,22,WR,,,,13.0,33.0,618.0,5.0,,,,
+Jeremy Kerley,22,WR,TCU,153.0,2007*,13.0,9.0,97.0,0.0,6.0,16.0,0.0,/cfb/schools/texas-christian/2007.html
+Jeremy Kerley,22,WR,TCU,153.0,2008*,11.0,11.0,95.0,0.0,25.0,143.0,3.0,/cfb/schools/texas-christian/2008.html
+Jeremy Kerley,22,WR,TCU,153.0,2009*,13.0,44.0,532.0,2.0,14.0,50.0,3.0,/cfb/schools/texas-christian/2009.html
+Jeremy Kerley,22,WR,TCU,153.0,2010*,13.0,56.0,575.0,10.0,18.0,97.0,2.0,/cfb/schools/texas-christian/2010.html
+Jeremy Kerley,22,WR,,,,14.0,29.0,314.0,1.0,,,,
+Niles Paul,22,WR,Nebraska,155.0,2007,7.0,1.0,6.0,0.0,0.0,0.0,0.0,/cfb/schools/nebraska/2007.html
+Niles Paul,22,WR,Nebraska,155.0,2008*,13.0,23.0,214.0,0.0,1.0,-6.0,0.0,/cfb/schools/nebraska/2008.html
+Niles Paul,22,WR,Nebraska,155.0,2009*,14.0,40.0,796.0,4.0,3.0,48.0,1.0,/cfb/schools/nebraska/2009.html
+Niles Paul,22,WR,Nebraska,155.0,2010*,12.0,39.0,516.0,1.0,5.0,14.0,0.0,/cfb/schools/nebraska/2010.html
+Niles Paul,22,WR,,,,13.0,2.0,25.0,0.0,,,,
+Ryan Whalen,22,WR,Stanford,167.0,2007,12.0,1.0,11.0,0.0,0.0,0.0,0.0,/cfb/schools/stanford/2007.html
+Ryan Whalen,22,WR,Stanford,167.0,2008,12.0,41.0,508.0,1.0,0.0,0.0,0.0,/cfb/schools/stanford/2008.html
+Ryan Whalen,22,WR,Stanford,167.0,2009*,13.0,57.0,926.0,4.0,0.0,0.0,0.0,/cfb/schools/stanford/2009.html
+Ryan Whalen,22,WR,Stanford,167.0,2010*,11.0,41.0,439.0,2.0,0.0,0.0,0.0,/cfb/schools/stanford/2010.html
+Ryan Whalen,22,WR,,,,4.0,4.0,27.0,0.0,,,,
+Dwayne Harris,23,WR,East Carolina,176.0,2007*,13.0,26.0,246.0,2.0,20.0,197.0,1.0,/cfb/schools/east-carolina/2007.html
+Dwayne Harris,23,WR,East Carolina,176.0,2008*,10.0,58.0,654.0,1.0,19.0,76.0,0.0,/cfb/schools/east-carolina/2008.html
+Dwayne Harris,23,WR,East Carolina,176.0,2009*,14.0,83.0,978.0,7.0,31.0,149.0,5.0,/cfb/schools/east-carolina/2009.html
+Dwayne Harris,23,WR,East Carolina,176.0,2010*,13.0,101.0,1123.0,10.0,16.0,104.0,0.0,/cfb/schools/east-carolina/2010.html
+Dwayne Harris,23,WR,,,,16.0,17.0,222.0,1.0,,,,
+Aldrick Robinson,22,WR,SMU,178.0,2007,9.0,10.0,166.0,0.0,0.0,0.0,0.0,/cfb/schools/southern-methodist/2007.html
+Aldrick Robinson,22,WR,SMU,178.0,2008,10.0,59.0,1047.0,11.0,0.0,0.0,0.0,/cfb/schools/southern-methodist/2008.html
+Aldrick Robinson,22,WR,SMU,178.0,2009*,13.0,47.0,800.0,5.0,0.0,0.0,0.0,/cfb/schools/southern-methodist/2009.html
+Aldrick Robinson,22,WR,SMU,178.0,2010*,14.0,65.0,1301.0,14.0,0.0,0.0,0.0,/cfb/schools/southern-methodist/2010.html
+Aldrick Robinson,22,WR,,,,15.0,11.0,237.0,3.0,,,,
+Ronald Johnson,23,WR,USC,182.0,2007*,13.0,7.0,110.0,1.0,4.0,27.0,0.0,/cfb/schools/southern-california/2007.html
+Ronald Johnson,23,WR,USC,182.0,2008*,13.0,33.0,570.0,8.0,6.0,32.0,0.0,/cfb/schools/southern-california/2008.html
+Ronald Johnson,23,WR,USC,182.0,2009*,8.0,34.0,378.0,3.0,1.0,4.0,0.0,/cfb/schools/southern-california/2009.html
+Ronald Johnson,23,WR,USC,182.0,2010,13.0,64.0,692.0,8.0,5.0,25.0,0.0,/cfb/schools/southern-california/2010.html
+Ronald Johnson,23,WR,,,,,,,,,,,
+Scotty McKnight,23,WR,Colorado,227.0,2007*,13.0,47.0,555.0,4.0,0.0,0.0,0.0,/cfb/schools/colorado/2007.html
+Scotty McKnight,23,WR,Colorado,227.0,2008,12.0,46.0,519.0,5.0,2.0,2.0,0.0,/cfb/schools/colorado/2008.html
+Scotty McKnight,23,WR,Colorado,227.0,2009,12.0,76.0,893.0,6.0,0.0,2.0,1.0,/cfb/schools/colorado/2009.html
+Scotty McKnight,23,WR,Colorado,227.0,2010,12.0,50.0,621.0,7.0,0.0,0.0,0.0,/cfb/schools/colorado/2010.html
+Scotty McKnight,23,WR,,,,,,,,,,,
+Stephen Burton,21,WR,,,,3.0,2.0,38.0,0.0,,,,
+David Ausberry,23,WR,USC,241.0,2007*,13.0,26.0,240.0,2.0,0.0,0.0,0.0,/cfb/schools/southern-california/2007.html
+David Ausberry,23,WR,USC,241.0,2008*,13.0,6.0,85.0,1.0,0.0,0.0,0.0,/cfb/schools/southern-california/2008.html
+David Ausberry,23,WR,USC,241.0,2009*,7.0,12.0,123.0,0.0,0.0,0.0,0.0,/cfb/schools/southern-california/2009.html
+David Ausberry,23,WR,USC,241.0,2010,13.0,20.0,252.0,4.0,2.0,14.0,0.0,/cfb/schools/southern-california/2010.html
+David Ausberry,23,WR,,,,12.0,2.0,14.0,0.0,,,,
+DeMarco Sampson,25,WR,San Diego St.,249.0,2005,12.0,6.0,60.0,1.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2005.html
+DeMarco Sampson,25,WR,San Diego St.,249.0,2008,11.0,11.0,111.0,1.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2008.html
+DeMarco Sampson,25,WR,San Diego St.,249.0,2009,12.0,62.0,851.0,8.0,4.0,-2.0,0.0,/cfb/schools/san-diego-state/2009.html
+DeMarco Sampson,25,WR,San Diego St.,249.0,2010*,13.0,67.0,1220.0,8.0,4.0,11.0,0.0,/cfb/schools/san-diego-state/2010.html
+DeMarco Sampson,25,WR,,,,12.0,3.0,36.0,0.0,,,,
+Justin Blackmon,22,WR,Oklahoma St.,5.0,2009*,13.0,20.0,260.0,2.0,0.0,0.0,0.0,/cfb/schools/oklahoma-state/2009.html
+Justin Blackmon,22,WR,Oklahoma St.,5.0,2010*,12.0,111.0,1782.0,20.0,4.0,77.0,1.0,/cfb/schools/oklahoma-state/2010.html
+Justin Blackmon,22,WR,Oklahoma St.,5.0,2011*,13.0,122.0,1522.0,18.0,4.0,7.0,0.0,/cfb/schools/oklahoma-state/2011.html
+Justin Blackmon,22,WR,,,,16.0,64.0,865.0,5.0,,,,
+Michael Floyd,22,WR,Notre Dame,13.0,2008*,11.0,48.0,719.0,7.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2008.html
+Michael Floyd,22,WR,Notre Dame,13.0,2009,7.0,44.0,795.0,9.0,1.0,8.0,0.0,/cfb/schools/notre-dame/2009.html
+Michael Floyd,22,WR,Notre Dame,13.0,2010*,12.0,79.0,1025.0,12.0,1.0,9.0,0.0,/cfb/schools/notre-dame/2010.html
+Michael Floyd,22,WR,Notre Dame,13.0,2011*,13.0,100.0,1147.0,9.0,2.0,13.0,1.0,/cfb/schools/notre-dame/2011.html
+Michael Floyd,22,WR,,,,16.0,45.0,562.0,2.0,,,,
+Kendall Wright,22,WR,Baylor,20.0,2008,12.0,50.0,649.0,5.0,29.0,168.0,1.0,/cfb/schools/baylor/2008.html
+Kendall Wright,22,WR,Baylor,20.0,2009,12.0,66.0,740.0,4.0,28.0,132.0,1.0,/cfb/schools/baylor/2009.html
+Kendall Wright,22,WR,Baylor,20.0,2010*,13.0,78.0,952.0,7.0,8.0,53.0,0.0,/cfb/schools/baylor/2010.html
+Kendall Wright,22,WR,Baylor,20.0,2011*,13.0,108.0,1663.0,14.0,10.0,72.0,0.0,/cfb/schools/baylor/2011.html
+Kendall Wright,22,WR,,,,15.0,64.0,626.0,4.0,,,,
+A.J. Jenkins,22,WR,Illinois,30.0,2008,12.0,11.0,287.0,3.0,0.0,0.0,0.0,/cfb/schools/illinois/2008.html
+A.J. Jenkins,22,WR,Illinois,30.0,2009,8.0,10.0,123.0,1.0,1.0,-1.0,0.0,/cfb/schools/illinois/2009.html
+A.J. Jenkins,22,WR,Illinois,30.0,2010*,13.0,56.0,746.0,7.0,0.0,0.0,0.0,/cfb/schools/illinois/2010.html
+A.J. Jenkins,22,WR,Illinois,30.0,2011*,13.0,90.0,1276.0,8.0,5.0,26.0,0.0,/cfb/schools/illinois/2011.html
+A.J. Jenkins,22,WR,,,,3.0,0.0,0.0,0.0,,,,
+Brian Quick,23,WR,,,,15.0,11.0,156.0,2.0,,,,
+Stephen Hill,21,WR,Georgia Tech,43.0,2009*,13.0,6.0,137.0,1.0,5.0,84.0,1.0,/cfb/schools/georgia-tech/2009.html
+Stephen Hill,21,WR,Georgia Tech,43.0,2010*,12.0,15.0,291.0,3.0,3.0,34.0,0.0,/cfb/schools/georgia-tech/2010.html
+Stephen Hill,21,WR,Georgia Tech,43.0,2011*,13.0,28.0,820.0,5.0,4.0,29.0,0.0,/cfb/schools/georgia-tech/2011.html
+Stephen Hill,21,WR,,,,11.0,21.0,252.0,3.0,,,,
+Alshon Jeffery,22,WR,South Carolina,45.0,2009*,13.0,46.0,763.0,6.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2009.html
+Alshon Jeffery,22,WR,South Carolina,45.0,2010*,14.0,88.0,1517.0,9.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2010.html
+Alshon Jeffery,22,WR,South Carolina,45.0,2011*,13.0,49.0,762.0,8.0,0.0,0.0,0.0,/cfb/schools/south-carolina/2011.html
+Alshon Jeffery,22,WR,,,,10.0,24.0,367.0,3.0,,,,
+Ryan Broyles,24,WR,Oklahoma,54.0,2008*,13.0,46.0,687.0,6.0,3.0,11.0,0.0,/cfb/schools/oklahoma/2008.html
+Ryan Broyles,24,WR,Oklahoma,54.0,2009*,12.0,89.0,1120.0,15.0,11.0,83.0,1.0,/cfb/schools/oklahoma/2009.html
+Ryan Broyles,24,WR,Oklahoma,54.0,2010*,14.0,131.0,1622.0,14.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2010.html
+Ryan Broyles,24,WR,Oklahoma,54.0,2011*,9.0,83.0,1157.0,10.0,1.0,3.0,0.0,/cfb/schools/oklahoma/2011.html
+Ryan Broyles,24,WR,,,,10.0,22.0,310.0,2.0,,,,
+Rueben Randle,21,WR,LSU,63.0,2009*,13.0,11.0,173.0,2.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2009.html
+Rueben Randle,21,WR,LSU,63.0,2010*,13.0,33.0,544.0,3.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2010.html
+Rueben Randle,21,WR,LSU,63.0,2011*,14.0,53.0,917.0,8.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2011.html
+Rueben Randle,21,WR,,,,16.0,19.0,298.0,3.0,,,,
+DeVier Posey,22,WR,Ohio St.,68.0,2008*,12.0,11.0,117.0,1.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2008.html
+DeVier Posey,22,WR,Ohio St.,68.0,2009*,13.0,60.0,828.0,8.0,2.0,19.0,0.0,/cfb/schools/ohio-state/2009.html
+DeVier Posey,22,WR,Ohio St.,68.0,2010*,13.0,53.0,848.0,7.0,0.0,0.0,0.0,/cfb/schools/ohio-state/2010.html
+DeVier Posey,22,WR,Ohio St.,68.0,2011*,4.0,12.0,162.0,2.0,1.0,-6.0,0.0,/cfb/schools/ohio-state/2011.html
+DeVier Posey,22,WR,,,,11.0,6.0,87.0,0.0,,,,
+T.J. Graham,23,WR,North Carolina St.,69.0,2008*,13.0,16.0,251.0,0.0,2.0,3.0,0.0,/cfb/schools/north-carolina-state/2008.html
+T.J. Graham,23,WR,North Carolina St.,69.0,2009,7.0,12.0,129.0,1.0,0.0,0.0,0.0,/cfb/schools/north-carolina-state/2009.html
+T.J. Graham,23,WR,North Carolina St.,69.0,2010*,13.0,25.0,316.0,4.0,1.0,-7.0,0.0,/cfb/schools/north-carolina-state/2010.html
+T.J. Graham,23,WR,North Carolina St.,69.0,2011*,13.0,46.0,757.0,7.0,2.0,-5.0,0.0,/cfb/schools/north-carolina-state/2011.html
+T.J. Graham,23,WR,,,,15.0,31.0,322.0,1.0,,,,
+Mohamed Sanu,23,WR,Rutgers,83.0,2009*,13.0,51.0,639.0,3.0,62.0,346.0,5.0,/cfb/schools/rutgers/2009.html
+Mohamed Sanu,23,WR,Rutgers,83.0,2010,12.0,44.0,418.0,2.0,59.0,309.0,4.0,/cfb/schools/rutgers/2010.html
+Mohamed Sanu,23,WR,Rutgers,83.0,2011*,13.0,115.0,1206.0,7.0,4.0,-2.0,0.0,/cfb/schools/rutgers/2011.html
+Mohamed Sanu,23,WR,,,,9.0,16.0,154.0,4.0,,,,
+T.Y. Hilton,22,WR,Florida International,92.0,2008,12.0,41.0,1013.0,7.0,14.0,43.0,2.0,/cfb/schools/florida-international/2008.html
+T.Y. Hilton,22,WR,Florida International,92.0,2009,12.0,57.0,632.0,5.0,6.0,49.0,0.0,/cfb/schools/florida-international/2009.html
+T.Y. Hilton,22,WR,Florida International,92.0,2010*,13.0,59.0,848.0,5.0,30.0,282.0,4.0,/cfb/schools/florida-international/2010.html
+T.Y. Hilton,22,WR,Florida International,92.0,2011*,13.0,72.0,1038.0,7.0,19.0,124.0,1.0,/cfb/schools/florida-international/2011.html
+T.Y. Hilton,22,WR,,,,15.0,50.0,861.0,7.0,,,,
+Chris Givens,22,WR,Wake Forest,96.0,2009,12.0,45.0,629.0,8.0,15.0,98.0,0.0,/cfb/schools/wake-forest/2009.html
+Chris Givens,22,WR,Wake Forest,96.0,2010,11.0,35.0,514.0,4.0,16.0,63.0,2.0,/cfb/schools/wake-forest/2010.html
+Chris Givens,22,WR,Wake Forest,96.0,2011*,13.0,83.0,1330.0,9.0,14.0,77.0,0.0,/cfb/schools/wake-forest/2011.html
+Chris Givens,22,WR,,,,15.0,42.0,698.0,3.0,,,,
+Travis Benjamin,22,WR,Miami (FL),100.0,2008*,12.0,18.0,293.0,3.0,5.0,42.0,1.0,/cfb/schools/miami-fl/2008.html
+Travis Benjamin,22,WR,Miami (FL),100.0,2009*,13.0,29.0,501.0,4.0,9.0,21.0,0.0,/cfb/schools/miami-fl/2009.html
+Travis Benjamin,22,WR,Miami (FL),100.0,2010*,13.0,43.0,743.0,3.0,3.0,44.0,0.0,/cfb/schools/miami-fl/2010.html
+Travis Benjamin,22,WR,Miami (FL),100.0,2011,11.0,41.0,609.0,3.0,8.0,19.0,0.0,/cfb/schools/miami-fl/2011.html
+Travis Benjamin,22,WR,,,,14.0,18.0,298.0,2.0,,,,
+Joe Adams,22,WR,Arkansas,104.0,2008,12.0,31.0,377.0,1.0,6.0,46.0,0.0,/cfb/schools/arkansas/2008.html
+Joe Adams,22,WR,Arkansas,104.0,2009*,10.0,29.0,568.0,7.0,5.0,31.0,1.0,/cfb/schools/arkansas/2009.html
+Joe Adams,22,WR,Arkansas,104.0,2010*,12.0,50.0,813.0,6.0,6.0,32.0,0.0,/cfb/schools/arkansas/2010.html
+Joe Adams,22,WR,Arkansas,104.0,2011*,13.0,54.0,652.0,3.0,10.0,139.0,1.0,/cfb/schools/arkansas/2011.html
+Joe Adams,22,WR,,,,,,,,,,,
+Devon Wylie,24,WR,Fresno St.,107.0,2007*,10.0,1.0,44.0,0.0,2.0,-1.0,0.0,/cfb/schools/fresno-state/2007.html
+Devon Wylie,24,WR,Fresno St.,107.0,2008*,9.0,22.0,269.0,2.0,4.0,51.0,0.0,/cfb/schools/fresno-state/2008.html
+Devon Wylie,24,WR,Fresno St.,107.0,2009*,10.0,17.0,259.0,4.0,3.0,16.0,0.0,/cfb/schools/fresno-state/2009.html
+Devon Wylie,24,WR,Fresno St.,107.0,2010*,1.0,2.0,39.0,1.0,1.0,4.0,0.0,/cfb/schools/fresno-state/2010.html
+Devon Wylie,24,WR,Fresno St.,107.0,2011,13.0,56.0,716.0,1.0,8.0,48.0,0.0,/cfb/schools/fresno-state/2011.html
+Devon Wylie,24,WR,,,,6.0,6.0,53.0,0.0,,,,
+Jarius Wright,22,WR,Arkansas,118.0,2008,12.0,19.0,348.0,2.0,1.0,1.0,0.0,/cfb/schools/arkansas/2008.html
+Jarius Wright,22,WR,Arkansas,118.0,2009*,13.0,41.0,681.0,5.0,0.0,0.0,0.0,/cfb/schools/arkansas/2009.html
+Jarius Wright,22,WR,Arkansas,118.0,2010*,13.0,42.0,788.0,5.0,1.0,9.0,0.0,/cfb/schools/arkansas/2010.html
+Jarius Wright,22,WR,Arkansas,118.0,2011*,12.0,66.0,1117.0,12.0,0.0,0.0,0.0,/cfb/schools/arkansas/2011.html
+Jarius Wright,22,WR,,,,7.0,22.0,310.0,2.0,,,,
+Keshawn Martin,22,WR,Michigan St.,121.0,2008*,10.0,11.0,132.0,0.0,9.0,51.0,0.0,/cfb/schools/michigan-state/2008.html
+Keshawn Martin,22,WR,Michigan St.,121.0,2009*,13.0,18.0,411.0,5.0,18.0,219.0,1.0,/cfb/schools/michigan-state/2009.html
+Keshawn Martin,22,WR,Michigan St.,121.0,2010*,11.0,32.0,394.0,1.0,18.0,157.0,0.0,/cfb/schools/michigan-state/2010.html
+Keshawn Martin,22,WR,Michigan St.,121.0,2011*,14.0,66.0,777.0,4.0,19.0,113.0,2.0,/cfb/schools/michigan-state/2011.html
+Keshawn Martin,22,WR,,,,16.0,10.0,85.0,1.0,,,,
+Nick Toon,23,WR,Wisconsin,122.0,2008*,12.0,17.0,257.0,1.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2008.html
+Nick Toon,23,WR,Wisconsin,122.0,2009*,13.0,54.0,805.0,4.0,4.0,24.0,0.0,/cfb/schools/wisconsin/2009.html
+Nick Toon,23,WR,Wisconsin,122.0,2010*,9.0,36.0,459.0,3.0,2.0,10.0,0.0,/cfb/schools/wisconsin/2010.html
+Nick Toon,23,WR,Wisconsin,122.0,2011*,13.0,64.0,926.0,10.0,0.0,0.0,0.0,/cfb/schools/wisconsin/2011.html
+Nick Toon,23,WR,,,,8.0,4.0,68.0,0.0,,,,
+Greg Childs,22,WR,Arkansas,134.0,2008,12.0,18.0,273.0,2.0,0.0,0.0,0.0,/cfb/schools/arkansas/2008.html
+Greg Childs,22,WR,Arkansas,134.0,2009*,13.0,48.0,894.0,7.0,0.0,0.0,0.0,/cfb/schools/arkansas/2009.html
+Greg Childs,22,WR,Arkansas,134.0,2010*,8.0,46.0,659.0,6.0,0.0,0.0,0.0,/cfb/schools/arkansas/2010.html
+Greg Childs,22,WR,Arkansas,134.0,2011*,11.0,21.0,240.0,0.0,0.0,0.0,0.0,/cfb/schools/arkansas/2011.html
+Greg Childs,22,WR,,,,,,,,,,,
+Danny Coale,24,WR,Virginia Tech,152.0,2008*,14.0,36.0,408.0,0.0,6.0,14.0,0.0,/cfb/schools/virginia-tech/2008.html
+Danny Coale,24,WR,Virginia Tech,152.0,2009*,13.0,30.0,614.0,2.0,2.0,8.0,0.0,/cfb/schools/virginia-tech/2009.html
+Danny Coale,24,WR,Virginia Tech,152.0,2010*,14.0,39.0,732.0,3.0,1.0,-3.0,0.0,/cfb/schools/virginia-tech/2010.html
+Danny Coale,24,WR,Virginia Tech,152.0,2011*,14.0,60.0,904.0,3.0,4.0,26.0,0.0,/cfb/schools/virginia-tech/2011.html
+Danny Coale,24,WR,,,,,,,,,,,
+Marvin Jones,22,WR,California,166.0,2008*,5.0,1.0,8.0,0.0,0.0,0.0,0.0,/cfb/schools/california/2008.html
+Marvin Jones,22,WR,California,166.0,2009*,13.0,43.0,651.0,6.0,0.0,0.0,0.0,/cfb/schools/california/2009.html
+Marvin Jones,22,WR,California,166.0,2010,12.0,50.0,765.0,4.0,6.0,94.0,1.0,/cfb/schools/california/2010.html
+Marvin Jones,22,WR,California,166.0,2011*,13.0,62.0,846.0,3.0,5.0,22.0,0.0,/cfb/schools/california/2011.html
+Marvin Jones,22,WR,,,,11.0,18.0,201.0,1.0,,,,
+Juron Criner,22,WR,Arizona,168.0,2008*,13.0,7.0,88.0,1.0,0.0,0.0,0.0,/cfb/schools/arizona/2008.html
+Juron Criner,22,WR,Arizona,168.0,2009*,13.0,45.0,582.0,9.0,8.0,63.0,0.0,/cfb/schools/arizona/2009.html
+Juron Criner,22,WR,Arizona,168.0,2010*,13.0,82.0,1233.0,11.0,8.0,66.0,0.0,/cfb/schools/arizona/2010.html
+Juron Criner,22,WR,Arizona,168.0,2011,11.0,75.0,956.0,11.0,1.0,0.0,0.0,/cfb/schools/arizona/2011.html
+Juron Criner,22,WR,,,,12.0,16.0,151.0,1.0,,,,
+B.J. Cunningham,23,WR,Michigan St.,183.0,2008*,13.0,41.0,528.0,0.0,4.0,56.0,0.0,/cfb/schools/michigan-state/2008.html
+B.J. Cunningham,23,WR,Michigan St.,183.0,2009*,12.0,48.0,641.0,4.0,0.0,0.0,0.0,/cfb/schools/michigan-state/2009.html
+B.J. Cunningham,23,WR,Michigan St.,183.0,2010*,12.0,50.0,611.0,9.0,1.0,0.0,0.0,/cfb/schools/michigan-state/2010.html
+B.J. Cunningham,23,WR,Michigan St.,183.0,2011*,14.0,79.0,1306.0,12.0,3.0,26.0,0.0,/cfb/schools/michigan-state/2011.html
+B.J. Cunningham,23,WR,,,,,,,,,,,
+Marvin McNutt,23,WR,Iowa,194.0,2008*,3.0,1.0,11.0,0.0,1.0,0.0,0.0,/cfb/schools/iowa/2008.html
+Marvin McNutt,23,WR,Iowa,194.0,2009*,13.0,34.0,674.0,8.0,0.0,0.0,0.0,/cfb/schools/iowa/2009.html
+Marvin McNutt,23,WR,Iowa,194.0,2010*,13.0,53.0,861.0,8.0,1.0,5.0,0.0,/cfb/schools/iowa/2010.html
+Marvin McNutt,23,WR,Iowa,194.0,2011*,13.0,82.0,1315.0,12.0,6.0,58.0,0.0,/cfb/schools/iowa/2011.html
+Marvin McNutt,23,WR,,,,4.0,0.0,0.0,0.0,,,,
+Tommy Streeter,22,WR,Miami (FL),198.0,2009*,10.0,5.0,114.0,0.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2009.html
+Tommy Streeter,22,WR,Miami (FL),198.0,2010*,8.0,1.0,42.0,1.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2010.html
+Tommy Streeter,22,WR,Miami (FL),198.0,2011,12.0,46.0,811.0,8.0,0.0,0.0,0.0,/cfb/schools/miami-fl/2011.html
+Tommy Streeter,22,WR,,,,,,,,,,,
+LaVon Brazill,23,WR,Ohio,206.0,2007,7.0,16.0,201.0,0.0,0.0,0.0,0.0,/cfb/schools/ohio/2007.html
+LaVon Brazill,23,WR,Ohio,206.0,2008,12.0,34.0,384.0,1.0,9.0,75.0,0.0,/cfb/schools/ohio/2008.html
+LaVon Brazill,23,WR,Ohio,206.0,2009*,13.0,53.0,702.0,6.0,14.0,86.0,0.0,/cfb/schools/ohio/2009.html
+LaVon Brazill,23,WR,Ohio,206.0,2010*,3.0,12.0,78.0,0.0,3.0,5.0,0.0,/cfb/schools/ohio/2010.html
+LaVon Brazill,23,WR,Ohio,206.0,2011*,14.0,72.0,1150.0,11.0,5.0,73.0,1.0,/cfb/schools/ohio/2011.html
+LaVon Brazill,23,WR,,,,15.0,11.0,186.0,1.0,,,,
+Rishard Matthews,22,WR,Nevada,227.0,2010*,14.0,56.0,879.0,5.0,5.0,76.0,2.0,/cfb/schools/nevada/2010.html
+Rishard Matthews,22,WR,Nevada,227.0,2011*,12.0,91.0,1364.0,8.0,5.0,-1.0,0.0,/cfb/schools/nevada/2011.html
+Rishard Matthews,22,WR,,,,8.0,11.0,151.0,0.0,,,,
+Toney Clemons,23,WR,Colorado,231.0,2007*,9.0,1.0,5.0,0.0,0.0,0.0,0.0,/cfb/schools/michigan/2007.html
+Toney Clemons,23,WR,Colorado,231.0,2008,9.0,11.0,101.0,0.0,2.0,6.0,0.0,/cfb/schools/michigan/2008.html
+Toney Clemons,23,WR,Colorado,231.0,2010,12.0,43.0,482.0,3.0,3.0,17.0,0.0,/cfb/schools/colorado/2010.html
+Toney Clemons,23,WR,Colorado,231.0,2011,13.0,43.0,680.0,8.0,0.0,0.0,0.0,/cfb/schools/colorado/2011.html
+Toney Clemons,23,WR,,,,4.0,3.0,41.0,0.0,,,,
+Jeremy Ebert,23,WR,Northwestern,235.0,2008*,13.0,15.0,161.0,2.0,0.0,0.0,0.0,/cfb/schools/northwestern/2008.html
+Jeremy Ebert,23,WR,Northwestern,235.0,2009*,13.0,21.0,226.0,0.0,0.0,0.0,0.0,/cfb/schools/northwestern/2009.html
+Jeremy Ebert,23,WR,Northwestern,235.0,2010*,13.0,62.0,953.0,8.0,5.0,21.0,0.0,/cfb/schools/northwestern/2010.html
+Jeremy Ebert,23,WR,Northwestern,235.0,2011*,13.0,75.0,1060.0,11.0,4.0,26.0,0.0,/cfb/schools/northwestern/2011.html
+Jeremy Ebert,23,WR,,,,5.0,3.0,18.0,0.0,,,,
+Junior Hemingway,23,WR,Michigan,238.0,2007*,10.0,4.0,37.0,0.0,5.0,9.0,0.0,/cfb/schools/michigan/2007.html
+Junior Hemingway,23,WR,Michigan,238.0,2008,4.0,2.0,41.0,1.0,0.0,0.0,0.0,/cfb/schools/michigan/2008.html
+Junior Hemingway,23,WR,Michigan,238.0,2009,10.0,16.0,268.0,2.0,0.0,0.0,0.0,/cfb/schools/michigan/2009.html
+Junior Hemingway,23,WR,Michigan,238.0,2010*,10.0,32.0,593.0,4.0,0.0,0.0,0.0,/cfb/schools/michigan/2010.html
+Junior Hemingway,23,WR,Michigan,238.0,2011*,13.0,34.0,699.0,4.0,0.0,0.0,0.0,/cfb/schools/michigan/2011.html
+Junior Hemingway,23,WR,,,,1.0,0.0,0.0,0.0,,,,
+Jordan White,24,WR,Western Michigan,244.0,2007,9.0,19.0,217.0,1.0,0.0,0.0,0.0,/cfb/schools/western-michigan/2007.html
+Jordan White,24,WR,Western Michigan,244.0,2009,9.0,53.0,681.0,4.0,0.0,0.0,0.0,/cfb/schools/western-michigan/2009.html
+Jordan White,24,WR,Western Michigan,244.0,2010,12.0,94.0,1378.0,10.0,3.0,29.0,0.0,/cfb/schools/western-michigan/2010.html
+Jordan White,24,WR,Western Michigan,244.0,2011*,13.0,140.0,1911.0,17.0,1.0,27.0,0.0,/cfb/schools/western-michigan/2011.html
+Jordan White,24,WR,,,,3.0,1.0,13.0,0.0,,,,
+Tavon Austin,23,WR,West Virginia,8.0,2009*,13.0,15.0,151.0,1.0,6.0,47.0,1.0,/cfb/schools/west-virginia/2009.html
+Tavon Austin,23,WR,West Virginia,8.0,2010*,13.0,58.0,787.0,8.0,16.0,161.0,1.0,/cfb/schools/west-virginia/2010.html
+Tavon Austin,23,WR,West Virginia,8.0,2011*,13.0,101.0,1186.0,8.0,16.0,182.0,1.0,/cfb/schools/west-virginia/2011.html
+Tavon Austin,23,WR,West Virginia,8.0,2012*,13.0,114.0,1289.0,12.0,72.0,643.0,3.0,/cfb/schools/west-virginia/2012.html
+Tavon Austin,23,WR,,,,13.0,40.0,418.0,4.0,,,,
+DeAndre Hopkins,21,WR,Clemson,27.0,2010*,12.0,52.0,637.0,4.0,0.0,0.0,0.0,/cfb/schools/clemson/2010.html
+DeAndre Hopkins,21,WR,Clemson,27.0,2011*,14.0,72.0,978.0,5.0,0.0,0.0,0.0,/cfb/schools/clemson/2011.html
+DeAndre Hopkins,21,WR,Clemson,27.0,2012*,13.0,82.0,1405.0,18.0,0.0,0.0,0.0,/cfb/schools/clemson/2012.html
+DeAndre Hopkins,21,WR,,,,16.0,52.0,802.0,2.0,,,,
+Cordarrelle Patterson,22,WR,Tennessee,29.0,2012,12.0,46.0,778.0,5.0,25.0,308.0,3.0,/cfb/schools/tennessee/2012.html
+Cordarrelle Patterson,22,WR,,,,,,,,,,,
+Justin Hunter,22,WR,Tennessee,34.0,2010*,13.0,16.0,415.0,7.0,0.0,0.0,0.0,/cfb/schools/tennessee/2010.html
+Justin Hunter,22,WR,Tennessee,34.0,2011,3.0,17.0,314.0,2.0,0.0,0.0,0.0,/cfb/schools/tennessee/2011.html
+Justin Hunter,22,WR,Tennessee,34.0,2012,12.0,73.0,1083.0,9.0,0.0,0.0,0.0,/cfb/schools/tennessee/2012.html
+Justin Hunter,22,WR,,,,14.0,18.0,354.0,4.0,,,,
+Robert Woods,21,WR,USC,41.0,2010,13.0,65.0,792.0,6.0,6.0,50.0,0.0,/cfb/schools/southern-california/2010.html
+Robert Woods,21,WR,USC,41.0,2011,12.0,111.0,1292.0,15.0,7.0,16.0,0.0,/cfb/schools/southern-california/2011.html
+Robert Woods,21,WR,USC,41.0,2012*,13.0,76.0,846.0,11.0,1.0,76.0,0.0,/cfb/schools/southern-california/2012.html
+Robert Woods,21,WR,,,,14.0,40.0,587.0,3.0,,,,
+Aaron Dobson,22,WR,Marshall,59.0,2009*,12.0,15.0,362.0,4.0,0.0,0.0,0.0,/cfb/schools/marshall/2009.html
+Aaron Dobson,22,WR,Marshall,59.0,2010,12.0,44.0,689.0,5.0,2.0,18.0,0.0,/cfb/schools/marshall/2010.html
+Aaron Dobson,22,WR,Marshall,59.0,2011*,13.0,49.0,668.0,12.0,1.0,1.0,0.0,/cfb/schools/marshall/2011.html
+Aaron Dobson,22,WR,Marshall,59.0,2012,10.0,57.0,679.0,3.0,0.0,0.0,0.0,/cfb/schools/marshall/2012.html
+Aaron Dobson,22,WR,,,,12.0,37.0,519.0,4.0,,,,
+Terrance Williams,23,WR,Baylor,74.0,2009,12.0,3.0,61.0,0.0,0.0,0.0,0.0,/cfb/schools/baylor/2009.html
+Terrance Williams,23,WR,Baylor,74.0,2010*,13.0,43.0,484.0,4.0,1.0,3.0,0.0,/cfb/schools/baylor/2010.html
+Terrance Williams,23,WR,Baylor,74.0,2011*,13.0,59.0,957.0,11.0,0.0,0.0,0.0,/cfb/schools/baylor/2011.html
+Terrance Williams,23,WR,Baylor,74.0,2012*,13.0,97.0,1832.0,12.0,2.0,14.0,0.0,/cfb/schools/baylor/2012.html
+Terrance Williams,23,WR,,,,16.0,44.0,736.0,5.0,,,,
+Keenan Allen,21,WR,California,76.0,2010,11.0,46.0,490.0,5.0,18.0,136.0,1.0,/cfb/schools/california/2010.html
+Keenan Allen,21,WR,California,76.0,2011*,13.0,98.0,1343.0,6.0,9.0,55.0,0.0,/cfb/schools/california/2011.html
+Keenan Allen,21,WR,California,76.0,2012,9.0,61.0,737.0,6.0,3.0,39.0,1.0,/cfb/schools/california/2012.html
+Keenan Allen,21,WR,,,,15.0,71.0,1046.0,8.0,,,,
+Marquise Goodwin,22,WR,Texas,78.0,2009*,14.0,30.0,279.0,1.0,2.0,8.0,0.0,/cfb/schools/texas/2009.html
+Marquise Goodwin,22,WR,Texas,78.0,2010,11.0,31.0,324.0,1.0,9.0,37.0,0.0,/cfb/schools/texas/2010.html
+Marquise Goodwin,22,WR,Texas,78.0,2011*,12.0,33.0,421.0,2.0,22.0,220.0,0.0,/cfb/schools/texas/2011.html
+Marquise Goodwin,22,WR,Texas,78.0,2012*,13.0,26.0,340.0,3.0,13.0,140.0,3.0,/cfb/schools/texas/2012.html
+Marquise Goodwin,22,WR,,,,12.0,17.0,283.0,3.0,,,,
+Markus Wheaton,22,WR,Oregon St.,79.0,2009*,12.0,8.0,89.0,0.0,11.0,79.0,1.0,/cfb/schools/oregon-state/2009.html
+Markus Wheaton,22,WR,Oregon St.,79.0,2010,12.0,55.0,675.0,4.0,27.0,220.0,2.0,/cfb/schools/oregon-state/2010.html
+Markus Wheaton,22,WR,Oregon St.,79.0,2011,12.0,73.0,986.0,1.0,25.0,190.0,0.0,/cfb/schools/oregon-state/2011.html
+Markus Wheaton,22,WR,Oregon St.,79.0,2012*,13.0,91.0,1244.0,11.0,20.0,142.0,2.0,/cfb/schools/oregon-state/2012.html
+Markus Wheaton,22,WR,,,,12.0,6.0,64.0,0.0,,,,
+Stedman Bailey,22,WR,West Virginia,92.0,2010*,13.0,24.0,317.0,4.0,0.0,0.0,0.0,/cfb/schools/west-virginia/2010.html
+Stedman Bailey,22,WR,West Virginia,92.0,2011*,13.0,72.0,1279.0,12.0,0.0,0.0,0.0,/cfb/schools/west-virginia/2011.html
+Stedman Bailey,22,WR,West Virginia,92.0,2012*,13.0,114.0,1622.0,25.0,2.0,13.0,0.0,/cfb/schools/west-virginia/2012.html
+Stedman Bailey,22,WR,,,,16.0,17.0,226.0,0.0,,,,
+Ace Sanders,21,WR,South Carolina,101.0,2010*,14.0,25.0,316.0,2.0,5.0,56.0,0.0,/cfb/schools/south-carolina/2010.html
+Ace Sanders,21,WR,South Carolina,101.0,2011*,13.0,29.0,383.0,2.0,4.0,15.0,0.0,/cfb/schools/south-carolina/2011.html
+Ace Sanders,21,WR,South Carolina,101.0,2012*,13.0,45.0,531.0,9.0,3.0,1.0,0.0,/cfb/schools/south-carolina/2012.html
+Ace Sanders,21,WR,,,,15.0,51.0,484.0,1.0,,,,
+Josh Boyce,22,WR,TCU,102.0,2010*,13.0,34.0,646.0,6.0,0.0,0.0,0.0,/cfb/schools/texas-christian/2010.html
+Josh Boyce,22,WR,TCU,102.0,2011*,13.0,61.0,998.0,9.0,1.0,1.0,0.0,/cfb/schools/texas-christian/2011.html
+Josh Boyce,22,WR,TCU,102.0,2012*,13.0,66.0,891.0,7.0,3.0,6.0,1.0,/cfb/schools/texas-christian/2012.html
+Josh Boyce,22,WR,,,,9.0,9.0,121.0,0.0,,,,
+Chris Harper,23,WR,Kansas St.,123.0,2010*,13.0,25.0,330.0,4.0,5.0,47.0,0.0,/cfb/schools/kansas-state/2010.html
+Chris Harper,23,WR,Kansas St.,123.0,2011*,13.0,40.0,547.0,5.0,3.0,5.0,0.0,/cfb/schools/kansas-state/2011.html
+Chris Harper,23,WR,Kansas St.,123.0,2012*,13.0,58.0,857.0,3.0,0.0,-7.0,0.0,/cfb/schools/kansas-state/2012.html
+Chris Harper,23,WR,,,,,,,,,,,
+Quinton Patton,23,WR,Louisiana Tech,128.0,2011*,13.0,79.0,1202.0,11.0,10.0,42.0,0.0,/cfb/schools/louisiana-tech/2011.html
+Quinton Patton,23,WR,Louisiana Tech,128.0,2012,12.0,104.0,1392.0,13.0,1.0,-5.0,0.0,/cfb/schools/louisiana-tech/2012.html
+Quinton Patton,23,WR,,,,6.0,3.0,34.0,0.0,,,,
+Denard Robinson,22,WR,,,,,,,,,,,
+Kenny Stills,21,WR,Oklahoma,144.0,2010*,14.0,61.0,786.0,5.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2010.html
+Kenny Stills,21,WR,Oklahoma,144.0,2011*,11.0,61.0,849.0,8.0,1.0,1.0,0.0,/cfb/schools/oklahoma/2011.html
+Kenny Stills,21,WR,Oklahoma,144.0,2012*,13.0,82.0,959.0,11.0,2.0,22.0,0.0,/cfb/schools/oklahoma/2012.html
+Kenny Stills,21,WR,,,,16.0,32.0,641.0,5.0,,,,
+Tavarres King,23,WR,Georgia,161.0,2008*,4.0,2.0,66.0,0.0,0.0,0.0,0.0,/cfb/schools/georgia/2008.html
+Tavarres King,23,WR,Georgia,161.0,2009*,12.0,18.0,377.0,1.0,0.0,0.0,0.0,/cfb/schools/georgia/2009.html
+Tavarres King,23,WR,Georgia,161.0,2010*,12.0,27.0,504.0,3.0,0.0,0.0,0.0,/cfb/schools/georgia/2010.html
+Tavarres King,23,WR,Georgia,161.0,2011*,14.0,47.0,705.0,8.0,2.0,5.0,0.0,/cfb/schools/georgia/2011.html
+Tavarres King,23,WR,Georgia,161.0,2012*,14.0,42.0,950.0,9.0,1.0,0.0,0.0,/cfb/schools/georgia/2012.html
+Tavarres King,23,WR,,,,2.0,2.0,13.0,0.0,,,,
+Corey Fuller,23,WR,Virginia Tech,171.0,2011*,7.0,2.0,19.0,0.0,0.0,0.0,0.0,/cfb/schools/virginia-tech/2011.html
+Corey Fuller,23,WR,Virginia Tech,171.0,2012*,13.0,43.0,815.0,6.0,1.0,10.0,0.0,/cfb/schools/virginia-tech/2012.html
+Corey Fuller,23,WR,,,,16.0,14.0,212.0,1.0,,,,
+Ryan Swope,22,WR,Texas A&M,174.0,2009*,12.0,19.0,172.0,1.0,0.0,0.0,0.0,/cfb/schools/texas-am/2009.html
+Ryan Swope,22,WR,Texas A&M,174.0,2010*,13.0,72.0,825.0,4.0,11.0,58.0,0.0,/cfb/schools/texas-am/2010.html
+Ryan Swope,22,WR,Texas A&M,174.0,2011*,13.0,89.0,1207.0,11.0,7.0,3.0,0.0,/cfb/schools/texas-am/2011.html
+Ryan Swope,22,WR,Texas A&M,174.0,2012*,13.0,72.0,913.0,8.0,1.0,-2.0,0.0,/cfb/schools/texas-am/2012.html
+Ryan Swope,22,WR,,,,,,,,,,,
+Justin Brown,22,WR,Oklahoma,186.0,2009*,10.0,5.0,78.0,0.0,0.0,0.0,0.0,/cfb/schools/penn-state/2009.html
+Justin Brown,22,WR,Oklahoma,186.0,2010*,13.0,33.0,452.0,1.0,2.0,-12.0,0.0,/cfb/schools/penn-state/2010.html
+Justin Brown,22,WR,Oklahoma,186.0,2011*,13.0,35.0,517.0,2.0,1.0,0.0,0.0,/cfb/schools/penn-state/2011.html
+Justin Brown,22,WR,Oklahoma,186.0,2012*,13.0,73.0,879.0,5.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2012.html
+Justin Brown,22,WR,,,,8.0,12.0,94.0,0.0,,,,
+Alan Bonner,22,WR,,,,,,,,,,,
+Cobi Hamilton,22,WR,Arkansas,197.0,2009*,13.0,19.0,347.0,3.0,1.0,-8.0,0.0,/cfb/schools/arkansas/2009.html
+Cobi Hamilton,22,WR,Arkansas,197.0,2010*,13.0,32.0,630.0,6.0,0.0,0.0,0.0,/cfb/schools/arkansas/2010.html
+Cobi Hamilton,22,WR,Arkansas,197.0,2011*,13.0,34.0,542.0,4.0,0.0,0.0,0.0,/cfb/schools/arkansas/2011.html
+Cobi Hamilton,22,WR,Arkansas,197.0,2012,12.0,90.0,1335.0,5.0,0.0,0.0,0.0,/cfb/schools/arkansas/2012.html
+Cobi Hamilton,22,WR,,,,0.0,0.0,0.0,0.0,,,,
+Brice Butler,23,WR,San Diego St.,209.0,2009*,13.0,20.0,292.0,2.0,0.0,0.0,0.0,/cfb/schools/southern-california/2009.html
+Brice Butler,23,WR,San Diego St.,209.0,2010,12.0,9.0,112.0,1.0,0.0,0.0,0.0,/cfb/schools/southern-california/2010.html
+Brice Butler,23,WR,San Diego St.,209.0,2011,11.0,12.0,150.0,0.0,0.0,0.0,0.0,/cfb/schools/southern-california/2011.html
+Brice Butler,23,WR,San Diego St.,209.0,2012*,13.0,24.0,347.0,4.0,0.0,0.0,0.0,/cfb/schools/san-diego-state/2012.html
+Brice Butler,23,WR,,,,10.0,9.0,103.0,0.0,,,,
+Charles Johnson,24,WR,Grand Valley St.,216.0,2009,12.0,8.0,66.0,1.0,16.0,51.0,0.0,/cfb/schools/wake-forest/2009.html
+Charles Johnson,24,WR,Grand Valley St.,216.0,2010,12.0,11.0,75.0,0.0,17.0,77.0,0.0,/cfb/schools/wake-forest/2010.html
+Charles Johnson,24,WR,Grand Valley St.,216.0,2011*,13.0,9.0,56.0,1.0,15.0,31.0,2.0,/cfb/schools/wake-forest/2011.html
+Charles Johnson,24,WR,Grand Valley St.,216.0,2012,12.0,23.0,208.0,5.0,2.0,1.0,1.0,/cfb/schools/wake-forest/2012.html
+Charles Johnson,24,WR,,,,12.0,31.0,475.0,2.0,,,,
+Kevin Dorsey,23,WR,Maryland,224.0,2009,12.0,3.0,17.0,0.0,0.0,0.0,0.0,/cfb/schools/maryland/2009.html
+Kevin Dorsey,23,WR,Maryland,224.0,2010*,13.0,15.0,187.0,2.0,1.0,4.0,0.0,/cfb/schools/maryland/2010.html
+Kevin Dorsey,23,WR,Maryland,224.0,2011,10.0,45.0,573.0,3.0,0.0,0.0,0.0,/cfb/schools/maryland/2011.html
+Kevin Dorsey,23,WR,Maryland,224.0,2012,12.0,18.0,311.0,4.0,0.0,0.0,0.0,/cfb/schools/maryland/2012.html
+Kevin Dorsey,23,WR,,,,3.0,1.0,4.0,0.0,,,,
+Marquess Wilson,20,WR,Washington St.,236.0,2010,12.0,55.0,1006.0,6.0,0.0,0.0,0.0,/cfb/schools/washington-state/2010.html
+Marquess Wilson,20,WR,Washington St.,236.0,2011,12.0,82.0,1388.0,12.0,3.0,10.0,0.0,/cfb/schools/washington-state/2011.html
+Marquess Wilson,20,WR,Washington St.,236.0,2012,9.0,52.0,813.0,5.0,0.0,0.0,0.0,/cfb/schools/washington-state/2012.html
+Marquess Wilson,20,WR,,,,10.0,2.0,13.0,0.0,,,,
+Aaron Mellette,23,WR,,,,,,,,,,,
+Sammy Watkins,21,WR,Clemson,4.0,2011*,13.0,82.0,1219.0,12.0,32.0,231.0,0.0,/cfb/schools/clemson/2011.html
+Sammy Watkins,21,WR,Clemson,4.0,2012*,10.0,57.0,708.0,3.0,14.0,97.0,1.0,/cfb/schools/clemson/2012.html
+Sammy Watkins,21,WR,Clemson,4.0,2013*,13.0,101.0,1464.0,12.0,6.0,11.0,0.0,/cfb/schools/clemson/2013.html
+Sammy Watkins,21,WR,,,,16.0,65.0,982.0,6.0,,,,
+Mike Evans,21,WR,Texas A&M,7.0,2012*,13.0,82.0,1105.0,5.0,0.0,0.0,0.0,/cfb/schools/texas-am/2012.html
+Mike Evans,21,WR,Texas A&M,7.0,2013*,13.0,69.0,1394.0,12.0,0.0,0.0,0.0,/cfb/schools/texas-am/2013.html
+Mike Evans,21,WR,,,,15.0,68.0,1051.0,12.0,,,,
+Odell Beckham Jr.,21,WR,LSU,12.0,2011*,14.0,41.0,475.0,2.0,2.0,19.0,0.0,/cfb/schools/louisiana-state/2011.html
+Odell Beckham Jr.,21,WR,LSU,12.0,2012*,13.0,43.0,713.0,2.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2012.html
+Odell Beckham Jr.,21,WR,LSU,12.0,2013*,13.0,59.0,1152.0,8.0,5.0,58.0,0.0,/cfb/schools/louisiana-state/2013.html
+Odell Beckham Jr.,21,WR,,,,12.0,91.0,1305.0,12.0,,,,
+Brandin Cooks,20,WR,Oregon St.,20.0,2011,12.0,31.0,391.0,3.0,10.0,41.0,0.0,/cfb/schools/oregon-state/2011.html
+Brandin Cooks,20,WR,Oregon St.,20.0,2012*,13.0,67.0,1151.0,5.0,19.0,82.0,0.0,/cfb/schools/oregon-state/2012.html
+Brandin Cooks,20,WR,Oregon St.,20.0,2013*,13.0,128.0,1730.0,16.0,32.0,217.0,2.0,/cfb/schools/oregon-state/2013.html
+Brandin Cooks,20,WR,,,,10.0,53.0,550.0,3.0,,,,
+Kelvin Benjamin,23,WR,Florida St.,28.0,2012*,14.0,30.0,495.0,4.0,2.0,33.0,0.0,/cfb/schools/florida-state/2012.html
+Kelvin Benjamin,23,WR,Florida St.,28.0,2013*,14.0,54.0,1011.0,15.0,0.0,0.0,0.0,/cfb/schools/florida-state/2013.html
+Kelvin Benjamin,23,WR,,,,16.0,73.0,1008.0,9.0,,,,
+Marqise Lee,22,WR,USC,39.0,2011,12.0,73.0,1143.0,11.0,5.0,33.0,0.0,/cfb/schools/southern-california/2011.html
+Marqise Lee,22,WR,USC,39.0,2012*,13.0,118.0,1721.0,14.0,13.0,106.0,0.0,/cfb/schools/southern-california/2012.html
+Marqise Lee,22,WR,USC,39.0,2013*,11.0,57.0,791.0,4.0,6.0,7.0,0.0,/cfb/schools/southern-california/2013.html
+Marqise Lee,22,WR,,,,13.0,37.0,422.0,1.0,,,,
+Jordan Matthews,22,WR,Vanderbilt,42.0,2010,12.0,15.0,181.0,4.0,0.0,0.0,0.0,/cfb/schools/vanderbilt/2010.html
+Jordan Matthews,22,WR,Vanderbilt,42.0,2011*,13.0,41.0,778.0,5.0,0.0,0.0,0.0,/cfb/schools/vanderbilt/2011.html
+Jordan Matthews,22,WR,Vanderbilt,42.0,2012*,13.0,94.0,1323.0,8.0,3.0,61.0,1.0,/cfb/schools/vanderbilt/2012.html
+Jordan Matthews,22,WR,Vanderbilt,42.0,2013*,13.0,112.0,1477.0,7.0,6.0,54.0,0.0,/cfb/schools/vanderbilt/2013.html
+Jordan Matthews,22,WR,,,,16.0,67.0,872.0,8.0,,,,
+Paul Richardson,22,WR,Colorado,45.0,2010,12.0,34.0,514.0,6.0,6.0,7.0,0.0,/cfb/schools/colorado/2010.html
+Paul Richardson,22,WR,Colorado,45.0,2011,9.0,39.0,555.0,5.0,2.0,24.0,0.0,/cfb/schools/colorado/2011.html
+Paul Richardson,22,WR,Colorado,45.0,2013,12.0,83.0,1343.0,10.0,1.0,7.0,0.0,/cfb/schools/colorado/2013.html
+Paul Richardson,22,WR,,,,15.0,29.0,271.0,1.0,,,,
+Davante Adams,21,WR,Fresno St.,53.0,2012*,13.0,102.0,1312.0,14.0,0.0,0.0,0.0,/cfb/schools/fresno-state/2012.html
+Davante Adams,21,WR,Fresno St.,53.0,2013*,13.0,131.0,1719.0,24.0,0.0,0.0,0.0,/cfb/schools/fresno-state/2013.html
+Davante Adams,21,WR,,,,16.0,38.0,446.0,3.0,,,,
+Cody Latimer,21,WR,Indiana,56.0,2011,8.0,12.0,141.0,2.0,2.0,3.0,0.0,/cfb/schools/indiana/2011.html
+Cody Latimer,21,WR,Indiana,56.0,2012,12.0,51.0,805.0,6.0,0.0,0.0,0.0,/cfb/schools/indiana/2012.html
+Cody Latimer,21,WR,Indiana,56.0,2013,12.0,72.0,1096.0,9.0,0.0,0.0,0.0,/cfb/schools/indiana/2013.html
+Cody Latimer,21,WR,,,,8.0,2.0,23.0,0.0,,,,
+Allen Robinson,21,WR,Penn St.,61.0,2011*,11.0,3.0,29.0,0.0,0.0,0.0,0.0,/cfb/schools/penn-state/2011.html
+Allen Robinson,21,WR,Penn St.,61.0,2012,12.0,77.0,1018.0,11.0,0.0,0.0,0.0,/cfb/schools/penn-state/2012.html
+Allen Robinson,21,WR,Penn St.,61.0,2013,12.0,97.0,1432.0,6.0,6.0,36.0,0.0,/cfb/schools/penn-state/2013.html
+Allen Robinson,21,WR,,,,10.0,48.0,548.0,2.0,,,,
+Jarvis Landry,21,WR,LSU,63.0,2011*,14.0,4.0,43.0,0.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2011.html
+Jarvis Landry,21,WR,LSU,63.0,2012*,13.0,56.0,573.0,5.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2012.html
+Jarvis Landry,21,WR,LSU,63.0,2013*,13.0,77.0,1193.0,10.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2013.html
+Jarvis Landry,21,WR,,,,16.0,84.0,758.0,5.0,,,,
+Josh Huff,22,WR,Oregon,86.0,2010*,13.0,19.0,303.0,3.0,12.0,214.0,2.0,/cfb/schools/oregon/2010.html
+Josh Huff,22,WR,Oregon,86.0,2011*,12.0,31.0,430.0,2.0,0.0,0.0,0.0,/cfb/schools/oregon/2011.html
+Josh Huff,22,WR,Oregon,86.0,2012*,11.0,32.0,493.0,7.0,0.0,0.0,0.0,/cfb/schools/oregon/2012.html
+Josh Huff,22,WR,Oregon,86.0,2013*,13.0,62.0,1140.0,12.0,6.0,28.0,0.0,/cfb/schools/oregon/2013.html
+Josh Huff,22,WR,,,,12.0,8.0,98.0,0.0,,,,
+Donte Moncrief,21,WR,Mississippi,90.0,2011,12.0,31.0,454.0,4.0,0.0,0.0,0.0,/cfb/schools/mississippi/2011.html
+Donte Moncrief,21,WR,Mississippi,90.0,2012*,13.0,66.0,979.0,10.0,0.0,0.0,0.0,/cfb/schools/mississippi/2012.html
+Donte Moncrief,21,WR,Mississippi,90.0,2013*,13.0,59.0,938.0,6.0,0.0,0.0,0.0,/cfb/schools/mississippi/2013.html
+Donte Moncrief,21,WR,,,,16.0,32.0,444.0,3.0,,,,
+John Brown,24,WR,Pittsburg St.,91.0,2011,12.0,31.0,454.0,4.0,0.0,0.0,0.0,/cfb/schools/mississippi/2011.html
+John Brown,24,WR,Pittsburg St.,91.0,2012*,13.0,66.0,979.0,10.0,0.0,0.0,0.0,/cfb/schools/mississippi/2012.html
+John Brown,24,WR,Pittsburg St.,91.0,2013*,13.0,59.0,938.0,6.0,0.0,0.0,0.0,/cfb/schools/mississippi/2013.html
+John Brown,24,WR,,,,16.0,48.0,696.0,5.0,,,,
+Dri Archer,23,WR,,,,,,,,,,,
+Jalen Saunders,21,WR,Oklahoma,104.0,2010*,13.0,30.0,462.0,3.0,19.0,166.0,0.0,/cfb/schools/fresno-state/2010.html
+Jalen Saunders,21,WR,Oklahoma,104.0,2011,13.0,50.0,1065.0,12.0,8.0,91.0,2.0,/cfb/schools/fresno-state/2011.html
+Jalen Saunders,21,WR,Oklahoma,104.0,2012*,9.0,62.0,829.0,3.0,0.0,0.0,0.0,/cfb/schools/oklahoma/2012.html
+Jalen Saunders,21,WR,Oklahoma,104.0,2013*,13.0,61.0,729.0,8.0,5.0,44.0,0.0,/cfb/schools/oklahoma/2013.html
+Jalen Saunders,21,WR,,,,15.0,1.0,7.0,0.0,,,,
+Bruce Ellington,23,WR,South Carolina,106.0,2011*,13.0,17.0,211.0,1.0,17.0,106.0,1.0,/cfb/schools/south-carolina/2011.html
+Bruce Ellington,23,WR,South Carolina,106.0,2012*,13.0,40.0,600.0,7.0,5.0,28.0,0.0,/cfb/schools/south-carolina/2012.html
+Bruce Ellington,23,WR,South Carolina,106.0,2013*,12.0,49.0,775.0,8.0,3.0,14.0,0.0,/cfb/schools/south-carolina/2013.html
+Bruce Ellington,23,WR,,,,13.0,6.0,62.0,2.0,,,,
+Shaquelle Evans,23,WR,UCLA,115.0,2009,6.0,7.0,61.0,0.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2009.html
+Shaquelle Evans,23,WR,UCLA,115.0,2011*,13.0,19.0,309.0,2.0,0.0,0.0,0.0,/cfb/schools/ucla/2011.html
+Shaquelle Evans,23,WR,UCLA,115.0,2012*,14.0,60.0,877.0,3.0,2.0,6.0,0.0,/cfb/schools/ucla/2012.html
+Shaquelle Evans,23,WR,UCLA,115.0,2013*,13.0,47.0,709.0,9.0,0.0,0.0,0.0,/cfb/schools/ucla/2013.html
+Shaquelle Evans,23,WR,,,,,,,,,,,
+Martavis Bryant,22,WR,Clemson,118.0,2011*,14.0,9.0,221.0,2.0,0.0,0.0,0.0,/cfb/schools/clemson/2011.html
+Martavis Bryant,22,WR,Clemson,118.0,2012*,10.0,10.0,305.0,4.0,1.0,17.0,0.0,/cfb/schools/clemson/2012.html
+Martavis Bryant,22,WR,Clemson,118.0,2013*,13.0,42.0,828.0,7.0,0.0,0.0,0.0,/cfb/schools/clemson/2013.html
+Martavis Bryant,22,WR,,,,10.0,26.0,549.0,8.0,,,,
+Kevin Norwood,24,WR,Alabama,123.0,2010*,13.0,3.0,56.0,1.0,0.0,0.0,0.0,/cfb/schools/alabama/2010.html
+Kevin Norwood,24,WR,Alabama,123.0,2011*,11.0,11.0,190.0,0.0,0.0,0.0,0.0,/cfb/schools/alabama/2011.html
+Kevin Norwood,24,WR,Alabama,123.0,2012*,13.0,29.0,461.0,4.0,0.0,0.0,0.0,/cfb/schools/alabama/2012.html
+Kevin Norwood,24,WR,Alabama,123.0,2013*,12.0,38.0,568.0,7.0,0.0,0.0,0.0,/cfb/schools/alabama/2013.html
+Kevin Norwood,24,WR,,,,9.0,9.0,102.0,0.0,,,,
+Ryan Grant,23,WR,Tulane,142.0,2009,9.0,9.0,39.0,1.0,0.0,0.0,0.0,/cfb/schools/tulane/2009.html
+Ryan Grant,23,WR,Tulane,142.0,2010,12.0,33.0,515.0,4.0,5.0,3.0,0.0,/cfb/schools/tulane/2010.html
+Ryan Grant,23,WR,Tulane,142.0,2011,1.0,1.0,27.0,1.0,0.0,0.0,0.0,/cfb/schools/tulane/2011.html
+Ryan Grant,23,WR,Tulane,142.0,2012,12.0,76.0,1149.0,6.0,0.0,0.0,0.0,/cfb/schools/tulane/2012.html
+Ryan Grant,23,WR,Tulane,142.0,2013*,13.0,77.0,1039.0,9.0,0.0,0.0,0.0,/cfb/schools/tulane/2013.html
+Ryan Grant,23,WR,,,,16.0,7.0,68.0,0.0,,,,
+Devin Street,23,WR,Pittsburgh,146.0,2010*,13.0,25.0,318.0,2.0,3.0,16.0,0.0,/cfb/schools/pittsburgh/2010.html
+Devin Street,23,WR,Pittsburgh,146.0,2011*,13.0,53.0,754.0,2.0,2.0,25.0,0.0,/cfb/schools/pittsburgh/2011.html
+Devin Street,23,WR,Pittsburgh,146.0,2012*,13.0,73.0,975.0,5.0,3.0,30.0,0.0,/cfb/schools/pittsburgh/2012.html
+Devin Street,23,WR,Pittsburgh,146.0,2013*,10.0,51.0,854.0,7.0,3.0,6.0,0.0,/cfb/schools/pittsburgh/2013.html
+Devin Street,23,WR,,,,16.0,2.0,18.0,0.0,,,,
+Jared Abbrederis,23,WR,Wisconsin,176.0,2010*,13.0,20.0,289.0,3.0,3.0,27.0,0.0,/cfb/schools/wisconsin/2010.html
+Jared Abbrederis,23,WR,Wisconsin,176.0,2011*,14.0,55.0,933.0,8.0,11.0,62.0,0.0,/cfb/schools/wisconsin/2011.html
+Jared Abbrederis,23,WR,Wisconsin,176.0,2012*,13.0,49.0,837.0,5.0,8.0,83.0,0.0,/cfb/schools/wisconsin/2012.html
+Jared Abbrederis,23,WR,Wisconsin,176.0,2013*,13.0,78.0,1081.0,7.0,6.0,119.0,2.0,/cfb/schools/wisconsin/2013.html
+Jared Abbrederis,23,WR,,,,10.0,9.0,111.0,0.0,,,,
+Robert Herron,22,WR,Wyoming,185.0,2010,10.0,6.0,57.0,0.0,40.0,235.0,0.0,/cfb/schools/wyoming/2010.html
+Robert Herron,22,WR,Wyoming,185.0,2011*,12.0,43.0,379.0,3.0,8.0,53.0,0.0,/cfb/schools/wyoming/2011.html
+Robert Herron,22,WR,Wyoming,185.0,2012,8.0,31.0,657.0,8.0,4.0,10.0,0.0,/cfb/schools/wyoming/2012.html
+Robert Herron,22,WR,Wyoming,185.0,2013,12.0,72.0,932.0,9.0,2.0,12.0,0.0,/cfb/schools/wyoming/2013.html
+Robert Herron,22,WR,,,,8.0,6.0,58.0,1.0,,,,
+T.J. Jones,22,WR,Notre Dame,189.0,2010*,12.0,23.0,306.0,3.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2010.html
+T.J. Jones,22,WR,Notre Dame,189.0,2011*,13.0,38.0,366.0,3.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2011.html
+T.J. Jones,22,WR,Notre Dame,189.0,2012*,13.0,50.0,649.0,4.0,1.0,8.0,0.0,/cfb/schools/notre-dame/2012.html
+T.J. Jones,22,WR,Notre Dame,189.0,2013*,13.0,70.0,1108.0,9.0,9.0,67.0,2.0,/cfb/schools/notre-dame/2013.html
+T.J. Jones,22,WR,,,,10.0,10.0,132.0,1.0,,,,
+Matt Hazel,22,WR,Coastal Carolina,190.0,2010*,12.0,23.0,306.0,3.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2010.html
+Matt Hazel,22,WR,Coastal Carolina,190.0,2011*,13.0,38.0,366.0,3.0,0.0,0.0,0.0,/cfb/schools/notre-dame/2011.html
+Matt Hazel,22,WR,Coastal Carolina,190.0,2012*,13.0,50.0,649.0,4.0,1.0,8.0,0.0,/cfb/schools/notre-dame/2012.html
+Matt Hazel,22,WR,Coastal Carolina,190.0,2013*,13.0,70.0,1108.0,9.0,9.0,67.0,2.0,/cfb/schools/notre-dame/2013.html
+Matt Hazel,22,WR,,,,5.0,0.0,0.0,0.0,,,,
+Walt Powell,22,WR,,,,4.0,0.0,0.0,0.0,,,,
+Quincy Enunwa,22,WR,Nebraska,209.0,2010*,10.0,1.0,10.0,0.0,0.0,0.0,0.0,/cfb/schools/nebraska/2010.html
+Quincy Enunwa,22,WR,Nebraska,209.0,2011*,13.0,21.0,293.0,2.0,0.0,0.0,0.0,/cfb/schools/nebraska/2011.html
+Quincy Enunwa,22,WR,Nebraska,209.0,2012*,14.0,42.0,470.0,1.0,0.0,0.0,0.0,/cfb/schools/nebraska/2012.html
+Quincy Enunwa,22,WR,Nebraska,209.0,2013*,12.0,51.0,753.0,12.0,3.0,-1.0,0.0,/cfb/schools/nebraska/2013.html
+Quincy Enunwa,22,WR,,,,1.0,0.0,0.0,0.0,,,,
+Michael Campanaro,23,WR,Wake Forest,218.0,2010,12.0,10.0,107.0,0.0,29.0,123.0,1.0,/cfb/schools/wake-forest/2010.html
+Michael Campanaro,23,WR,Wake Forest,218.0,2011*,12.0,73.0,833.0,2.0,2.0,23.0,0.0,/cfb/schools/wake-forest/2011.html
+Michael Campanaro,23,WR,Wake Forest,218.0,2012,10.0,79.0,763.0,6.0,16.0,82.0,1.0,/cfb/schools/wake-forest/2012.html
+Michael Campanaro,23,WR,Wake Forest,218.0,2013,8.0,67.0,803.0,6.0,4.0,10.0,0.0,/cfb/schools/wake-forest/2013.html
+Michael Campanaro,23,WR,,,,4.0,7.0,102.0,1.0,,,,
+Jeff Janis,23,WR,Saginaw Valley St.,236.0,2012,10.0,43.0,464.0,2.0,0.0,0.0,0.0,/cfb/schools/massachusetts/2012.html
+Jeff Janis,23,WR,Saginaw Valley St.,236.0,2013,5.0,27.0,313.0,3.0,1.0,3.0,0.0,/cfb/schools/massachusetts/2013.html
+Jeff Janis,23,WR,,,,3.0,2.0,16.0,0.0,,,,
+James Wright,22,WR,LSU,239.0,2010*,12.0,2.0,21.0,0.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2010.html
+James Wright,22,WR,LSU,239.0,2011*,14.0,5.0,41.0,0.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2011.html
+James Wright,22,WR,LSU,239.0,2012*,12.0,18.0,242.0,0.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2012.html
+James Wright,22,WR,LSU,239.0,2013*,9.0,0.0,0.0,0.0,0.0,0.0,0.0,/cfb/schools/louisiana-state/2013.html
+James Wright,22,WR,,,,11.0,5.0,91.0,0.0,,,,
+Tevin Reese,23,WR,Baylor,240.0,2010*,13.0,45.0,401.0,0.0,2.0,13.0,0.0,/cfb/schools/baylor/2010.html
+Tevin Reese,23,WR,Baylor,240.0,2011*,13.0,51.0,877.0,7.0,5.0,102.0,0.0,/cfb/schools/baylor/2011.html
+Tevin Reese,23,WR,Baylor,240.0,2012*,13.0,53.0,957.0,9.0,4.0,21.0,0.0,/cfb/schools/baylor/2012.html
+Tevin Reese,23,WR,Baylor,240.0,2013*,8.0,38.0,867.0,8.0,0.0,0.0,0.0,/cfb/schools/baylor/2013.html
+Tevin Reese,23,WR,,,,,,,,,,,
+Jeremy Gallon,24,WR,Michigan,244.0,2010*,12.0,4.0,49.0,1.0,0.0,0.0,0.0,/cfb/schools/michigan/2010.html
+Jeremy Gallon,24,WR,Michigan,244.0,2011*,13.0,31.0,453.0,3.0,3.0,26.0,0.0,/cfb/schools/michigan/2011.html
+Jeremy Gallon,24,WR,Michigan,244.0,2012*,13.0,49.0,829.0,4.0,11.0,67.0,0.0,/cfb/schools/michigan/2012.html
+Jeremy Gallon,24,WR,Michigan,244.0,2013*,13.0,89.0,1373.0,9.0,3.0,4.0,0.0,/cfb/schools/michigan/2013.html
+Jeremy Gallon,24,WR,,,,,,,,,,,

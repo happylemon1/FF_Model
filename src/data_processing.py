@@ -134,13 +134,13 @@ def scrape_all_player_data(YEARS_TO_SCRAPE: range):
                     }
                     print(nfl_dict)
                     if position == 'QB': 
-                        all_COLLEGE_QB_records.append(nfl_dict)
+                        all_NFL_QB_records.append(nfl_dict)
                     elif position == 'RB': 
-                        all_COLLEGE_RB_records.append(nfl_dict)
+                        all_NFL_RB_records.append(nfl_dict)
                     elif position == 'WR': 
-                        all_COLLEGE_WR_records.append(nfl_dict)
+                        all_NFL_WR_records.append(nfl_dict)
                     elif position == 'TE':
-                        all_COLLEGE_TE_records.append(nfl_dict)
+                        all_NFL_TE_records.append(nfl_dict)
 
 
                 except Exception as e: 
@@ -319,7 +319,7 @@ def generate_college_stats(position: str, player_college_URL: str) -> dict:
                         'rushTDS': int(row.find('td', {'data-stat': 'rush_td'}).text.strip()),
                         'collegeURL': str(row.find('td', {'data-stat': 'team_name_abbr'}).find('a').get('href'))
                     }
-                    print(college_dict)                    
+                    print(college_dict)
                 else:
                     continue
         else: 
@@ -348,14 +348,14 @@ def main():
     # You can specify the path and filename.
     # index=False prevents Pandas from writing the DataFrame index as a column in the CSV.
 
-    nfl_qb_df.to_csv('nfl_qb_data_3.csv', index=False)
-    nfl_rb_df.to_csv('nfl_rb_data_3.csv', index=False)
-    nfl_wr_df.to_csv('nfl_wr_data_3.csv', index=False)
-    nfl_te_df.to_csv('nfl_te_data_3.csv', index=False)
-    college_qb_df.to_csv('college_qb_data_3.csv', index=False)
-    college_rb_df.to_csv('college_rb_data_3.csv', index=False)
-    college_wr_df.to_csv('college_wr_data_3.csv', index=False)
-    college_te_df.to_csv('college_te_data_3.csv', index=False)
+    nfl_qb_df.to_csv('nfl_qb_data_5.csv', index=False)
+    nfl_rb_df.to_csv('nfl_rb_data_5.csv', index=False)
+    nfl_wr_df.to_csv('nfl_wr_data_5.csv', index=False)
+    nfl_te_df.to_csv('nfl_te_data_5.csv', index=False)
+    college_qb_df.to_csv('college_qb_data_5.csv', index=False)
+    college_rb_df.to_csv('college_rb_data_5.csv', index=False)
+    college_wr_df.to_csv('college_wr_data_5.csv', index=False)
+    college_te_df.to_csv('college_te_data_5.csv', index=False)
 
     print("Player data successfully saved to CSV files:")
     print("- nfl_qb_data.csv")
