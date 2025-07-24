@@ -5,11 +5,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def receiverLinearPrediction():
-    df = pd.read_csv('combined_receiver_data2.csv')
+    df = pd.read_csv('models/receiver_with_conferences.csv')
     # print(df.head())
 
     #edit the test df for use
-    test_df = pd.read_csv('models/hi.csv')
+    test_df = pd.read_csv('models/test_set.csv')
     test_df['name'] = test_df['name'].str.strip()
     # print(test_df.columns)
     # print(test_df.head(10))
@@ -33,11 +33,12 @@ def receiverLinearPrediction():
     # print(df_24.head(10))
     # print(df_23.head())
     merged_df = pd.merge(df_24, df_23[['name', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG']], on='name', how='left')
+    merged_df.to_csv('merged_df.csv', index=False)
     # print("Merged df", merged_df.head(3))
 
     # Get the actual numeric data from the columns
-    x = df[['YPG', 'Yards_percentage', 'draft_pick', 'RPG', 'TDPG', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG']]
-    y = df['nfl_YPG']
+    x = df[['YPG', 'Yards_percentage', 'draft_pick', 'RPG', 'TDPG', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG', 'conference_SEC', 'conference_ACC', 'conference_Big Ten', 'conference_Big 12']]
+    y = df['nfl_TDPG']
 
     # Make sure all values are numeric
     x = x.apply(pd.to_numeric, errors='coerce')
@@ -46,7 +47,7 @@ def receiverLinearPrediction():
     # Drop rows with missing values
     data = pd.concat([x, y], axis=1).dropna()
     x = data[x.columns]
-    y = data['nfl_YPG']
+    y = data['nfl_TDPG']
 
     # Train the model
     model = LinearRegression()
@@ -57,7 +58,7 @@ def receiverLinearPrediction():
     print('this method ran ')
 
     #Now we do the model predictions
-    features= ['YPG', 'Yards_percentage', 'draft_pick', 'RPG', 'TDPG', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG']
+    features= ['YPG', 'Yards_percentage', 'draft_pick', 'RPG', 'TDPG', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG', 'conference_SEC', 'conference_ACC', 'conference_Big Ten', 'conference_Big 12']
 
     featured_df = merged_df[features]
     # print("Featured df: ", featured_df)
@@ -65,12 +66,16 @@ def receiverLinearPrediction():
     # print(featured_df.head(1))
     predictions = model.predict(featured_df)
     merged_df['predicted_nfl_YPG'] = predictions
-    print(merged_df[['name', 'predicted_nfl_YPG']].head(20))
+    merged_df.sort_values(by='predicted_nfl_YPG', ascending=False, inplace=True)
+    print(merged_df[['name', 'predicted_nfl_YPG']].head(35))
     
 
     conferences = []
     conferences.append('SEC')
     conferences.append('Big 10')
+
+
+    #This is going to be our xgboost predictions and try that
     
 def main():
     receiverLinearPrediction()
