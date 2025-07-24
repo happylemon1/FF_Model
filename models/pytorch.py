@@ -6,8 +6,13 @@ import matplotlib.pyplot as plt
 
 def receiverLinearPrediction():
     df = pd.read_csv('models/receiver_with_conferences.csv')
-    # print(df.head())
+    older_df = pd.read_csv('models/receiver_with_conferences2.csv')
 
+    combineddf = pd.concat([df, older_df], ignore_index=True)
+    # print(df.head())
+    print(combineddf.tail(10))
+    combineddf.to_csv('combined_df.csv')
+    
     #edit the test df for use
     test_df = pd.read_csv('models/test_set.csv')
     test_df['name'] = test_df['name'].str.strip()
@@ -37,8 +42,8 @@ def receiverLinearPrediction():
     # print("Merged df", merged_df.head(3))
 
     # Get the actual numeric data from the columns
-    x = df[['YPG', 'Yards_percentage', 'draft_pick', 'RPG', 'TDPG', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG', 'conference_SEC', 'conference_ACC', 'conference_Big Ten', 'conference_Big 12']]
-    y = df['nfl_TDPG']
+    x = combineddf[['YPG', 'Yards_percentage', 'draft_pick', 'RPG', 'TDPG', 'second_last_TDPG', 'second_last_RPG', 'second_last_YPG', 'conference_SEC', 'conference_ACC', 'conference_Big Ten', 'conference_Big 12']]
+    y = combineddf['nfl_YPG']
 
     # Make sure all values are numeric
     x = x.apply(pd.to_numeric, errors='coerce')
@@ -47,7 +52,7 @@ def receiverLinearPrediction():
     # Drop rows with missing values
     data = pd.concat([x, y], axis=1).dropna()
     x = data[x.columns]
-    y = data['nfl_TDPG']
+    y = data['nfl_YPG']
 
     # Train the model
     model = LinearRegression()

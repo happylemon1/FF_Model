@@ -1,11 +1,17 @@
 import pandas as pd
 
 def combineReceiver():
-    receiver_df = pd.read_csv('data/raw/wr_and_CollegeStats.csv')
-    nflReceiver_df = pd.read_csv('data/raw/nfl_wr_data_2.csv')
+    receiver_df = pd.read_csv('wr_and_CollegeStats3.csv')
+    nflReceiver_df = pd.read_csv('models/nfl_wr_data_5.csv')
 
     combineddf = pd.merge(receiver_df, nflReceiver_df, on = 'name', how = 'right')
-
+    combineddf = combineddf.dropna(axis = 0, how = 'any')
+    combineddf.to_csv('combined_receiver_data5.csv', index=False)
+    print(combineddf.head(10))
+    
+    print(repr(combineddf.columns.tolist()))
+    combineddf.columns = combineddf.columns.str.strip()
+    
     combineddf['Yards_percentage'] = combineddf['YPG']/ combineddf['Team_YPG']
     combineddf['Receptions_Percentage'] = combineddf['RPG']/ combineddf['Team_YPG']
     combineddf['TD_Percentage'] = combineddf['TDPG']/ combineddf['Team_TDPG']

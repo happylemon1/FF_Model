@@ -61,7 +61,7 @@ def load_and_clean_receiver_data(college_data_path, nfl_data_path):
 
     print(final_college_df.head(9))
 
-    final_college_df.to_csv('wr_and_CollegeStats.csv', index=False)
+    final_college_df.to_csv('wr_and_CollegeStats3.csv', index=False)
 
 
 def addCollegiateInfo(college_df):

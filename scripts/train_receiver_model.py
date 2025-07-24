@@ -11,8 +11,8 @@ from src.rookie_receiver import load_and_clean_receiver_data
 
 def main(): 
     print('hi')
-    college_wr_file = os.path.join('data', 'raw', 'official_college_receiver.csv')
-    nfl_wr_file = os.path.join('data', 'raw', 'nfl_wr_data_2.csv')
+    college_wr_file = os.path.join('models', 'college_wr_data_5.csv')
+    nfl_wr_file = os.path.join('models', 'nfl_wr_data_5.csv')
     print(college_wr_file)
     print(nfl_wr_file)
 

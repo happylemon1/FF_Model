@@ -8,7 +8,7 @@ import time
 from pathlib import Path
 
 
-YEARS_TO_SCRAPE = range(2015, 2025)
+YEARS_TO_SCRAPE = range(2010, 2025)
 
 CURRENT_ROOKIES_YEAR = 2025
 CURRENT_ROOKIES_STATS = 2024
