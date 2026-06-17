@@ -8,15 +8,15 @@ Generated from `data/final/rookie_predictions_2026_combined.csv`.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Jeremiyah Love | RB | Notre Dame | 3 | 272.75 | 43.37 | extra_trees |
 | 2 | Jadarian Price | RB | Notre Dame | 32 | 149.69 | 43.37 | extra_trees |
-| 3 | Kenyon Sadiq | TE | Oregon | 16 | 144.97 | 32.92 | gradient_boosting |
-| 4 | Carnell Tate | WR | Ohio State | 4 | 136.57 | 44.77 | extra_trees |
+| 3 | Carnell Tate | WR | Ohio State | 4 | 147.74 | 44.77 | extra_trees |
+| 4 | Kenyon Sadiq | TE | Oregon | 16 | 144.97 | 32.92 | gradient_boosting |
 | 5 | KC Concepcion | WR | Texas A&M | 24 | 133.61 | 44.77 | extra_trees |
 | 6 | Makai Lemon | WR | USC | 20 | 131.66 | 44.77 | extra_trees |
-| 7 | Omar Cooper Jr. | WR | Indiana | 30 | 127.31 | 44.77 | extra_trees |
-| 8 | De'Zhaun Stribling | WR | Ole Miss | 33 | 123.61 | 44.77 | extra_trees |
+| 7 | De'Zhaun Stribling | WR | Ole Miss | 33 | 128.41 | 44.77 | extra_trees |
+| 8 | Omar Cooper Jr. | WR | Indiana | 30 | 127.31 | 44.77 | extra_trees |
 | 9 | Denzel Boston | WR | Washington | 39 | 122.39 | 44.77 | extra_trees |
-| 10 | Jordyn Tyson | WR | Arizona State | 8 | 121.92 | 44.77 | extra_trees |
-| 11 | Germie Bernard | WR | Alabama | 47 | 117.05 | 44.77 | extra_trees |
+| 10 | Germie Bernard | WR | Alabama | 47 | 117.05 | 44.77 | extra_trees |
+| 11 | Jordyn Tyson | WR | Arizona State | 8 | 101.97 | 44.77 | extra_trees |
 | 12 | Antonio Williams | WR | Clemson | 71 | 78.02 | 44.77 | extra_trees |
 | 13 | Ja'Kobi Lane | WR | USC | 80 | 75.15 | 44.77 | extra_trees |
 | 14 | Caleb Douglas | WR | Texas Tech | 75 | 74.91 | 44.77 | extra_trees |
@@ -30,12 +30,12 @@ Generated from `data/final/rookie_predictions_2026_combined.csv`.
 | 22 | Ted Hurst | WR | Georgia State | 84 | 61.26 | 44.77 | extra_trees |
 | 23 | Chris Bell | WR | Louisville | 94 | 60.36 | 44.77 | extra_trees |
 | 24 | Emmett Johnson | RB | Nebraska | 161 | 60.23 | 43.37 | extra_trees |
-| 25 | Zavion Thomas | WR | LSU | 89 | 59.73 | 44.77 | extra_trees |
-| 26 | Brenen Thompson | WR | Mississippi State | 105 | 58.05 | 44.77 | extra_trees |
-| 27 | Elijah Sarratt | WR | Indiana | 115 | 57.35 | 44.77 | extra_trees |
-| 28 | Mike Washington Jr. | RB | Arkansas | 122 | 55.41 | 43.37 | extra_trees |
-| 29 | Marlin Klein | TE | Michigan | 59 | 48.46 | 32.92 | gradient_boosting |
-| 30 | Kaden Wetjen | WR | Iowa | 121 | 48.37 | 44.77 | extra_trees |
+| 25 | Nicholas Singleton | RB | Penn State | 165 | 60.17 | 43.37 | extra_trees |
+| 26 | Zavion Thomas | WR | LSU | 89 | 59.73 | 44.77 | extra_trees |
+| 27 | Brenen Thompson | WR | Mississippi State | 105 | 58.05 | 44.77 | extra_trees |
+| 28 | Elijah Sarratt | WR | Indiana | 115 | 57.35 | 44.77 | extra_trees |
+| 29 | Mike Washington Jr. | RB | Arkansas | 122 | 55.41 | 43.37 | extra_trees |
+| 30 | Marlin Klein | TE | Michigan | 59 | 48.46 | 32.92 | gradient_boosting |
 
 ## Figures
 

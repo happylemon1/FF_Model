@@ -1,5 +1,5 @@
 name,position,age,school,draft_pick,rookie_year,college_profile_url,scrape_error
-Fernando Mendoza,QB,,Indiana,1.0,2026,https://www.sports-reference.com/cfb/players/fernando-mendoza-1.html,HTTPError: 403 Client Error: Forbidden for url: https://www.sports-reference.com/cfb/players/fernando-mendoza-1.html
+Fernando Mendoza,QB,,Indiana,1.0,2026,https://www.sports-reference.com/cfb/players/fernando-mendoza-1.html,"RuntimeError: Failed to fetch https://www.sports-reference.com/cfb/players/fernando-mendoza-1.html after 3 attempts: 403 challenge/block page for https://www.sports-reference.com/cfb/players/fernando-mendoza-1.html; try later, use a browser-exported cache, or rely on local CSV fallback"
 Ty Simpson,QB,,Alabama,13.0,2026,https://www.sports-reference.com/cfb/players/ty-simpson-1.html,skipped after Sports Reference 403
 Carson Beck,QB,,Miami (FL),65.0,2026,https://www.sports-reference.com/cfb/players/carson-beck-1.html,skipped after Sports Reference 403
 Drew Allar,QB,,Penn State,76.0,2026,https://www.sports-reference.com/cfb/players/drew-allar-1.html,skipped after Sports Reference 403

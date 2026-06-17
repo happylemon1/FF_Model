@@ -507,6 +507,7 @@ def build_parser() -> argparse.ArgumentParser:
     crawl.add_argument("--year", type=int, default=2026)
     crawl.add_argument("--refresh", action="store_true")
     crawl.add_argument("--max-players", type=int, default=None)
+    crawl.add_argument("--draft-source", choices=["auto", "wikipedia", "pfr"], default="auto")
     train_cmd = sub.add_parser("train")
     train_cmd.add_argument("--artifact-dir", type=Path, default=ARTIFACT_DIR)
     train_cmd.add_argument("--folds", type=int, default=3)
@@ -535,7 +536,12 @@ def main(argv: list[str] | None = None) -> None:
     elif args.command == "probe-urls":
         print(data_pipeline.probe_reference_urls(args.year))
     elif args.command == "crawl":
-        outputs = data_pipeline.scrape_rookie_class(args.year, refresh=args.refresh, max_players=args.max_players)
+        outputs = data_pipeline.scrape_rookie_class(
+            args.year,
+            refresh=args.refresh,
+            max_players=args.max_players,
+            draft_source=args.draft_source,
+        )
         for key, path in outputs.items():
             print(f"{key}: {path}")
     elif args.command == "train":

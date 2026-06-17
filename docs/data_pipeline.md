@@ -5,7 +5,7 @@
 ```powershell
 python scripts\rookie_projection.py probe-urls --year 2025
 python scripts\rookie_projection.py build-data
-python scripts\rookie_projection.py crawl --year 2026
+python scripts\rookie_projection.py crawl --year 2026 --draft-source wikipedia
 ```
 
 ## Sources
@@ -39,3 +39,7 @@ rate limiting, HTML caching, and explicit Cloudflare/challenge-page detection.
 Run `probe-urls` to verify whether the reference sites are accessible from the
 current network before starting a long crawl. The latest probe output is
 `reports/reference_url_probe_2025.csv`.
+
+When PFR blocks scripted requests, use `--draft-source wikipedia` or leave the
+default `--draft-source auto`, which now prefers Wikipedia's draft table and
+keeps PFR available as an explicit option.

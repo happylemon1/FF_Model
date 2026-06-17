@@ -207,6 +207,7 @@ CONFERENCE_MAP = {
     "Kentucky": "SEC",
     "LSU": "SEC",
     "Mississippi": "SEC",
+    "Ole Miss": "SEC",
     "Mississippi St.": "SEC",
     "Missouri": "SEC",
     "Oklahoma": "SEC",
@@ -231,6 +232,7 @@ CONFERENCE_MAP = {
     "Wake Forest": "ACC",
     "Arizona": "Big 12",
     "Arizona St.": "Big 12",
+    "Arizona State": "Big 12",
     "Baylor": "Big 12",
     "BYU": "Big 12",
     "Central Florida": "Big 12",
@@ -238,6 +240,7 @@ CONFERENCE_MAP = {
     "Colorado": "Big 12",
     "Houston": "Big 12",
     "Iowa St.": "Big 12",
+    "Iowa State": "Big 12",
     "Kansas": "Big 12",
     "Kansas St.": "Big 12",
     "Oklahoma St.": "Big 12",
@@ -255,8 +258,10 @@ CONFERENCE_MAP = {
     "Nebraska": "Big Ten",
     "Northwestern": "Big Ten",
     "Ohio St.": "Big Ten",
+    "Ohio State": "Big Ten",
     "Oregon": "Big Ten",
     "Penn St.": "Big Ten",
+    "Penn State": "Big Ten",
     "Purdue": "Big Ten",
     "Rutgers": "Big Ten",
     "UCLA": "Big Ten",
@@ -602,18 +607,41 @@ def text_to_float(node: Any) -> float:
         return np.nan
 
 
-def scrape_rookie_class(year: int = 2026, refresh: bool = False, max_players: int | None = None) -> dict[str, Path]:
+def fetch_draft_list(year: int, refresh: bool = False, draft_source: str = "auto") -> tuple[pd.DataFrame, str]:
+    draft_url = f"{PFR_BASE}/years/{year}/draft.htm"
+    wiki_url = f"https://en.wikipedia.org/wiki/{year}_NFL_draft"
+
+    def from_pfr() -> pd.DataFrame:
+        draft_html = cached_get(draft_url, f"pfr_draft_{year}.html", refresh=refresh)
+        return parse_draft_page(draft_html, year)
+
+    def from_wikipedia() -> pd.DataFrame:
+        draft_html = cached_get(wiki_url, f"wikipedia_draft_{year}.html", delay=0.5, refresh=refresh)
+        return parse_wikipedia_draft_page(draft_html, year)
+
+    if draft_source == "pfr":
+        return from_pfr(), "pfr"
+    if draft_source == "wikipedia":
+        return from_wikipedia(), "wikipedia"
+
+    # Auto mode uses the accessible draft-table source first. PFR is still
+    # supported, but it currently returns Cloudflare challenges to requests.
+    try:
+        return from_wikipedia(), "wikipedia"
+    except Exception as wiki_exc:
+        print(f"Wikipedia draft crawl failed ({type(wiki_exc).__name__}: {wiki_exc}); trying PFR.")
+        return from_pfr(), "pfr"
+
+
+def scrape_rookie_class(
+    year: int = 2026,
+    refresh: bool = False,
+    max_players: int | None = None,
+    draft_source: str = "auto",
+) -> dict[str, Path]:
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     FINAL_DIR.mkdir(parents=True, exist_ok=True)
-    draft_url = f"{PFR_BASE}/years/{year}/draft.htm"
-    try:
-        draft_html = cached_get(draft_url, f"pfr_draft_{year}.html", refresh=refresh)
-        draft_df = parse_draft_page(draft_html, year)
-    except Exception as exc:
-        print(f"PFR draft crawl failed ({type(exc).__name__}: {exc}); falling back to Wikipedia.")
-        wiki_url = f"https://en.wikipedia.org/wiki/{year}_NFL_draft"
-        draft_html = cached_get(wiki_url, f"wikipedia_draft_{year}.html", delay=0.5, refresh=refresh)
-        draft_df = parse_wikipedia_draft_page(draft_html, year)
+    draft_df, actual_draft_source = fetch_draft_list(year, refresh=refresh, draft_source=draft_source)
     if max_players:
         draft_df = draft_df.head(max_players)
     draft_path = RAW_DIR / f"rookies_{year}_draft.csv"
@@ -653,7 +681,7 @@ def scrape_rookie_class(year: int = 2026, refresh: bool = False, max_players: in
             final_path = FINAL_DIR / f"{position.lower()}_rookies_{year}_features.csv"
             inference.to_csv(final_path, index=False)
             outputs[f"{position}_features"] = final_path
-    write_collection_report(year, draft_df, outputs)
+    write_collection_report(year, draft_df, outputs, actual_draft_source)
     return outputs
 
 
@@ -697,8 +725,9 @@ def parse_wikipedia_draft_page(html: str, year: int) -> pd.DataFrame:
 def clean_wiki_text(value: Any) -> str:
     value = str(value or "").strip()
     value = re.sub(r"\[[^\]]+\]", "", value)
+    value = re.sub(r"[†‡*]+", "", value)
     value = re.sub(r"\s+", " ", value)
-    return value
+    return value.strip()
 
 
 def text_to_number(value: Any) -> float:
@@ -798,11 +827,12 @@ def slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
-def write_collection_report(year: int, draft_df: pd.DataFrame, outputs: dict[str, Path]) -> None:
+def write_collection_report(year: int, draft_df: pd.DataFrame, outputs: dict[str, Path], draft_source: str) -> None:
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     report = {
         "created_at": datetime.now(timezone.utc).isoformat(),
         "rookie_year": year,
+        "draft_source": draft_source,
         "drafted_skill_players": int(len(draft_df)),
         "by_position": draft_df["position"].value_counts().to_dict() if not draft_df.empty else {},
         "outputs": {key: str(path) for key, path in outputs.items()},
@@ -818,6 +848,7 @@ def build_parser() -> argparse.ArgumentParser:
     crawl.add_argument("--year", type=int, default=2026)
     crawl.add_argument("--refresh", action="store_true")
     crawl.add_argument("--max-players", type=int, default=None)
+    crawl.add_argument("--draft-source", choices=["auto", "wikipedia", "pfr"], default="auto")
     probe = sub.add_parser("probe-urls")
     probe.add_argument("--year", type=int, default=2025)
     return parser
@@ -830,7 +861,12 @@ def main(argv: list[str] | None = None) -> None:
         for position, path in outputs.items():
             print(f"{position}: {path}")
     elif args.command == "crawl-rookies":
-        outputs = scrape_rookie_class(args.year, refresh=args.refresh, max_players=args.max_players)
+        outputs = scrape_rookie_class(
+            args.year,
+            refresh=args.refresh,
+            max_players=args.max_players,
+            draft_source=args.draft_source,
+        )
         for key, path in outputs.items():
             print(f"{key}: {path}")
     elif args.command == "probe-urls":

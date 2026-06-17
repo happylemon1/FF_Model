@@ -1,6 +1,7 @@
 {
-  "created_at": "2026-06-17T21:08:13.425777+00:00",
+  "created_at": "2026-06-17T21:33:29.748700+00:00",
   "rookie_year": 2026,
+  "draft_source": "wikipedia",
   "drafted_skill_players": 80,
   "by_position": {
     "WR": 36,

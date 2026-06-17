@@ -15,7 +15,7 @@ WIKI_FIXTURE = """
 <tr><td></td><td>1</td><td>1</td><td>LV</td><td>Fernando Mendoza</td><td>QB</td><td>Indiana</td><td></td></tr>
 <tr><td></td><td>1</td><td>3</td><td>ARI</td><td>Jeremiyah Love</td><td>RB</td><td>Notre Dame</td><td></td></tr>
 <tr><td></td><td>1</td><td>4</td><td>TEN</td><td>Carnell Tate</td><td>WR</td><td>Ohio State</td><td></td></tr>
-<tr><td></td><td>1</td><td>16</td><td>CHI</td><td>Kenyon Sadiq</td><td>TE</td><td>Oregon</td><td></td></tr>
+<tr><td></td><td>1</td><td>16</td><td>CHI</td><td>Kenyon Sadiq †</td><td>TE</td><td>Oregon</td><td></td></tr>
 <tr><td></td><td>1</td><td>17</td><td>SEA</td><td>Defensive Player</td><td>CB</td><td>Example</td><td></td></tr>
 </table>
 </body></html>
@@ -28,6 +28,7 @@ class MultiPositionPipelineTests(unittest.TestCase):
 
         self.assertEqual(set(df["position"]), {"QB", "RB", "WR", "TE"})
         self.assertEqual(len(df), 4)
+        self.assertIn("Kenyon Sadiq", set(df["name"]))
         self.assertIn("college_profile_url", df.columns)
         self.assertTrue(df["college_profile_url"].str.contains("sports-reference.com").all())
 
