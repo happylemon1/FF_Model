@@ -1,0 +1,280 @@
+{
+  "created_at": "2026-06-17T20:50:24.842493+00:00",
+  "train_csv": "C:\\Users\\danie\\Repositories\\FF_Model\\models\\combined_df.csv",
+  "rookie_csv": "C:\\Users\\danie\\Repositories\\FF_Model\\models\\merged_df.csv",
+  "feature_columns": [
+    "YPG",
+    "Yards_percentage",
+    "draft_pick",
+    "RPG",
+    "TDPG",
+    "second_last_TDPG",
+    "second_last_RPG",
+    "second_last_YPG",
+    "conference_SEC",
+    "conference_ACC",
+    "conference_Big Ten",
+    "conference_Big 12",
+    "conference_Other",
+    "age",
+    "YPG_diff",
+    "RPG_diff",
+    "TDPG_diff",
+    "ypc",
+    "draft_pick_log",
+    "draft_pick_inverse",
+    "production_score",
+    "trend_score",
+    "td_rate_per_rec",
+    "volume_score"
+  ],
+  "target_columns": [
+    "nfl_YPG",
+    "nfl_RPG",
+    "nfl_TDPG"
+  ],
+  "primary_target": "nfl_YPG",
+  "rank_score": "0.75*z(predicted_nfl_YPG)+0.15*z(predicted_nfl_RPG)+0.10*z(predicted_nfl_TDPG)",
+  "min_nfl_games": 4,
+  "training_rows": 360,
+  "cv_folds": 3,
+  "selected": {
+    "nfl_YPG": {
+      "best_model": {
+        "name": "gradient_boosting",
+        "family": "boosted_tree",
+        "path": "nfl_YPG\\gradient_boosting.joblib",
+        "metrics": {
+          "mae": 14.371600713768322,
+          "rmse": 18.91082385695025,
+          "r2": 0.19205030103667384,
+          "spearman": 0.5435752467046028,
+          "top10_overlap": 0.6666666666666666,
+          "target": "nfl_YPG",
+          "model": "gradient_boosting",
+          "family": "boosted_tree",
+          "folds": 3,
+          "used_cpu_fallback": false
+        }
+      },
+      "top_models": [
+        {
+          "name": "gradient_boosting",
+          "family": "boosted_tree",
+          "path": "nfl_YPG\\gradient_boosting.joblib",
+          "metrics": {
+            "mae": 14.371600713768322,
+            "rmse": 18.91082385695025,
+            "r2": 0.19205030103667384,
+            "spearman": 0.5435752467046028,
+            "top10_overlap": 0.6666666666666666,
+            "target": "nfl_YPG",
+            "model": "gradient_boosting",
+            "family": "boosted_tree",
+            "folds": 3,
+            "used_cpu_fallback": false
+          }
+        },
+        {
+          "name": "random_forest_optuna",
+          "family": "bagging_tree",
+          "path": "nfl_YPG\\random_forest_optuna.joblib",
+          "metrics": {
+            "mae": 13.847674335282926,
+            "rmse": 18.4293519950491,
+            "r2": 0.24271464561485537,
+            "spearman": 0.532980424369351,
+            "top10_overlap": 0.6666666666666666,
+            "target": "nfl_YPG",
+            "model": "random_forest_optuna",
+            "family": "bagging_tree",
+            "folds": 3,
+            "used_cpu_fallback": false
+          }
+        },
+        {
+          "name": "extra_trees_optuna",
+          "family": "bagging_tree",
+          "path": "nfl_YPG\\extra_trees_optuna.joblib",
+          "metrics": {
+            "mae": 13.826600619836155,
+            "rmse": 18.020832171002287,
+            "r2": 0.2833406313131979,
+            "spearman": 0.5268442337323309,
+            "top10_overlap": 0.6666666666666666,
+            "target": "nfl_YPG",
+            "model": "extra_trees_optuna",
+            "family": "bagging_tree",
+            "folds": 3,
+            "used_cpu_fallback": false
+          }
+        }
+      ]
+    },
+    "nfl_RPG": {
+      "best_model": {
+        "name": "xgboost_cuda_optuna",
+        "family": "boosted_tree",
+        "path": "nfl_RPG\\xgboost_cuda_optuna.joblib",
+        "metrics": {
+          "mae": 1.03931664921852,
+          "rmse": 1.3599337157468503,
+          "r2": 0.28765976540345617,
+          "spearman": 0.5731173251059727,
+          "top10_overlap": 0.6666666666666666,
+          "target": "nfl_RPG",
+          "model": "xgboost_cuda_optuna",
+          "family": "boosted_tree",
+          "folds": 3,
+          "used_cpu_fallback": false
+        }
+      },
+      "top_models": [
+        {
+          "name": "xgboost_cuda_optuna",
+          "family": "boosted_tree",
+          "path": "nfl_RPG\\xgboost_cuda_optuna.joblib",
+          "metrics": {
+            "mae": 1.03931664921852,
+            "rmse": 1.3599337157468503,
+            "r2": 0.28765976540345617,
+            "spearman": 0.5731173251059727,
+            "top10_overlap": 0.6666666666666666,
+            "target": "nfl_RPG",
+            "model": "xgboost_cuda_optuna",
+            "family": "boosted_tree",
+            "folds": 3,
+            "used_cpu_fallback": false
+          }
+        },
+        {
+          "name": "random_forest_optuna",
+          "family": "bagging_tree",
+          "path": "nfl_RPG\\random_forest_optuna.joblib",
+          "metrics": {
+            "mae": 1.055735947899877,
+            "rmse": 1.390252037417734,
+            "r2": 0.2500417616640486,
+            "spearman": 0.5575185788370716,
+            "top10_overlap": 0.6666666666666666,
+            "target": "nfl_RPG",
+            "model": "random_forest_optuna",
+            "family": "bagging_tree",
+            "folds": 3,
+            "used_cpu_fallback": false
+          }
+        },
+        {
+          "name": "elastic_net",
+          "family": "linear",
+          "path": "nfl_RPG\\elastic_net.joblib",
+          "metrics": {
+            "mae": 1.056459055659203,
+            "rmse": 1.3755999660651475,
+            "r2": 0.26937106947880407,
+            "spearman": 0.5436762021664351,
+            "top10_overlap": 0.6999999999999998,
+            "target": "nfl_RPG",
+            "model": "elastic_net",
+            "family": "linear",
+            "folds": 3,
+            "used_cpu_fallback": false
+          }
+        }
+      ]
+    },
+    "nfl_TDPG": {
+      "best_model": {
+        "name": "elastic_net",
+        "family": "linear",
+        "path": "nfl_TDPG\\elastic_net.joblib",
+        "metrics": {
+          "mae": 0.12432937814729267,
+          "rmse": 0.15593658263215204,
+          "r2": 0.15847049288450396,
+          "spearman": 0.4903080895652619,
+          "top10_overlap": 0.7000000000000001,
+          "target": "nfl_TDPG",
+          "model": "elastic_net",
+          "family": "linear",
+          "folds": 3,
+          "used_cpu_fallback": false
+        }
+      },
+      "top_models": [
+        {
+          "name": "elastic_net",
+          "family": "linear",
+          "path": "nfl_TDPG\\elastic_net.joblib",
+          "metrics": {
+            "mae": 0.12432937814729267,
+            "rmse": 0.15593658263215204,
+            "r2": 0.15847049288450396,
+            "spearman": 0.4903080895652619,
+            "top10_overlap": 0.7000000000000001,
+            "target": "nfl_TDPG",
+            "model": "elastic_net",
+            "family": "linear",
+            "folds": 3,
+            "used_cpu_fallback": false
+          }
+        },
+        {
+          "name": "random_forest_optuna",
+          "family": "bagging_tree",
+          "path": "nfl_TDPG\\random_forest_optuna.joblib",
+          "metrics": {
+            "mae": 0.1263826844840266,
+            "rmse": 0.1609404495066029,
+            "r2": 0.07869537800134696,
+            "spearman": 0.45201170097249194,
+            "top10_overlap": 0.7000000000000001,
+            "target": "nfl_TDPG",
+            "model": "random_forest_optuna",
+            "family": "bagging_tree",
+            "folds": 3,
+            "used_cpu_fallback": false
+          }
+        },
+        {
+          "name": "gradient_boosting",
+          "family": "boosted_tree",
+          "path": "nfl_TDPG\\gradient_boosting.joblib",
+          "metrics": {
+            "mae": 0.12775231619990682,
+            "rmse": 0.16827315716262733,
+            "r2": -0.03260476767804854,
+            "spearman": 0.42334894758335767,
+            "top10_overlap": 0.6999999999999998,
+            "target": "nfl_TDPG",
+            "model": "gradient_boosting",
+            "family": "boosted_tree",
+            "folds": 3,
+            "used_cpu_fallback": false
+          }
+        }
+      ]
+    }
+  },
+  "gpu_status": {
+    "nvidia_smi_available": true,
+    "nvidia_gpu": "NVIDIA RTX A1000 6GB Laptop GPU, 6144 MiB",
+    "torch_available": true,
+    "torch_cuda_available": false,
+    "torch_device_count": 0,
+    "torch_version": "2.12.0+cpu",
+    "xgboost_available": true,
+    "xgboost_version": "3.2.0"
+  },
+  "prefer_gpu_requested": true,
+  "torch_cuda_used_for_neural_candidates": false,
+  "xgboost_cuda_requested": true,
+  "package_versions": {
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "sklearn": "1.9.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "torch": "2.12.0+cpu"
+  }
+}

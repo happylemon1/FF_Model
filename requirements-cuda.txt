@@ -1,0 +1,10 @@
+# Core ML dependencies.
+-r requirements.txt
+
+# For NVIDIA GPU training, reinstall PyTorch from the official CUDA wheel index.
+# Example:
+#   python -m pip install --upgrade torch --index-url https://download.pytorch.org/whl/cu128
+#
+# Keep this file as documentation plus a single source of truth for the rest of
+# the stack. The exact CUDA wheel tag should match the currently supported
+# PyTorch releases for your Python version and driver.

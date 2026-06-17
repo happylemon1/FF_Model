@@ -1,1 +1,21 @@
 venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local scraper/runtime noise
+data/cache/
+data/tmp/
+logs/
+*.log
+
+# Keep curated artifacts when intentionally committed, but ignore ad hoc scratch exports.
+scratch/
+tmp/
