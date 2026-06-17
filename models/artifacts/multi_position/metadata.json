@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-06-17T21:12:17.780676+00:00",
+  "positions": [
+    "QB",
+    "RB",
+    "WR",
+    "TE"
+  ],
+  "artifact_dir": "C:\\Users\\danie\\Repositories\\FF_Model\\models\\artifacts\\multi_position",
+  "gpu_status": {
+    "nvidia_smi_available": true,
+    "nvidia_gpu": "NVIDIA RTX A1000 6GB Laptop GPU, 6144 MiB",
+    "torch_available": true,
+    "torch_cuda_available": false,
+    "torch_device_count": 0,
+    "torch_version": "2.12.0+cpu",
+    "xgboost_available": true,
+    "xgboost_version": "3.2.0"
+  },
+  "package_versions": {
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "sklearn": "1.9.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "torch": "2.12.0+cpu"
+  },
+  "include_neural": true,
+  "leaderboard": "C:\\Users\\danie\\Repositories\\FF_Model\\models\\artifacts\\multi_position\\leaderboard.csv"
+}

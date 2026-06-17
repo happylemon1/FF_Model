@@ -1,0 +1,11 @@
+name,position,age,school,draft_pick,rookie_year,college_profile_url,scrape_error
+Fernando Mendoza,QB,,Indiana,1.0,2026,https://www.sports-reference.com/cfb/players/fernando-mendoza-1.html,HTTPError: 403 Client Error: Forbidden for url: https://www.sports-reference.com/cfb/players/fernando-mendoza-1.html
+Ty Simpson,QB,,Alabama,13.0,2026,https://www.sports-reference.com/cfb/players/ty-simpson-1.html,skipped after Sports Reference 403
+Carson Beck,QB,,Miami (FL),65.0,2026,https://www.sports-reference.com/cfb/players/carson-beck-1.html,skipped after Sports Reference 403
+Drew Allar,QB,,Penn State,76.0,2026,https://www.sports-reference.com/cfb/players/drew-allar-1.html,skipped after Sports Reference 403
+Cade Klubnik,QB,,Clemson,110.0,2026,https://www.sports-reference.com/cfb/players/cade-klubnik-1.html,skipped after Sports Reference 403
+Cole Payton,QB,,North Dakota State,178.0,2026,https://www.sports-reference.com/cfb/players/cole-payton-1.html,skipped after Sports Reference 403
+Taylen Green,QB,,Arkansas,182.0,2026,https://www.sports-reference.com/cfb/players/taylen-green-1.html,skipped after Sports Reference 403
+Athan Kaliakmanis,QB,,Rutgers,223.0,2026,https://www.sports-reference.com/cfb/players/athan-kaliakmanis-1.html,skipped after Sports Reference 403
+Behren Morton,QB,,Texas Tech,234.0,2026,https://www.sports-reference.com/cfb/players/behren-morton-1.html,skipped after Sports Reference 403
+Garrett Nussmeier,QB,,LSU,249.0,2026,https://www.sports-reference.com/cfb/players/garrett-nussmeier-1.html,skipped after Sports Reference 403

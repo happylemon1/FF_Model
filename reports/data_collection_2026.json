@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-06-17T21:08:13.425777+00:00",
+  "rookie_year": 2026,
+  "drafted_skill_players": 80,
+  "by_position": {
+    "WR": 36,
+    "TE": 21,
+    "RB": 13,
+    "QB": 10
+  },
+  "outputs": {
+    "draft": "C:\\Users\\danie\\Repositories\\FF_Model\\data\\raw\\rookies_2026_draft.csv",
+    "QB": "C:\\Users\\danie\\Repositories\\FF_Model\\data\\raw\\qb_rookies_2026_college.csv",
+    "QB_features": "C:\\Users\\danie\\Repositories\\FF_Model\\data\\final\\qb_rookies_2026_features.csv",
+    "RB": "C:\\Users\\danie\\Repositories\\FF_Model\\data\\raw\\rb_rookies_2026_college.csv",
+    "RB_features": "C:\\Users\\danie\\Repositories\\FF_Model\\data\\final\\rb_rookies_2026_features.csv",
+    "WR": "C:\\Users\\danie\\Repositories\\FF_Model\\data\\raw\\wr_rookies_2026_college.csv",
+    "WR_features": "C:\\Users\\danie\\Repositories\\FF_Model\\data\\final\\wr_rookies_2026_features.csv",
+    "TE": "C:\\Users\\danie\\Repositories\\FF_Model\\data\\raw\\te_rookies_2026_college.csv",
+    "TE_features": "C:\\Users\\danie\\Repositories\\FF_Model\\data\\final\\te_rookies_2026_features.csv"
+  }
+}

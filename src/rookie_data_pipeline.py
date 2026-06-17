@@ -438,7 +438,9 @@ def base_feature_row(position: str, latest: pd.Series, previous: pd.Series | Non
             "total_tds": total_tds,
             "scrimmage_yds_pg": total_yards / games if games else np.nan,
             "tds_pg": total_tds / games if games else np.nan,
-            "yards_per_touch": total_yards / row.get("volume_pg", np.nan) / games if row.get("volume_pg", 0) else np.nan,
+            "yards_per_touch": total_yards / row.get("volume_pg", np.nan) / games
+            if row.get("volume_pg", 0) and games
+            else 0.0,
             "latest_vs_prev_yards_pg": (total_yards / games) - (prev_yards / prev_games)
             if previous is not None and games and prev_games
             else 0.0,
@@ -537,18 +539,28 @@ def scrape_rookie_class(year: int = 2026, refresh: bool = False, max_players: in
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     FINAL_DIR.mkdir(parents=True, exist_ok=True)
     draft_url = f"{PFR_BASE}/years/{year}/draft.htm"
-    draft_html = cached_get(draft_url, f"pfr_draft_{year}.html", refresh=refresh)
-    draft_df = parse_draft_page(draft_html, year)
+    try:
+        draft_html = cached_get(draft_url, f"pfr_draft_{year}.html", refresh=refresh)
+        draft_df = parse_draft_page(draft_html, year)
+    except Exception as exc:
+        print(f"PFR draft crawl failed ({type(exc).__name__}: {exc}); falling back to Wikipedia.")
+        wiki_url = f"https://en.wikipedia.org/wiki/{year}_NFL_draft"
+        draft_html = cached_get(wiki_url, f"wikipedia_draft_{year}.html", delay=0.5, refresh=refresh)
+        draft_df = parse_wikipedia_draft_page(draft_html, year)
     if max_players:
         draft_df = draft_df.head(max_players)
     draft_path = RAW_DIR / f"rookies_{year}_draft.csv"
     draft_df.to_csv(draft_path, index=False)
 
     outputs = {"draft": draft_path}
+    sports_reference_blocked = False
     for position in POSITIONS:
         position_rows = draft_df[draft_df["position"] == position].copy()
         college_rows = []
         for _, row in position_rows.iterrows():
+            if sports_reference_blocked:
+                college_rows.append({**row.to_dict(), "scrape_error": "skipped after Sports Reference 403"})
+                continue
             if not row.get("college_profile_url"):
                 continue
             try:
@@ -559,18 +571,85 @@ def scrape_rookie_class(year: int = 2026, refresh: bool = False, max_players: in
                 )
                 college_rows.extend(parse_college_profile(row, html))
             except Exception as exc:
+                if "403" in str(exc):
+                    sports_reference_blocked = True
                 college_rows.append({**row.to_dict(), "scrape_error": f"{type(exc).__name__}: {exc}"})
         raw_college = pd.DataFrame(college_rows)
         raw_path = RAW_DIR / f"{position.lower()}_rookies_{year}_college.csv"
         raw_college.to_csv(raw_path, index=False)
         outputs[position] = raw_path
-        if not raw_college.empty:
+        if not raw_college.empty and "season" in raw_college.columns and raw_college["season"].notna().any():
             inference = build_inference_from_college(position, raw_college)
+        else:
+            inference = build_inference_from_draft(position, position_rows)
+        if not inference.empty:
             final_path = FINAL_DIR / f"{position.lower()}_rookies_{year}_features.csv"
             inference.to_csv(final_path, index=False)
             outputs[f"{position}_features"] = final_path
     write_collection_report(year, draft_df, outputs)
     return outputs
+
+
+def parse_wikipedia_draft_page(html: str, year: int) -> pd.DataFrame:
+    soup = BeautifulSoup(html, "html.parser")
+    draft_table = None
+    for table in soup.find_all("table"):
+        headers = [cell.get_text(" ", strip=True) for cell in table.find_all("th")]
+        if {"Rnd.", "Pick", "Player", "Pos.", "College"}.issubset(set(headers)):
+            draft_table = table
+            break
+    if draft_table is None:
+        raise ValueError("Could not find Wikipedia draft table.")
+
+    header_cells = [cell.get_text(" ", strip=True) for cell in draft_table.find("tr").find_all(["th", "td"])]
+    rows = []
+    for tr in draft_table.find_all("tr")[1:]:
+        cells = [cell.get_text(" ", strip=True) for cell in tr.find_all(["th", "td"])]
+        if len(cells) < len(header_cells):
+            continue
+        row = dict(zip(header_cells, cells))
+        position = row.get("Pos.")
+        if position not in POSITIONS:
+            continue
+        player_name = clean_wiki_text(row.get("Player"))
+        college = clean_wiki_text(row.get("College"))
+        rows.append(
+            {
+                "name": player_name,
+                "position": position,
+                "age": np.nan,
+                "school": college,
+                "draft_pick": text_to_number(row.get("Pick")),
+                "rookie_year": year,
+                "college_profile_url": infer_college_profile_url(player_name),
+            }
+        )
+    return pd.DataFrame(rows)
+
+
+def clean_wiki_text(value: Any) -> str:
+    value = str(value or "").strip()
+    value = re.sub(r"\[[^\]]+\]", "", value)
+    value = re.sub(r"\s+", " ", value)
+    return value
+
+
+def text_to_number(value: Any) -> float:
+    match = re.search(r"\d+", str(value or "").replace(",", ""))
+    return float(match.group(0)) if match else np.nan
+
+
+def infer_college_profile_url(player_name: str) -> str:
+    suffixes = {"jr", "sr", "ii", "iii", "iv", "v"}
+    cleaned = re.sub(r"[^A-Za-z0-9 .'-]", "", player_name).strip()
+    parts = [part.strip(".").lower() for part in cleaned.split() if part.strip(".")]
+    if parts and parts[-1] in suffixes:
+        parts = parts[:-1]
+    if len(parts) < 2:
+        slug_name = "-".join(parts)
+    else:
+        slug_name = f"{parts[0]}-{parts[-1]}"
+    return f"{SPORTS_REFERENCE_BASE}/cfb/players/{slug_name}-1.html"
 
 
 def parse_college_profile(draft_row: pd.Series, html: str) -> list[dict[str, Any]]:
@@ -621,6 +700,31 @@ def build_inference_from_college(position: str, college_df: pd.DataFrame) -> pd.
     finally:
         POSITION_SPECS[position] = original
         path.unlink(missing_ok=True)
+
+
+def build_inference_from_draft(position: str, draft_df: pd.DataFrame) -> pd.DataFrame:
+    rows = []
+    for _, row in draft_df.iterrows():
+        latest = pd.Series(
+            {
+                "name": row.get("name"),
+                "position": position,
+                "school": row.get("school"),
+                "age": row.get("age"),
+                "draft_pick": row.get("draft_pick"),
+                "season": row.get("rookie_year", np.nan) - 1 if pd.notna(row.get("rookie_year", np.nan)) else np.nan,
+                "games": 0,
+            }
+        )
+        feature_row = base_feature_row(position, latest, None)
+        rows.append(feature_row)
+    df = pd.DataFrame(rows)
+    df = add_conference_dummies(df)
+    df = add_position_dummies(df)
+    for column in COMMON_FEATURES + POSITION_FEATURES[position]:
+        if column not in df.columns:
+            df[column] = 0.0
+    return df.replace([np.inf, -np.inf], np.nan).fillna(0)
 
 
 def slug(value: str) -> str:

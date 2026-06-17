@@ -938,7 +938,10 @@ def read_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-class TorchRegressor:
+from sklearn.base import BaseEstimator, RegressorMixin
+
+
+class TorchRegressor(BaseEstimator, RegressorMixin):
     """Small sklearn-compatible PyTorch regressor for tabular data."""
 
     def __init__(

@@ -1,0 +1,11 @@
+name,position,school,age,draft_pick,season,college_games,conference,conference_ACC,conference_Big 12,conference_Big Ten,conference_Other,conference_SEC,pass_yds_pg,pass_tds_pg,pass_int_pg,rush_yds_pg,rush_tds_pg,completion_pct,pass_rating,yards_per_attempt,volume_pg,total_yards,total_tds,scrimmage_yds_pg,tds_pg,yards_per_touch,latest_vs_prev_yards_pg,latest_vs_prev_tds_pg,draft_pick_log,draft_pick_inverse,position_QB,position_RB,position_WR,position_TE
+Fernando Mendoza,QB,Indiana,0.0,1.0,2025,0,Big Ten,0,0,1,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,0.6931471805599453,1.0,1,0,0,0
+Ty Simpson,QB,Alabama,0.0,13.0,2025,0,SEC,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,2.6390573296152584,0.2773500981126146,1,0,0,0
+Carson Beck,QB,Miami (FL),0.0,65.0,2025,0,ACC,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,4.189654742026425,0.12403473458920847,1,0,0,0
+Drew Allar,QB,Penn State,0.0,76.0,2025,0,Other,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,4.343805421853684,0.11470786693528087,1,0,0,0
+Cade Klubnik,QB,Clemson,0.0,110.0,2025,0,ACC,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,4.709530201312334,0.09534625892455924,1,0,0,0
+Cole Payton,QB,North Dakota State,0.0,178.0,2025,0,Other,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,5.187385805840755,0.07495316889958614,1,0,0,0
+Taylen Green,QB,Arkansas,0.0,182.0,2025,0,SEC,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,5.209486152841421,0.07412493166611012,1,0,0,0
+Athan Kaliakmanis,QB,Rutgers,0.0,223.0,2025,0,Big Ten,0,0,1,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,5.4116460518550396,0.06696495301824251,1,0,0,0
+Behren Morton,QB,Texas Tech,0.0,234.0,2025,0,Big 12,0,1,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,5.459585514144159,0.06537204504606134,1,0,0,0
+Garrett Nussmeier,QB,LSU,0.0,249.0,2025,0,SEC,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,5.521460917862246,0.06337242505244779,1,0,0,0

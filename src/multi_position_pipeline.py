@@ -199,6 +199,8 @@ def target_columns(position: str) -> list[str]:
 def clean_xy(df: pd.DataFrame, features: list[str], target: str) -> tuple[pd.DataFrame, pd.Series, pd.DataFrame]:
     needed = ["name", "position", "school", "draft_pick", "season", *features, target]
     data = df[[column for column in needed if column in df.columns]].copy()
+    data = data.loc[:, ~data.columns.duplicated()]
+    features = list(dict.fromkeys(features))
     for column in [*features, target, "season"]:
         if column in data.columns:
             data[column] = pd.to_numeric(data[column], errors="coerce")
@@ -392,6 +394,7 @@ def predict(args: argparse.Namespace) -> pd.DataFrame:
                 model = joblib.load(model_path)
                 out[f"predicted_{target}"] = model.predict(df[features])
                 out[f"model_{target}"] = best["model"]
+                out[f"uncertainty_{target}"] = best["mae"]
             except Exception:
                 continue
         if "predicted_fantasy_points" not in out.columns:
