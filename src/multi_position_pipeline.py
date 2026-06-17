@@ -392,7 +392,7 @@ def predict(args: argparse.Namespace) -> pd.DataFrame:
                 best = find_best_model(leaderboard, position, target)
                 model_path = args.artifact_dir / position / f"{target}_{best['model']}.joblib"
                 model = joblib.load(model_path)
-                out[f"predicted_{target}"] = model.predict(df[features])
+                out[f"predicted_{target}"] = np.clip(model.predict(df[features]), 0.0, None)
                 out[f"model_{target}"] = best["model"]
                 out[f"uncertainty_{target}"] = best["mae"]
             except Exception:
