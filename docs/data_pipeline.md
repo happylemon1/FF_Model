@@ -3,6 +3,7 @@
 ## Main Commands
 
 ```powershell
+python scripts\rookie_projection.py probe-urls --year 2025
 python scripts\rookie_projection.py build-data
 python scripts\rookie_projection.py crawl --year 2026
 ```
@@ -32,3 +33,9 @@ python scripts\rookie_projection.py crawl --year 2026
 ## Notes
 
 The current run encountered HTTP 403 responses from Pro Football Reference and Sports Reference, so 2026 inference uses draft capital, position, school/conference, and zero-filled production features. This is enough to run the model stack, but future refreshes should prefer full college-stat features when the source sites allow access.
+
+The crawler now uses a shared `requests.Session`, browser-like headers, retries,
+rate limiting, HTML caching, and explicit Cloudflare/challenge-page detection.
+Run `probe-urls` to verify whether the reference sites are accessible from the
+current network before starting a long crawl. The latest probe output is
+`reports/reference_url_probe_2025.csv`.

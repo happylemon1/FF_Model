@@ -39,6 +39,7 @@ targets the 2026 rookie class.
 
 ```powershell
 python scripts\rookie_projection.py gpu-info
+python scripts\rookie_projection.py probe-urls --year 2025
 python scripts\rookie_projection.py build-data
 python scripts\rookie_projection.py crawl --year 2026
 python scripts\rookie_projection.py train --folds 2 --include-neural
@@ -54,6 +55,14 @@ The main outputs are:
 - `docs/modeling_report.md`
 - `docs/data_pipeline.md`
 - `docs/artifact_index.md`
+
+For the richer 2025 WR projection set, run:
+
+```powershell
+python scripts\wr_rookie_model.py predict --rookie-csv models\merged_df.csv --output-csv data\final\wr_rookie_predictions_2025_full_features.csv
+```
+
+That output is documented in `docs/wr_2025_predictions.md`.
 
 During the current run, Pro Football Reference and Sports Reference returned
 HTTP 403 responses to scripted requests, so the crawler used Wikipedia for the

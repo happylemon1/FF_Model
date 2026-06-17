@@ -28,6 +28,21 @@ REPORT_DIR = PROJECT_ROOT / "reports"
 POSITIONS = ["QB", "RB", "WR", "TE"]
 SPORTS_REFERENCE_BASE = "https://www.sports-reference.com"
 PFR_BASE = "https://www.pro-football-reference.com"
+DEFAULT_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/125.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+}
+
+
+class SourceBlockedError(RuntimeError):
+    """Raised when a source returns an anti-bot/challenge page instead of data."""
 
 
 @dataclass(frozen=True)
@@ -470,16 +485,68 @@ def build_all_processed() -> dict[str, Path]:
     return outputs
 
 
-def cached_get(url: str, cache_name: str, delay: float = 3.0, refresh: bool = False) -> str:
+def looks_like_block_page(html: str) -> bool:
+    lowered = html[:10000].lower()
+    return (
+        "just a moment" in lowered
+        and ("cloudflare" in lowered or "checking your browser" in lowered or "challenge-platform" in lowered)
+    )
+
+
+def cached_get(
+    url: str,
+    cache_name: str,
+    delay: float = 3.0,
+    refresh: bool = False,
+    retries: int = 3,
+    timeout: int = 30,
+) -> str:
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     cache_path = CACHE_DIR / cache_name
     if cache_path.exists() and not refresh:
         return cache_path.read_text(encoding="utf-8")
-    time.sleep(delay)
-    response = requests.get(url, headers={"User-Agent": "Mozilla/5.0 rookie-projection-research"})
-    response.raise_for_status()
-    cache_path.write_text(response.text, encoding="utf-8")
-    return response.text
+
+    session = requests.Session()
+    session.headers.update(DEFAULT_HEADERS)
+    last_error: Exception | None = None
+    for attempt in range(1, retries + 1):
+        if delay:
+            time.sleep(delay * attempt)
+        try:
+            response = session.get(url, timeout=timeout)
+            if response.status_code in {403, 429} or looks_like_block_page(response.text):
+                raise SourceBlockedError(
+                    f"{response.status_code} challenge/block page for {url}; "
+                    "try later, use a browser-exported cache, or rely on local CSV fallback"
+                )
+            response.raise_for_status()
+            cache_path.write_text(response.text, encoding="utf-8")
+            return response.text
+        except Exception as exc:
+            last_error = exc
+            if attempt == retries:
+                break
+    raise RuntimeError(f"Failed to fetch {url} after {retries} attempts: {last_error}") from last_error
+
+
+def probe_reference_urls(year: int = 2025) -> Path:
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    urls = [
+        f"{PFR_BASE}/years/{year}/draft.htm",
+        f"{PFR_BASE}/years/{year + 1}/draft.htm",
+        f"{SPORTS_REFERENCE_BASE}/cfb/players/travis-hunter-1.html",
+        f"{SPORTS_REFERENCE_BASE}/cfb/players/tetairoa-mcmillan-1.html",
+    ]
+    rows = []
+    for url in urls:
+        try:
+            html = cached_get(url, f"probe_{slug(url)}.html", delay=0.5, refresh=True, retries=1)
+            rows.append({"url": url, "status": "ok", "bytes": len(html), "blocked": False, "error": ""})
+        except Exception as exc:
+            rows.append({"url": url, "status": "failed", "bytes": 0, "blocked": "block" in str(exc).lower() or "403" in str(exc), "error": str(exc)})
+    path = REPORT_DIR / f"reference_url_probe_{year}.csv"
+    pd.DataFrame(rows).to_csv(path, index=False)
+    return path
 
 
 def parse_draft_page(html: str, year: int) -> pd.DataFrame:
@@ -751,6 +818,8 @@ def build_parser() -> argparse.ArgumentParser:
     crawl.add_argument("--year", type=int, default=2026)
     crawl.add_argument("--refresh", action="store_true")
     crawl.add_argument("--max-players", type=int, default=None)
+    probe = sub.add_parser("probe-urls")
+    probe.add_argument("--year", type=int, default=2025)
     return parser
 
 
@@ -764,6 +833,8 @@ def main(argv: list[str] | None = None) -> None:
         outputs = scrape_rookie_class(args.year, refresh=args.refresh, max_players=args.max_players)
         for key, path in outputs.items():
             print(f"{key}: {path}")
+    elif args.command == "probe-urls":
+        print(probe_reference_urls(args.year))
 
 
 if __name__ == "__main__":

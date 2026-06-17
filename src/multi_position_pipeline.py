@@ -501,6 +501,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Multi-position rookie projection pipeline.")
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("build-data")
+    probe = sub.add_parser("probe-urls")
+    probe.add_argument("--year", type=int, default=2025)
     crawl = sub.add_parser("crawl")
     crawl.add_argument("--year", type=int, default=2026)
     crawl.add_argument("--refresh", action="store_true")
@@ -530,6 +532,8 @@ def main(argv: list[str] | None = None) -> None:
         outputs = data_pipeline.build_all_processed()
         for key, path in outputs.items():
             print(f"{key}: {path}")
+    elif args.command == "probe-urls":
+        print(data_pipeline.probe_reference_urls(args.year))
     elif args.command == "crawl":
         outputs = data_pipeline.scrape_rookie_class(args.year, refresh=args.refresh, max_players=args.max_players)
         for key, path in outputs.items():

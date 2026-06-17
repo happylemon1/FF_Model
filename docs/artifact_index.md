@@ -9,6 +9,7 @@
 
 ## Prediction Outputs
 
+- Full-feature 2025 WR predictions: `data/final/wr_rookie_predictions_2025_full_features.csv`
 - Combined 2026 rookie ranking: `data/final/rookie_predictions_2026_combined.csv`
 - Position-specific 2026 predictions:
   - `data/final/qb_rookie_predictions_2026.csv`
@@ -21,6 +22,8 @@
 - Human-readable modeling report: `docs/modeling_report.md`
 - Timestamped/generated report copy: `reports/modeling_report_2026.md`
 - Data collection summary: `reports/data_collection_2026.json`
+- Reference-site request probe: `reports/reference_url_probe_2025.csv`
+- 2025 WR prediction summary: `docs/wr_2025_predictions.md`
 
 ## Reproduction
 
